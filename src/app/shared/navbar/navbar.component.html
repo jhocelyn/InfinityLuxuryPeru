@@ -1,0 +1,26 @@
+<nav class="bg-[#FFFFFF]">
+  <div class="">
+    <i class="fa-solid fa-bars text-[20px] text-[#042A4E] cursor-pointer" (click)="toggleMenu()"></i>
+  </div>
+
+  <div
+    class="md:hidden fixed top-0 right-0 w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transform transition-transform duration-300"
+    [ngClass]="{ 'translate-x-0': isMenuOpen, 'translate-x-full': !isMenuOpen }"  >
+    <button
+      class="text-white text-2xl mb-4 self-end"
+      (click)="toggleMenu()"
+    >
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <a [routerLink]="['/about-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
+    <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
+    <a [routerLink]="['/our-products']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
+    <a [routerLink]="['/our-services']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
+    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
+    <ul class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
+      <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
+      <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
+    </ul>
+  </div>
+
+</nav>
