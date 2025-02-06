@@ -1,26 +1,32 @@
-<nav class="bg-[#FFFFFF]">
-  <div class="">
-    <i class="fa-solid fa-bars text-[20px] text-[#042A4E] cursor-pointer" (click)="toggleMenu()"></i>
+<nav class="flex w-full  flex-row col-span-3 bg-[#FFFFFF] h-[55px]">
+  <div class="flex w-full items-center justify-start pl-5">
+    <i class="fa-solid fa-bars text-[20px] text-[#000000] cursor-pointer" (click)="toggleMenu()"></i>
   </div>
-
-  <div
-    class="md:hidden fixed top-0 right-0 w-full h-full bg-[#042A4E] z-40 flex flex-col px-6 py-4 transform transition-transform duration-300"
-    [ngClass]="{ 'translate-x-0': isMenuOpen, 'translate-x-full': !isMenuOpen }"  >
-    <button
-      class="text-white text-2xl mb-4 self-end"
-      (click)="toggleMenu()"
-    >
-      <i class="fa-solid fa-xmark"></i>
-    </button>
-    <a [routerLink]="['/about-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
-    <a [routerLink]="['/destinations']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
-    <a [routerLink]="['/our-products']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
-    <a [routerLink]="['/our-services']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
-    <a [routerLink]="['/contact-us']" class="text-white py-2 border-b border-white">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
-    <ul class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
-      <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
-      <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
-    </ul>
-  </div>
+ <div class="flex w-full items-center justify-center">
+  <!--<img src="assets/images/logo.png" alt="logo" class="w-[100px] h-[55px]">-->
+   <h1 class="font-argent font-thin">INFINITY LUXURY PERU</h1>
+ </div>
+ <div class="flex w-full items-center justify-end pr-5">
+   <i class="fa-solid fa-phone text-[20px] text-[#000000] cursor-pointer"></i>
+ </div>
 
 </nav>
+<div
+  class="fixed top-0 left-0 w-[500px] h-full bg-[#FFFFFF] z-50 flex flex-col px-6 py-4 transform transition-transform duration-300"
+  [ngClass]="{ 'translate-x-0': isMenuOpen, 'translate-x-[-100%]': !isMenuOpen }"  >
+  <button
+    class="text-black text-2xl mb-4 self-end"
+    (click)="toggleMenu()"
+  >
+    <i class="fa-solid fa-xmark"></i>
+  </button>
+  <a [routerLink]="['/about-us']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
+  <a [routerLink]="['/destinations']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
+  <a [routerLink]="['/our-products']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
+  <a [routerLink]="['/our-services']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
+  <a [routerLink]="['/contact-us']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
+  <ul class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
+    <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
+    <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
+  </ul>
+</div>

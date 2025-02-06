@@ -1,6 +1,21 @@
 <app-navbar>
 </app-navbar>
-<p>home works!</p>
-<div class="h-[50vh] bg-[#000000]">
+<div class="h-[100vh] bg-black">
+  <div class="relative w-full h-screen overflow-hidden">
+    <video
+      class="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+      autoplay loop muted playsinline>
+      <source src="assets/videos/sheeps-and-donkeys-in-peru-2023-11-27-05-34-27-utc.mp4" type="video/mp4">
+      Tu navegador no soporta este video.
+    </video>
+
+    <div class=" absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-black/50 gap-16 p-4">
+      <h1 class="text-4xl md:text-6xl  font-argent font-thin animate-fadeIn">Since 1962 we have set the standard for experiential travel. We believe that every journey should be extraordinary; every life, well travelled.
+      </h1>
+      <button class="pl-8 pr-8 pt-2 pb-2 tracking-wide border-solid border border-white w-[200px] font-thin">
+        WHERE DO YOU WANT TO GO?
+      </button>
+    </div>
+  </div>
 
 </div>
