@@ -2,6 +2,9 @@ import {Component, HostListener} from '@angular/core';
 import {NavbarComponent} from '../../shared/navbar/navbar.component';
 import {NgClass, NgForOf, NgIf} from '@angular/common';
 import {RouterLink} from '@angular/router';
+import {CarruselTripComponent} from '../../shared/carrusel-trip/carrusel-trip.component';
+import {CarruselComponent} from '../../shared/carrusel/carrusel.component';
+import {FooterComponent} from '../../shared/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +13,10 @@ import {RouterLink} from '@angular/router';
     NgForOf,
     RouterLink,
     NgClass,
-    NgIf
+    NgIf,
+    CarruselTripComponent,
+    CarruselComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -38,21 +44,48 @@ export class HomeComponent {
   ];
   journeys = [
     {
+      section:'Travel Privately',
       title: 'Japanese Traditions',
-      description: 'Experience the elegance of Japan.',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
+      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
+      discover:'Discover More',
+      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
+      colSpan: 2, // Ocupa 2 columnas
+      rowSpan: 1, // Ocupa 1 fila,
+      colStart: 1 // Comienza en la columna 1
     },
     {
+      section: 'Small Group Journeys',
       title: 'Luxury Yacht Dining',
-      description: 'Fine dining on the open seas.',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
+      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
+      discover:'Discover More',
+      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
+      colSpan: 1, // Ocupa 1 columna
+      rowSpan: 1,  // Ocupa 1 fila
+      colStart: 3
     },
     {
+      section: 'Safarey Experience',
       title: 'African Safari',
-      description: 'Witness the great migration up close.',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
+      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
+      discover:'Discover More',
+      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
+      colSpan: 3, // Ocupa 3 columnas
+      rowSpan: 1,  // Ocupa 1 fila
+      colStart: 1
     }
   ];
+  isFading = false;
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    const videoSection = document.querySelector('.sticky') as HTMLElement;
+    if (!videoSection) return;
+
+    const rect = videoSection.getBoundingClientRect();
+    const fadePoint = window.innerHeight * 0.3; // Empieza a desaparecer cuando el 30% del video está fuera de la pantalla
+
+    this.isFading = rect.bottom < fadePoint;
+  }
 
 isMobile: boolean = window.innerWidth <= 768;
   currentIndex: number = 0;

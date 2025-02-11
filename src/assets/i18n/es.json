@@ -6,5 +6,16 @@
     "OUR_SERVICES": "Nuestros Servicios",
     "CONTACT_US": "Contáctenos",
     "SALES_CONTACT": "Centro de Contacto de Ventas:"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Derechos de autor Andean Elite Perú SAC. Todos los derechos de autor y otros derechos de propiedad intelectual de todos los logotipos, diseños, textos, imágenes y materiales de este sitio web son propiedad de Andean Elite Perú SAC.",
+    "MARCA": "Andean Elite Perú es una marca comercial registrada. Todos los derechos reservados.",
+    "CONTACTO": "Contacto",
+    "POLICY": {
+      "PROTECTION": "Política de Protección de Datos Personales",
+      "POLICY": "Política ESNNA",
+      "TERMS": "Terms and Conditions",
+      "CERTIFICATES": "Certificado ESNNA"
+    }
   }
 }
