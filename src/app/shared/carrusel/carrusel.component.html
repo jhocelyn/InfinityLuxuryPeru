@@ -1,0 +1,41 @@
+<div class="flex flex-col items-center p-10 bg-[#f5f2eb] relative">
+  <!-- Título -->
+  <div class="flex flex-col mb-6 md:w-1/3 items-center">
+    <span class="text-lg font-semibold text-black">STAY WITH US</span>
+    <h1 class="font-argent text-center text-4xl font-thin">
+      Discover our remarkable lodges, villas and riverboats
+    </h1>
+  </div>
+
+  <!-- Carrusel -->
+  <div class="relative w-full overflow-hidden">
+    <div
+      class="flex transition-transform duration-500 ease-in-out"
+      [ngStyle]="{'transform': 'translateX(' + (-currentIndex * 100) + '%)'}"
+    >
+      <!-- Se repiten los elementos en un bucle infinito -->
+      <div
+        *ngFor="let card of displayedCards"
+        class="min-w-full flex-shrink-0 relative"
+      >
+        <img [src]="card.image" [alt]="card.title" class="w-full h-[500px] object-cover">
+        <!-- Texto sobre la imagen -->
+        <div class="absolute bottom-0 left-0 w-full p-6 bg-black/40 text-white">
+          <h2 class="text-xl font-semibold">{{ card.title }}</h2>
+          <p class="text-sm">{{ card.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botones de Navegación -->
+    <button
+      class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2  rounded-full shadow"
+      (click)="prevSlide()"
+    ><</button>
+
+    <button
+      class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow"
+      (click)="nextSlide()"
+    >></button>
+  </div>
+</div>

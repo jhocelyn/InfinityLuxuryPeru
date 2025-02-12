@@ -20,11 +20,24 @@
   >
     <i class="fa-solid fa-xmark"></i>
   </button>
-  <a [routerLink]="['/about-us']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.ABOUT_US' | translate }}</a>
-  <a [routerLink]="['/destinations']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.DESTINATIONS' | translate }}</a>
-  <a [routerLink]="['/our-products']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}</a>
-  <a [routerLink]="['/our-services']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.OUR_SERVICES' | translate }}</a>
-  <a [routerLink]="['/contact-us']" class="hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432]">{{ 'NAVBAR.CONTACT_US' | translate }}</a>
+  <a [routerLink]="['/about-us']"
+     class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    {{ 'NAVBAR.ABOUT_US' | translate }}
+    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  </a>
+
+  <a [routerLink]="['/destinations']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.DESTINATIONS' | translate }}
+    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  </a>
+  <a [routerLink]="['/our-products']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}
+    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  </a>
+  <a [routerLink]="['/our-services']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.OUR_SERVICES' | translate }}
+    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  </a>
+  <a [routerLink]="['/contact-us']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.CONTACT_US' | translate }}
+    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  </a>
   <ul class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
     <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
     <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
