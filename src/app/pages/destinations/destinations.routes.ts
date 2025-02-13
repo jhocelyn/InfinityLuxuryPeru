@@ -8,7 +8,8 @@ export const DestinationsRoutes: Routes = [
     component:LayoutComponent,
     children:[
       {path:'',redirectTo:'destinations',pathMatch:'full'},
-      {path:'', component:ListDestinationsComponent}
+      {path:'', component:ListDestinationsComponent},
+      {path:'arequipa',loadChildren:()=>import('./arequipa/arequipa.routes').then(m=>m.arequipaRoutes)},
     ]
   }
 ]
