@@ -7,8 +7,6 @@ import {NavbarComponent} from '../../../../shared/navbar/navbar.component';
   selector: 'app-layout',
   imports: [
     RouterOutlet,
-    FooterComponent,
-    NavbarComponent
   ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'

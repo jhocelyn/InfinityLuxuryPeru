@@ -17,5 +17,17 @@
       "TERMS": "Terms and Conditions",
       "CERTIFICATES": "Certificate ESNNA"
     }
+  },
+  "BANNER": {
+    "TITLE": "Luxury Vacations to Africa",
+    "BUTTON": "View All Countries ↓"
+  },
+  "INFO": {
+    "TITLE": "This great continent is the cradle of humanity, culture, and wildlife.",
+    "DESCRIPTION": "It has spawned millions of species, from tiny frogs to gorillas and the largest mammals on the planet. Africa is also the birthplace of Abercrombie & Kent, pioneers in luxury safaris since 1962.",
+    "BEST_WAYS": "Best Ways to Travel",
+    "PACKAGE1": "Kenya & Tanzania Wildlife Safari",
+    "PACKAGE2": "The Great Migration Safari in Style"
   }
+
 }

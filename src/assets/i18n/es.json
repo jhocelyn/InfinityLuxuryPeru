@@ -17,5 +17,17 @@
       "TERMS": "Terms and Conditions",
       "CERTIFICATES": "Certificado ESNNA"
     }
+  },
+  "BANNER": {
+    "TITLE": "Vacaciones de Lujo en África",
+    "BUTTON": "Ver Todos los Países ↓"
+  },
+  "INFO": {
+    "TITLE": "Este gran continente es la cuna de la humanidad, la cultura y la vida silvestre.",
+    "DESCRIPTION": "Ha dado origen a millones de especies, desde ranas diminutas hasta gorilas y los mamíferos más grandes del planeta. África es el lugar de nacimiento de Abercrombie & Kent, pioneros en safaris de lujo desde 1962.",
+    "BEST_WAYS": "Mejores maneras de viajar",
+    "PACKAGE1": "Safari de Vida Silvestre en Kenia y Tanzania",
+    "PACKAGE2": "La Gran Migración en Estilo"
   }
 }
+
