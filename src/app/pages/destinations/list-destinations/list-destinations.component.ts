@@ -17,7 +17,7 @@ export class ListDestinationsComponent {
     {nombre:'Arequipa',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'arequipa' ,destacado:true},
     {nombre:'Cusco',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug:'cusco', destacado: false},
     {nombre:'Lima',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'lima', destacado:true},
-    {nombre:'Puerto Maldonado',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'puerto_maldonado', destacado: true},
+    {nombre:'Puerto Maldonado',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'puerto-maldonado', destacado: true},
     {nombre:'Nazca',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug: 'nazca' , destacado: false},
     {nombre:'Ica',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'ica', destacado:false},
   ]

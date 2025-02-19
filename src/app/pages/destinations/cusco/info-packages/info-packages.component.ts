@@ -13,7 +13,7 @@ import {NgIf} from '@angular/common';
 export class InfoPackagesComponent {
   packageInfo: any;
 
-  destinations_arequipa = [
+  destinations_cusco = [
     {
       id: 1,
       nombre: 'Paquete 1',
@@ -42,7 +42,7 @@ export class InfoPackagesComponent {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       const id = Number(params.get('id')); // Captura el ID de la URL
-      this.packageInfo = this.destinations_arequipa.find(pkg => pkg.id === id);
+      this.packageInfo = this.destinations_cusco.find(pkg => pkg.id === id);
     });
   }
 }
