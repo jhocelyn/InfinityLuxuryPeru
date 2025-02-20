@@ -1,11 +1,11 @@
 import {Component, HostListener} from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
-import {DestinationCarruselComponent} from '../../../../shared/destination-carrusel/destination-carrusel.component';
+import {DestinationCarruselComponent} from '../../../../shared/To Destinations/destination-carrusel/destination-carrusel.component';
 import { NgForOf} from '@angular/common';
 import {
   CardsPackagesDestinationComponent
-} from '../../../../shared/cards-packages-destination/cards-packages-destination.component';
-import {BreadcrumbComponent} from '../../../../shared/breadcrumb/breadcrumb.component';
+} from '../../../../shared/To Destinations/cards-packages-destination/cards-packages-destination.component';
+import {BreadcrumbComponent} from '../../../../shared/To Destinations/breadcrumb/breadcrumb.component';
 
 @Component({
   selector: 'app-arequipa-packages',

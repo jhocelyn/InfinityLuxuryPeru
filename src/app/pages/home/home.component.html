@@ -164,12 +164,15 @@
 
 <!-- Espacio extra para que el usuario pueda scrollear -->
 <div class="h-[20vh] bg-[#f5f2eb]"></div>
+
+<!-- Boton para whatsapp -->
 <div class="fixed bottom-5 right-5">
-  <button class="bg-orange-600 text-white px-5 py-3 rounded-full shadow-lg flex items-center space-x-2">
+  <button (click)="openWhatsApp()" class="bg-orange-600 text-white px-5 py-3 rounded-full shadow-lg flex items-center space-x-2">
     <span>SPEAK TO AN EXPERT</span>
     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M21 16a8.3 8.3 0 01-2.1 5.3c-.9 1.1-2.3 1.7-3.9 1.7H6.7c-1.6 0-3-.6-3.9-1.7A8.3 8.3 0 011 16c0-4.4 3.6-8 8-8h6c4.4 0 8 3.6 8 8z"/>
     </svg>
   </button>
 </div>
+
 <app-footer></app-footer>

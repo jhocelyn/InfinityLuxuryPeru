@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {FooterComponent} from '../../../../shared/footer/footer.component';
-import {NavbarComponent} from '../../../../shared/navbar/navbar.component';
-import {BreadcrumbComponent} from '../../../../shared/breadcrumb/breadcrumb.component';
+import {FooterComponent} from '../../../../shared/Important/footer/footer.component';
+import {NavbarComponent} from '../../../../shared/Important/navbar/navbar.component';
+import {BreadcrumbComponent} from '../../../../shared/To Destinations/breadcrumb/breadcrumb.component';
 
 @Component({
   selector: 'app-layout',
