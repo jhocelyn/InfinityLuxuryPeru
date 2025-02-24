@@ -1,21 +1,13 @@
-<div class="flex flex-col bg-[#f5f2eb] ">
-  <div class="flex p-5 justify-center items-center">
-    <h1 class="font-argent font-thin  text-3xl">Experience the Ultimate Luxury Vacation in Perú</h1>
-  </div>
-  <div class="p-4 mb-3 grid w-[100%] max-w-[1600px] gap-6
-              grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
-              auto-rows-fr place-items-center">
-    <div *ngFor="let destino of destinos"
-         class="relative h-full "
-         [ngClass]="{'row-span-2': destino.destacado}">
-      <a [routerLink]="['/destinations/ecuador/', destino.slug]">
-        <img [src]="destino.imagen" [alt]="destino.nombre" class="object-cover w-full h-full">
-        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-50">
-          <span class="w-[65%] text-center text-white text-xl sm:text-2xl lg:text-3xl font-thin leading-tight ">
-            {{ destino.nombre }}
-          </span>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
+<app-banner
+  imagen="assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp"
+  texto="We have been spinning dreams into remarkable adventures for over 60 years."
+  [mostrarFlecha]="true">
+</app-banner>
+
+<app-destinations-grid [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
+
+<app-mapa-info
+  [lat]="-9.189967"
+  [lng]="-75.015152"
+  descripcion="Perú es un país con una gran riqueza cultural, histórica y natural. Destaca por Machu Picchu, la Amazonía y su gastronomía reconocida mundialmente.">
+</app-mapa-info>

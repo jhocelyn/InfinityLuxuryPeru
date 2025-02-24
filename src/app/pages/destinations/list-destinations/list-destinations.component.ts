@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import {RouterLink} from '@angular/router';
-import {NgClass, NgForOf} from '@angular/common';
+import {BannerComponent} from '../../../shared/To Destinations/banner/banner.component';
+import {MapaInfoComponent} from '../../../shared/To Destinations/mapa-info/mapa-info.component';
+import {DestinationsGridComponent} from '../../../shared/To Destinations/destinations-grid/destinations-grid.component';
 
 @Component({
   selector: 'app-list-destinations',
   imports: [
-    RouterLink,
-    NgForOf,
-    NgClass
+    DestinationsGridComponent,
+    BannerComponent,
+    MapaInfoComponent
   ],
   templateUrl: './list-destinations.component.html',
   styleUrl: './list-destinations.component.css'

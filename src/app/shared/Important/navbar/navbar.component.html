@@ -46,12 +46,12 @@
   </div>
 
   <!-- Build your Trip -->
-  <a [routerLink]="['/build-your-trip']" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+  <a [routerLink]="['/build-your-trip']" (click)="closeAllMenus()" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
     BUILD YOUR TRIP <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
   </a>
 
   <!-- About Us -->
-  <a [routerLink]="['/about-us']" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+  <a [routerLink]="['/about-us']" (click)="closeAllMenus()" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
     ABOUT US <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
   </a>
 
@@ -79,7 +79,7 @@
   <!-- DESTINATIONS -->
   <div *ngIf="activeSubMenu === 'destinations'">
     <h2 class="font-semibold text-lg pb-2">DESTINATIONS</h2>
-    <a [routerLink]="['/destinations']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
     <a  (click)="openSubSubMenu('peru')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Perú</a>
     <a  (click)="openSubSubMenu('ecuador')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ecuador</a>
     <a  (click)="openSubSubMenu('bolivia')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Bolivia</a>
@@ -88,7 +88,7 @@
   <!-- EXPEDITIONS -->
   <div *ngIf="activeSubMenu === 'expeditions'">
     <h2 class="font-semibold text-lg pb-2">EXPEDITIONS</h2>
-    <a [routerLink]="['/expeditions']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/expeditions']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
     <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432]  py-2">Manú</a>
     <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Inka Trail</a>
     <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Amazon Cruise</a>
@@ -98,17 +98,17 @@
   <!-- PREMIUM SERVICES -->
   <div *ngIf="activeSubMenu === 'premium-services'">
     <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
-    <a [routerLink]="['/premium-services']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Luxury Packages</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Premium Tours</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">MICE</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Family Best Experiencies</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Wedding</a>
+    <a [routerLink]="['/premium-services']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/premium-services/luxury-packages']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Luxury Packages</a>
+    <a [routerLink]="['/premium-services/premium-tours']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Premium Tours</a>
+    <a [routerLink]="['/premium-services/mice']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">MICE</a>
+    <a [routerLink]="['/premium-services/family-best-experiences']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Family Best Experiencies</a>
+    <a [routerLink]="['/premium-services/wedding']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Wedding</a>
     <a  (click)="openSubSubMenu('special-services')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Special Services</a>
     <a  (click)="openSubSubMenu('wellness')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Wellness</a>
     <a  (click)="openSubSubMenu('gastronomy')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Gastronomy</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Sustainable Tourism</a>
-    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Charters</a>
+    <a [routerLink]="['/premium-services/sustainable-tourism']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Sustainable Tourism</a>
+    <a [routerLink]="['/premium-services/charters']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Charters</a>
   </div>
 </div>
 
@@ -126,13 +126,13 @@
   <!-- Peru -->
   <div *ngIf="activeSubSubMenu === 'peru'">
     <h2 class="font-semibold text-lg pb-2">PERÚ</h2>
-    <a [routerLink]="['destinations/peru']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['/destinations/peru/cusco-macchu-picchu']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Cusco - Machu Picchu</a>
-    <a [routerLink]="['/destinations/peru/lima']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Lima</a>
-    <a [routerLink]="['/destinations/peru/puno-lake-titicaca']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Puno - Lake Titicaca</a>
-    <a [routerLink]="['/destinations/peru/arequipa-colca-canyon']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Arequipa - Colca Canyon</a>
-    <a [routerLink]="['/destinations/peru/amazon-rainforest']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Amazon Rainforest</a>
-    <a [routerLink]="['/destinations/peru/manu']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Manu</a>
+    <a [routerLink]="['destinations/peru']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/peru/cusco-macchu-picchu']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Cusco - Machu Picchu</a>
+    <a [routerLink]="['/destinations/peru/lima']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Lima</a>
+    <a [routerLink]="['/destinations/peru/puno-lake-titicaca']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Puno - Lake Titicaca</a>
+    <a [routerLink]="['/destinations/peru/arequipa-colca-canyon']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Arequipa - Colca Canyon</a>
+    <a [routerLink]="['/destinations/peru/amazon-rainforest']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Amazon Rainforest</a>
+    <a [routerLink]="['/destinations/peru/manu']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Manu</a>
   </div>
 
   <!-- Ecuador -->
