@@ -1,45 +1,176 @@
-<nav class="flex w-full  flex-row col-span-3 bg-[#FFFFFF] h-[55px]">
+<nav class="flex w-full flex-row col-span-3 bg-[#FFFFFF] h-[55px]">
   <div class="flex w-full items-center justify-start pl-5">
     <i class="fa-solid fa-bars text-[20px] text-[#000000] cursor-pointer" (click)="toggleMenu()"></i>
   </div>
- <div class="flex w-full items-center justify-center">
-  <!--<img src="assets/images/logo.png" alt="logo" class="w-[100px] h-[55px]">-->
-   <h1 class="font-argent font-thin">INFINITY LUXURY PERU</h1>
- </div>
- <div class="flex w-full items-center justify-end pr-5">
-   <i class="fa-solid fa-phone text-[20px] text-[#000000] cursor-pointer"></i>
- </div>
-
+  <div class="flex w-full items-center justify-center">
+    <!--<img src="assets/images/logo.png" alt="logo" class="w-[100px] h-[55px]">-->
+    <h1 class="font-argent font-thin">INFINITY LUXURY PERU</h1>
+  </div>
+  <div class="flex w-full items-center justify-end pr-5">
+    <i class="fa-solid fa-phone text-[20px] text-[#000000] cursor-pointer"></i>
+  </div>
 </nav>
+
+<!-- FONDO OSCURO AL ABRIR EL MENÚ -->
+<div *ngIf="isMenuOpen || activeSubMenu" class="fixed inset-0 bg-black opacity-40 transition-opacity duration-300 z-50" (click)="closeAllMenus()"></div>
+
+<!-- MENÚ PRINCIPAL -->
 <div
-  class="fixed top-0 left-0 w-[200px] md:w-[500px] h-full bg-[#FFFFFF] z-50 flex flex-col px-6 py-4 transform transition-transform duration-300"
-  [ngClass]="{ 'translate-x-0': isMenuOpen, 'translate-x-[-100%]': !isMenuOpen }"  >
-  <button
-    class="text-black text-2xl mb-4 self-end"
-    (click)="toggleMenu()"
-  >
-    <i class="fa-solid fa-xmark"></i>
-  </button>
-  <a [routerLink]="['/about-us']"
-     class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">
-    {{ 'NAVBAR.ABOUT_US' | translate }}
-    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  class="fixed top-0  left-0 w-[250px] md:w-[400px] h-full bg-[#FFFFFF] z-50 flex flex-col px-6 py-4 transform transition-transform duration-300"
+  [ngClass]="{ 'translate-x-0': isMenuOpen, 'translate-x-[-100%]': !isMenuOpen }"
+>
+  <div class="flex font-semibold flex-row justify-between">
+    <ul class="flex flex-row md:flex-row items-center gap-2 md:gap-4">
+      <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
+      <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
+    </ul>
+    <button class="text-black text-2xl mb-4" (click)="toggleMenu()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <!-- OPCIONES DEL MENÚ PRINCIPAL -->
+  <div (click)="openSubMenu('destinations')" class="group font-semibold flex items-center justify-between cursor-pointer hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    DESTINATIONS
+    <span>></span>
+  </div>
+
+  <div (click)="openSubMenu('expeditions')" class="group font-semibold flex items-center justify-between cursor-pointer hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    EXPEDITIONS
+    <span>></span>
+  </div>
+
+  <div (click)="openSubMenu('premium-services')" class="group font-semibold flex items-center justify-between cursor-pointer hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    PREMIUM SERVICES
+    <span>></span>
+  </div>
+
+  <!-- Build your Trip -->
+  <a [routerLink]="['/build-your-trip']" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    BUILD YOUR TRIP <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
   </a>
 
-  <a [routerLink]="['/destinations']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.DESTINATIONS' | translate }}
-    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
+  <!-- About Us -->
+  <a [routerLink]="['/about-us']" class="group font-semibold flex items-center hover:text-[#aa5432] py-2 border-b border-gray-400 hover:border-[#aa5432] transition-colors duration-300">
+    ABOUT US <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
   </a>
-  <a [routerLink]="['/our-products']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.OUR_PRODUCTS' | translate }}
-    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
-  </a>
-  <a [routerLink]="['/our-services']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.OUR_SERVICES' | translate }}
-    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
-  </a>
-  <a [routerLink]="['/contact-us']" class="group flex items-center hover:text-[#aa5432] py-2 border-b border-b-gray-400 hover:border-[#aa5432] transition-colors duration-300">{{ 'NAVBAR.CONTACT_US' | translate }}
-    <span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
-  </a>
-  <ul class="flex flex-row md:flex-col items-center gap-2 md:gap-4">
-    <li (click)="changeLanguage('es')" class="cursor-pointer">ESP</li>
-    <li (click)="changeLanguage('en')" class="cursor-pointer">ENG</li>
-  </ul>
+
+  <!-- Contact us info -->
+  <div class="absolute bottom-10 left-5 w-[90%] p-4 bg-[#f5f2eb] border-l-4 border-[#c3aa84]">
+    <i class="fa-solid fa-phone text-[#000] mr-2"></i>
+    <div>
+      <p class="font-bold text-black">866 220 1872</p>
+      <p class="text-black text-sm">
+        Talk to a travel consultant <a href="/build-your-trip" class="text-blue-600 underline">Contact Us</a> or speak to your travel advisor.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- SUBMENÚ LATERAL -->
+<div
+  class="fixed top-0 left-[400px] md:left-[400px] w-[400px] md:w-[350px] h-full bg-[#FFFFFF] z-50 flex flex-col px-6 py-4 transform transition-transform duration-300"
+  [ngClass]="{ 'translate-x-0': activeSubMenu, 'translate-x-[-300%]': !activeSubMenu }"
+>
+  <button class="text-black text-2xl mb-4" (click)="closeSubMenu()">
+    <i class="fa-solid fa-arrow-left"></i>
+  </button>
+
+  <!-- DESTINATIONS -->
+  <div *ngIf="activeSubMenu === 'destinations'">
+    <h2 class="font-semibold text-lg pb-2">DESTINATIONS</h2>
+    <a [routerLink]="['/destinations']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a  (click)="openSubSubMenu('peru')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Perú</a>
+    <a  (click)="openSubSubMenu('ecuador')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ecuador</a>
+    <a  (click)="openSubSubMenu('bolivia')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Bolivia</a>
+  </div>
+
+  <!-- EXPEDITIONS -->
+  <div *ngIf="activeSubMenu === 'expeditions'">
+    <h2 class="font-semibold text-lg pb-2">EXPEDITIONS</h2>
+    <a [routerLink]="['/expeditions']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432]  py-2">Manú</a>
+    <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Inka Trail</a>
+    <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Amazon Cruise</a>
+    <a class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Suasi Island</a>
+  </div>
+
+  <!-- PREMIUM SERVICES -->
+  <div *ngIf="activeSubMenu === 'premium-services'">
+    <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
+    <a [routerLink]="['/premium-services']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Luxury Packages</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Premium Tours</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">MICE</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Family Best Experiencies</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Wedding</a>
+    <a  (click)="openSubSubMenu('special-services')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Special Services</a>
+    <a  (click)="openSubSubMenu('wellness')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Wellness</a>
+    <a  (click)="openSubSubMenu('gastronomy')" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Gastronomy</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Sustainable Tourism</a>
+    <a  class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Charters</a>
+  </div>
+</div>
+
+
+<!-- SUBSUBMENÚ LATERAL -->
+<div
+  class="fixed top-0 left-[400px] md:left-[740px] w-[400px] md:w-[350px] h-full bg-[#FFFFFF] z-50 flex flex-col px-6 py-4 transform transition-transform duration-300"
+  [ngClass]="{ 'translate-x-0': activeSubSubMenu, 'translate-x-[-350%]': !activeSubSubMenu }"
+>
+  <button class="text-black text-2xl mb-4" (click)="closeSubSubMenu()">
+    <i class="fa-solid fa-arrow-left"></i>
+  </button>
+
+  <!-- DESTINATION -->
+  <!-- Peru -->
+  <div *ngIf="activeSubSubMenu === 'peru'">
+    <h2 class="font-semibold text-lg pb-2">PERÚ</h2>
+    <a [routerLink]="['destinations/peru']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/peru/cusco-macchu-picchu']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Cusco - Machu Picchu</a>
+    <a [routerLink]="['/destinations/peru/lima']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Lima</a>
+    <a [routerLink]="['/destinations/peru/puno-lake-titicaca']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Puno - Lake Titicaca</a>
+    <a [routerLink]="['/destinations/peru/arequipa-colca-canyon']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Arequipa - Colca Canyon</a>
+    <a [routerLink]="['/destinations/peru/amazon-rainforest']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Amazon Rainforest</a>
+    <a [routerLink]="['/destinations/peru/manu']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Manu</a>
+  </div>
+
+  <!-- Ecuador -->
+  <div *ngIf="activeSubSubMenu === 'ecuador'">
+    <h2 class="font-semibold text-lg pb-2">ECUADOR</h2>
+    <a [routerLink]="['destinations/ecuador']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/ecuador/galapagos']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Galapagos</a>
+  </div>
+
+  <!-- Bolivia -->
+  <div *ngIf="activeSubSubMenu === 'bolivia'">
+    <h2 class="font-semibold text-lg pb-2">BOLIVIA</h2>
+    <a [routerLink]="['destinations/bolivia']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/bolivia/uyuni-salt']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Uyuni Salt</a>
+  </div>
+
+  <!-- PREMIUM SERVICES -->
+  <!-- SPECIAL SERVICES-->
+  <div *ngIf="activeSubSubMenu === 'special-services'">
+    <h2 class="font-semibold text-lg pb-2">SPECIAL SERVICES</h2>
+    <a [routerLink]="['premium-services/special-services']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['premium-services/special-services/handicap']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432]  py-2">Handicap</a>
+    <a [routerLink]="['premium-services/special-services/austism']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Austism</a>
+    <a [routerLink]="['premium-services/special-services/oxygen-requirement']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Oxygen Requirement</a>
+  </div>
+
+  <!-- WELLNESS -->
+  <div *ngIf="activeSubSubMenu === 'wellness'">
+    <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
+    <a [routerLink]="['premium-services/wellness']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/premium-services/wellness/spa']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">SPA</a>
+    <a [routerLink]="['/premium-services/wellness/yoga']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Yoga</a>
+  </div>
+
+  <!-- GASTRONOMY -->
+  <div *ngIf="activeSubSubMenu === 'gastronomy'">
+    <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
+    <a [routerLink]="['/premium-services/gastronomy']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/premium-services/gastronomy/peruvian-cooking-class']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Peruvian Cooking Class</a>
+  </div>
 </div>

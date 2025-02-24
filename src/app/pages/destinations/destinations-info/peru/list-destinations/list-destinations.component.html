@@ -1,0 +1,21 @@
+<div class="flex flex-col bg-[#f5f2eb] ">
+  <div class="flex p-5 justify-center items-center">
+    <h1 class="font-argent font-thin  text-3xl">Experience the Ultimate Luxury Vacation in Perú</h1>
+  </div>
+  <div class="p-4 mb-3 grid w-[100%] max-w-[1600px] gap-6
+              grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+              auto-rows-fr place-items-center">
+    <div *ngFor="let destino of destinos"
+         class="relative h-full "
+         [ngClass]="{'row-span-2': destino.destacado}">
+      <a [routerLink]="['/destinations/peru/', destino.slug]">
+        <img [src]="destino.imagen" [alt]="destino.nombre" class="object-cover w-full h-full">
+        <div class="absolute inset-0 flex items-center justify-center bg-black opacity-50">
+          <span class="w-[65%] text-center text-white text-xl sm:text-2xl lg:text-3xl font-thin leading-tight ">
+            {{ destino.nombre }}
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

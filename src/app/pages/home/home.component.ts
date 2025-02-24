@@ -9,14 +9,12 @@ import {FooterComponent} from '../../shared/Important/footer/footer.component';
 @Component({
   selector: 'app-home',
   imports: [
-    NavbarComponent,
     NgForOf,
     RouterLink,
     NgClass,
     NgIf,
     CarruselTripComponent,
     CarruselComponent,
-    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
