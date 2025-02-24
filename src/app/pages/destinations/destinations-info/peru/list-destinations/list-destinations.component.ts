@@ -27,5 +27,5 @@ export class ListDestinationsComponent {
     {nombre:'Amazon Rainforest',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug: 'amazon-rainforest' , destacado: false},
     {nombre:'Puno Lake Titicaca',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'puno-lake-titicaca', destacado:false},
   ]
-  rutaPadre = 'destinations/peru';
+  rutaPadre = '/destinations/peru';
 }

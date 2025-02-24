@@ -138,39 +138,39 @@
   <!-- Ecuador -->
   <div *ngIf="activeSubSubMenu === 'ecuador'">
     <h2 class="font-semibold text-lg pb-2">ECUADOR</h2>
-    <a [routerLink]="['destinations/ecuador']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['/destinations/ecuador/galapagos']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Galapagos</a>
+    <a [routerLink]="['destinations/ecuador']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/ecuador/galapagos']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Galapagos</a>
   </div>
 
   <!-- Bolivia -->
   <div *ngIf="activeSubSubMenu === 'bolivia'">
     <h2 class="font-semibold text-lg pb-2">BOLIVIA</h2>
-    <a [routerLink]="['destinations/bolivia']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['/destinations/bolivia/uyuni-salt']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Uyuni Salt</a>
+    <a [routerLink]="['destinations/bolivia']"  (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/destinations/bolivia/uyuni-salt']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Uyuni Salt</a>
   </div>
 
   <!-- PREMIUM SERVICES -->
   <!-- SPECIAL SERVICES-->
   <div *ngIf="activeSubSubMenu === 'special-services'">
     <h2 class="font-semibold text-lg pb-2">SPECIAL SERVICES</h2>
-    <a [routerLink]="['premium-services/special-services']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['premium-services/special-services/handicap']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432]  py-2">Handicap</a>
-    <a [routerLink]="['premium-services/special-services/austism']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Austism</a>
-    <a [routerLink]="['premium-services/special-services/oxygen-requirement']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Oxygen Requirement</a>
+    <a [routerLink]="['premium-services/special-services']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['premium-services/special-services/handicap']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432]  py-2">Handicap</a>
+    <a [routerLink]="['premium-services/special-services/austism']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Austism</a>
+    <a [routerLink]="['premium-services/special-services/oxygen-requirement']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Oxygen Requirement</a>
   </div>
 
   <!-- WELLNESS -->
   <div *ngIf="activeSubSubMenu === 'wellness'">
     <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
-    <a [routerLink]="['premium-services/wellness']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['/premium-services/wellness/spa']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">SPA</a>
-    <a [routerLink]="['/premium-services/wellness/yoga']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Yoga</a>
+    <a [routerLink]="['premium-services/wellness']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/premium-services/wellness/spa']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">SPA</a>
+    <a [routerLink]="['/premium-services/wellness/yoga']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Yoga</a>
   </div>
 
   <!-- GASTRONOMY -->
   <div *ngIf="activeSubSubMenu === 'gastronomy'">
     <h2 class="font-semibold text-lg pb-2">PREMIUM SERVICES</h2>
-    <a [routerLink]="['/premium-services/gastronomy']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
-    <a [routerLink]="['/premium-services/gastronomy/peruvian-cooking-class']" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Peruvian Cooking Class</a>
+    <a [routerLink]="['/premium-services/gastronomy']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Ver Todo</a>
+    <a [routerLink]="['/premium-services/gastronomy/peruvian-cooking-class']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">Peruvian Cooking Class</a>
   </div>
 </div>

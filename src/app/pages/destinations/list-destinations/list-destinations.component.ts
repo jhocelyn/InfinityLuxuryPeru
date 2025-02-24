@@ -8,7 +8,6 @@ import {DestinationsGridComponent} from '../../../shared/To Destinations/destina
   imports: [
     DestinationsGridComponent,
     BannerComponent,
-    MapaInfoComponent
   ],
   templateUrl: './list-destinations.component.html',
   styleUrl: './list-destinations.component.css'
@@ -19,4 +18,5 @@ export class ListDestinationsComponent {
     {nombre:'Ecuador',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug:'ecuador', destacado: true},
     {nombre:'Bolivia',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'bolivia', destacado:true},
   ]
+  rutaPadre = '/destinations';
 }

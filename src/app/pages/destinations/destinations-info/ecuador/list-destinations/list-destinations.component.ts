@@ -21,5 +21,5 @@ export class ListDestinationsComponent {
   destinos=[
     {nombre:'Galapagos - Seaborn',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'galapagos' ,destacado:true},
   ]
-  rutaPadre = 'destinations/ecuador';
+  rutaPadre = '/destinations/ecuador';
 }

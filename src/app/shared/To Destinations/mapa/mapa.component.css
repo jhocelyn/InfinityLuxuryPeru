@@ -1,0 +1,7 @@
+:host {
+  width: 100%;
+}
+
+#map {
+  min-height: 300px; /* Evita que el mapa se colapse */
+}

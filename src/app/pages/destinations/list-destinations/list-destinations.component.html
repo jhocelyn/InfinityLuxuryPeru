@@ -1,13 +1,8 @@
 <app-banner
-  imagen="assets/img/incredibly-beatiful-site-of-machu-picchu.webp"
+  imagen="assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp"
   texto="We have been spinning dreams into remarkable adventures for over 60 years."
   [mostrarFlecha]="true">
 </app-banner>
 
-<app-destinations-grid [destinos]="destinos"></app-destinations-grid>
+<app-destinations-grid [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
 
-<app-mapa-info
-  [lat]="-9.189967"
-  [lng]="-75.015152"
-  descripcion="Perú es un país con una gran riqueza cultural, histórica y natural. Destaca por Machu Picchu, la Amazonía y su gastronomía reconocida mundialmente.">
-</app-mapa-info>
