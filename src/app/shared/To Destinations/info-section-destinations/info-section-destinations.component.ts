@@ -1,13 +1,11 @@
 import {Component, Input} from '@angular/core';
 import {DestinationCarruselComponent} from '../destination-carrusel/destination-carrusel.component';
-import {BreadcrumbComponent} from '../breadcrumb/breadcrumb.component';
 import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-info-section-destinations',
   imports: [
     DestinationCarruselComponent,
-    BreadcrumbComponent,
     TranslatePipe
   ],
   templateUrl: './info-section-destinations.component.html',

@@ -10,7 +10,7 @@ export const trekkingRoutes :Routes=[
     {
       path:'',
       component:ListPackagesComponent,
-      data: { breadcrumb: 'Packages' }  // 📌 Nombre genérico para paquetes individuales
+      data: { breadcrumb: 'Trekking' }  // 📌 Nombre genérico para paquetes individuales
     },
     {
       path: ':id',

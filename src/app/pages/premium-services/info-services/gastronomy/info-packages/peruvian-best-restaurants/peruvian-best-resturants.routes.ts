@@ -5,12 +5,11 @@ import {InfoPackagesComponent} from './info-packages/info-packages.component';
 
 export const peruvianBestResturantsRoutes:Routes=[
   {path:'', component:LayoutComponent,
-    data:{breadcrumb:'Peruvian Best Restaurants'},
     children:[
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
+        data:{breadcrumb:'Peruvian Best Restaurants'},
       },
       {
         path: ':id',

@@ -31,16 +31,14 @@ export class BreadcrumbComponent implements OnInit {
   private buildBreadcrumbs(route: ActivatedRoute, url: string = '', breadcrumbs: Breadcrumb[] = []): Breadcrumb[] {
     const children: ActivatedRoute[] = route.children;
 
-    if (children.length === 0) {
-      return breadcrumbs;
-    }
-
     for (const child of children) {
       const routeURL: string = child.snapshot.url.map(segment => segment.path).join('/');
+
       if (routeURL !== '') {
         url += `/${routeURL}`;
       }
 
+      // Si existe un breadcrumb definido en 'data', úsalo. Si no, usa el path.
       let label = child.snapshot.data['breadcrumb'] || routeURL;
 
       // Si la ruta tiene un parámetro como ":id", lo reemplazamos por su valor real
@@ -48,9 +46,13 @@ export class BreadcrumbComponent implements OnInit {
         label = `Package #${child.snapshot.paramMap.get('id')}`;
       }
 
-      breadcrumbs.push({ label, url });
+      // **Evitar agregar el breadcrumb si ya existe**
+      if (breadcrumbs.length === 0 || breadcrumbs[breadcrumbs.length - 1].label !== label) {
+        breadcrumbs.push({ label, url });
+      }
 
-      return this.buildBreadcrumbs(child, url, breadcrumbs);
+      // Continuar con los hijos
+      this.buildBreadcrumbs(child, url, breadcrumbs);
     }
 
     return breadcrumbs;

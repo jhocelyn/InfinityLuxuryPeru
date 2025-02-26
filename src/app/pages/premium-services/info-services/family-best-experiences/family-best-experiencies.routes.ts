@@ -7,12 +7,11 @@ export const familyBestExperienciesRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Family Best Experiences' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
+        data: { breadcrumb: 'Family Best Experiences' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

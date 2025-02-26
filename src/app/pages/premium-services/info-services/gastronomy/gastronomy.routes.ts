@@ -6,12 +6,10 @@ export const GastronomyRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Gastronomy' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path:'peruvian-cooking-class',

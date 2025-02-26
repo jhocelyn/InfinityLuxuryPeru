@@ -7,12 +7,11 @@ export const MiceRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'MICE' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
+        data: { breadcrumb: 'MICE' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

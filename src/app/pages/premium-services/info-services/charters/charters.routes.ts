@@ -7,12 +7,11 @@ export const chartersRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'charters' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
+        data: { breadcrumb: 'Charters' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

@@ -7,12 +7,11 @@ export const SustainableTourismRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Sustainable Tourism' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
+        data: { breadcrumb: 'Sustainable Tourism' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',
