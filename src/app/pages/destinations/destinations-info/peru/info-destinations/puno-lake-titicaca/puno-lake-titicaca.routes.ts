@@ -7,12 +7,10 @@ export const punoLakeTiticacaRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Ica' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: IcaPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

@@ -10,15 +10,14 @@ export const WellnesRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Wellness' },  // 📌 Se mantiene para claridad
       },
       {
         path:'spa',
-        loadChildren:()=>import('./info-packages/spa/spa.routes').then(m=>m.SpaRoutes),
+        loadChildren:()=>import('./info-packages/spa/spa.routes').then(m=>m.SpaRoutes), data:{breadcrumb:'Spa'}
       },
       {
         path:'yoga',
-        loadChildren:()=>import('./info-packages/yoga/yoga.routes').then(m=>m.YogaRoutes),
+        loadChildren:()=>import('./info-packages/yoga/yoga.routes').then(m=>m.YogaRoutes), data:{breadcrumb:'Yoga'}
       }
     ]
   }

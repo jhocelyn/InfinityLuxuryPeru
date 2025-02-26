@@ -11,7 +11,6 @@ export const MiceRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'MICE' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

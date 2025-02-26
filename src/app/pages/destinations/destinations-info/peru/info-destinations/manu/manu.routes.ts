@@ -7,12 +7,10 @@ export const manuRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Cusco' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: PuertoMaldonadoPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

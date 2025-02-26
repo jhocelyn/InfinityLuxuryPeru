@@ -7,12 +7,10 @@ export const cuscoRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Cusco' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: CuscoPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

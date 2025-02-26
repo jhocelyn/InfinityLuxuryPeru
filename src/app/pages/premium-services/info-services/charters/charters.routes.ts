@@ -11,7 +11,6 @@ export const chartersRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Charters' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

@@ -11,7 +11,6 @@ export const AustismRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Austism' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

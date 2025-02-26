@@ -11,7 +11,6 @@ export const HandicapRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Handicap' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

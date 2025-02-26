@@ -6,36 +6,34 @@ export const PeruRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'peru' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ListDestinationsComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path:'arequipa-colca-canyon',
-        loadChildren: () => import('./info-destinations/arequipa-colca-canyon/arequipa.routes').then(m => m.arequipaRoutes)
+        loadChildren: () => import('./info-destinations/arequipa-colca-canyon/arequipa.routes').then(m => m.arequipaRoutes), data:{breadcrumb:'Arequipa-Colca Canyon'}
       },
       {
         path:'cusco-macchu-picchu',
-        loadChildren: () => import('./info-destinations/cusco-macchu-picchu/cusco.routes').then(m => m.cuscoRoutes)
+        loadChildren: () => import('./info-destinations/cusco-macchu-picchu/cusco.routes').then(m => m.cuscoRoutes),data:{breadcrumb:'Cusco-Macchu Picchu'}
       },
       {path:'amazon-rainforest',
-        loadChildren: () => import('./info-destinations/amazon-rainforest/amazon.routes').then(m => m.amazonRoutes)
+        loadChildren: () => import('./info-destinations/amazon-rainforest/amazon.routes').then(m => m.amazonRoutes),data:{breadcrumb:'Amazon Rainforest'}
       },
       {
         path:'manu',
-        loadChildren: () => import('./info-destinations/manu/manu.routes').then(m => m.manuRoutes)
+        loadChildren: () => import('./info-destinations/manu/manu.routes').then(m => m.manuRoutes),data:{breadcrumb:'Manu'}
 
       },
       {
         path:'lima',
-        loadChildren: () => import('./info-destinations/lima/lima.routes').then(m => m.limaRoutes)
+        loadChildren: () => import('./info-destinations/lima/lima.routes').then(m => m.limaRoutes),data:{breadcrumb:'Lima'}
       },
       {
         path:'puno-lake-titicaca',
-        loadChildren: () => import('./info-destinations/puno-lake-titicaca/puno-lake-titicaca.routes').then(m => m.punoLakeTiticacaRoutes)
+        loadChildren: () => import('./info-destinations/puno-lake-titicaca/puno-lake-titicaca.routes').then(m => m.punoLakeTiticacaRoutes),data:{breadcrumb:'Puno-Lake Titicaca'}
       },
 
 

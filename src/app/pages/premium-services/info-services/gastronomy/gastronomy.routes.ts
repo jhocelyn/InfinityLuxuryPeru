@@ -13,11 +13,11 @@ export const GastronomyRoutes: Routes = [
       },
       {
         path:'peruvian-cooking-class',
-        loadChildren: () => import('./info-packages/peruvian-cooking-class/peruvian-cooking-class.routes').then(m => m.PeruvianCookingClassRoutes)
+        loadChildren: () => import('./info-packages/peruvian-cooking-class/peruvian-cooking-class.routes').then(m => m.PeruvianCookingClassRoutes), data:{breadcrumb:'Peruvian Cooking Class'}
       },
       {
         path:'peruvian-best-restaurants',
-        loadChildren: () => import('./info-packages/peruvian-best-restaurants/peruvian-best-resturants.routes').then(m => m.peruvianBestResturantsRoutes)
+        loadChildren: () => import('./info-packages/peruvian-best-restaurants/peruvian-best-resturants.routes').then(m => m.peruvianBestResturantsRoutes), data:{breadcrumb:'Peruvian Best Restaurants'}
       }
     ]
   }

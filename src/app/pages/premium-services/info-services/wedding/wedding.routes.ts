@@ -11,7 +11,6 @@ export const WeddingRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Wedding' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

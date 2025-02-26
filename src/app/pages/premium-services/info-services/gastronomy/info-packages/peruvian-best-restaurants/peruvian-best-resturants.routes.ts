@@ -9,7 +9,6 @@ export const peruvianBestResturantsRoutes:Routes=[
       {
         path: '',
         component: ListPackagesComponent,
-        data:{breadcrumb:'Peruvian Best Restaurants'},
       },
       {
         path: ':id',

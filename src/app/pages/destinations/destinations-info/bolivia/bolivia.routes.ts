@@ -6,16 +6,14 @@ export const BoliviaRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Bolivia' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: InfoPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path:'uyuni-salt',
-        loadChildren: () => import('./info-destinations/uyuni-salt/uyuni-salt.routes').then(m => m.UyuniSaltRoutes)
+        loadChildren: () => import('./info-destinations/uyuni-salt/uyuni-salt.routes').then(m => m.UyuniSaltRoutes), data:{breadcrumb:'Uyuni Salt'}
       }
     ]
   }

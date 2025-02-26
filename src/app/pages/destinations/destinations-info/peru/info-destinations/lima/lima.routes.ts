@@ -7,12 +7,10 @@ export const limaRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Lima' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: LimaPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

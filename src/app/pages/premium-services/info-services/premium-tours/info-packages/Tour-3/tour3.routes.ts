@@ -10,7 +10,6 @@ export const tour3Routes:Routes=[
       {
         path:'',
         component:ListPackagesComponent,
-        data:{breadcrumb:'Tour 3'},
       },
       {
         path:':id',

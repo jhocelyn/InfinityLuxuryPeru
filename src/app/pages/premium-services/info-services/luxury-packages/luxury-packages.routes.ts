@@ -11,7 +11,6 @@ export const LuxuryPackagesRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Luxury Packages' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

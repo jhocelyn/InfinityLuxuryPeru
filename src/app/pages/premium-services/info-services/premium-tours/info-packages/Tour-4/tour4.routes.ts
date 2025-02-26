@@ -11,7 +11,6 @@ export const tour4Routes:Routes=[
       {
         path:'',
         component:ListPackagesComponent,
-        data: { breadcrumb: 'Packages' }
       },
       {
         path:':id',

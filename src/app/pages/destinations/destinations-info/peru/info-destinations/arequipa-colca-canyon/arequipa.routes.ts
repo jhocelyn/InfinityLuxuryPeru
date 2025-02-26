@@ -7,12 +7,10 @@ export const arequipaRoutes: Routes = [
   {
     path: '',
     component: LayoutComponent,
-    data: { breadcrumb: 'Arequipa' },  // 📌 Se mantiene para claridad
     children: [
       {
         path: '',
         component: ArequipaPackagesComponent,
-        data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
         path: ':id',

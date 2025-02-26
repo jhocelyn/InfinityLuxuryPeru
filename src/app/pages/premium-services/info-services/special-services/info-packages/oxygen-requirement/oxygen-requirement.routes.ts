@@ -11,7 +11,6 @@ export const OxygenRequirementRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Oxygen Requirement' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

@@ -11,7 +11,6 @@ export const SustainableTourismRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Sustainable Tourism' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

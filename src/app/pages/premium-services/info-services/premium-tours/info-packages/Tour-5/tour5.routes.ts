@@ -6,7 +6,6 @@ import {InfoPackagesComponent} from './info-packages/info-packages.component';
 export const tour5Routes:Routes=[
   {path:'',
     component:LayoutComponent,
-    data:{breadcrumb:'Tour 5'},
     children:[
       {
         path:'',

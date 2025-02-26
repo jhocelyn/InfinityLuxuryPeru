@@ -11,7 +11,6 @@ export const PeruvianCookingClassRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Peruvian Cooking Class' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',

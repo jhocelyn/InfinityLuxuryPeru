@@ -11,7 +11,6 @@ export const familyBestExperienciesRoutes: Routes = [
       {
         path: '',
         component: ListPackagesComponent,
-        data: { breadcrumb: 'Family Best Experiences' },  // 📌 Se mantiene para claridad
       },
       {
         path: ':id',
