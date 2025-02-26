@@ -1,0 +1,8 @@
+<div class="relative  text-white h-full md:w-full">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <img [src]="imagen" class="w-full h-full object-cover" alt="Luxury Vacations">
+  <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center text-center">
+    <h1 class="text-2xl md:text-5xl">{{ titulo | translate }}</h1>
+    <button class="text-sm tracking-tight font-medium uppercase underline mt-3">{{ botonTexto | translate }}</button>
+  </div>
+</div>

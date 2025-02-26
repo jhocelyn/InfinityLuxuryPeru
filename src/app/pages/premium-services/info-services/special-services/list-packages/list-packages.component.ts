@@ -1,22 +1,24 @@
 import { Component } from '@angular/core';
-import {NgClass, NgForOf} from '@angular/common';
-import {RouterLink} from '@angular/router';
+import {BannerComponent} from "../../../../../shared/To Destinations/banner/banner.component";
+import {
+    DestinationsGridComponent
+} from "../../../../../shared/To Destinations/destinations-grid/destinations-grid.component";
 
 @Component({
   selector: 'app-list-packages',
-  imports: [
-    NgForOf,
-    RouterLink,
-    NgClass
-  ],
+    imports: [
+        BannerComponent,
+        DestinationsGridComponent
+    ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })
 export class ListPackagesComponent {
-  servicios=[
-    {nombre:'Handicap',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'handicap' ,destacado:true},
-    {nombre:'Austism',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'austism' ,destacado:true},
-    {nombre:'Oxygen Requirement',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'oxygen-requirement' ,destacado:true},
 
+  servicios=[
+    {nombre:'Handicap',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'handicap' ,destacado:false},
+    {nombre:'Autism',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug:'autism', destacado: false},
+    {nombre:'Oxygen Requirement',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug:'oxygen-requirement', destacado: false},
   ]
+  rutaPadre = '/premium-services/special-services';
 }

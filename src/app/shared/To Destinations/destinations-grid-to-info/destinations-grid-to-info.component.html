@@ -1,0 +1,7 @@
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+  <div *ngFor="let destino of destinos" class="text-center">
+    <img [src]="destino.imagen" [alt]="destino.nombre" class="w-full h-64 object-cover">
+    <h3 class="text-xl font-semibold mt-4">{{ destino.nombre }}</h3>
+    <p class="text-gray-600 text-sm mt-2">{{ destino.descripcion }}</p>
+  </div>
+</div>

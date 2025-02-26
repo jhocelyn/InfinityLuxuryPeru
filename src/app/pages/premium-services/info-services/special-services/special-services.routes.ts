@@ -14,7 +14,7 @@ export const SpecialServicesRoutes: Routes = [
         data: { breadcrumb: 'Packages' }  // 📌 Nombre del breadcrumb para la lista de paquetes
       },
       {
-        path:'austism',
+        path:'autism',
         loadChildren: () => import('./info-packages/austism/austism.routes').then(m => m.AustismRoutes),
       },
       {

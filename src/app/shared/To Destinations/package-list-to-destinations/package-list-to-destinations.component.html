@@ -1,0 +1,10 @@
+<div class="px-24 py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <app-cards-packages-destination
+    *ngFor="let paquete of paquetes"
+    [nombre]="paquete.nombre"
+    [descripcion]="paquete.descripcion"
+    [imagen]="paquete.imagen"
+    [id]="paquete.id"
+    [ruta]="paquete.ruta">
+  </app-cards-packages-destination>
+</div>

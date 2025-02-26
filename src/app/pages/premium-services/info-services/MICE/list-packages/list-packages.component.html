@@ -1,51 +1,93 @@
-<div class="bg-[#f5f2eb]">
-  <div class="top-13 w-full h-10 flex flex-col justify-center items-center px-4 z-10 absolute">
-  <span class="flex items-center justify-center text-center text-black font-normal text-sm relative z-20">
-    View Packages
-  </span>
-    <div class="absolute inset-0 bg-[#f5f2eb] opacity-70 z-0"></div>
+<div class="bg-[#f5f2eb] ">
+  <div class="flex flex-col md:flex-row p-0 mb-10">
+    <app-banner-to-info-destinations
+      [imagen]="info.image_principal"
+      [titulo]="info.titlePage"
+      [botonTexto]="info.button"
+    >
+    </app-banner-to-info-destinations>
+
+    <app-info-section-destinations
+      [titulo]="info.titleInfo"
+      [descripcion]="info.descripcion"
+      [subtitulo]="info.subtitulo"
+      [images]="images">
+    </app-info-section-destinations>
   </div>
 
-  <div class="flex flex-col md:flex-row p-0">
-    <!-- Banner Section -->
-    <div class="relative text-white w-full md:w-2/3">
-      <div class="absolute inset-0 bg-black opacity-50"></div>
+  <app-banner
+    [imagen]="info.image_middle"
+    [texto]="info.text"
+    [mostrarFlecha]="false">
+  </app-banner>
 
-      <img src="/assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp" class="w-full h-full" alt="Luxury Vacations">
+  <!--FORMULARIO-->
+  <div class="flex justify-center font-extralight w-full p-4">
+    <form class="w-full  bg-white p-6 rounded-lg shadow-lg space-y-4">
+      <h2 class="text-3xl font-argent font-extralight col-span-full">Leave us your info</h2>
 
-      <div class="absolute top-[50%] left-[20%] flex flex-col justify-center items-center">
-        <h1 class="text-5xl">{{ 'BANNER.TITLE' | translate }}</h1>
-        <button class="text-sm tracking-tight font-medium uppercase underline mt-3">{{ 'BANNER.BUTTON' | translate }}</button>
-      </div>
-    </div>
-    <!-- Information & Packages Section -->
-    <div class="flex flex-col py-8 px-10 w-full md:w-1/3">
-      <div class="flex flex-col gap-6">
-        <app-breadcrumb></app-breadcrumb>
-        <h3 class="font-argent text-thin">{{ 'INFO.TITLE' | translate }}</h3>
-        <p>{{ 'INFO.DESCRIPTION' | translate }}</p>
-
-        <div class="flex flex-col gap-5">
-          <h2 class="text-lg font-argent font-thin">Best Ways to Travel</h2>
-          <app-destination-carrusel [images]="images"></app-destination-carrusel>
+      <div class="flex flex-row w-full gap-5">
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Estilo de Viaje</label>
+          <select class="w-full p-2 border rounded-lg" [(ngModel)]="formData.travelStyle" name="travelStyle">
+            <option>Luxury</option>
+            <option>Premium Tours</option>
+            <option>Sustainable tourism</option>
+            <option>Family Best</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Fecha de Salida</label>
+          <input type="date" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.departureDate" name="departureDate">
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Fecha de Retorno</label>
+          <input type="date" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.returnDate" name="returnDate">
         </div>
       </div>
-    </div>
 
-  </div>
+      <div class="flex flex-row gap-5">
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Cantidad de días</label>
+          <input type="number" class="w-full p-2 border rounded-lg" min="1" [(ngModel)]="formData.days" name="days">
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">N° de adultos</label>
+          <input type="number" class="w-full p-2 border rounded-lg" min="1" [(ngModel)]="formData.adults" name="adults">
+        </div>
+      </div>
 
+      <label class="block text-xl font-argent font-extralight">Tipo de alojamiento</label>
+      <select class="w-full p-2 border rounded-lg" [(ngModel)]="formData.accommodation" name="accommodation">
+        <option>Primera Clase</option>
+        <option>Lujo</option>
+      </select>
 
+      <label class="block text-xl font-argent font-extralight">Destinos de Interés</label>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <label *ngFor="let destino of destinationsList" class="flex items-center">
+          <input type="checkbox" class="mr-2" [value]="destino" [(ngModel)]="formData.destinations" name="destinations">
+          {{ destino }}
+        </label>
+      </div>
 
-  <div class="px-24 py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <app-cards-packages-destination
-      *ngFor="let paquete of paquetes"
-      [nombre]="paquete.nombre"
-      [descripcion]="paquete.descripcion"
-      [imagen]="paquete.imagen"
-      [id]="paquete.id"
-      [ruta]="paquete.ruta">
-    </app-cards-packages-destination>
+      <!-- 📞 Nuevo: Campo de Teléfono -->
+      <div class="flex flex-col">
+        <label class="block text-xl font-argent font-extralight">Teléfono</label>
+        <input type="tel" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.phone" name="phone">
+      </div>
+
+      <!-- ✉️ Nuevo: Campo de Correo -->
+      <div class="flex flex-col">
+        <label class="block text-xl font-argent font-extralight">Correo Electrónico</label>
+        <input type="email" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.email" name="email">
+      </div>
+
+      <button type="submit" (click)="submitForm()" class="w-full hover:bg-[#aa5432] text-black p-2 rounded-lg bg-white">
+        Enviar
+      </button>
+    </form>
   </div>
 
 </div>
-
