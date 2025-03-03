@@ -5,84 +5,72 @@
 @theme {
   --font-argent: "font", argentcf;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-bold.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-bolditalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-demibold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-demibolditalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-extrabold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-extrabolditalic.woff') format('woff');
   font-weight: 800;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-light.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-lightitalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-regular.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-regularitalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-super.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'ArgentCF';
   src: url('/assets/fonts/ArgentCF/AnyConv.com__Fontspring-DEMO-argentcf-thin.woff') format('woff');
@@ -95,3 +83,12 @@
   font-weight: 100;
   font-style: italic;
 }
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Monserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
