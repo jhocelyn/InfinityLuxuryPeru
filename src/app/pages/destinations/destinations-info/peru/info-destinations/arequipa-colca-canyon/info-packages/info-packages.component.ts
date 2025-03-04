@@ -18,6 +18,9 @@ import {
 } from '../../../../../../../shared/components/To Destinations/info-package/package-pricing/package-pricing.component';
 import {TravelPackage} from '../../../../../../../shared/models/travel-packages.model';
 import {PackagesService} from '../../../../../../../services/packages.service';
+import {
+  BannerComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/banner/banner.component';
 
 @Component({
   selector: 'app-info-packages',
@@ -29,7 +32,9 @@ import {PackagesService} from '../../../../../../../services/packages.service';
     PackagePricingComponent,
     NgForOf,
     NgSwitchCase,
-    NgSwitch
+    NgSwitch,
+    BannerComponent,
+    NgIf
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'

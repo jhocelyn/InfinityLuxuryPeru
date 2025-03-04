@@ -1,4 +1,6 @@
-<div class="container mx-auto p-6 space-y-8">
+<ng-container *ngIf="package">
+  <app-banner [images]="package.images"></app-banner>
+</ng-container><div class="container mx-auto p-6 space-y-8">
   <!-- Información general siempre visible -->
   <app-package-over-view [package]="package"></app-package-over-view>
 

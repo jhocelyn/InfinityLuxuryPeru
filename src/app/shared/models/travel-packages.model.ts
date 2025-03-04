@@ -38,4 +38,6 @@ export interface TravelPackage {
     included: string[];
     notIncluded: string[];
   };
+  images:
+    {alt:string; src:string; width:number; }[]
 }
