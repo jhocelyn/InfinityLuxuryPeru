@@ -115,7 +115,14 @@ export class PackagesService {
             "Almuerzos y cenas",
             "Gastos personales y propinas"
           ]
-        }
+        },
+        images: [
+          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 },
+          { src: 'assets/img/panoramic-view-of-machu-picchu-lost-city-at-archae-2024-07-03-02-44-10-utc_11zon.webp', alt: 'Playa paradisíaca en Cancún', width: 400 },
+          { src: 'assets/img/peruvian-women-with-little-alpaca-lamb-2023-11-27-05-13-54-utc_11zon.webp', alt: 'Atardecer en Bali con templos', width: 600 },
+          { src: 'assets/img/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 200 },
+          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 }
+        ]
       }
     ],
     cusco: [
@@ -138,8 +145,15 @@ export class PackagesService {
         },
         sampleJourney: [],
         customOptions: { description: "Opciones extra", packages: [] },
-        pricing: { title: "Incluye", included: ["Boletos de tren", "Entrada a Machu Picchu"], notIncluded: ["Vuelos", "Almuerzos"] }
-      }
+        pricing: { title: "Incluye", included: ["Boletos de tren", "Entrada a Machu Picchu"], notIncluded: ["Vuelos", "Almuerzos"] },
+        images: [
+          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 },
+          { src: 'assets/img/panoramic-view-of-machu-picchu-lost-city-at-archae-2024-07-03-02-44-10-utc_11zon.webp', alt: 'Playa paradisíaca en Cancún', width: 400 },
+          { src: 'assets/img/peruvian-women-with-little-alpaca-lamb-2023-11-27-05-13-54-utc_11zon.webp', alt: 'Atardecer en Bali con templos', width: 600 },
+          { src: 'assets/img/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 200 },
+          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 }
+        ]
+      },
     ]
   };
 
