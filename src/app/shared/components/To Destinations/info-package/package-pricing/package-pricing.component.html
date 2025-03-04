@@ -1,0 +1,17 @@
+<div class="bg-gray-100 p-6 rounded-lg shadow-md">
+  <h2 class="text-2xl font-semibold">{{ package.pricing.title }}</h2>
+
+  <div class="mt-4">
+    <h3 class="text-lg font-bold">Included</h3>
+    <ul class="list-disc ml-5 text-gray-700">
+      <li *ngFor="let item of package.pricing.included">{{ item }}</li>
+    </ul>
+  </div>
+
+  <div class="mt-4">
+    <h3 class="text-lg font-bold">Not Included</h3>
+    <ul class="list-disc ml-5 text-gray-700">
+      <li *ngFor="let item of package.pricing.notIncluded">{{ item }}</li>
+    </ul>
+  </div>
+</div>

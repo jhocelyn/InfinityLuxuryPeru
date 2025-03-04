@@ -1,0 +1,18 @@
+<div class="p-6 font-montserrat ">
+  <h2 class="text-2xl ">Highlights</h2>
+  <div class="flex flex-col mt-2">
+    <i *ngFor="let highlight of package.description.highlights" class="font-montserrat font-normal">
+      <i class="fa-solid fa-star"></i> {{ highlight }}
+    </i>
+  </div>
+  <p class="mt-4 text-gray-600">{{ package.description.text }}</p>
+</div>
+
+<div class="bg-white font-montserrat p-6 ">
+  <h2 class="text-2xl font-semibold">Itinerary</h2>
+  <div *ngFor="let day of package.description.itinerary" class="mt-4 border-l-4 border-[#aa5432] pl-4">
+    <h3 class="text-lg font-normal">{{ day.dayTitle }}</h3>
+    <h4 class="text-md font-semibold text-[#aa5432]">{{ day.daySubtitle }}</h4>
+    <p class="text-gray-700 mt-2">{{ day.dayDescription }}</p>
+  </div>
+</div>
