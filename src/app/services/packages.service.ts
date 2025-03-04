@@ -157,12 +157,12 @@ export class PackagesService {
               dayDescription: "Le damos la bienvenida en nuestro emocionante tour de 4 días, con una salida temprana de su hotel en Cusco. Una vez que haya tomado un desayuno (o tal vez solicitar al hotel, un desayuno para llevar y disfrutar en el camino), nuestro guía experto le dará la bienvenida y lo abordará en su transporte privado en dirección al Km 82, donde se encuentra el comienzo de nuestra caminata. En la ruta, tomaremos un breve descanso en el pintoresco pueblo de Ollantaytambo (2792 metros / 9160.1 pies). Aquí tendremos tiempo para explorar y hacer compras de última hora y también aprovecharemos la oportunidad de usar los baños.\n" +
                 "Continuamos nuestro viaje por 40 minutos hasta llegar al Km 82, también conocido como Piscacucho (2675 metros / 8776.3 pies). En esta ubicación, nuestros porteadores y personal de apoyo nos brindarán todo el equipo de campamento organizado y los últimos detalles restantes, con el fin de asegurar de que todos tengamos una experiencia memorable.\n" +
                 "Seguiremos los pasos de los incas, mientras se interna en su única aventura en la vida a través de muchos sitios arqueológicos increíbles a lo largo del camino, apreciando la flora y la fauna. Después de hacer el recorrido durante 4 horas aproximadamente, su llegada será al sitio de Tarayoc (2675 metros / 8776.3 pies), donde se servirá el suculento almuerzo, con vistas al hermoso paisaje. Después de disfrutar el almuerzo, le llevará una caminata de 2 horas hacia Wayllabamba (2970 metros / 9744.1 pies), un encantador pueblo donde nuestro campamento de lujo le estará esperando. Antes de disfrutar de la cena, tendrá tiempo para tomar una ducha caliente seguido de un masaje relajante, nuestro terapeuta especializado utilizará unos aceites, esenciales orgánicos, para que usted pueda relajarse alrededor de la naturaleza. Después, visitará la tienda-comedor para disfrutar de la comida especialmente preparada por nuestro cocinero y su mozo estará allí atendiendo a sus necesidades personales. Su tienda-dormitorio estará esperando su presencia, para que pueda disfrutar de la serenidad de la naturaleza y una buena noche de descanso.\n" +
-                "Hora de inicio de la caminata: 09:30 am.\n" +
-                "Llegada al campamento: 16:30 pm.\n" +
-                "Altitud mínima: Km 82 – 2675 msnm / 8776.3 pies.\n" +
-                "Altitud máxima: Campamento Wayllabamba – 2970 msnm / 9744.1 pies.\n" +
-                "Distancia recorrida: 11 kilómetros /6,8 millas (6 horas caminando aprox.)\n" +
-                "Dificultad: Moderada.\n"
+                "- Hora de inicio de la caminata: 09:30 am.\n" +
+                "- Llegada al campamento: 16:30 pm.\n" +
+                "- Altitud mínima: Km 82 – 2675 msnm / 8776.3 pies.\n" +
+                "- Altitud máxima: Campamento Wayllabamba – 2970 msnm / 9744.1 pies.\n" +
+                "- Distancia recorrida: 11 kilómetros /6,8 millas (6 horas caminando aprox.)\n" +
+                "- Dificultad: Moderada.\n"
             },
             {
               dayTitle: "DÍA 2",
@@ -171,13 +171,13 @@ export class PackagesService {
                 "Una vez que haya disfrutado admirando la vista, comenzará su próxima parte de la caminata con el fin de llegar al Paso de Warmiwañusca (4215 metros / 13828.7 pies), que tomará 2.5 horas aproximadamente.\n" +
                 "Tómese su tiempo con esta caminata, ya que es extenuante, pero muy digno. El ascenso al paso ha sido creado por escalones empedrados, que fueron dispuestos para que las montañas estuvieran protegidas por la erosión. Su guía estará allí para tomar fotografías de su increíble logro en el punto más alto de la caminata. \n" +
                 "Comenzando nuestro descenso al barranco de Pacaymayo (3500 metros / 11482.9 pies), durante las siguientes 2 horas, llegará a su campamento. Una vez más, una ducha caliente y una tienda de masajes estarán allí para usted. Es el momento de una deliciosa cena para luego disfrutar de un sueño tranquilo y recuperar energías para el día siguiente.\n" +
-                "Hora de despierto: 05:30 am.\t \n" +
-                "Llegada al campamento: 17:00 pm.\n" +
-                "Altitud mínima: Sitio de Ayapata – 3328 msnm / 10918.7 pies.\n" +
-                "Altitud máxima: Paso Warmiwañusca – 4215 msnm / 13828.7 pies.\n" +
-                "Distancia recorrida: 9 kilómetros / 5,6 millas (9 horas caminando aprox.)\n" +
-                "Dificultad: Desafiante.\n" +
-                "Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n"
+                "- Hora de despierto: 05:30 am.\t \n" +
+                "-Llegada al campamento: 17:00 pm.\n" +
+                "- Altitud mínima: Sitio de Ayapata – 3328 msnm / 10918.7 pies.\n" +
+                "- Altitud máxima: Paso Warmiwañusca – 4215 msnm / 13828.7 pies.\n" +
+                "- Distancia recorrida: 9 kilómetros / 5,6 millas (9 horas caminando aprox.)\n" +
+                "- Dificultad: Desafiante.\n" +
+                "- Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n"
             },
             {
               dayTitle: "DÍA 3",
@@ -185,13 +185,13 @@ export class PackagesService {
               dayDescription: "Al despertar tómese el tiempo para refrescarse y disfrutar de un delicioso desayuno, antes de comenzar su caminata de 1 hora a través de las ruinas de Runkurakay, una estructura inca ancestral donde su guía le dará una explicación sobre su significado. Luego, otra hora de caminata, a medida que pasamos por el Segundo Paso de Runkurakay (3955 metros / 12975.7 pies). Usted será capaz de presenciar el camino inca cuesta abajo, una hermosa vista. Después de descender durante una hora, podremos disfrutar de las vistas de un impresionante lago cubierto de largas algas de gran esplendor. Después, llegará a la impresionante ciudad inca de Sayacmarca (3585 metros / 11761.8 pies). Una vez que su guía haya explicado y respondido a sus preguntas, comenzaremos nuestro descenso durante una hora a Chaquicocha (3535 metros / 11597.8 pies), donde encontrará su almuerzo gourmet esperando su llegada.\n" +
                 "Una vez que haya almorzado, caminará durante 2,5 horas, a través de un camino maravillosamente conservado, para luego llegar al paso de Phuyupatamarca (3640 metros / 11942.3 pies). A pocos metros sobre un pequeño túnel de piedra, es donde se encuentra su campamento, llamado Phuyupatamarca (3670 metros / 12040.7 pies).\n" +
                 "Su llegada será recibida por los impecables servicios de nuestro personal a lo largo de su recorrido del Camino Inca. Mientras, disfrute de una ducha caliente y acompañada de un masaje relajante, es tiempo de degustar de una cena gourmet, servida en nuestra tienda-comedor. Esta será la última noche que pase con el personal de campo, por lo que le sugerimos compartir un brindis con ellos, en agradecimiento por todo el arduo trabajo y esfuerzo que nos brindaron, ya que dejaremos recuerdos nostálgicos y duraderos de esta experiencia. ¡Salud!\n" +
-                "Hora de despierto: 05:00 am.\n" +
-                "Llegada al campamento: 16:30 pm.\n" +
-                "Altitud mínima: Sitio de Chaquicocha – 3535 msnm / 11597.8 pies.\n" +
-                "Altitud máxima: Paso Runkurakay – 3955 msnm / 12975.7 pies.\n" +
-                "Distancia recorrida: 9 kilómetros /5,6 millas (5,5 horas caminando aprox.)\n" +
-                "Dificultad: Moderada.\n" +
-                "Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n"
+                "- Hora de despierto: 05:00 am.\n" +
+                "- Llegada al campamento: 16:30 pm.\n" +
+                "- Altitud mínima: Sitio de Chaquicocha – 3535 msnm / 11597.8 pies.\n" +
+                "- Altitud máxima: Paso Runkurakay – 3955 msnm / 12975.7 pies.\n" +
+                "- Distancia recorrida: 9 kilómetros /5,6 millas (5,5 horas caminando aprox.)\n" +
+                "- Dificultad: Moderada.\n" +
+                "- Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n"
             },
             {
               dayTitle: "DÍA 4",
@@ -199,14 +199,14 @@ export class PackagesService {
               dayDescription: "Para su último día de caminata, se despertará a las 4:30 am con el fin de disfrutar un desayuno saludable y para continuar con la parte final del camino. Al llegar al sitio arqueológico de Wiñaywayna (2650 metros / 8694.2 pies), se le da su nombre por las hermosas orquídeas que crecen en el sitio. Wiñaywayna que significa \"Por Siempre Joven\". Continuando con la caminata, ascenderemos durante 1,5 horas para llegar a la Puerta del Sol o Intipunku (2750 metros /9022.3 pies). Mirar al exterior hacia Machu Picchu, le hará apreciar el recorrdido, ya que recibirá algunas de las mejores vistas. Después de explorar la Puerta del Sol, descenderemos para llegar a Machu Picchu durante una hora.\n" +
                 "Finalmente ha llegado a Machu Picchu, una de las Siete Maravillas del Mundo (2430 metros / 7972.4 pies). En su recorrido final, estará acompañado de su guía experto, explicándole los muchos secretos y teorías que envuelve esta ciudadela. Después de su visita guiada, será libre de vagar y tomar algunas hermosas fotografías de esta majestuosa estructura. \n" +
                 "Más tarde tomará el bus que sale de regreso a Aguas Calientes, para luego abordar su tren de retorno. A su llegada, nuestro representante, lo trasladará en nuestro vehículo privado y lo llevará a su hotel en Cusco.\n" +
-                "Hora de despierto: 04:00 am.\n" +
-                "Llegada a Machu Picchu: 11:30 am.\n" +
-                "Llegada a Cusco: 21:56 pm.\n" +
-                "Altitud mínima: Machu Picchu – 2430 msnm /7972.4 pies.\n" +
-                "Altitud máxima: Sitio de Intipunku – 2750 msnm / 9022.3 pies.\n" +
-                "Distancia recorrida: 8 kilómetros /4,9 millas (5,5 horas caminando aprox.)\n" +
-                "Dificultad: Moderada.\n" +
-                "Comidas incluidas: Desayuno, refrigerios.\n"
+                "- Hora de despierto: 04:00 am.\n" +
+                "- Llegada a Machu Picchu: 11:30 am.\n" +
+                "- Llegada a Cusco: 21:56 pm.\n" +
+                "- Altitud mínima: Machu Picchu – 2430 msnm /7972.4 pies.\n" +
+                "- Altitud máxima: Sitio de Intipunku – 2750 msnm / 9022.3 pies.\n" +
+                "- Distancia recorrida: 8 kilómetros /4,9 millas (5,5 horas caminando aprox.)\n" +
+                "- Dificultad: Moderada.\n" +
+                "- Comidas incluidas: Desayuno, refrigerios.\n"
             }
           ]
         },
@@ -217,12 +217,12 @@ export class PackagesService {
             dayDescription: "Le damos la bienvenida en nuestro emocionante tour de 4 días, con una salida temprana de su hotel en Cusco. Una vez que haya tomado un desayuno (o tal vez solicitar al hotel, un desayuno para llevar y disfrutar en el camino), nuestro guía experto le dará la bienvenida y lo abordará en su transporte privado en dirección al Km 82, donde se encuentra el comienzo de nuestra caminata. En la ruta, tomaremos un breve descanso en el pintoresco pueblo de Ollantaytambo (2792 metros / 9160.1 pies). Aquí tendremos tiempo para explorar y hacer compras de última hora y también aprovecharemos la oportunidad de usar los baños.\n" +
               "Continuamos nuestro viaje por 40 minutos hasta llegar al Km 82, también conocido como Piscacucho (2675 metros / 8776.3 pies). En esta ubicación, nuestros porteadores y personal de apoyo nos brindarán todo el equipo de campamento organizado y los últimos detalles restantes, con el fin de asegurar de que todos tengamos una experiencia memorable.\n" +
               "Seguiremos los pasos de los incas, mientras se interna en su única aventura en la vida a través de muchos sitios arqueológicos increíbles a lo largo del camino, apreciando la flora y la fauna. Después de hacer el recorrido durante 4 horas aproximadamente, su llegada será al sitio de Tarayoc (2675 metros / 8776.3 pies), donde se servirá el suculento almuerzo, con vistas al hermoso paisaje. Después de disfrutar el almuerzo, le llevará una caminata de 2 horas hacia Wayllabamba (2970 metros / 9744.1 pies), un encantador pueblo donde nuestro campamento de lujo le estará esperando. Antes de disfrutar de la cena, tendrá tiempo para tomar una ducha caliente seguido de un masaje relajante, nuestro terapeuta especializado utilizará unos aceites, esenciales orgánicos, para que usted pueda relajarse alrededor de la naturaleza. Después, visitará la tienda-comedor para disfrutar de la comida especialmente preparada por nuestro cocinero y su mozo estará allí atendiendo a sus necesidades personales. Su tienda-dormitorio estará esperando su presencia, para que pueda disfrutar de la serenidad de la naturaleza y una buena noche de descanso.\n" +
-              "Hora de inicio de la caminata: 09:30 am.\n" +
-              "Llegada al campamento: 16:30 pm.\n" +
-              "Altitud mínima: Km 82 – 2675 msnm / 8776.3 pies.\n" +
-              "Altitud máxima: Campamento Wayllabamba – 2970 msnm / 9744.1 pies.\n" +
-              "Distancia recorrida: 11 kilómetros /6,8 millas (6 horas caminando aprox.)\n" +
-              "Dificultad: Moderada.\n",
+              "- Hora de inicio de la caminata: 09:30 am.\n" +
+              "- Llegada al campamento: 16:30 pm.\n" +
+              "- Altitud mínima: Km 82 – 2675 msnm / 8776.3 pies.\n" +
+              "- Altitud máxima: Campamento Wayllabamba – 2970 msnm / 9744.1 pies.\n" +
+              "- Distancia recorrida: 11 kilómetros /6,8 millas (6 horas caminando aprox.)\n" +
+              "- Dificultad: Moderada.\n",
             accommodations: [
               {
                 stars: 5,
@@ -239,13 +239,13 @@ export class PackagesService {
               "Una vez que haya disfrutado admirando la vista, comenzará su próxima parte de la caminata con el fin de llegar al Paso de Warmiwañusca (4215 metros / 13828.7 pies), que tomará 2.5 horas aproximadamente.\n" +
               "Tómese su tiempo con esta caminata, ya que es extenuante, pero muy digno. El ascenso al paso ha sido creado por escalones empedrados, que fueron dispuestos para que las montañas estuvieran protegidas por la erosión. Su guía estará allí para tomar fotografías de su increíble logro en el punto más alto de la caminata. \n" +
               "Comenzando nuestro descenso al barranco de Pacaymayo (3500 metros / 11482.9 pies), durante las siguientes 2 horas, llegará a su campamento. Una vez más, una ducha caliente y una tienda de masajes estarán allí para usted. Es el momento de una deliciosa cena para luego disfrutar de un sueño tranquilo y recuperar energías para el día siguiente.\n" +
-              "Hora de despierto: 05:30 am.\t \n" +
-              "Llegada al campamento: 17:00 pm.\n" +
-              "Altitud mínima: Sitio de Ayapata – 3328 msnm / 10918.7 pies.\n" +
-              "Altitud máxima: Paso Warmiwañusca – 4215 msnm / 13828.7 pies.\n" +
-              "Distancia recorrida: 9 kilómetros / 5,6 millas (9 horas caminando aprox.)\n" +
-              "Dificultad: Desafiante.\n" +
-              "Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n",
+              "- Hora de despierto: 05:30 am.\t \n" +
+              "- Llegada al campamento: 17:00 pm.\n" +
+              "- Altitud mínima: Sitio de Ayapata – 3328 msnm / 10918.7 pies.\n" +
+              "- Altitud máxima: Paso Warmiwañusca – 4215 msnm / 13828.7 pies.\n" +
+              "- Distancia recorrida: 9 kilómetros / 5,6 millas (9 horas caminando aprox.)\n" +
+              "- Dificultad: Desafiante.\n" +
+              "- Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n",
             accommodations: [
               {
                 stars: 4,
@@ -267,13 +267,13 @@ export class PackagesService {
             dayDescription: "Al despertar tómese el tiempo para refrescarse y disfrutar de un delicioso desayuno, antes de comenzar su caminata de 1 hora a través de las ruinas de Runkurakay, una estructura inca ancestral donde su guía le dará una explicación sobre su significado. Luego, otra hora de caminata, a medida que pasamos por el Segundo Paso de Runkurakay (3955 metros / 12975.7 pies). Usted será capaz de presenciar el camino inca cuesta abajo, una hermosa vista. Después de descender durante una hora, podremos disfrutar de las vistas de un impresionante lago cubierto de largas algas de gran esplendor. Después, llegará a la impresionante ciudad inca de Sayacmarca (3585 metros / 11761.8 pies). Una vez que su guía haya explicado y respondido a sus preguntas, comenzaremos nuestro descenso durante una hora a Chaquicocha (3535 metros / 11597.8 pies), donde encontrará su almuerzo gourmet esperando su llegada.\n" +
               "Una vez que haya almorzado, caminará durante 2,5 horas, a través de un camino maravillosamente conservado, para luego llegar al paso de Phuyupatamarca (3640 metros / 11942.3 pies). A pocos metros sobre un pequeño túnel de piedra, es donde se encuentra su campamento, llamado Phuyupatamarca (3670 metros / 12040.7 pies).\n" +
               "Su llegada será recibida por los impecables servicios de nuestro personal a lo largo de su recorrido del Camino Inca. Mientras, disfrute de una ducha caliente y acompañada de un masaje relajante, es tiempo de degustar de una cena gourmet, servida en nuestra tienda-comedor. Esta será la última noche que pase con el personal de campo, por lo que le sugerimos compartir un brindis con ellos, en agradecimiento por todo el arduo trabajo y esfuerzo que nos brindaron, ya que dejaremos recuerdos nostálgicos y duraderos de esta experiencia. ¡Salud!\n" +
-              "Hora de despierto: 05:00 am.\n" +
-              "Llegada al campamento: 16:30 pm.\n" +
-              "Altitud mínima: Sitio de Chaquicocha – 3535 msnm / 11597.8 pies.\n" +
-              "Altitud máxima: Paso Runkurakay – 3955 msnm / 12975.7 pies.\n" +
-              "Distancia recorrida: 9 kilómetros /5,6 millas (5,5 horas caminando aprox.)\n" +
-              "Dificultad: Moderada.\n" +
-              "Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n",
+              "- Hora de despierto: 05:00 am.\n" +
+              "- Llegada al campamento: 16:30 pm.\n" +
+              "- Altitud mínima: Sitio de Chaquicocha – 3535 msnm / 11597.8 pies.\n" +
+              "- Altitud máxima: Paso Runkurakay – 3955 msnm / 12975.7 pies.\n" +
+              "- Distancia recorrida: 9 kilómetros /5,6 millas (5,5 horas caminando aprox.)\n" +
+              "- Dificultad: Moderada.\n" +
+              "- Comidas incluidas: Desayuno, snacks, almuerzo, hora del té y cena.\n",
             accommodations: [
               {
                 stars: 4,
@@ -295,14 +295,14 @@ export class PackagesService {
             dayDescription: "Para su último día de caminata, se despertará a las 4:30 am con el fin de disfrutar un desayuno saludable y para continuar con la parte final del camino. Al llegar al sitio arqueológico de Wiñaywayna (2650 metros / 8694.2 pies), se le da su nombre por las hermosas orquídeas que crecen en el sitio. Wiñaywayna que significa \"Por Siempre Joven\". Continuando con la caminata, ascenderemos durante 1,5 horas para llegar a la Puerta del Sol o Intipunku (2750 metros /9022.3 pies). Mirar al exterior hacia Machu Picchu, le hará apreciar el recorrdido, ya que recibirá algunas de las mejores vistas. Después de explorar la Puerta del Sol, descenderemos para llegar a Machu Picchu durante una hora.\n" +
               "Finalmente ha llegado a Machu Picchu, una de las Siete Maravillas del Mundo (2430 metros / 7972.4 pies). En su recorrido final, estará acompañado de su guía experto, explicándole los muchos secretos y teorías que envuelve esta ciudadela. Después de su visita guiada, será libre de vagar y tomar algunas hermosas fotografías de esta majestuosa estructura. \n" +
               "Más tarde tomará el bus que sale de regreso a Aguas Calientes, para luego abordar su tren de retorno. A su llegada, nuestro representante, lo trasladará en nuestro vehículo privado y lo llevará a su hotel en Cusco.\n" +
-              "Hora de despierto: 04:00 am.\n" +
-              "Llegada a Machu Picchu: 11:30 am.\n" +
-              "Llegada a Cusco: 21:56 pm.\n" +
-              "Altitud mínima: Machu Picchu – 2430 msnm /7972.4 pies.\n" +
-              "Altitud máxima: Sitio de Intipunku – 2750 msnm / 9022.3 pies.\n" +
-              "Distancia recorrida: 8 kilómetros /4,9 millas (5,5 horas caminando aprox.)\n" +
-              "Dificultad: Moderada.\n" +
-              "Comidas incluidas: Desayuno, refrigerios.\n",
+              "- Hora de despierto: 04:00 am.\n" +
+              "- Llegada a Machu Picchu: 11:30 am.\n" +
+              "- Llegada a Cusco: 21:56 pm.\n" +
+              "- Altitud mínima: Machu Picchu – 2430 msnm /7972.4 pies.\n" +
+              "- Altitud máxima: Sitio de Intipunku – 2750 msnm / 9022.3 pies.\n" +
+              "- Distancia recorrida: 8 kilómetros /4,9 millas (5,5 horas caminando aprox.)\n" +
+              "- Dificultad: Moderada.\n" +
+              "- Comidas incluidas: Desayuno, refrigerios.\n",
             accommodations: [
               {
                 stars: 4,
