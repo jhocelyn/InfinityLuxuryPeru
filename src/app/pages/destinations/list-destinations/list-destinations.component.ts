@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import {BannerComponent} from '../../../shared/To Destinations/banner/banner.component';
-import {MapaInfoComponent} from '../../../shared/To Destinations/mapa-info/mapa-info.component';
-import {DestinationsGridComponent} from '../../../shared/To Destinations/destinations-grid/destinations-grid.component';
+import {BannerComponent} from '../../../shared/components/To Destinations/list-destinations/banner/banner.component';
+import {MapaInfoComponent} from '../../../shared/components/To Destinations/list-destinations/mapa-info/mapa-info.component';
+import {DestinationsGridComponent} from '../../../shared/components/To Destinations/list-destinations/destinations-grid/destinations-grid.component';
 
 @Component({
   selector: 'app-list-destinations',

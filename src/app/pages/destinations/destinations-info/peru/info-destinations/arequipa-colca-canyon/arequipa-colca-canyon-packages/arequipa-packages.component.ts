@@ -1,20 +1,31 @@
 import {Component, HostListener} from '@angular/core';
 import {TranslatePipe} from '@ngx-translate/core';
-import {DestinationCarruselComponent} from '../../../../../../../shared/To Destinations/destination-carrusel/destination-carrusel.component';
+import {DestinationCarruselComponent} from '../../../../../../../shared/components/To Destinations/list-destinations/destination-carrusel/destination-carrusel.component';
 import { NgForOf} from '@angular/common';
 import {
   CardsPackagesDestinationComponent
-} from '../../../../../../../shared/To Destinations/cards-packages-destination/cards-packages-destination.component';
-import {BreadcrumbComponent} from '../../../../../../../shared/To Destinations/breadcrumb/breadcrumb.component';
+} from '../../../../../../../shared/components/To Destinations/list-destinations/cards-packages-destination/cards-packages-destination.component';
+import {BreadcrumbComponent} from '../../../../../../../shared/components/To Destinations/list-destinations/breadcrumb/breadcrumb.component';
+import {
+  BannerComponent
+} from '../../../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
+import {
+  BannerToInfoDestinationsComponent
+} from '../../../../../../../shared/components/To Destinations/list-destinations/banner-to-info-destinations/banner-to-info-destinations.component';
+import {
+  InfoSectionDestinationsComponent
+} from '../../../../../../../shared/components/To Destinations/list-destinations/info-section-destinations/info-section-destinations.component';
+import {
+  PackageListToDestinationsComponent
+} from '../../../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component';
 
 @Component({
   selector: 'app-arequipa-colca-canyon-packages',
   imports: [
-    TranslatePipe,
-    DestinationCarruselComponent,
-    CardsPackagesDestinationComponent,
-    NgForOf,
-    BreadcrumbComponent,
+    BannerComponent,
+    BannerToInfoDestinationsComponent,
+    InfoSectionDestinationsComponent,
+    PackageListToDestinationsComponent,
   ],
   templateUrl: './arequipa-packages.component.html',
   styleUrl: './arequipa-packages.component.css'
@@ -24,28 +35,20 @@ export class ArequipaPackagesComponent {
     { title: 'Private Jet Journeys', description: 'Iconic Wonders: Around the World by Private Jet', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' },
     { title: 'Tailormade Journeys', description: 'Climb Mount Kilimanjaro', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' }
   ];
+  info = {
+    image_principal: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
+    titlePage: 'Arequipa',
+    button: 'View all packages',
+    titleInfo: 'Arequipa to Peru',
+    descripcion: 'We offer the best charters to Peru. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.',
+    subtitulo: 'Best Ways to Travel',
+    text:'We have been spinning dreams into remarkable adventures for over 60 years.',
+    image_middle:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
+  }
+  paquetes=[
+    {nombre:'Paquete 1',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:1 , ruta:'/destinations/peru/arequipa-colca-canyon/info'},
+    {nombre:'Paquete 2',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:2 , ruta:'/destinations/peru/arequipa-colca-canyon/info'},
+    {nombre:'Paquete 3',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/destinations/peru/arequipa-colca-canyon/info'},
+  ]
 
-  paquetes = [
-    {
-      id: 1,
-      nombre: 'Paquete 1',
-      descripcion: 'Descripción del Paquete 1',
-      imagen: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      ruta: 'destinations/arequipa-colca-canyon'
-    },
-    {
-      id: 2,
-      nombre: 'Paquete 2',
-      descripcion: 'Descripción del Paquete 2',
-      imagen: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      ruta: 'destinations/arequipa-colca-canyon'
-    },
-    {
-      id: 3,
-      nombre: 'Paquete 3',
-      descripcion: 'Descripción del Paquete 3',
-      imagen: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      ruta: 'destinations/arequipa-colca-canyon'
-    },
-  ];
 }

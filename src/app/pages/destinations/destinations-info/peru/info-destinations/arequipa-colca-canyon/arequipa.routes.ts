@@ -12,10 +12,9 @@ export const arequipaRoutes: Routes = [
         path: '',
         component: ArequipaPackagesComponent,
       },
-      {
-        path: ':id',
+      { path: 'info/:id',
         component: InfoPackagesComponent,
-        data: { breadcrumb: 'Package Info' }  // 📌 Nombre genérico para paquetes individuales
+        data:{breadcrumb:'Packages'}
       }
     ]
   }

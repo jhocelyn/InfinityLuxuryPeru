@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import {BreadcrumbComponent} from "../../../../../../../shared/To Destinations/breadcrumb/breadcrumb.component";
+import {BreadcrumbComponent} from "../../../../../../../shared/components/To Destinations/list-destinations/breadcrumb/breadcrumb.component";
 import {
     CardsPackagesDestinationComponent
-} from "../../../../../../../shared/To Destinations/cards-packages-destination/cards-packages-destination.component";
-import {DestinationCarruselComponent} from "../../../../../../../shared/To Destinations/destination-carrusel/destination-carrusel.component";
+} from "../../../../../../../shared/components/To Destinations/list-destinations/cards-packages-destination/cards-packages-destination.component";
+import {DestinationCarruselComponent} from "../../../../../../../shared/components/To Destinations/list-destinations/destination-carrusel/destination-carrusel.component";
 import {NgForOf} from "@angular/common";
 import {TranslatePipe} from "@ngx-translate/core";
 

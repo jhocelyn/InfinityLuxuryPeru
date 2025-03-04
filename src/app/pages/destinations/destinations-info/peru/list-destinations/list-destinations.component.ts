@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import {NgClass, NgForOf} from "@angular/common";
 import {RouterLink} from '@angular/router';
-import {MapaComponent} from '../../../../../shared/To Destinations/mapa/mapa.component';
-import {BannerComponent} from '../../../../../shared/To Destinations/banner/banner.component';
+import {MapaComponent} from '../../../../../shared/components/To Destinations/list-destinations/mapa/mapa.component';
+import {BannerComponent} from '../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
 import {
   DestinationsGridComponent
-} from '../../../../../shared/To Destinations/destinations-grid/destinations-grid.component';
-import {MapaInfoComponent} from '../../../../../shared/To Destinations/mapa-info/mapa-info.component';
+} from '../../../../../shared/components/To Destinations/list-destinations/destinations-grid/destinations-grid.component';
+import {MapaInfoComponent} from '../../../../../shared/components/To Destinations/list-destinations/mapa-info/mapa-info.component';
 
 @Component({
   selector: 'app-list-destinations',

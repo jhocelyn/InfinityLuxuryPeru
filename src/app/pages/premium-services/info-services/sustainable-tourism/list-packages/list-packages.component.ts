@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import {BannerComponent} from "../../../../../shared/To Destinations/banner/banner.component";
+import {BannerComponent} from "../../../../../shared/components/To Destinations/list-destinations/banner/banner.component";
 import {
     BannerToInfoDestinationsComponent
-} from "../../../../../shared/To Destinations/banner-to-info-destinations/banner-to-info-destinations.component";
+} from "../../../../../shared/components/To Destinations/list-destinations/banner-to-info-destinations/banner-to-info-destinations.component";
 import {
     InfoSectionDestinationsComponent
-} from "../../../../../shared/To Destinations/info-section-destinations/info-section-destinations.component";
+} from "../../../../../shared/components/To Destinations/list-destinations/info-section-destinations/info-section-destinations.component";
 import {
     PackageListToDestinationsComponent
-} from "../../../../../shared/To Destinations/package-list-to-destinations/package-list-to-destinations.component";
+} from "../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component";
 
 @Component({
   selector: 'app-list-packages',

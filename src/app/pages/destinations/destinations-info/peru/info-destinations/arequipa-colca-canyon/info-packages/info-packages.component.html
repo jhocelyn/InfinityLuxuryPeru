@@ -1,18 +1,23 @@
-<div *ngIf="packageInfo; else notFound" class="p-6">
-  <h1 class="text-3xl font-bold">{{ packageInfo.nombre }}</h1>
-  <p class="text-gray-700 mt-2">{{ packageInfo.descripcion }}</p>
+<div class="container mx-auto p-6 space-y-8">
+  <!-- Información general siempre visible -->
+  <app-package-over-view [package]="package"></app-package-over-view>
 
-  <!-- Mostrar imagen -->
-  <img [src]="packageInfo.img" alt="{{ packageInfo.nombre }}" class="w-full mt-4 rounded-lg shadow-md">
+  <!-- Menú de navegación -->
+  <div class="flex space-x-4 border-b">
+    <button
+      *ngFor="let tab of tabs"
+      (click)="selectedTab = tab.id"
+      [class.text-blue-500]="selectedTab === tab.id"
+      class="py-2 px-4 font-semibold text-gray-700 hover:text-blue-500">
+      <i [class]="tab.icon"></i> {{ tab.label }}
+    </button>
+  </div>
 
-  <!-- Mostrar video -->
-  <video *ngIf="packageInfo.video" class="w-full mt-4 rounded-lg shadow-md" controls>
-    <source [src]="packageInfo.video" type="video/mp4">
-    Tu navegador no soporta la reproducción de video.
-  </video>
+  <!-- Contenido de las secciones -->
+  <ng-container [ngSwitch]="selectedTab">
+    <app-package-description *ngSwitchCase="'description'" [package]="package"></app-package-description>
+    <app-pack-sample-journey *ngSwitchCase="'sample-journey'" [package]="package"></app-pack-sample-journey>
+    <app-custom-options *ngSwitchCase="'custom-options'" [package]="package"></app-custom-options>
+    <app-package-pricing *ngSwitchCase="'pricing'" [package]="package"></app-package-pricing>
+  </ng-container>
 </div>
-
-<!-- Mensaje de paquete no encontrado -->
-<ng-template #notFound>
-  <p class="text-red-500 font-semibold">Paquete no encontrado</p>
-</ng-template>

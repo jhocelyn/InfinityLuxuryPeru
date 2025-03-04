@@ -1,48 +1,60 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {NgIf} from '@angular/common';
+import {NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
+import {
+  PackageOverViewComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/package-over-view/package-over-view.component';
+import {
+  PackageDescriptionComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/package-description/package-description.component';
+import {
+  PackSampleJourneyComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/pack-sample-journey/pack-sample-journey.component';
+import {
+  CustomOptionsComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/custom-options/custom-options.component';
+import {
+  PackagePricingComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/package-pricing/package-pricing.component';
+import {TravelPackage} from '../../../../../../../shared/models/travel-packages.model';
+import {PackagesService} from '../../../../../../../services/packages.service';
 
 @Component({
   selector: 'app-info-packages',
   imports: [
-    NgIf
+    PackageOverViewComponent,
+    PackageDescriptionComponent,
+    PackSampleJourneyComponent,
+    CustomOptionsComponent,
+    PackagePricingComponent,
+    NgForOf,
+    NgSwitchCase,
+    NgSwitch
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'
 })
-export class InfoPackagesComponent {
-  packageInfo: any;
+export class InfoPackagesComponent implements OnInit{
+  selectedTab = 'description'; // Por defecto, se muestra la descripción
 
-  destinations_arequipa = [
-    {
-      id: 1,
-      nombre: 'Paquete 1',
-      descripcion: 'Descripción del paquete 1',
-      video: 'assets/videos/sheeps-and-donkeys-in-peru-2023-11-27-05-34-27-utc.mp4',
-      img: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
-    },
-    {
-      id: 2,
-      nombre: 'Paquete 2',
-      descripcion: 'Descripción del paquete 2',
-      video: 'assets/videos/sheeps-and-donkeys-in-peru-2023-11-27-05-34-27-utc.mp4',
-      img: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
-    },
-    {
-      id: 3,
-      nombre: 'Paquete 3',
-      descripcion: 'Descripción del paquete 3',
-      video: 'assets/videos/sheeps-and-donkeys-in-peru-2023-11-27-05-34-27-utc.mp4',
-      img: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
-    }
+  tabs = [
+    { id: 'description', label: 'DESCRIPCIÓN', icon: 'fas fa-file-alt' },
+    { id: 'sample-journey', label: 'SAMPLE JOURNEY', icon: 'fas fa-map-marked-alt' },
+    { id: 'custom-options', label: 'OPCIONES A MEDIDA', icon: 'fas fa-plus' },
+    { id: 'pricing', label: 'PRECIOS', icon: 'fas fa-tags' }
   ];
+  package: TravelPackage | undefined;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(
+    private route: ActivatedRoute,
+    private packagesService: PackagesService
+  ) {}
 
-  ngOnInit() {
-    this.route.paramMap.subscribe(params => {
-      const id = Number(params.get('id')); // Captura el ID de la URL
-      this.packageInfo = this.destinations_arequipa.find(pkg => pkg.id === id);
+  ngOnInit(): void {
+    this.route.params.subscribe(params => {
+      const destino = 'arequipa'; // Se puede cambiar dinámicamente si se usa en otros destinos
+      const id = +params['id'];
+      this.package = this.packagesService.getPackageById(destino, id);
     });
   }
 }

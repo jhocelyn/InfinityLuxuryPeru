@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import {BannerComponent} from "../../../../../shared/To Destinations/banner/banner.component";
+import {BannerComponent} from "../../../../../shared/components/To Destinations/list-destinations/banner/banner.component";
 import {
     DestinationsGridComponent
-} from "../../../../../shared/To Destinations/destinations-grid/destinations-grid.component";
+} from "../../../../../shared/components/To Destinations/list-destinations/destinations-grid/destinations-grid.component";
 
 @Component({
   selector: 'app-list-packages',

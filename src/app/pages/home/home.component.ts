@@ -1,10 +1,10 @@
 import {Component, HostListener} from '@angular/core';
-import {NavbarComponent} from '../../shared/Important/navbar/navbar.component';
+import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
 import {NgClass, NgForOf, NgIf} from '@angular/common';
 import {RouterLink} from '@angular/router';
-import {CarruselTripComponent} from '../../shared/carrusel-trip/carrusel-trip.component';
-import {CarruselComponent} from '../../shared/carrusel/carrusel.component';
-import {FooterComponent} from '../../shared/Important/footer/footer.component';
+import {CarruselTripComponent} from '../../shared/components/carrusel-trip/carrusel-trip.component';
+import {CarruselComponent} from '../../shared/components/carrusel/carrusel.component';
+import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
 
 @Component({
   selector: 'app-home',
