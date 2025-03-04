@@ -5,7 +5,7 @@ export interface TravelPackage {
   days: number;
   nights: number;
   price: number;
-  mapUrl: string;
+  mapUrl: {name:string,lat:number,lng:number,day:number}[];
   description: {
     highlights: string[];
     text: string;

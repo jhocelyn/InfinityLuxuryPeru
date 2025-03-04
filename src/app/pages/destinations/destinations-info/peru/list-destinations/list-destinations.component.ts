@@ -28,4 +28,7 @@ export class ListDestinationsComponent {
     {nombre:'Puno Lake Titicaca',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug: 'puno-lake-titicaca', destacado:false},
   ]
   rutaPadre = '/destinations/peru';
+  locations=[
+    {name:'Peru',lat:-9.189967,lng:-75.015152,day:1},
+  ]
 }

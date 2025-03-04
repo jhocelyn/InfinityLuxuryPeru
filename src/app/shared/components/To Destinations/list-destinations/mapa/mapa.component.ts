@@ -1,5 +1,15 @@
-import {AfterViewInit, Component, ElementRef, Input, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, Input} from '@angular/core';
 import L from 'leaflet';
+
+// Reemplazar el icono de marcador de Leaflet
+const DefaultIcon = L.icon({
+  iconUrl: 'assets/img/marker-icon.png',  // Usa un icono personalizado
+  shadowUrl: 'assets/img/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
 @Component({
   selector: 'app-mapa',
@@ -8,45 +18,35 @@ import L from 'leaflet';
   styleUrl: './mapa.component.css'
 })
 export class MapaComponent implements AfterViewInit{
-  @Input() lat!: number;
-  @Input() lng!: number;
-  @Input() countryName!: string;
+  @Input() locations: { name: string; lat: number; lng: number; day: number }[] = [];
 
-  @ViewChild('mapContainer', { static: true }) mapContainer!: ElementRef;
   private map!: L.Map;
 
   ngAfterViewInit(): void {
-    if (this.mapContainer) {
-      this.initMap();
-    } else {
-      console.error("Map container not found.");
-    }
+    this.initMap();
   }
 
   private initMap(): void {
-    this.map = L.map(this.mapContainer.nativeElement).setView([this.lat, this.lng], 5);
+    this.map = L.map('map').setView([this.locations[0].lat, this.locations[0].lng], 6);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(this.map);
 
-    const customIcon = L.icon({
-      iconUrl: 'assets/img/marker-icon.png',  // Ensure this file exists
-      shadowUrl: 'assets/img/marker-shadow.png',
-      iconSize: [25, 41],
-      iconAnchor: [12, 41],
-      popupAnchor: [1, -34],
-      shadowSize: [41, 41]
+    this.locations.forEach((location) => {
+      const marker = L.marker([location.lat, location.lng], { icon: DefaultIcon })
+        .addTo(this.map)
+        .bindPopup(`<b>${location.name}</b><br>Day: ${location.day}`);
+
+      marker.on('mouseover', () => {
+        this.map.setView([location.lat, location.lng], 10);
+        marker.openPopup();
+      });
+
+      marker.on('mouseout', () => {
+        this.map.setView([this.locations[0].lat, this.locations[0].lng], 6);
+        marker.closePopup();
+      });
     });
-
-    L.marker([this.lat, this.lng], { icon: customIcon })
-      .addTo(this.map)
-      .bindPopup(`<b>${this.countryName}</b>`)
-      .openPopup();
-
-    // Ensure the map resizes correctly
-    setTimeout(() => {
-      this.map.invalidateSize();
-    }, 500);
   }
 }

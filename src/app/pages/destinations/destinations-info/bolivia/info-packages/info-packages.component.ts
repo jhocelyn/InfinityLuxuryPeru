@@ -22,4 +22,7 @@ export class InfoPackagesComponent {
     {nombre:'Uyuni Salt',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'uyuni-salt' ,destacado:true},
    ]
   rutaPadre:string = '/destinations/bolivia';
+  locations=[
+    {name:'Bolivia',lat:-9.189967,lng:-75.015152,day:1},
+  ]
 }

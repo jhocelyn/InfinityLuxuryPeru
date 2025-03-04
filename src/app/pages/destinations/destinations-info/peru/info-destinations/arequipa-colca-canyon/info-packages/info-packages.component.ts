@@ -21,6 +21,10 @@ import {PackagesService} from '../../../../../../../services/packages.service';
 import {
   BannerComponent
 } from '../../../../../../../shared/components/To Destinations/info-package/banner/banner.component';
+import {
+  MapaComponent
+} from '../../../../../../../shared/components/To Destinations/list-destinations/mapa/mapa.component';
+import {MapComponent} from '../../../../../../../shared/components/To Destinations/info-package/map/map.component';
 
 @Component({
   selector: 'app-info-packages',
@@ -34,7 +38,8 @@ import {
     NgSwitchCase,
     NgSwitch,
     BannerComponent,
-    NgIf
+    NgIf,
+    MapComponent
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'

@@ -10,7 +10,6 @@ import {MapaComponent} from '../mapa/mapa.component';
   styleUrl: './mapa-info.component.css'
 })
 export class MapaInfoComponent {
-  @Input() lat!: number;
-  @Input() lng!: number;
+  @Input() locations!: { name:string,lat:number,lng:number,day:number }[];
   @Input() descripcion!: string;
 }
