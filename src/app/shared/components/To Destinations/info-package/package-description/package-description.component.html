@@ -8,11 +8,15 @@
   <p class="mt-4 text-gray-600">{{ package.description.text }}</p>
 </div>
 
-<div class="bg-white font-montserrat p-6 ">
+<div class="bg-white font-montserrat p-6">
   <h2 class="text-2xl font-semibold">Itinerary</h2>
-  <div *ngFor="let day of package.description.itinerary" class="mt-4 border-l-4 border-[#aa5432] pl-4">
-    <h3 class="text-lg font-normal">{{ day.dayTitle }}</h3>
-    <h4 class="text-md font-semibold text-[#aa5432]">{{ day.daySubtitle }}</h4>
-    <p class="text-gray-700 mt-2  whitespace-pre-line text-justify">{{ day.dayDescription }}</p>
+  <div *ngFor="let day of package.description.itinerary" class="mt-2">
+        <span class="text-sm font-bold text-[#aa5432]">{{ day.dayTitle }}
+        <span class="ml-2 text-black"> {{ day.daySubtitle }}
+          <span class="font-thin ml-2 text-gray-900">{{ day.dayDescription }}</span>
+        </span>
+        </span>
   </div>
 </div>
+
+```
