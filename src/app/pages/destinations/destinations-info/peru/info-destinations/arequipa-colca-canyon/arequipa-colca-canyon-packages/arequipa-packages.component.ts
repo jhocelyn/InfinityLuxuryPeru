@@ -1,11 +1,4 @@
-import {Component, HostListener} from '@angular/core';
-import {TranslatePipe} from '@ngx-translate/core';
-import {DestinationCarruselComponent} from '../../../../../../../shared/components/To Destinations/list-destinations/destination-carrusel/destination-carrusel.component';
-import { NgForOf} from '@angular/common';
-import {
-  CardsPackagesDestinationComponent
-} from '../../../../../../../shared/components/To Destinations/list-destinations/cards-packages-destination/cards-packages-destination.component';
-import {BreadcrumbComponent} from '../../../../../../../shared/components/To Destinations/list-destinations/breadcrumb/breadcrumb.component';
+import {Component} from '@angular/core';
 import {
   BannerComponent
 } from '../../../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
@@ -50,5 +43,4 @@ export class ArequipaPackagesComponent {
     {nombre:'Paquete 2',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:2 , ruta:'/destinations/peru/arequipa-colca-canyon/info'},
     {nombre:'Paquete 3',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/destinations/peru/arequipa-colca-canyon/info'},
   ]
-
 }

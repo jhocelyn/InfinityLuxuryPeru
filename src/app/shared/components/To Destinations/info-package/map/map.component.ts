@@ -11,4 +11,5 @@ import {MapaComponent} from "../../list-destinations/mapa/mapa.component";
 })
 export class MapComponent {
  @Input() locations!: { name:string,lat:number,lng:number,day:number }[];
+ @Input() programName: string = ''; // Recibe el nombre del programa desde el padre
 }

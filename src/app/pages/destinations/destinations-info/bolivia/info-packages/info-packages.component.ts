@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import {NgClass, NgForOf} from '@angular/common';
-import {RouterLink} from '@angular/router';
 import {BannerComponent} from '../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
 import {
   DestinationsGridComponent
@@ -8,7 +6,7 @@ import {
 import {MapaInfoComponent} from '../../../../../shared/components/To Destinations/list-destinations/mapa-info/mapa-info.component';
 
 @Component({
-  selector: 'app-info-packages',
+  selector: 'app-info-package',
   imports: [
     BannerComponent,
     DestinationsGridComponent,

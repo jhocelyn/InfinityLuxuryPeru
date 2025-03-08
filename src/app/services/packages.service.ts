@@ -9,123 +9,129 @@ export class PackagesService {
     arequipa: [
       {
         id: 1,
-        title: "Arequipa y Cañón del Colca",
-        subtitle: "Explora la Ciudad Blanca y el majestuoso Cañón del Colca",
-        days: 5,
-        nights: 4,
-        price: 1200,
-        mapUrl:
-          [
-            {name:'Machu Picchu',lat:-13.1631,lng:-72.5450,day:1},
-            {name:'Arequipa',lat:-16.4090,lng:-71.5375,day:1},
+        title: "CAMINO INCA DE LUJO 4 DÍAS / 3 NOCHES",
+        subtitle: "Una experiencia de lujo en el legendario Camino Inca hacia Machu Picchu",
+        days: 4,
+        nights: 3,
+        price: 0, // Ajustar el precio según sea necesario
+        mapUrl: [
+          { name: "Wayllabamba", lat: -13.158, lng: -72.526, day: 1 },
+          { name: "Pacaymayo", lat: -13.170, lng: -72.512, day: 2 },
+          { name: "Phuyupatamarca", lat: -13.172, lng: -72.498, day: 3 },
+          { name: "Machu Picchu", lat: -13.1631, lng: -72.545, day: 4 }
         ],
         description: {
           highlights: [
-            "Recorrido por el Centro Histórico de Arequipa",
-            "Visita al Monasterio de Santa Catalina",
-            "Excursión al Cañón del Colca",
-            "Avistamiento de cóndores en Cruz del Cóndor"
+            "Caminata guiada exclusiva con historiadores expertos",
+            "Campamentos de lujo con comidas gourmet",
+            "Servicio personalizado con porteadores privados",
+            "Visita Machu Picchu al amanecer",
           ],
-          text: "Descubre la belleza colonial de Arequipa y la impresionante naturaleza del Cañón del Colca en un viaje único.",
+          text: "Vive el Camino Inca como nunca antes con nuestro exclusivo paquete de trekking de lujo. Disfruta de los impresionantes paisajes, la rica historia y el máximo confort mientras recorres el sendero más famoso del mundo.",
           itinerary: [
             {
-              dayTitle: "Día 1",
-              daySubtitle: "Llegada a Arequipa",
-              dayDescription: "Recepción en el aeropuerto y traslado al hotel. Recorrido por el Centro Histórico y la Plaza de Armas."
+              dayTitle: "Día 1: Cusco - Km 82 - Huayllabamba",
+              daySubtitle: "Inicio del trekking en un entorno natural impresionante",
+              dayDescription: "Salida desde Cusco hacia el Km 82 para comenzar la caminata. Recorrido por paisajes andinos hasta llegar al campamento en Huayllabamba.",
             },
             {
-              dayTitle: "Día 2",
-              daySubtitle: "Exploración de Arequipa",
-              dayDescription: "Visita guiada al Monasterio de Santa Catalina y al mirador de Yanahuara."
+              dayTitle: "Día 2: Huayllabamba - Warmiwañusca - Pacaymayo",
+              daySubtitle: "Cruzando el punto más alto del camino",
+              dayDescription: "Ascenso al Paso de la Mujer Muerta (4,215 m), la sección más desafiante del trekking. Descenso a Pacaymayo para pernoctar.",
             },
             {
-              dayTitle: "Día 3",
-              daySubtitle: "Rumbo al Cañón del Colca",
-              dayDescription: "Viaje a Chivay con paradas en la Reserva Nacional de Salinas y Aguada Blanca."
+              dayTitle: "Día 3: Pacaymayo - Phuyupatamarca - Wiñay Wayna",
+              daySubtitle: "Explorando ruinas incas y vistas impresionantes",
+              dayDescription: "Visita a sitios arqueológicos como Runkurakay y Sayacmarca. Llegada a Wiñay Wayna para la última noche en campamento de lujo.",
             },
             {
-              dayTitle: "Día 4",
-              daySubtitle: "Avistamiento de cóndores",
-              dayDescription: "Salida hacia la Cruz del Cóndor para observar el vuelo de los cóndores sobre el Cañón del Colca."
+              dayTitle: "Día 4: Wiñay Wayna - Machu Picchu - Cusco",
+              daySubtitle: "Amanecer en la Ciudad Perdida de los Incas",
+              dayDescription: "Caminata hasta la Puerta del Sol para la primera vista de Machu Picchu al amanecer. Visita guiada y regreso a Cusco en tren panorámico.",
             },
-            {
-              dayTitle: "Día 5",
-              daySubtitle: "Regreso a Arequipa",
-              dayDescription: "Tiempo libre en Chivay antes del retorno a la ciudad."
-            }
-          ]
+          ],
         },
         sampleJourney: [
           {
-            dayTitle: "Día 1",
-            daySubtitle: "Llegada a Arequipa",
-            dayDescription: "Recepción en el aeropuerto y traslado a un hotel con vista a los volcanes.",
+            dayTitle: "Día 1: Cusco - Km 82 - Huayllabamba",
+            daySubtitle: "Inicio del trekking en un entorno natural impresionante",
+            dayDescription: "Salimos temprano desde Cusco en un transporte privado hacia el Km 82. En el camino, disfrutamos de un desayuno con vistas al valle sagrado antes de iniciar nuestra caminata. Durante el recorrido, pasamos por pequeñas comunidades locales y antiguos puestos de control incas. Al llegar al primer campamento en Huayllabamba, nos espera un equipo preparado con carpas de lujo, camas elevadas y una cena gourmet con ingredientes locales.",
             accommodations: [
               {
                 stars: 5,
-                title: "Casa Andina Premium Arequipa",
+                title: "Luxury Camp Huayllabamba",
                 image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-                location: "Arequipa, Perú"
-              }
-            ]
+                location: "Huayllabamba, Camino Inca",
+              },
+            ],
           },
           {
-            dayTitle: "Día 2",
-            daySubtitle: "Hospedaje en el Valle del Colca",
-            dayDescription: "Llegada a Chivay y hospedaje en un hotel rodeado de naturaleza.",
+            dayTitle: "Día 2: Huayllabamba - Warmiwañusca - Pacaymayo",
+            daySubtitle: "Cruzando el punto más alto del camino",
+            dayDescription: "Después de un desayuno nutritivo, comenzamos el ascenso al Paso de la Mujer Muerta. El sendero es exigente, pero nuestro equipo está siempre atento a cualquier necesidad. En la cima, tomamos un descanso con una vista espectacular antes de descender hacia Pacaymayo. Aquí, encontramos nuestro exclusivo campamento con duchas calientes y una cena servida bajo una carpa comedor elegante.",
             accommodations: [
               {
-                stars: 4,
-                title: "Colca Lodge Spa & Hot Springs",
+                stars: 5,
+                title: "Luxury Camp Pacaymayo",
                 image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-                location: "Chivay, Perú"
+                location: "Pacaymayo, Camino Inca",
               },
+            ],
+          },
+          {
+            dayTitle: "Día 3: Pacaymayo - Phuyupatamarca - Wiñay Wayna",
+            daySubtitle: "Explorando la historia oculta del Camino Inca",
+            dayDescription: "Hoy disfrutamos de un día lleno de historia y paisajes únicos. Exploramos varios sitios arqueológicos, aprendiendo sobre su importancia cultural. Durante el almuerzo, nuestro chef nos sorprende con un menú inspirado en la gastronomía andina. Llegamos a Wiñay Wayna en la tarde, donde nos espera un campamento con terrazas privadas y una cena de celebración antes del día final.",
+            accommodations: [
               {
-                stars: 4,
-                title: "Colca Lodge Spa & Hot Springs",
+                stars: 5,
+                title: "Luxury Camp Wiñay Wayna",
                 image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-                location: "Chivay, Perú"
-              }
-            ]
-          }
+                location: "Wiñay Wayna, Camino Inca",
+              },
+            ],
+          },
+          {
+            dayTitle: "Día 4: Wiñay Wayna - Machu Picchu - Cusco",
+            daySubtitle: "Llegando al amanecer a la joya de los Incas",
+            dayDescription: "Nos despertamos antes del alba y caminamos hacia la Puerta del Sol, un momento inolvidable donde Machu Picchu se revela en la neblina matinal. Descendemos hacia la ciudadela y recorremos sus templos, plazas y terrazas con un guía experto. Después, tenemos tiempo libre para explorar antes de abordar el tren panorámico de regreso a Cusco, cerrando nuestra aventura de lujo.",
+            accommodations: [
+              {
+                stars: 5,
+                title: "Hotel Palacio del Inka",
+                image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+                location: "Cusco, Perú",
+              },
+            ],
+          },
         ],
         customOptions: {
-          description: "Añade experiencias personalizadas a tu viaje.",
+          description: "Personaliza tu aventura con estas opciones exclusivas.",
           packages: [
-            {
-              title: "Baños termales en La Calera",
-              image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-            },
-            {
-              title: "Trekking al mirador de Achachihua",
-              image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-            },
-            {
-              title: "Cena gourmet con vista a los volcanes",
-              image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
-            }
+            { title: "Subida a Huayna Picchu", image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp" },
+            { title: "Porteador personal adicional", image: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp" }
           ]
         },
         pricing: {
-          title: "Precios del paquete",
+          title: "Incluye y No Incluye",
           included: [
-            "Alojamiento en hoteles 4 y 5 estrellas",
-            "Desayunos diarios",
-            "Guía turístico en español e inglés",
-            "Entradas a los atractivos turísticos"
+            "Guía profesional bilingüe",
+            "Terapeutas de masajes especializados",
+            "03 noches de campamento de lujo",
+            "Transporte privado ida y vuelta",
+            "Todas las comidas gourmet durante la caminata"
           ],
           notIncluded: [
-            "Vuelos nacionales",
-            "Almuerzos y cenas",
-            "Gastos personales y propinas"
+            "Entrada a Huayna Picchu (opcional)",
+            "Propinas",
+            "Seguro de viaje (recomendado)"
           ]
         },
         images: [
-          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 },
-          { src: 'assets/img/panoramic-view-of-machu-picchu-lost-city-at-archae-2024-07-03-02-44-10-utc_11zon.webp', alt: 'Playa paradisíaca en Cancún', width: 400 },
-          { src: 'assets/img/peruvian-women-with-little-alpaca-lamb-2023-11-27-05-13-54-utc_11zon.webp', alt: 'Atardecer en Bali con templos', width: 600 },
-          { src: 'assets/img/traveling-in-peru-2024-09-21-23-33-22-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 200 },
-          { src: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', alt: 'Vista de Punta Cana con playa y mar', width: 800 }
+          { alt: "Camino Inca de Lujo", src: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp", width: 800 },
+          { alt: "Camino Inca de Lujo", src: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp", width: 200 },
+          { alt: "Camino Inca de Lujo", src: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp", width: 400 },
+          { alt: "Camino Inca de Lujo", src: "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp", width: 800 }
         ]
       },
       {

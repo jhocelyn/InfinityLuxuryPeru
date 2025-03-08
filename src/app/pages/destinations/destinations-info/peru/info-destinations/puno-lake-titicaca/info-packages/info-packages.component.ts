@@ -3,7 +3,7 @@ import {ActivatedRoute} from '@angular/router';
 import {NgIf} from '@angular/common';
 
 @Component({
-  selector: 'app-info-packages',
+  selector: 'app-info-package',
   imports: [
     NgIf
   ],

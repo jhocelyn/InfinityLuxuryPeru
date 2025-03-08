@@ -37,11 +37,16 @@ export class ListPackagesComponent {
     image_middle:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
   }
   paquetes=[
-    {nombre:'Paquete 1',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:1 , ruta:'/premium-services/trekking'},
-    {nombre:'Paquete 2',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:2 , ruta:'/premium-services/trekking'},
-    {nombre:'Paquete 3',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/premium-services/trekking'},
-    {nombre:'Paquete 4',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:4 , ruta:'/premium-services/trekking'},
-    {nombre:'Paquete 5',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:5 , ruta:'/premium-services/trekking'},
-    {nombre:'Paquete 6',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:6 , ruta:'/premium-services/trekking'},
+    {nombre:'Ancascocha Trail de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:1 , ruta:'/premium-services/trekking'},
+    {nombre:'Salkantay de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:2 , ruta:'/premium-services/trekking'},
+    {nombre:'Camino Inca de Lujo Plus',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/premium-services/trekking'},
+    {nombre:'Qelqanqa Inca Trail de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:4 , ruta:'/premium-services/trekking'},
+    {nombre:'Choquequirao de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:5 , ruta:'/premium-services/trekking'},
+    {nombre:'Lares Trail de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:6 , ruta:'/premium-services/trekking'},
+    {nombre:'Camino Inca de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:7 , ruta:'/premium-services/trekking'},
+    {nombre:'Quarry Trail de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:8 , ruta:'/premium-services/trekking'},
+    {nombre:'Choquequirao de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:9 , ruta:'/premium-services/trekking'},
+    {nombre:'Camino Inca de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:10 , ruta:'/premium-services/trekking'},
+
   ]
 }

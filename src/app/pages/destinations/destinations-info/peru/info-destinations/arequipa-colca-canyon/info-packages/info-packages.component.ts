@@ -21,13 +21,13 @@ import {PackagesService} from '../../../../../../../services/packages.service';
 import {
   BannerComponent
 } from '../../../../../../../shared/components/To Destinations/info-package/banner/banner.component';
-import {
-  MapaComponent
-} from '../../../../../../../shared/components/To Destinations/list-destinations/mapa/mapa.component';
 import {MapComponent} from '../../../../../../../shared/components/To Destinations/info-package/map/map.component';
+import {
+  RequestProgramComponent
+} from '../../../../../../../shared/components/To Destinations/info-package/request-program/request-program.component';
 
 @Component({
-  selector: 'app-info-packages',
+  selector: 'app-info-package',
   imports: [
     PackageOverViewComponent,
     PackageDescriptionComponent,
@@ -39,7 +39,8 @@ import {MapComponent} from '../../../../../../../shared/components/To Destinatio
     NgSwitch,
     BannerComponent,
     NgIf,
-    MapComponent
+    MapComponent,
+    RequestProgramComponent
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'
@@ -51,7 +52,8 @@ export class InfoPackagesComponent implements OnInit{
     { id: 'description', label: 'DESCRIPCIÓN', icon: 'fas fa-file-alt' },
     { id: 'sample-journey', label: 'SAMPLE JOURNEY', icon: 'fas fa-map-marked-alt' },
     { id: 'custom-options', label: 'OPCIONES A MEDIDA', icon: 'fas fa-plus' },
-    { id: 'pricing', label: 'PRECIOS', icon: 'fas fa-tags' }
+    { id: 'pricing', label: 'PRECIOS', icon: 'fas fa-tags' },
+    { id: 'request-program', label: 'REQUEST THE PROGRAM', icon: 'fas fa-envelope' } // Nueva pestaña
   ];
   package: TravelPackage | undefined;
 

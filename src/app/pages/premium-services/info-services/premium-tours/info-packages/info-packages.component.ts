@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import {TravelPackage} from '../../../../../shared/models/travel-packages.model';
-import {ActivatedRoute} from '@angular/router';
 import {BannerComponent} from '../../../../../shared/components/To Destinations/info-package/banner/banner.component';
 import {
   CustomOptionsComponent
@@ -22,7 +20,9 @@ import {
 import {
   RequestProgramComponent
 } from '../../../../../shared/components/To Destinations/info-package/request-program/request-program.component';
-import {TrekkingService} from '../../../../../services/trekking.service';
+import {TravelPackage} from '../../../../../shared/models/travel-packages.model';
+import {ActivatedRoute} from '@angular/router';
+import {PremiumTours} from '../../../../../services/tours.service';
 
 @Component({
   selector: 'app-info-package',
@@ -57,7 +57,7 @@ export class InfoPackagesComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private packagesService: TrekkingService
+    private packagesService: PremiumTours
   ) {}
 
   ngOnInit(): void {

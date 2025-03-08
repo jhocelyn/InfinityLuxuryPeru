@@ -1,0 +1,29 @@
+<div class=" bg-white p-6 rounded-lg shadow-md w-96">
+  <div *ngIf="messageSent" class="p-4 bg-green-100 text-green-700 rounded">
+    Your request has been sent. You will receive the program details within 24 hours.
+  </div>
+
+  <form *ngIf="!messageSent" (ngSubmit)="submitForm()" novalidate>
+    <div class="mb-4">
+      <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
+      <input id="name" type="text" [(ngModel)]="name" name="name" required
+             class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#aa5432]">
+    </div>
+
+    <div class="mb-4">
+      <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
+      <input id="email" type="email" [(ngModel)]="email" name="email" required
+             class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#aa5432]">
+    </div>
+
+    <div class="mb-4">
+      <label for="number" class="block text-sm font-medium text-gray-700">Number (Optional):</label>
+      <input id="number" type="number" [(ngModel)]="number" name="number"
+             class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-[#aa5432]">
+    </div>
+
+    <button type="submit" class="w-full bg-black text-white px-4 py-2 rounded-md hover:bg-[#8a432a]">
+      Send Request
+    </button>
+  </form>
+</div>
