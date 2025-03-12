@@ -33,17 +33,26 @@
       <p *ngIf="campoInvalido('fecha')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_DATE' | translate }}</p>
     </div>
 
+    <!-- Checkbox de términos con botón para abrir el modal -->
     <div class="mt-4 flex items-center">
       <input type="checkbox" id="terms" formControlName="terms" />
-      <label for="terms" class="ml-2 text-sm">{{ 'CONTACT.TERMS' | translate }}</label>
+      <label for="terms" class="ml-2 text-sm">
+        {{ 'CONTACT.TERMS' | translate }}
+        <button type="button" (click)="openModal()" class="text-blue-500 underline ml-2">
+          Ver términos
+        </button>
+      </label>
     </div>
 
+    <!-- Botón de enviar -->
     <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-4"
             [disabled]="!contactForm.get('terms')?.value || contactForm.invalid">
       {{ 'CONTACT.SUBMIT' | translate }}
     </button>
-
   </form>
+
+  <!-- Componente del modal (fuera del formulario) -->
+  <app-terms-modal [isOpen]="modalOpen" (closeModal)="closeModal()"></app-terms-modal>
 
   <!-- Mensaje de agradecimiento -->
   <div *ngIf="formSubmitted" class="mt-4 p-4 bg-green-200 text-green-800 rounded">

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {NgIf} from '@angular/common';
+import {TermsModalComponent} from '../../shared/components/Important/terms-modal/terms-modal.component';
 
 @Component({
   selector: 'app-contact-us',
@@ -9,12 +10,23 @@ import {NgIf} from '@angular/common';
     FormsModule,
     TranslatePipe,
     NgIf,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TermsModalComponent
   ],
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.css'
 })
 export class ContactUsComponent {
+  modalOpen = false;
+
+  openModal() {
+    this.modalOpen = true;
+    console.log('Modal abierto');
+  }
+
+  closeModal() {
+    this.modalOpen = false;
+  }
   contactForm: FormGroup;
   formSubmitted = false;
   acceptedTerms = false;

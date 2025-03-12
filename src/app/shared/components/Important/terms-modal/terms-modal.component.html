@@ -1,0 +1,17 @@
+<div *ngIf="isOpen" class="fixed inset-0 flex justify-center items-center">
+  <!-- Fondo negro semi-transparente -->
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+
+  <!-- Modal -->
+  <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 z-60 md:w-1/2 relative">
+    <h2 class="text-xl font-semibold mb-4">Términos y Condiciones</h2>
+    <p class="text-gray-700">
+      Al contactarse, usted otorga su consentimiento y autoriza el uso de los datos personales proporcionados, de acuerdo con la Ley de Protección de Datos Personales (Ley N° 29733) y su Reglamento (Decreto Supremo N° 003-2013-JUS), exclusivamente para fines de contacto en nuestra organización. Esta información será derivada al área Comercial para la gestión correspondiente.
+    </p>
+    <div class="flex justify-end mt-4">
+      <button (click)="close()" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Aceptar
+      </button>
+    </div>
+  </div>
+</div>
