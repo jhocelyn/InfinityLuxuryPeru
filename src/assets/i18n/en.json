@@ -58,27 +58,27 @@
     ],
     "JOURNEYS": [
       {
-        "SECTION": "Travel Privately",
-        "TITLE": "Japanese Traditions",
-        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
+        "SECTION": "Luxury",
+        "TITLE": "Luxury Packages",
+        "DESCRIPTION": "Get ready for a journey like no other. Our luxury packages offer the ultimate in comfort, style, and service.",
+        "DISCOVER": "Discover More",
+        "IMAGE": "assets/img/home/.webp"
+
+      },
+      {
+        "SECTION": "Wellness",
+        "TITLE": "SPA",
+        "DESCRIPTION": "Enjoy a relaxing and rejuvenating experience",
         "DISCOVER": "Discover More",
         "IMAGE": "assets/img/home/Journeys-Japon.webp"
 
       },
       {
-        "SECTION": "Small Group Journeys",
-        "TITLE": "Luxury Yacht Dining",
-        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
+        "SECTION": "Gastronomy",
+        "TITLE": "Peruvian Best Restaurants",
+        "DESCRIPTION": "Peru has been recognized as the best culinary destination in the world for the eighth consecutive year.",
         "DISCOVER": "Discover More",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
-
-      },
-      {
-        "SECTION": "Safari Experience",
-        "TITLE": "African Safari",
-        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
-        "DISCOVER": "Discover More",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+        "IMAGE": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp"
 
       }
     ],

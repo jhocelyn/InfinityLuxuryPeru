@@ -58,14 +58,14 @@
       {
         "SECTION": "Lujo",
         "TITLE": "Paquetes de Lujo",
-        "DESCRIPTION": "",
+        "DESCRIPTION": "Listo o no, aquí vamos. Nuestros paquetes de lujo te llevarán a los destinos más exclusivos del mundo.",
         "DISCOVER": "Descubrir Más",
         "IMAGE": "assets/img/home/Journeys-Japon.webp"
       },
       {
         "SECTION": "Bienestar",
         "TITLE": "SPA",
-        "DESCRIPTION": "",
+        "DESCRIPTION": "Disfruta y relájate en los mejores spas del mundo. Descubre nuestras experiencias de bienestar.",
         "DISCOVER": "Descubrir Más",
         "IMAGE": "assets/img/home/Journeys-Japon.webp"
 
@@ -73,7 +73,7 @@
       {
         "SECTION": "Gastronomia",
         "TITLE": "Mejores Restaurantes Peruanos",
-        "DESCRIPTION": "",
+        "DESCRIPTION": "Peru tiene una de las mejores gastronomías del mundo. Descubre los mejores restaurantes peruanos.",
         "DISCOVER": "Descubrir Más",
         "IMAGE": "assets/img/home/Journeys-Japon.webp"
 
