@@ -23,11 +23,11 @@ import {
 })
 export class ListPackagesComponent {
   images = [
-    { title: 'Private Jet Journeys', description: 'Iconic Wonders: Around the World by Private Jet', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' },
-    { title: 'Tailormade Journeys', description: 'Climb Mount Kilimanjaro', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' }
+    { title: 'Private Jet Journeys', description: 'Iconic Wonders: Around the World by Private Jet', image: 'assets/img/home/Destinations-Lima.webp' },
+    { title: 'Tailormade Journeys', description: 'Climb Mount Kilimanjaro', image: 'assets/img/home/Destinations-Lima.webp' }
   ];
   info = {
-    image_principal: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
+    image_principal: 'assets/img/home/Tours-Valle-sagrado.webp',
     titlePage: 'Premium Tours',
     button: 'View all packages',
     titleInfo: 'Premium Tours in Peru',
@@ -42,5 +42,6 @@ export class ListPackagesComponent {
     {nombre:'Palcoyo Montañas de Colores - Caminata de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/premium-services/premium-tours'},
     {nombre:'Vinicunca Montaña Arco Iris – Caminata Completa de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:4 , ruta:'/premium-services/premium-tours'},
     {nombre:'Camino Inca Expres de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:5 , ruta:'/premium-services/premium-tours'},
+
   ]
 }

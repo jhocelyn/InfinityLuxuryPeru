@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-build-your-trip',
   imports: [
     FormsModule,
-    CommonModule
+    CommonModule,
+    TranslatePipe
   ],
   templateUrl: './build-your-trip.component.html',
   styleUrl: './build-your-trip.component.css'

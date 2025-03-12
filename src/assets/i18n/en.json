@@ -2,7 +2,8 @@
   "NAVBAR": {
     "DESTINATIONS": "DESTINATIONS",
     "EXPEDITIONS": "EXPEDITIONS",
-    "PREMIUM_SERVICES": "PREMIUM TOURS",
+    "PREMIUM_SERVICES": "PREMIUM SERVICES",
+    "PREMIUM_TOURS": "PREMIUM TOURS",
     "LUXURY_PACKAGES":"LUXURY PACKAGES",
     "FAMILY_BEST": "FAMILY BEST EXPERIENCES",
     "WEDDING": "WEDDING",
@@ -1804,9 +1805,41 @@
     "ERROR_NPERSONAS": "You must enter at least 1 person.",
     "ERROR_DATE": "Date is required.",
     "ERROR_FIELDS": "Please fill in all fields correctly.",
-    "ERROR_SEND": "There was an error sending the form. Try again."
+    "ERROR_SEND": "There was an error sending the form. Try again.",
+    "EMAIL_TITLE": "Email Us",
+    "EMAIL_TEXT": "For general inquiries, you can email us at:",
+    "PHONE_TITLE": "Call Us",
+    "PHONE_TEXT": "For urgent matters, call us at:",
+    "SCHEDULE_TITLE": "Schedule a Meeting",
+    "SCHEDULE_TEXT": "If you need a more personalized consultation, schedule a meeting with one of our travel specialists.",
+    "SCHEDULE_LINK": "Book a Meeting"
+},
+  "BUILD": {
+    "TITLE": "Build your trip",
+    "TRAVEL_STYLE": "Travel Style",
+    "TRAVEL_STYLE_LUXURY": "Luxury",
+    "TRAVEL_STYLE_PREMIUM": "Premium Tours",
+    "TRAVEL_STYLE_SUSTAINABLE": "Sustainable Tourism",
+    "TRAVEL_STYLE_FAMILY": "Family Best",
+    "TRAVEL_STYLE_OTHER": "Other",
+    "DEPARTURE_DATE": "Departure Date",
+    "RETURN_DATE": "Return Date",
+    "DAYS": "Number of Days",
+    "ADULTS": "Number of Adults",
+    "CHILDREN": "Number of Children",
+    "ACCOMMODATION": "Type of Accommodation",
+    "ACCOMMODATION_FIRST_CLASS": "First Class",
+    "ACCOMMODATION_LUXURY": "Luxury",
+    "DESTINATIONS": "Destinations of Interest",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "SUBMIT": "Send"
 
-}
+},
+  "ABOUTUS": {
+    "TITLE": "About Us",
+    "DESCRIPTION": "We are a team of travel experts dedicated to providing unique and unforgettable experiences in Peru. Our passion for travel and commitment to excellence ensure that every journey is tailored to your needs, interests, and preferences. Whether you're seeking adventure, relaxation, or cultural immersion, we're here to make your dream vacation a reality."
+  }
 
 
 }

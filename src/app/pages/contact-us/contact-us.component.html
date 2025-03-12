@@ -1,5 +1,27 @@
-<div class="container mx-auto p-6">
-  <h2 class="text-2xl font-bold mb-4">{{ 'CONTACT.TITLE' | translate }}</h2>
+<div class="font-montserrat bg-[#f5f2eb] flex flex-row">
+  <div class="flex flex-col p-4">
+    <!-- Información de contacto -->
+    <div class="mt-8">
+      <h3 class="text-xl font-normal">{{ 'CONTACT.EMAIL_TITLE' | translate }}</h3>
+      <p class="text-sm">{{ 'CONTACT.EMAIL_TEXT' | translate }}</p>
+      <p class="text-blue-600">sales&#64;infinityluxuryperu.com</p>
+    </div>
+
+    <div class="mt-4">
+      <h3 class="text-xl font-normal">{{ 'CONTACT.PHONE_TITLE' | translate }}</h3>
+      <p class="text-sm">{{ 'CONTACT.PHONE_TEXT' | translate }}</p>
+      <p class="text-blue-600">+51 984 703 000</p>
+    </div>
+
+    <!-- Agendar reunión -->
+    <div class="mt-8">
+      <h3 class="text-xl font-normal">{{ 'CONTACT.SCHEDULE_TITLE' | translate }}</h3>
+      <p class="text-sm">{{ 'CONTACT.SCHEDULE_TEXT' | translate }}</p>
+      <a (click)="openWhatsApp()" class="text-blue-600 underline">{{ 'CONTACT.SCHEDULE_LINK' | translate }}</a>
+    </div>
+  </div>
+  <div class="container mx-auto p-6">
+  <h2 class="text-2xl font-normal mb-4">{{ 'CONTACT.TITLE' | translate }}</h2>
 
   <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -45,7 +67,7 @@
     </div>
 
     <!-- Botón de enviar -->
-    <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-4"
+    <button type="submit" class="bg-black text-white px-4 py-2 mt-4"
             [disabled]="!contactForm.get('terms')?.value || contactForm.invalid">
       {{ 'CONTACT.SUBMIT' | translate }}
     </button>
@@ -58,4 +80,5 @@
   <div *ngIf="formSubmitted" class="mt-4 p-4 bg-green-200 text-green-800 rounded">
     {{ 'CONTACT.SUCCESS' | translate }}
   </div>
+</div>
 </div>

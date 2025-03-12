@@ -2,7 +2,8 @@
   "NAVBAR": {
   "DESTINATIONS": "DESTINOS",
   "EXPEDITIONS": "EXPEDICIONES",
-  "PREMIUM_SERVICES": "TOURS DE LUJO",
+  "PREMIUM_SERVICES": "SERVICIOS PREMIUM",
+    "PREMIUM_TOURS": "TOURS PREMIUM",
     "LUXURY_PACKAGES":"PAQUETES DE LUJO",
     "FAMILY_BEST": "MEJORES DESTINOS FAMILIARES",
     "WEDDING": "LUNA DE MIEL",
@@ -1738,9 +1739,40 @@
     "ERROR_NPERSONAS": "Debes ingresar al menos 1 persona.",
     "ERROR_DATE": "La fecha es obligatoria.",
     "ERROR_FIELDS": "Por favor, completa todos los campos correctamente.",
-    "ERROR_SEND": "Hubo un error al enviar el formulario. Inténtalo de nuevo."
-
-}
+    "ERROR_SEND": "Hubo un error al enviar el formulario. Inténtalo de nuevo.",
+    "EMAIL_TITLE": "Contáctanos por Correo",
+    "EMAIL_TEXT": "Para consultas generales, puedes escribirnos a:",
+    "PHONE_TITLE": "Llámanos",
+    "PHONE_TEXT": "Para asuntos urgentes, llámanos al:",
+    "SCHEDULE_TITLE": "Agenda una Reunión",
+    "SCHEDULE_TEXT": "Si necesitas una consulta más personalizada, agenda una reunión con uno de nuestros especialistas en viajes.",
+    "SCHEDULE_LINK": "Reservar una Reunión"
+},
+  "BUILD": {
+    "TITLE": "Construye tu viaje",
+    "TRAVEL_STYLE": "Estilo de Viaje",
+    "TRAVEL_STYLE_LUXURY": "Lujo",
+    "TRAVEL_STYLE_PREMIUM": "Tours Premium",
+    "TRAVEL_STYLE_SUSTAINABLE": "Turismo Sostenible",
+    "TRAVEL_STYLE_FAMILY": "Lo Mejor para Familias",
+    "TRAVEL_STYLE_OTHER": "Otro",
+    "DEPARTURE_DATE": "Fecha de Salida",
+    "RETURN_DATE": "Fecha de Retorno",
+    "DAYS": "Cantidad de Días",
+    "ADULTS": "N° de Adultos",
+    "CHILDREN": "N° de Niños",
+    "ACCOMMODATION": "Tipo de Alojamiento",
+    "ACCOMMODATION_FIRST_CLASS": "Primera Clase",
+    "ACCOMMODATION_LUXURY": "Lujo",
+    "DESTINATIONS": "Destinos de Interés",
+    "PHONE": "Teléfono",
+    "EMAIL": "Correo Electrónico",
+    "SUBMIT": "Enviar"
+  },
+  "ABOUTUS": {
+    "TITLE": "Sobre Nosotros",
+    "DESCRIPTION": "Somos una agencia de viajes especializada en tours de lujo y aventura en Perú. Nuestro equipo de expertos en viajes se encarga de diseñar experiencias únicas y personalizadas para nuestros clientes"
+  }
 
 }
 

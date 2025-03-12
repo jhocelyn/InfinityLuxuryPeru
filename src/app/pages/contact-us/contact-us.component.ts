@@ -73,4 +73,11 @@ export class ContactUsComponent {
     const control = this.contactForm.get(campo);
     return !!(control && control.invalid && control.touched);
   }
+  phoneNumber: string = '+51934983711'; // 📌 Reemplaza con tu número de WhatsApp
+  message: string = 'Hola, quiero agendar una reunión personalizada.';
+
+  openWhatsApp() {
+    const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
+    window.open(url,'_blank');
+  }
 }
