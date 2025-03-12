@@ -1721,6 +1721,26 @@
       ]
     }
   },
-  "SPEAK": "HABLA CON UN ASESOR"
+  "SPEAK": "HABLA CON UN ASESOR",
+  "CONTACT": {
+    "TITLE": "Contáctanos",
+    "NAME": "Nombre",
+    "EMAIL": "Correo electrónico",
+    "PHONE": "Teléfono",
+    "NPERSONAS": "Número de personas",
+    "DATE": "Fecha",
+    "TERMS": "Acepto los términos y condiciones",
+    "SUBMIT": "Enviar",
+    "SUCCESS": "¡Gracias! Tu mensaje ha sido enviado correctamente.",
+    "ERROR_NAME": "El nombre es obligatorio y debe tener al menos 3 caracteres.",
+    "ERROR_EMAIL": "El correo electrónico no es válido.",
+    "ERROR_PHONE": "El teléfono debe tener entre 9 y 10 dígitos.",
+    "ERROR_NPERSONAS": "Debes ingresar al menos 1 persona.",
+    "ERROR_DATE": "La fecha es obligatoria.",
+    "ERROR_FIELDS": "Por favor, completa todos los campos correctamente.",
+    "ERROR_SEND": "Hubo un error al enviar el formulario. Inténtalo de nuevo."
+
+}
+
 }
 

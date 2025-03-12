@@ -1,0 +1,52 @@
+<div class="container mx-auto p-6">
+  <h2 class="text-2xl font-bold mb-4">{{ 'CONTACT.TITLE' | translate }}</h2>
+
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <label class="block text-sm font-medium">{{ 'CONTACT.NAME' | translate }}</label>
+        <input type="text" formControlName="name" class="border p-2 w-full" />
+        <p *ngIf="campoInvalido('name')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_NAME' | translate }}</p>
+      </div>
+      <div>
+        <label class="block text-sm font-medium">{{ 'CONTACT.EMAIL' | translate }}</label>
+        <input type="email" formControlName="email" class="border p-2 w-full" />
+        <p *ngIf="campoInvalido('email')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_EMAIL' | translate }}</p>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <label class="block text-sm font-medium">{{ 'CONTACT.PHONE' | translate }}</label>
+      <input type="text" formControlName="phone" class="border p-2 w-full" />
+      <p *ngIf="campoInvalido('phone')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_PHONE' | translate }}</p>
+    </div>
+
+    <div class="mt-4">
+      <label class="block text-sm font-medium">{{ 'CONTACT.NPERSONAS' | translate }}</label>
+      <input type="number" formControlName="npersonas" class="border p-2 w-full" />
+      <p *ngIf="campoInvalido('npersonas')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_NPERSONAS' | translate }}</p>
+    </div>
+
+    <div class="mt-4">
+      <label class="block text-sm font-medium">{{ 'CONTACT.DATE' | translate }}</label>
+      <input type="date" formControlName="fecha" class="border p-2 w-full" />
+      <p *ngIf="campoInvalido('fecha')" class="text-red-500 text-sm">{{ 'CONTACT.ERROR_DATE' | translate }}</p>
+    </div>
+
+    <div class="mt-4 flex items-center">
+      <input type="checkbox" id="terms" formControlName="terms" />
+      <label for="terms" class="ml-2 text-sm">{{ 'CONTACT.TERMS' | translate }}</label>
+    </div>
+
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-4"
+            [disabled]="!contactForm.get('terms')?.value || contactForm.invalid">
+      {{ 'CONTACT.SUBMIT' | translate }}
+    </button>
+
+  </form>
+
+  <!-- Mensaje de agradecimiento -->
+  <div *ngIf="formSubmitted" class="mt-4 p-4 bg-green-200 text-green-800 rounded">
+    {{ 'CONTACT.SUCCESS' | translate }}
+  </div>
+</div>

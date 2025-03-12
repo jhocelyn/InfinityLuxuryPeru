@@ -1787,6 +1787,26 @@
       ]
     }
   },
-  "SPEAK": "SPEAK TO AN EXPERT"
+  "SPEAK": "SPEAK TO AN EXPERT",
+  "CONTACT": {
+    "TITLE": "Contact Us",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "NPERSONAS": "Number of People",
+    "DATE": "Date",
+    "TERMS": "I accept the terms and conditions",
+    "SUBMIT": "Submit",
+    "SUCCESS": "Thank you! Your message has been sent successfully.",
+    "ERROR_NAME": "Name is required and must be at least 3 characters.",
+    "ERROR_EMAIL": "Email is not valid.",
+    "ERROR_PHONE": "Phone number must be between 9 and 10 digits.",
+    "ERROR_NPERSONAS": "You must enter at least 1 person.",
+    "ERROR_DATE": "Date is required.",
+    "ERROR_FIELDS": "Please fill in all fields correctly.",
+    "ERROR_SEND": "There was an error sending the form. Try again."
+
+}
+
 
 }
