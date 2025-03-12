@@ -76,7 +76,7 @@
         "TITLE": "Paquetes de Lujo",
         "DESCRIPTION": "Listo o no, aquí vamos. Nuestros paquetes de lujo te llevarán a los destinos más exclusivos del mundo.",
         "DISCOVER": "Descubrir Más",
-        "COLUMNA": "3",
+        "COLUMNA": "1",
         "ROW": "1",
         "START": "1",
         "IMAGE": "assets/img/home/Luxury-Packages.webp",
@@ -89,7 +89,7 @@
         "DISCOVER": "Descubrir Más",
         "COLUMNA": "1",
         "ROW": "1",
-        "START": "1",
+        "START": "2",
         "IMAGE": "assets/img/home/Wellness-Spa.webp",
         "RUTA": "/premium-services/wellness"
       },
@@ -98,9 +98,9 @@
         "TITLE": "Mejores Restaurantes Peruanos",
         "DESCRIPTION": "Peru tiene una de las mejores gastronomías del mundo. Descubre los mejores restaurantes peruanos.",
         "DISCOVER": "Descubrir Más",
-        "COLUMNA": "2",
+        "COLUMNA": "1",
         "ROW": "1",
-        "START": "2",
+        "START": "3",
         "IMAGE": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp",
         "RUTA": "/premium-services/gastronomy"
       }
