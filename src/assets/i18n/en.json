@@ -2,7 +2,7 @@
   "NAVBAR": {
     "DESTINATIONS": "DESTINATIONS",
     "EXPEDITIONS": "EXPEDITIONS",
-    "PREMIUM_SERVICES": "PREMIUM SERVICES",
+    "PREMIUM_SERVICES": "PREMIUM TOURS",
     "LUXURY_PACKAGES":"LUXURY PACKAGES",
     "FAMILY_BEST": "FAMILY BEST EXPERIENCES",
     "WEDDING": "WEDDING",
@@ -26,51 +26,70 @@
     "CONTACT2": "or speak to your travel advisor."
   },
   "FOOTER": {
-    "DESCRIPTION": "Copyright Andean Elite Perú SAC. All copyrights and other intellectual property rights of all logos, designs, text, images and materials on this website are owned by Andean Elite Perú SAC.",
-    "MARCA": "Andean Elite Perú is a registered trademark. All rights reserved.",
-    "CONTACTO": "Contact us",
-    "POLICY": {
-      "PROTECTION": "Personal Data Protection Policy",
-      "POLICY": "Policy ESNNA",
-      "TERMS": "Terms and Conditions",
-      "CERTIFICATES": "Certificate ESNNA"
-    }
+    "TITLE": "Infinity Luxury Perú",
+    "DESCRIPTION": "Copyright Infinity Luxury Perú SAC. All copyrights and other intellectual property rights of all logos, designs, text, images and materials on this website are owned by Infinity Luxury Perú SAC.",
+    "COMPANY": "Company",
+    "ABOUT": "About Us",
+    "CONTACT": "Contact Us",
+    "POLICIES": "Policies",
+    "BOOKING_TERMS": "Terms and Conditions",
+    "COOKIE_POLICY": "Cookie Policy",
+    "DATA_POLICY": "Data Protection Policy",
+    "EMAIL_OPT_OUT": "Email Opt-Out",
+    "ADVISOR": "Travel Advisor",
+    "YES": "Yes",
+    "NO": "NO",
+    "PRIVACY": "By entering your email, you agree to our Terms of Use and",
+    "TERMS": "Privacy Policy, including receipt of emails and promotions.",
+    "SUBSCRIBE": "Subscribe",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL": "Email"
   },
   "HOME": {
     "SECTIONS": [
       {
         "TITLE": "Destinations",
         "DESCRIPTION": "We can arrange remarkable travel experiences on all seven continents. Where do you want to go?",
-        "IMAGE": "assets/img/home/Destinations-Lima.webp"
-
+        "IMAGE": "assets/img/home/Destinations-Lima.webp",
+        "RUTA": "/destinations"
       },
       {
         "TITLE": "Tours",
         "DESCRIPTION": "Find your dream journey, whether you want to travel privately or with a group, by train, boat, or plane.",
-        "IMAGE": "assets/img/home/Tours-Valle-sagrado.webp"
+        "IMAGE": "assets/img/home/Tours-Valle-sagrado.webp",
+        "RUTA": "/premium-services/premium-tours"
 
       },
       {
         "TITLE": "Trekking",
         "DESCRIPTION": "Our collection of inspiring places to stay includes safari lodges, super-villas, and boutique riverboats.",
-        "IMAGE": "assets/img/home/Trekking-Chaman.webp"
+        "IMAGE": "assets/img/home/Trekking-Chaman.webp",
+        "RUTA": "/premium-services/trekking"
       }
     ],
     "JOURNEYS": [
       {
         "SECTION": "Luxury",
         "TITLE": "Luxury Packages",
-        "DESCRIPTION": "Get ready for a journey like no other. Our luxury packages offer the ultimate in comfort, style, and service.",
+        "DESCRIPTION": "Get ready for a journey like no other. Our luxury packages offer the ultimate in comfort, style, and service. You have earned it.",
         "DISCOVER": "Discover More",
-        "IMAGE": "assets/img/home/.webp"
-
+        "COLUMNA": "1",
+        "ROW": "1",
+        "START": "1",
+        "IMAGE": "assets/img/home/Luxury-Packages.webp",
+        "RUTA": "/premium-services/luxury-packages"
       },
       {
         "SECTION": "Wellness",
         "TITLE": "SPA",
         "DESCRIPTION": "Enjoy a relaxing and rejuvenating experience",
         "DISCOVER": "Discover More",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+        "COLUMNA": "1",
+        "ROW": "1",
+        "START": "2",
+        "IMAGE": "assets/img/home/Wellness-Spa.webp",
+        "RUTA": "/premium-services/wellness"
 
       },
       {
@@ -78,8 +97,11 @@
         "TITLE": "Peruvian Best Restaurants",
         "DESCRIPTION": "Peru has been recognized as the best culinary destination in the world for the eighth consecutive year.",
         "DISCOVER": "Discover More",
-        "IMAGE": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp"
-
+        "COLUMNA": "1",
+        "ROW": "1",
+        "START": "3",
+        "IMAGE": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "RUTA": "/premium-services/gastronomy"
       }
     ],
     "BANNER": "Luxury Travel & Exclusive Experiences  Discover the Extraordinary",
@@ -88,6 +110,24 @@
     "PREMIUM_SERVICES": {
       "TITLE": "Premium Services",
       "DESCRIPTION": "Our exclusive experiences, just for you."
+    },
+    "STAY": {
+      "TITLE": "STAY WITH US",
+      "DESCRIPTION": "Our collection of inspiring places to stay.",
+      "TARGETS": [
+        { "title": "Hotel Monasterio Cusco",    "image": "assets/img/home/Carrusel-Hotel-Cusco.webp",
+          "description": "Enjoy this hotel" },
+        { "title": "Lima",       "image":"assets/img/home/Carrusel-Miraflores.webp",
+          "description": "Discover the Miraflores Park" },
+        { "title": "Train",       "image": "assets/img/home/Carrusel-Train.webp",
+          "description": "Enjoy this experience" }
+      ]
+    },
+    "TRAVEL": {
+      "TITLE": "TRAVEL WITH RESPONSABILITY",
+      "DESCRIPTION": "We are committed to sustainable tourism and responsible travel practices.\n We are consider the environment, local communities, and cultural heritage in all our operations. You can travel with us knowing that you are making a positive impact.\n Also you can give a donation to help the children of the Andes.",
+      "BUTTON": "Learn More",
+      "RUTA": "premium-services/sustainable-tourism"
     }
   },
   "PACKAGES": {

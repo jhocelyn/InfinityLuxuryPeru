@@ -1,8 +1,20 @@
-import {Component, HostListener} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {NgClass, NgForOf, NgIf} from '@angular/common';
 import {RouterLink} from '@angular/router';
 import {CarruselComponent} from '../../shared/components/carrusel/carrusel.component';
 import {TranslateModule, TranslatePipe, TranslateService} from '@ngx-translate/core';
+
+interface Journey {
+  SECTION: string;
+  TITLE: string;
+  DESCRIPTION: string;
+  DISCOVER: string;
+  COLUMNA: number;
+  ROW: number;
+  START: number;
+  IMAGE: string;
+  RUTA:string;
+}
 
 @Component({
   selector: 'app-home',
@@ -18,9 +30,9 @@ import {TranslateModule, TranslatePipe, TranslateService} from '@ngx-translate/c
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit{
   sections: any[] = [];
-  journeys: any[] = [];
+  journeys: Journey[] = [];
   isFading = false;
   isMobile: boolean = window.innerWidth <= 768;
   currentIndex: number = 0;
@@ -41,10 +53,16 @@ export class HomeComponent {
       this.sections = sections;
     });
 
-    this.translate.get('HOME.JOURNEYS').subscribe((journeys) => {
+    this.translate.get('HOME.JOURNEYS').subscribe((journeys: Journey[]) => {
       console.log('Datos obtenidos para HOME.JOURNEYS:', journeys);
-      this.journeys = journeys;
+      this.journeys = journeys.map((journey: Journey) => ({
+        ...journey,
+        COLUMNA: Number(journey.COLUMNA),
+        ROW: Number(journey.ROW),
+        START: Number(journey.START)
+      }));
     });
+
   }
 
   @HostListener('window:scroll', [])

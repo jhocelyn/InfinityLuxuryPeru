@@ -3,7 +3,7 @@
   <div class="relative w-full h-screen overflow-hidden">
     <video
       class="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-      autoplay loop muted playsinline>
+      autoplay loop [muted]="true" playsinline>
       <source src="assets/videos/home/Trip-luxury.mp4" type="video/mp4">
       Tu navegador no soporta este video.
     </video>
@@ -29,6 +29,7 @@
   >
     <div
       *ngFor="let section of sections; let i = index"
+      routerLink="{{section.RUTA}}"
       class="flex items-center justify-center text-white overflow-hidden w-[95%] h-[80%] transition-all duration-500"
       [ngClass]="{
         'absolute w-full h-full opacity-0 pointer-events-none': isMobile && i !== currentIndex,
@@ -64,8 +65,8 @@
     >
   </button>
 </div>
-
-<div class="flex flex-col items-center p-10 bg-[#f5f2eb]">
+<app-carrusel></app-carrusel>
+<div class="flex flex-col font-montserrat items-center mb-10 ">
   <!-- Título -->
   <div class="flex flex-col mb-6 md:w-1/3 items-center">
     <span class=" text-lg font-montserrat font-thin text-black">{{ "HOME.PREMIUM_SERVICES.TITLE"|translate }}</span>
@@ -73,52 +74,50 @@
   </div>
 
   <!-- Grid de tarjetas -->
-  <div class="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 h-auto md:h-[150vh] gap-4">
+  <div class="flex flex-col md:w-full px-21 md:grid md:grid-cols-3 h-[70vh] md:grid-rows-1 ">
     <div
       *ngFor="let journey of journeys"
-      class="relative overflow-hidden"
-        [ngClass]="{
-      'col-span-1': journey.colSpan === 1,
-      'col-span-2': journey.colSpan === 2,
-      'col-span-3': journey.colSpan === 3,
-      'row-span-1': journey.rowSpan === 1,
-      'row-span-2': journey.rowSpan === 2,
-      'col-start-1': journey.colStart === 1,
-      'col-start-2': journey.colStart === 2,
-      'col-start-3': journey.colStart === 3
-    }"
+      class="relative p-1 overflow-hidden"
+      [ngClass]="{
+    'col-span-1': journey['COLUMNA'] === 1,
+    'col-span-2': journey['COLUMNA'] === 2,
+    'col-span-3': journey['COLUMNA'] === 3,
+    'row-span-1': journey['ROW'] === 1,
+    'row-span-2': journey['ROW'] === 2,
+    'col-start-1': journey['START'] === 1,
+    'col-start-2': journey['START'] === 2,
+    'col-start-3': journey['START'] === 3
+  }"
     >
-      <div class="w-full h-[50%]">
-      <img [src]="journey.IMAGE" [alt]="journey.title" class="w-full h-full ">
+      <div class="relative flex w-full h-[70%]">
+        <div class="absolute inset-0 z-1 bg-gradient-to-t from-black/80 to-black/20"></div>
+        <img [src]="journey.IMAGE" [alt]="journey.TITLE" class="w-full h-full ">
       </div>
       <!-- Capa de texto -->
-      <div class="h-[25%] bg-[#e6dbc1] flex flex-col justify-center p-4 text-black">
+      <div class="h-[30%] bg-[#e6dbc1] flex flex-col justify-center p-4 text-black">
         <h2 class="font-montserrat text-sm font-thin">{{ journey.SECTION }}</h2>
         <h2 class="font-montserrat text-xl font-thin">{{ journey.TITLE }}</h2>
         <p class="font-montserrat font-thin text-xs">{{ journey.DESCRIPTION }}</p>
-        <p class="font-montserrat font-thin text-sm underline">{{ journey.DISCOVER }}</p>
+        <p routerLink="{{journey.RUTA}}" class="font-montserrat font-thin text-sm underline">{{ journey.DISCOVER }}</p>
       </div>
   </div>
 </div>
 </div>
 
-
-<app-carrusel></app-carrusel>
-
-
-<div class="relative w-full h-[100vh]">
-  <!-- Contenedor del video -->
-  <div class="sticky top-0 h-[100vh] overflow-hidden">
-    <video autoplay muted loop class="w-full h-full object-cover">
-      <source src="assets/videos/sheeps-and-donkeys-in-peru-2023-11-27-05-34-27-utc.mp4" type="video/mp4">
-    </video>
-
-    <!-- Texto centrado con efecto de desvanecimiento -->
-    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center transition-opacity duration-500"
-         [ngClass]="{ 'opacity-0': isFading }">
-      <h1 class="text-4xl font-bold">"We are not in the travel business.<br>We are in the business of dreams."</h1>
-      <p class="text-lg mt-2">GEOFFREY KENT</p>
+<div class="bg-[#d3c5a2] flex font-montserrat">
+  <div class="relative w-1/2 h-[100vh]">
+    <!-- Contenedor del video -->
+    <div class="sticky top-0 h-[100vh] overflow-hidden">
+      <video autoplay [muted]="true" loop class="w-full h-full object-cover">
+        <source src="assets/videos/home/Train-luxury.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
+  <div class="flex flex-col items-start justify-center w-1/2 p-10 gap-10">
+    <h3 class="text-2xl">{{"HOME.TRAVEL.TITLE"|translate}}</h3>
+    <p >{{"HOME.TRAVEL.DESCRIPTION"|translate}}</p>
+    <span class="whitespace-pre-line underline">{{"HOME.TRAVEL.BUTTON"|translate}}</span>
+  </div>
 </div>
-
+<div class="h-[5vh]">
+</div>

@@ -2,7 +2,7 @@
   "NAVBAR": {
   "DESTINATIONS": "DESTINOS",
   "EXPEDITIONS": "EXPEDICIONES",
-  "PREMIUM_SERVICES": "SERVICIOS PREMIUM",
+  "PREMIUM_SERVICES": "TOURS DE LUJO",
     "LUXURY_PACKAGES":"PAQUETES DE LUJO",
     "FAMILY_BEST": "MEJORES DESTINOS FAMILIARES",
     "WEDDING": "LUNA DE MIEL",
@@ -26,32 +26,48 @@
     "CONTACT2": "o hable con su asesor de viajes."
 },
   "FOOTER": {
-    "DESCRIPTION": "Derechos de autor Andean Elite Perú SAC. Todos los derechos de autor y otros derechos de propiedad intelectual de todos los logotipos, diseños, textos, imágenes y materiales de este sitio web son propiedad de Andean Elite Perú SAC.",
-    "MARCA": "Andean Elite Perú es una marca comercial registrada. Todos los derechos reservados.",
-    "CONTACTO": "Contacto",
-    "POLICY": {
-      "PROTECTION": "Política de Protección de Datos Personales",
-      "POLICY": "Política ESNNA",
-      "TERMS": "Terms and Conditions",
-      "CERTIFICATES": "Certificado ESNNA"
-    }
+    "TITLE": "Infinity Luxury Perú",
+    "DESCRIPTION": "Copyright Infinity Luxury Perú SAC. All copyrights and other intellectual property rights of all logos, designs, text, images and materials on this website are owned by Infinity Luxury Perú SAC.",
+    "COMPANY": "Compañia",
+    "ABOUT": "Nosotros",
+    "CONTACT": "Contactanos",
+    "POLICIES": "Politicas",
+    "BOOKING_TERMS": "Terminos y Condiciones",
+    "COOKIE_POLICY": "Cookie Policy",
+    "DATA_POLICY": "Politica de Datos",
+    "EMAIL_OPT_OUT": "Email Opt-Out",
+    "ADVISOR": "Eres un asesor de viajes?",
+    "YES": "Yes",
+    "NO": "NO",
+    "PRIVACY": "By entering your email, you agree to our Terms of Use and",
+    "TERMS": "Privacy Policy, including receipt of emails and promotions.",
+    "SUBSCRIBE": "Subscribe",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL": "Email"
   },
   "HOME": {
     "SECTIONS": [
       {
         "TITLE": "Destinos",
         "DESCRIPTION": "Podemos organizar experiencias de viaje extraordinarias en los siete continentes. ¿A dónde quieres ir?",
-        "IMAGE": "assets/img/home/Destinations-Lima.webp"
+        "IMAGE": "assets/img/home/Destinations-Lima.webp",
+        "RUTA": "/destinations"
+
       },
       {
         "TITLE": "Tours",
         "DESCRIPTION": "Encuentra tu viaje soñado, ya sea privado o en grupo, en tren, barco o avión.",
-        "IMAGE": "assets/img/home/Tours-Valle-sagrado.webp"
+        "IMAGE": "assets/img/home/Tours-Valle-sagrado.webp",
+        "RUTA": "/premium-services/premium-tours"
+
       },
       {
         "TITLE": "Trekking",
         "DESCRIPTION": "Nuestra colección de alojamientos inspiradores incluye lodges de safari, súper-villas y barcos boutique.",
-        "IMAGE": "assets/img/home/Trekking-Chaman.webp"
+        "IMAGE": "assets/img/home/Trekking-Chaman.webp",
+        "RUTA": "/premium-services/trekking"
+
       }
     ],
     "JOURNEYS": [
@@ -60,23 +76,33 @@
         "TITLE": "Paquetes de Lujo",
         "DESCRIPTION": "Listo o no, aquí vamos. Nuestros paquetes de lujo te llevarán a los destinos más exclusivos del mundo.",
         "DISCOVER": "Descubrir Más",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+        "COLUMNA": "3",
+        "ROW": "1",
+        "START": "1",
+        "IMAGE": "assets/img/home/Luxury-Packages.webp",
+        "RUTA": "/premium-services/luxury-packages"
       },
       {
         "SECTION": "Bienestar",
         "TITLE": "SPA",
         "DESCRIPTION": "Disfruta y relájate en los mejores spas del mundo. Descubre nuestras experiencias de bienestar.",
         "DISCOVER": "Descubrir Más",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
-
+        "COLUMNA": "1",
+        "ROW": "1",
+        "START": "1",
+        "IMAGE": "assets/img/home/Wellness-Spa.webp",
+        "RUTA": "/premium-services/wellness"
       },
       {
         "SECTION": "Gastronomia",
         "TITLE": "Mejores Restaurantes Peruanos",
         "DESCRIPTION": "Peru tiene una de las mejores gastronomías del mundo. Descubre los mejores restaurantes peruanos.",
         "DISCOVER": "Descubrir Más",
-        "IMAGE": "assets/img/home/Journeys-Japon.webp"
-
+        "COLUMNA": "2",
+        "ROW": "1",
+        "START": "2",
+        "IMAGE": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "RUTA": "/premium-services/gastronomy"
       }
     ],
     "BANNER": "Viajes de lujo y experiencias exclusivas  Descubre lo extraordinario",
@@ -85,6 +111,25 @@
     "PREMIUM_SERVICES": {
       "TITLE": "Servicios Premium",
       "DESCRIPTION": "Nuestras experiencias exclusivas, solo para ti."
+    },
+    "STAY": {
+      "TITLE": "CONFIA EN NOSOTROS",
+      "DESCRIPTION": "Nuestros expertos en viajes han seleccionado los mejores hoteles.",
+      "TARGETS": [
+        { "title": "Hotel Monasterio Cusco",    "image": "assets/img/home/Carrusel-Hotel-Cusco.webp",
+          "description": "Disfruta de este hotel" },
+        { "title": "Lima",       "image":"assets/img/home/Carrusel-Miraflores.webp",
+          "description": "Descubre el parque de Miraflores" },
+        { "title": "Train",       "image": "assets/img/home/Carrusel-Train.webp",
+          "description": "Disfruta de esta experiencia" }
+      ]
+    },
+    "TRAVEL": {
+      "TITLE": "VIAJA CON RESPONSABILIDAD",
+      "DESCRIPTION": "Nosotros nos preocupamos por el medio ambiente y las comunidades locales. Descubre cómo puedes ayudar. Visita nuestra sección de viajes sostenibles.\n Además explora nuestros servicios especiales, los cuales están diseñados para personas con discapacidades, autismo y otros requerimientos especiales.\n Además, puedes encontrar información sobre oxígeno y otros servicios médicos.",
+      "BUTTON": "Lee más",
+      "RUTA": "premium-services/sustainable-tourism"
+
     }
   },
   "PACKAGES": {

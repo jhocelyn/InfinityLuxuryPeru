@@ -1,34 +1,48 @@
-<footer class="bg-[#000000] text-white py-10 px-6 h-[50vh] md:h-[40vh]">
-  <div class="container grid grid-cols-1 md:grid-cols-4 gap-4 items-center justify-center">
-    <!-- Logo e Información de Derechos -->
-
-    <!-- Contacto -->
-    <div class="col-span-1">
-      <h3 class="text-xl font-thin font-argent mb-4">{{ 'FOOTER.CONTACTO' | translate }}</h3>
-      <ul class="text-sm space-y-2">
-        <li>
-          <span class="inline-block">📞</span> +51 985 517 770
-        </li>
-        <li>
-          <span class="inline-block">📍</span> Surco, Lima, Perú<br> RUC:
-        </li>
-        <li>
-          ✉️ <a href="mailto:sales@andeanelite.com" class="underline">sales&commat;andeanelite.com</a>
-        </li>
-      </ul>
+<footer class="font-montserrat bg-black text-white py-10 px-5 md:px-20">
+  <div class="flex flex-col md:flex-row justify-between items-start">
+    <!-- Sección de suscripción -->
+    <div class="w-full md:w-1/3 mb-6 md:mb-0">
+      <h2 class="text-xl font-normal">{{ 'FOOTER.TITLE' | translate }}</h2>
+      <p class="text-sm font-thin mt-2">{{ 'FOOTER.DESCRIPTION' | translate }}</p>
+      <form class="mt-4 flex flex-col gap-2">
+        <input type="text"  placeholder="{{ 'FOOTER.FIRST_NAME' | translate }}" class="bg-white p-2 rounded text-black">
+        <input type="text" placeholder="{{ 'FOOTER.LAST_NAME' | translate }}" class="bg-white p-2 rounded text-black">
+        <input type="email" placeholder="{{ 'FOOTER.EMAIL' | translate }}" class="bg-white p-2 rounded text-black">
+        <div class="flex items-center gap-2">
+          <span class="text-sm">{{ 'FOOTER.ADVISOR' | translate }}</span>
+          <label><input type="radio" name="advisor" value="yes"> {{ 'FOOTER.YES' | translate }}</label>
+          <label><input type="radio" name="advisor" value="no" checked> {{ 'FOOTER.NO' | translate }}</label>
+        </div>
+        <p class="text-xs mt-2">
+          {{ 'FOOTER.PRIVACY' | translate }} <a href="#" class="underline">{{ 'FOOTER.TERMS' | translate }}</a>.
+        </p>
+        <button class="bg-white text-black px-4 py-2 rounded mt-3">{{ 'FOOTER.SUBSCRIBE' | translate }}</button>
+      </form>
     </div>
 
-    <!-- Información adicional -->
-    <div class="col-span-1">
-      <h3 class="text-xl font-thin font-argent mb-4">Infinity Luxury Peru</h3>
-      <ul class="text-sm space-y-2">
-        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.PROTECTION' | translate }}</a></li>
-        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.POLICY' | translate }}</a></li>
-        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.TERMS' | translate }}</a></li>
-        <li><a href="#" class="hover:underline">{{ 'FOOTER.POLICY.CERTIFICATES' | translate }}</a></li>
-      </ul>
+    <div class="flex flex-row justify-between">
+    <!-- Links de la empresa -->
+    <div class="w-full md:w-1/3 flex flex-col gap-2">
+      <h3 class="font-semibold">{{ 'FOOTER.COMPANY' | translate }}</h3>
+      <a href="/about-us">{{ 'FOOTER.ABOUT' | translate }}</a>
+      <a href="/contact-us">{{ 'FOOTER.CONTACT' | translate }}</a>
     </div>
 
-    <!-- Logos -->
+    <!-- Políticas y servicios -->
+    <div class="w-full md:w-1/3 flex flex-col gap-2">
+      <h3 class="font-semibold">{{ 'FOOTER.POLICIES' | translate }}</h3>
+      <a href="#">{{ 'FOOTER.BOOKING_TERMS' | translate }}</a>
+      <a href="#">{{ 'FOOTER.COOKIE_POLICY' | translate }}</a>
+      <a href="#">{{ 'FOOTER.DATA_POLICY' | translate }}</a>
+      <a href="#">{{ 'FOOTER.EMAIL_OPT_OUT' | translate }}</a>
+    </div>
+    </div>
+  </div>
+
+  <!-- Redes sociales -->
+  <div class="mt-10 flex justify-center gap-4">
+    <a href="#" class="text-xl"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#" class="text-xl"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" class="text-xl"><i class="fa-brands fa-instagram"></i></a>
   </div>
 </footer>
