@@ -3,8 +3,13 @@ import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import {TranslateService} from '@ngx-translate/core';
 
-bootstrapApplication(AppComponent, appConfig).then(appRef => {
-  const translate = appRef.injector.get(TranslateService);
-  translate.setDefaultLang('en');
-  translate.use('en');  // Cambia a 'en' si quieres inglés por defecto
-}).catch((err) => console.error(err));
+bootstrapApplication(AppComponent, appConfig)
+  .then(appRef => {
+    // Inyectar el servicio de traducción manualmente
+    const translate = appRef.injector.get(TranslateService);
+    translate.addLangs(['en', 'es']); // Idiomas disponibles
+    const browserLang = localStorage.getItem('lang') || translate.getBrowserLang() || 'en';
+    translate.use(browserLang.match(/en|es/) ? browserLang : 'en');
+  })
+  .catch(err => console.error(err));
+

@@ -17,7 +17,7 @@ import {
   PackagePricingComponent
 } from '../../../../../../../shared/components/To Destinations/info-package/package-pricing/package-pricing.component';
 import {TravelPackage} from '../../../../../../../shared/models/travel-packages.model';
-import {PackagesService} from '../../../../../../../services/packages.service';
+import {PeruPackagesService} from '../../../../../../../services/peru-packages.service';
 import {
   BannerComponent
 } from '../../../../../../../shared/components/To Destinations/info-package/banner/banner.component';
@@ -59,7 +59,7 @@ export class InfoPackagesComponent implements OnInit{
 
   constructor(
     private route: ActivatedRoute,
-    private packagesService: PackagesService
+    private packagesService: PeruPackagesService
   ) {}
 
   ngOnInit(): void {

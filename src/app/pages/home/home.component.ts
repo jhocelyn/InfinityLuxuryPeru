@@ -1,10 +1,8 @@
 import {Component, HostListener} from '@angular/core';
-import {NavbarComponent} from '../../shared/components/Important/navbar/navbar.component';
 import {NgClass, NgForOf, NgIf} from '@angular/common';
 import {RouterLink} from '@angular/router';
-import {CarruselTripComponent} from '../../shared/components/carrusel-trip/carrusel-trip.component';
 import {CarruselComponent} from '../../shared/components/carrusel/carrusel.component';
-import {FooterComponent} from '../../shared/components/Important/footer/footer.component';
+import {TranslateModule, TranslatePipe, TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -13,66 +11,41 @@ import {FooterComponent} from '../../shared/components/Important/footer/footer.c
     RouterLink,
     NgClass,
     NgIf,
-    CarruselTripComponent,
     CarruselComponent,
+    TranslatePipe,
+    TranslateModule
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  sections = [
-    {
-      title: 'Destinations',
-      description: 'We can arrange remarkable travel experiences on all seven continents. Where do you want to go?',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      link: '/destinations'
-    },
-    {
-      title: 'Journeys',
-      description: 'Find your dream journey, whether you want to travel privately or with a group, by train, boat, or plane.',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      link: '/journeys'
-    },
-    {
-      title: 'Stays',
-      description: 'Our collection of inspiring places to stay includes safari lodges, super-villas, and boutique riverboats.',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      link: '/stays'
-    }
-  ];
-  journeys = [
-    {
-      section:'Travel Privately',
-      title: 'Japanese Traditions',
-      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
-      discover:'Discover More',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      colSpan: 2, // Ocupa 2 columnas
-      rowSpan: 1, // Ocupa 1 fila,
-      colStart: 1 // Comienza en la columna 1
-    },
-    {
-      section: 'Small Group Journeys',
-      title: 'Luxury Yacht Dining',
-      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
-      discover:'Discover More',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      colSpan: 1, // Ocupa 1 columna
-      rowSpan: 1,  // Ocupa 1 fila
-      colStart: 3
-    },
-    {
-      section: 'Safarey Experience',
-      title: 'African Safari',
-      description: 'Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.',
-      discover:'Discover More',
-      image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-      colSpan: 3, // Ocupa 3 columnas
-      rowSpan: 1,  // Ocupa 1 fila
-      colStart: 1
-    }
-  ];
+  sections: any[] = [];
+  journeys: any[] = [];
   isFading = false;
+  isMobile: boolean = window.innerWidth <= 768;
+  currentIndex: number = 0;
+  constructor(private translate: TranslateService) {}
+
+  ngOnInit() {
+    this.loadTranslations();
+    this.translate.onLangChange.subscribe(() => {
+      this.loadTranslations();
+    });
+  }
+
+  loadTranslations() {
+    console.log('Intentando obtener HOME.SECTIONS...');
+
+    this.translate.get('HOME.SECTIONS').subscribe((sections) => {
+      console.log('Datos obtenidos para HOME.SECTIONS:', sections);
+      this.sections = sections;
+    });
+
+    this.translate.get('HOME.JOURNEYS').subscribe((journeys) => {
+      console.log('Datos obtenidos para HOME.JOURNEYS:', journeys);
+      this.journeys = journeys;
+    });
+  }
 
   @HostListener('window:scroll', [])
   onScroll(): void {
@@ -80,13 +53,9 @@ export class HomeComponent {
     if (!videoSection) return;
 
     const rect = videoSection.getBoundingClientRect();
-    const fadePoint = window.innerHeight * 0.3; // Empieza a desaparecer cuando el 30% del video está fuera de la pantalla
-
+    const fadePoint = window.innerHeight * 0.3;
     this.isFading = rect.bottom < fadePoint;
   }
-
-isMobile: boolean = window.innerWidth <= 768;
-  currentIndex: number = 0;
 
   @HostListener('window:resize', [])
   onResize() {
@@ -105,11 +74,11 @@ isMobile: boolean = window.innerWidth <= 768;
     }
   }
 
-  phoneNumber: string = '+51934983711'; // 📌 Reemplaza con tu número de WhatsApp
+  phoneNumber: string = '+51934983711';
   message: string = 'Hola, quiero más información sobre los paquetes de viaje.';
 
   openWhatsApp() {
     const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
-    window.open(url,'_blank');
+    window.open(url, '_blank');
   }
 }

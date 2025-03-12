@@ -1,0 +1,93 @@
+<div class="bg-[#f5f2eb] ">
+  <div class="flex flex-col md:flex-row p-0 mb-10">
+    <app-banner-to-info-destinations
+      [imagen]="info.image_principal"
+      [titulo]="info.titlePage"
+      [botonTexto]="info.button"
+    >
+    </app-banner-to-info-destinations>
+
+    <app-info-section-destinations
+      [titulo]="info.titleInfo"
+      [descripcion]="info.descripcion"
+      [subtitulo]="info.subtitulo"
+      [images]="images">
+    </app-info-section-destinations>
+  </div>
+
+  <app-banner
+    [imagen]="info.image_middle"
+    [texto]="info.text"
+    [mostrarFlecha]="false">
+  </app-banner>
+
+  <!--FORMULARIO-->
+  <div class="flex justify-center font-extralight w-full p-4">
+    <form class="w-full  bg-white p-6 rounded-lg shadow-lg space-y-4">
+      <h2 class="text-3xl font-argent font-extralight col-span-full">Leave us your info</h2>
+
+      <div class="flex flex-row w-full gap-5">
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Estilo de Viaje</label>
+          <select class="w-full p-2 border rounded-lg" [(ngModel)]="formData.travelStyle" name="travelStyle">
+            <option>Luxury</option>
+            <option>Premium Tours</option>
+            <option>Sustainable tourism</option>
+            <option>Family Best</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Fecha de Salida</label>
+          <input type="date" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.departureDate" name="departureDate">
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Fecha de Retorno</label>
+          <input type="date" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.returnDate" name="returnDate">
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-5">
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">Cantidad de días</label>
+          <input type="number" class="w-full p-2 border rounded-lg" min="1" [(ngModel)]="formData.days" name="days">
+        </div>
+        <div class="flex flex-col">
+          <label class="block text-xl font-argent font-extralight">N° de adultos</label>
+          <input type="number" class="w-full p-2 border rounded-lg" min="1" [(ngModel)]="formData.adults" name="adults">
+        </div>
+      </div>
+
+      <label class="block text-xl font-argent font-extralight">Tipo de alojamiento</label>
+      <select class="w-full p-2 border rounded-lg" [(ngModel)]="formData.accommodation" name="accommodation">
+        <option>Primera Clase</option>
+        <option>Lujo</option>
+      </select>
+
+      <label class="block text-xl font-argent font-extralight">Destinos de Interés</label>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <label *ngFor="let destino of destinationsList" class="flex items-center">
+          <input type="checkbox" class="mr-2" [value]="destino" [(ngModel)]="formData.destinations" name="destinations">
+          {{ destino }}
+        </label>
+      </div>
+
+      <!-- 📞 Nuevo: Campo de Teléfono -->
+      <div class="flex flex-col">
+        <label class="block text-xl font-argent font-extralight">Teléfono</label>
+        <input type="tel" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.phone" name="phone">
+      </div>
+
+      <!-- ✉️ Nuevo: Campo de Correo -->
+      <div class="flex flex-col">
+        <label class="block text-xl font-argent font-extralight">Correo Electrónico</label>
+        <input type="email" class="w-full p-2 border rounded-lg" [(ngModel)]="formData.email" name="email">
+      </div>
+
+      <button type="submit" (click)="submitForm()" class="w-full hover:bg-[#aa5432] text-black p-2 rounded-lg bg-white">
+        Enviar
+      </button>
+    </form>
+  </div>
+
+</div>

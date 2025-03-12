@@ -8,7 +8,8 @@ import {NgClass, NgIf} from '@angular/common';
   imports: [
     RouterLink,
     NgClass,
-    NgIf
+    NgIf,
+    TranslatePipe
   ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
@@ -17,10 +18,13 @@ export class NavbarComponent {
   @Output() languageChanged = new EventEmitter<string>();
   constructor(private translate: TranslateService) {}
 
+
   changeLanguage(lang: string) {
     this.translate.use(lang);
-    this.languageChanged.emit(lang);
+    localStorage.setItem('lang', lang);
+    console.log(`Idioma cambiado a: ${lang}`);
   }
+
   isMenuOpen = false;
   activeSubMenu: string | null = null;
   activeSubSubMenu: string | null = null;

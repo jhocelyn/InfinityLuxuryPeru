@@ -1,11 +1,29 @@
 {
   "NAVBAR": {
-    "ABOUT_US": "About us",
-    "DESTINATIONS": "Destinations",
-    "OUR_PRODUCTS": "Our Products",
-    "OUR_SERVICES": "Our Services",
-    "CONTACT_US": "Contact us",
-    "SALES_CONTACT": "Sales Contact Center:"
+    "DESTINATIONS": "DESTINATIONS",
+    "EXPEDITIONS": "EXPEDITIONS",
+    "PREMIUM_SERVICES": "PREMIUM SERVICES",
+    "LUXURY_PACKAGES":"LUXURY PACKAGES",
+    "FAMILY_BEST": "FAMILY BEST EXPERIENCES",
+    "WEDDING": "WEDDING",
+    "SUSTAINABLE": "SUSTAINABLE TOURISM",
+    "CHARTERS": "CHÁRTERS",
+    "TREKKING": "TREKKING",
+    "DONATIONS": "DONATIONS",
+    "BUILD_YOUR_TRIP": "BUILD YOUR TRIP",
+    "SPECIAL_SERVICES": "SPECIAL SERVICES",
+    "HANDICAP": "HANDICAP",
+    "AUTISM": "AUTISM",
+    "OXYGEN": "OXYGEN REQUIREMENTS",
+    "GASTRONOMY": "GASTRONOMY",
+    "PERUVIAN_COOKING": "PERUVIAN COOKING CLASS",
+    "PERUVIAN_RESTAURANTS": "PERUVIAN BEST RESTAURANTS",
+    "WELLNESS": "WELLNESS",
+    "CONTACT_US": "CONTACT US",
+    "ABOUT_US": "ABOUT US",
+    "SEE_ALL": "SEE ALL",
+    "CONTACT1": "Talk to a travel consultant at",
+    "CONTACT2": "or speak to your travel advisor."
   },
   "FOOTER": {
     "DESCRIPTION": "Copyright Andean Elite Perú SAC. All copyrights and other intellectual property rights of all logos, designs, text, images and materials on this website are owned by Andean Elite Perú SAC.",
@@ -18,16 +36,1717 @@
       "CERTIFICATES": "Certificate ESNNA"
     }
   },
-  "BANNER": {
-    "TITLE": "Luxury Vacations to Africa",
-    "BUTTON": "View All Packages ↓"
+  "HOME": {
+    "SECTIONS": [
+      {
+        "TITLE": "Destinations",
+        "DESCRIPTION": "We can arrange remarkable travel experiences on all seven continents. Where do you want to go?",
+        "IMAGE": "assets/img/home/Destinations-Lima.webp"
+
+      },
+      {
+        "TITLE": "Tours",
+        "DESCRIPTION": "Find your dream journey, whether you want to travel privately or with a group, by train, boat, or plane.",
+        "IMAGE": "assets/img/home/Tours-Valle-sagrado.webp"
+
+      },
+      {
+        "TITLE": "Trekking",
+        "DESCRIPTION": "Our collection of inspiring places to stay includes safari lodges, super-villas, and boutique riverboats.",
+        "IMAGE": "assets/img/home/Trekking-Chaman.webp"
+      }
+    ],
+    "JOURNEYS": [
+      {
+        "SECTION": "Travel Privately",
+        "TITLE": "Japanese Traditions",
+        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
+        "DISCOVER": "Discover More",
+        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+
+      },
+      {
+        "SECTION": "Small Group Journeys",
+        "TITLE": "Luxury Yacht Dining",
+        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
+        "DISCOVER": "Discover More",
+        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+
+      },
+      {
+        "SECTION": "Safari Experience",
+        "TITLE": "African Safari",
+        "DESCRIPTION": "Our guided journeys redefine the group tour, bringing together a select collective of like-minded travellers seeking shared adventures and meaningful connections.",
+        "DISCOVER": "Discover More",
+        "IMAGE": "assets/img/home/Journeys-Japon.webp"
+
+      }
+    ],
+    "BANNER": "Luxury Travel & Exclusive Experiences  Discover the Extraordinary",
+    "DESCRIPTION": "Curated journeys, breathtaking landscapes, and unparalleled luxury for the discerning traveler.",
+    "BUTTON": "WHERE DO YOU WANT TO GO?",
+    "PREMIUM_SERVICES": {
+      "TITLE": "Premium Services",
+      "DESCRIPTION": "Our exclusive experiences, just for you."
+    }
   },
-  "INFO": {
-    "TITLE": "This great continent is the cradle of humanity, culture, and wildlife.",
-    "DESCRIPTION": "It has spawned millions of species, from tiny frogs to gorillas and the largest mammals on the planet. Africa is also the birthplace of Abercrombie & Kent, pioneers in luxury safaris since 1962.",
-    "BEST_WAYS": "Best Ways to Travel",
-    "PACKAGE1": "Kenya & Tanzania Wildlife Safari",
-    "PACKAGE2": "The Great Migration Safari in Style"
-  }
+  "PACKAGES": {
+    "COUNTRIES": {
+      "PERU": {
+        "arequipa": [],
+        "cusco": [],
+        "amazon":[],
+        "lima":[],
+        "manu":[],
+        "puno":[]
+      },
+      "ECUADOR": {
+        "galapagos": []
+      },
+      "BOLIVIA": {
+        "uyuni":[]
+      }
+    },
+    "TOURS":{
+      "cusco":[
+        {
+          "id": 1,
+          "title": "Full Day Trek – Humantay Lake",
+          "subtitle": "Explora la impresionante Laguna Humantay en una caminata de un día con vistas espectaculares",
+          "days": 1,
+          "nights": 0,
+          "price": 180,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Mollepata", "lat": -13.414, "lng": -72.250, "day": 1 },
+            { "name": "Soraypampa", "lat": -13.401, "lng": -72.608, "day": 1 },
+            { "name": "Laguna Humantay", "lat": -13.414, "lng": -72.625, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Caminata a la impresionante Laguna Humantay de aguas turquesas",
+              "Vistas panorámicas de los nevados Humantay y Salkantay",
+              "Posibilidad de realizar una ofrenda sagrada con hojas de coca",
+              "Picnic de lujo con una comida gourmet de tres tiempos",
+              "Transporte privado y guías especializados"
+            ],
+            "text": "Sumérgete en la belleza natural de los Andes con esta caminata de un día a la Laguna Humantay. Disfruta de una vista espectacular de las montañas nevadas y relájate con un picnic gourmet exclusivo en Soraypampa.",
+            "itinerary": [
+              {
+                "dayTitle": "Día 1",
+                "daySubtitle": "Cusco - Laguna Humantay - Cusco",
+                "dayDescription": "Salida temprano desde Cusco, viaje hacia Soraypampa pasando por Mollepata. Caminata moderada de 1.5 horas hasta la Laguna Humantay, tiempo para explorar, tomar fotos y realizar una ofrenda simbólica. Retorno a Soraypampa y almuerzo gourmet antes de regresar a Cusco."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Día 1",
+              "daySubtitle": "Cusco - Mollepata - Soraypampa - Laguna Humantay - Cusco",
+              "dayDescription": "Nuestra jornada comienza temprano con la recogida en el hotel en Cusco a las 06:30 am. Tras un viaje de 2.5 horas disfrutando de paisajes andinos, llegamos a Mollepata, donde haremos una breve parada para compras de última hora y una explicación sobre la flora y fauna local.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Día 1 - Parte 2",
+              "daySubtitle": "Inicio de la Caminata en Soraypampa",
+              "dayDescription": "Después de una hora adicional en transporte por carretera de tierra, llegamos a Soraypampa (3920 msnm), el punto de inicio de la caminata. Desde aquí, nos preparamos para una caminata ascendente de aproximadamente 1.5 horas, con vistas espectaculares de los nevados Humantay y Salkantay. Durante el ascenso, tendrás la opción de alquilar un caballo si lo prefieres.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Día 1 - Parte 3",
+              "daySubtitle": "Exploración de la Laguna Humantay",
+              "dayDescription": "Al llegar a la Laguna Humantay (4200 msnm), quedaremos maravillados por sus aguas de un intenso color turquesa. Nuestro guía explicará la historia, geología y la importancia espiritual de este lugar sagrado para los pobladores locales. También se puede realizar una ofrenda con hojas de coca en honor a los Apus, los espíritus guardianes de las montañas.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Día 1 - Parte 4",
+              "daySubtitle": "Descenso y Almuerzo Gourmet en Soraypampa",
+              "dayDescription": "Después de disfrutar de la belleza de la laguna, comenzamos el descenso de regreso a Soraypampa. Aquí nos espera un almuerzo gourmet tipo picnic con un menú de tres tiempos, que incluye opciones para dietas especiales si se solicita con anticipación. Relájate con vistas impresionantes antes de abordar nuestro transporte de regreso a Cusco.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Día 1 - Parte 5",
+              "daySubtitle": "Retorno a Cusco",
+              "dayDescription": "Luego del almuerzo, abordamos nuestro transporte privado de regreso a Cusco, disfrutando del paisaje andino en el trayecto. Llegada estimada a las 18:30 pm, concluyendo una experiencia inolvidable.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Opciones adicionales para mejorar tu experiencia",
+            "packages": [
+              { "title": "Alquiler de caballo para la caminata", "image": "horse-rental.jpg" },
+              { "title": "Bastones de trekking", "image": "trekking-poles.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Incluye y No Incluye",
+            "included": [
+              "Guía profesional de habla inglesa",
+              "Transporte privado de ida y vuelta desde Cusco",
+              "Entrada a la Laguna Humantay",
+              "Desayuno y almuerzo gourmet tipo picnic",
+              "Opción de ofrenda a los Apus",
+              "Bebidas calientes y snacks durante la caminata",
+              "Botiquín de primeros auxilios y oxígeno de emergencia"
+            ],
+            "notIncluded": [
+              "Alquiler de caballos para la caminata",
+              "Bastones de trekking (opcional)",
+              "Gastos personales y propinas",
+              "Seguro de viaje (recomendado)"
+            ]
+          },
+          "images": [
+            { "alt": "Laguna Humantay", "src": "humantay-lake.jpg", "width": 800 },
+            { "alt": "Vista del nevado Salkantay", "src": "salkantay-mountain.jpg", "width": 800 },
+            { "alt": "Caminata hacia la laguna", "src": "humantay-trek.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "FULL DAY TREK – CHONTA CONDORS VIEWPOINT",
+          "subtitle": "Let’s visit the messengers of the gods as the Incas said… This very small town offers the most spectacular condors view of all our region.",
+          "days": 1,
+          "nights": 0,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Limatambo", "lat": -13.478, "lng": -72.178, "day": 1 },
+            { "name": "Chonta", "lat": -13.420, "lng": -72.209, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Discover the breathtaking Apurimac Canyon, the deepest in South America.",
+              "Learn about the Inca culture and the majestic Andean condors soaring in the sky.",
+              "Trek through scenic landscapes with endemic flora and fauna.",
+              "Enjoy a gourmet picnic with stunning mountain views.",
+              "Private transportation and professional guides."
+            ],
+            "text": "Experience the beauty of the Apurimac Canyon and observe the majestic Andean condors in their natural habitat. This full-day trek will take you through stunning Andean landscapes and offer a unique wildlife experience.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco - Chonta Condors Viewpoint - Cusco",
+                "dayDescription": "Early morning departure from Cusco, passing through Limatambo and picturesque Andean villages. Trek to Chonta viewpoint where you'll witness the condors soaring in their natural habitat. Enjoy a picnic lunch before returning to Cusco in the evening."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco - Limatambo - Chonta",
+              "dayDescription": "Depart Cusco early in the morning and travel through the scenic Andean highlands, stopping in Limatambo to admire the landscapes and local culture.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Trekking to Chonta Viewpoint",
+              "dayDescription": "Hike to the Chonta viewpoint with breathtaking views of the Apurimac Canyon. Observe the condors in flight as they glide above the deep canyon.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Gourmet Picnic Lunch",
+              "dayDescription": "Enjoy a carefully prepared picnic lunch with stunning mountain and canyon views, featuring traditional Andean flavors.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Relax on the drive back to Cusco, arriving in the evening around 18:00 hrs.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Walking sticks (upon request)", "image": "walking-sticks.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Includes and Excludes",
+            "included": [
+              "Professional English-speaking guide.",
+              "Private transportation from Cusco.",
+              "Entrance fees to Chonta Condors Viewpoint.",
+              "Gourmet picnic lunch.",
+              "Healthy snacks and beverages.",
+              "First aid kit and oxygen bottle."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation if needed.",
+              "Personal expenses and tips.",
+              "Travel insurance (recommended)."
+            ]
+          },
+          "images": [
+            { "alt": "Condors flying over Apurimac Canyon", "src": "condors-apurimac.jpg", "width": 800 },
+            { "alt": "Trekking route to Chonta", "src": "chonta-trek.jpg", "width": 800 },
+            { "alt": "Gourmet picnic with mountain view", "src": "picnic-chonta.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "FULL DAY TREK – PALCOYO RAINBOW MOUNTAINS RANGE",
+          "subtitle": "Discover the impressive and magical landscape of painted colored mountains that used to be 'water'.",
+          "days": 1,
+          "nights": 0,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Checacupe", "lat": -14.049, "lng": -71.406, "day": 1 },
+            { "name": "Combapata", "lat": -14.088, "lng": -71.418, "day": 1 },
+            { "name": "Palcoyo", "lat": -14.088, "lng": -71.356, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Discover a less explored Rainbow Mountain range.",
+              "Short and easy hike with stunning panoramic views.",
+              "Visit the unique 'Stone Forest'.",
+              "Luxury picnic lunch with gourmet options.",
+              "Professional guides and private transportation."
+            ],
+            "text": "Experience the beauty of the Palcoyo Rainbow Mountain range with an easy one-day trek. Enjoy breathtaking landscapes, colorful mountains, and the unique geological formations of the Stone Forest.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco - Palcoyo - Cusco",
+                "dayDescription": "Early morning departure from Cusco. Drive through the Andes to reach Palcoyo, passing picturesque villages and colonial bridges. Hike for about an hour to reach the viewpoint at 4900m, where you’ll admire the colorful mountains and the Red Valley. Enjoy a gourmet picnic lunch before returning to Cusco in the evening."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco - Checacupe - Combapata - Palcoyo",
+              "dayDescription": "Depart Cusco early morning and travel through the scenic Andean highlands, stopping at Checacupe and Combapata along the way to see colonial bridges and charming villages.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Trekking to Palcoyo Viewpoint",
+              "dayDescription": "Hike for about an hour to reach the main viewpoint at 4900m. Enjoy panoramic views of the Rainbow Mountain range, the Red Valley, and the Ausangate Mountain in the distance.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Luxury Picnic Lunch",
+              "dayDescription": "After the hike, enjoy a gourmet picnic lunch with spectacular views, featuring Andean flavors and a selection of drinks, including wine and hot coca tea.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Relax on the drive back to Cusco, arriving in the evening around 18:00 hrs.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Walking sticks (upon request)", "image": "walking-sticks.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Includes and Excludes",
+            "included": [
+              "Professional English-speaking guide.",
+              "Private transportation from Cusco.",
+              "Entrance fees to Palcoyo.",
+              "Luxury picnic lunch.",
+              "Healthy snacks and beverages.",
+              "First aid kit and oxygen bottle."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation if needed.",
+              "Personal expenses and tips.",
+              "Travel insurance (recommended)."
+            ]
+          },
+          "images": [
+            { "alt": "Palcoyo Rainbow Mountain View", "src": "palcoyo-view.jpg", "width": 800 },
+            { "alt": "Stone Forest in Palcoyo", "src": "stone-forest.jpg", "width": 800 },
+            { "alt": "Luxury Picnic Lunch", "src": "picnic-lunch.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "THE GREATEST FULL DAY TO VINICUNCA RAINBOW MOUNTAIN TREK",
+          "subtitle": "A great day in this highest and incredible colorful mountain that looks surreal.",
+          "days": 1,
+          "nights": 0,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Checacupe", "lat": -14.046, "lng": -71.461, "day": 1 },
+            { "name": "Pitumarca", "lat": -14.091, "lng": -71.362, "day": 1 },
+            { "name": "Hanchipacha", "lat": -14.158, "lng": -71.299, "day": 1 },
+            { "name": "Pampachiri", "lat": -14.188, "lng": -71.285, "day": 1 },
+            { "name": "Vinicunca Rainbow Mountain", "lat": -14.190, "lng": -71.275, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Trek to one of the most breathtaking natural wonders in the Andes.",
+              "Enjoy stunning panoramic views of the Rainbow Mountain colors.",
+              "Experience a challenging yet rewarding hike through high-altitude landscapes.",
+              "Learn about the geological formations and local Andean culture from expert guides.",
+              "Indulge in a luxury picnic lunch surrounded by the beauty of the mountains."
+            ],
+            "text": "Uncover one of nature's latest discoveries: The Rainbow Mountain or Vinicunca. Enjoy a full-day trip where you'll trek through diverse landscapes, see endemic flora and fauna, and immerse yourself in local Andean culture.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco - Vinicunca Rainbow Mountain - Cusco",
+                "dayDescription": "Depart early from Cusco, travel through scenic Andean villages, and trek to Vinicunca Rainbow Mountain. Enjoy a gourmet picnic lunch before returning to Cusco."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco - Pampachiri - Start Trek",
+              "dayDescription": "Early departure from Cusco, stopping in picturesque villages along the way before arriving at Pampachiri for the trek."
+            },
+            {
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Trek to Vinicunca Rainbow Mountain",
+              "dayDescription": "Hike through diverse landscapes, experiencing altitude changes and stunning Andean scenery before reaching the vibrant Rainbow Mountain."
+            },
+            {
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Luxury Picnic Lunch",
+              "dayDescription": "After descending from Vinicunca, enjoy a gourmet picnic lunch in a secluded Andean setting."
+            },
+            {
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Drive back to Cusco, arriving in the evening."
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Walking sticks (upon request)", "image": "walking-sticks.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Includes and Excludes",
+            "included": [
+              "Professional English-speaking guide.",
+              "Private transportation from Cusco.",
+              "Entrance fees to Vinicunca Rainbow Mountain.",
+              "Luxury picnic lunch with gourmet meals.",
+              "Healthy snacks and beverages.",
+              "Emergency horse available.",
+              "First aid kit and oxygen bottle."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation if needed.",
+              "Personal expenses and tips.",
+              "Travel insurance (recommended).",
+              "Personal riding horse (optional)."
+            ]
+          },
+          "images": [
+            { "alt": "Rainbow Mountain vibrant colors", "src": "rainbow-mountain.jpg", "width": 800 },
+            { "alt": "Trekking to Vinicunca", "src": "vinicunca-trek.jpg", "width": 800 },
+            { "alt": "Luxury picnic with mountain view", "src": "picnic-vinicunca.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "FULL DAY TREK – EXPRESS INCA TRAIL",
+          "subtitle": "At least you have to enjoy the shortest and great day trip to the lost citadel of Machu Picchu… views, colors, feelings and smiles will accompany you",
+          "days": 1,
+          "nights": 0,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Km 104", "lat": -13.158, "lng": -72.545, "day": 1 },
+            { "name": "Wiñaywayna", "lat": -13.155, "lng": -72.546, "day": 1 },
+            { "name": "Intipunku", "lat": -13.158, "lng": -72.544, "day": 1 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Hike the last portion of the original Inca trail to Machu Picchu.",
+              "Amazing views of Machu Picchu from Intipunku (Sun Gate).",
+              "Visit to Wiñaywayna archaeological site.",
+              "Luxury picnic lunch with gourmet options.",
+              "Professional guides and private transportation."
+            ],
+            "text": "Experience an unforgettable one-day trek along the famous Inca Trail. Start from Km 104 and hike through breathtaking landscapes, passing by the stunning ruins of Wiñaywayna before reaching the Sun Gate for a breathtaking first view of Machu Picchu.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco - Km 104 - Machu Picchu - Cusco",
+                "dayDescription": "Early morning departure from Cusco to Ollantaytambo to board the train to Km 104. Start the trek through the cloud forest, exploring Wiñaywayna before reaching Intipunku (Sun Gate) with stunning views of Machu Picchu. Descend to the citadel and take a bus to Aguas Calientes for a short break before returning to Cusco."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco - Ollantaytambo - Km 104",
+              "dayDescription": "Pick-up from your hotel early in the morning and transfer to the train station in Ollantaytambo. Board the train to Km 104, the starting point of the trek. Begin hiking towards Wiñaywayna, a stunning archaeological site along the Inca Trail.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Wiñaywayna to Intipunku",
+              "dayDescription": "Continue trekking through lush cloud forests and breathtaking landscapes. Arrive at Intipunku (Sun Gate), where you’ll get your first magical glimpse of Machu Picchu from above.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Machu Picchu Exploration",
+              "dayDescription": "Descend to Machu Picchu and take a short guided tour of the citadel. Capture stunning photos and explore its iconic structures before taking a bus down to Aguas Calientes.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Enjoy a short break in Aguas Calientes before boarding the train back to Ollantaytambo. Transfer back to Cusco, arriving in the evening.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Luxury train upgrade", "image": "luxury-train.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Includes and Excludes",
+            "included": [
+              "Professional English-speaking guide",
+              "Train tickets to Km 104 and back to Cusco",
+              "Entrance ticket to Machu Picchu",
+              "Luxury picnic lunch",
+              "Bus ticket from Machu Picchu to Aguas Calientes",
+              "Private transportation from Cusco"
+            ],
+            "notIncluded": [
+              "Breakfast and dinner",
+              "Personal expenses and tips",
+              "Travel insurance (recommended)"
+            ]
+          },
+          "images": [
+            { "alt": "View from Intipunku", "src": "intipunku-view.jpg", "width": 800 },
+            { "alt": "Wiñaywayna ruins", "src": "winaywayna-ruins.jpg", "width": 800 },
+            { "alt": "Hiking on the Inca Trail", "src": "inca-trail-hike.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "FULL DAY TREK – PALCOYO RAINBOW MOUNTAINS RANGE",
+          "subtitle": "Discover the impressive and magical landscape of painted colored mountains that used to be 'water'",
+          "days": 1,
+          "nights": 0,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Layo", "lat": -14.538, "lng": -71.143, "day": 1 },
+            { "name": "Pallay Punchu", "lat": -14.550, "lng": -71.130, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Pick up time: 06:30 am.",
+              "Trek starting time: 10:00 am.",
+              "Arrival to Cusco: 18:00 pm.",
+              "Difficulty: Challenging.",
+              "Meals included: Healthy snacks and luxury picnic lunch.",
+              "Best Season: March to November."
+            ],
+            "text": "Embark on an unforgettable trek to the breathtaking Palcoyo Rainbow Mountains Range. Witness the natural artistry of colored mountains, enjoy stunning landscapes, and experience Andean culture along the way.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco - Layo - Pallay Punchu - Cusco",
+                "dayDescription": "Depart early from Cusco, drive through scenic Andean villages, hike to the colorful Pallay Punchu mountain, enjoy a luxury picnic lunch, and return to Cusco by evening."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco - Layo - Start Trek",
+              "dayDescription": "Early departure from Cusco, traveling through picturesque villages before arriving in Layo for breakfast and trek preparation."
+            },
+            {
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Trek to Pallay Punchu Mountain",
+              "dayDescription": "Hike through diverse Andean landscapes, reaching the spectacular Pallay Punchu, known for its naturally pigmented colors."
+            },
+            {
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Luxury Picnic Lunch",
+              "dayDescription": "Enjoy a gourmet picnic lunch with breathtaking mountain and lake views."
+            },
+            {
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Drive back to Cusco, arriving in the evening."
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Walking sticks (upon request)", "image": "walking-sticks.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Includes and Excludes",
+            "included": [
+              "A private, hand-crafted and fully personalized Luxury trek from start to finish.",
+              "Professional English-speaking guides.",
+              "Expert guide assistants based on group size.",
+              "All entrance fees and permits.",
+              "Luxury picnic lunch with gourmet meals, beverages, and a glass of wine/champagne.",
+              "Healthy and consistent snacks.",
+              "Private transportation for customers and staff.",
+              "Fully trained local porters.",
+              "Dining tent, porcelain or ceramic crockery, and glassware.",
+              "Portable chemical toilets.",
+              "First aid kit and oxygen bottle."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation if needed.",
+              "Hotel accommodations.",
+              "Meals not mentioned.",
+              "Personal expenses and tips.",
+              "Travel insurance (recommended)."
+            ]
+          },
+          "images": [
+            { "alt": "Palcoyo Rainbow Mountains vibrant colors", "src": "palcoyo-mountain.jpg", "width": 800 },
+            { "alt": "Trekking to Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": 800 },
+            { "alt": "Luxury picnic with mountain view", "src": "picnic-palcoyo.jpg", "width": 800 }
+          ]
+        }
+      ]
+    },
+    "TREKKING": {
+      "cusco":[
+        {
+          "id": 1,
+          "title": "2 DAYS/1 NIGHT – WAQRA PUKARA",
+          "subtitle": "Discover the natural and archaeological beauty of Waqra Pukara",
+          "days": 2,
+          "nights": 1,
+          "price": 450,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Sangarara", "lat": -14.059, "lng": -71.522, "day": 1 },
+            { "name": "Waqra Pukara", "lat": -14.122, "lng": -71.430, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Explore the remote and mystical Waqra Pukara.",
+              "Enjoy a luxury glamping experience in the Andes.",
+              "Marvel at the breathtaking Apurimac Canyon views.",
+              "Experience gourmet dining under the Andean sky."
+            ],
+            "text": "This two-day trek offers an off-the-beaten-path adventure to Waqra Pukara, an ancient fortress perched above the Apurimac Canyon. Enjoy stunning landscapes, Andean culture, and an exclusive glamping experience.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Sangarara – Waqra Pukara", "dayDescription": "Drive through the South Valley, hike through stunning Andean landscapes, and arrive at Waqra Pukara for an unforgettable night of glamping." },
+              { "dayTitle": "Day 2", "daySubtitle": "Waqra Pukara – Huayqui – Cusco", "dayDescription": "Enjoy a serene descent, visit the picturesque village of Campi, and return to Cusco with lasting memories of the journey." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Sangarara – Waqra Pukara",
+              "dayDescription": "Start your day with a scenic drive through Cusco’s South Valley, passing the tranquil Pomacanchis Lake. Upon arrival at Sangarara, meet the team and begin your trek. Follow an ancient Inca trail with panoramic views of the Apurimac Canyon. Reach the luxury glamping site near Waqra Pukara, enjoy a guided exploration of the ruins, and end the day with a gourmet dinner under the Andean stars.",
+              "accommodations": [
+                { "stars": 3, "title": "Luxury Glamping Site", "image": "glamping_waqrapukara.jpg", "location": "Near Waqra Pukara" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Waqra Pukara – Huayqui – Cusco",
+              "dayDescription": "Wake up to fresh mountain air and a hearty breakfast. Begin the scenic descent towards Campi, passing through rock formations and breathtaking canyon landscapes. Arrive at Campi and board a private vehicle back to Cusco, reflecting on an unforgettable Andean adventure.",
+              "accommodations": [
+                { "stars": 3, "title": "Hotel in Cusco (optional)", "image": "cusco_hotel.jpg", "location": "Cusco" }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these optional add-ons:",
+            "packages": [
+              { "title": "Private Photography Session", "image": "photo_session.jpg" },
+              { "title": "Traditional Andean Ceremony", "image": "andean_ceremony.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "Luxury camping equipment",
+              "All meals during the trek",
+              "Private transportation"
+            ],
+            "notIncluded": [
+              "Personal expenses",
+              "Travel insurance",
+              "Gratuities"
+            ]
+          },
+          "images": [
+            { "alt": "Waqra Pukara fortress", "src": "waqra_pukara.jpg", "width": 800 },
+            { "alt": "Scenic Andean landscapes", "src": "andes_landscape.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "9 DAYS/8 NIGHTS – CHOQUEQUIRAO TRAIL - GLAMPING",
+          "subtitle": "The most complete route and amazing challenge to the deepest Inca Culture",
+          "days": 9,
+          "nights": 8,
+          "price": 2200,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Chiquiska", "lat": -13.310, "lng": -72.767, "day": 1 },
+            { "name": "Choquequirao", "lat": -13.397, "lng": -72.878, "day": 3 },
+            { "name": "Maizal", "lat": -13.452, "lng": -72.912, "day": 4 },
+            { "name": "Yanama", "lat": -13.484, "lng": -72.933, "day": 5 },
+            { "name": "Collpapampa", "lat": -13.516, "lng": -72.950, "day": 6 },
+            { "name": "Playa Sahuayaco", "lat": -13.533, "lng": -72.967, "day": 7 },
+            { "name": "Aguas Calientes", "lat": -13.154, "lng": -72.524, "day": 8 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 9 }
+          ],
+          "description": {
+            "highlights": [
+              "Explore the uncharted Choquequirao archaeological site.",
+              "Hike through diverse ecosystems from cloud forests to mountain passes.",
+              "Experience breathtaking views of the Vilcabamba mountain range.",
+              "End your journey with a visit to the world-famous Machu Picchu."
+            ],
+            "text": "This 9-day adventure takes you through one of the most demanding yet rewarding treks in Peru. You will hike through deep canyons, cross crystal-clear rivers, and visit two of the most iconic Inca sites: Choquequirao and Machu Picchu.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Chiquiska", "dayDescription": "Drive through scenic landscapes and start the trek from Capuliyoc down to Chiquiska." },
+              { "dayTitle": "Day 2", "daySubtitle": "Chiquiska – Choquequirao", "dayDescription": "Cross the Apurimac River and ascend to the stunning Choquequirao ruins." },
+              { "dayTitle": "Day 3", "daySubtitle": "Choquequirao Exploration", "dayDescription": "A full day exploring the fascinating archaeological site of Choquequirao." },
+              { "dayTitle": "Day 4", "daySubtitle": "Choquequirao – Maizal", "dayDescription": "Ascend to Choquequirao Pass and descend through lush cloud forests to Maizal." },
+              { "dayTitle": "Day 5", "daySubtitle": "Maizal – Yanama", "dayDescription": "A challenging hike through high-altitude passes and remote Andean landscapes." },
+              { "dayTitle": "Day 6", "daySubtitle": "Yanama – Collpapampa", "dayDescription": "Cross Mariano Llamoja Pass with spectacular mountain views before descending to Collpapampa." },
+              { "dayTitle": "Day 7", "daySubtitle": "Collpapampa – Playa Sahuayaco", "dayDescription": "Walk through cloud forests and visit local coffee plantations." },
+              { "dayTitle": "Day 8", "daySubtitle": "Playa Sahuayaco – Aguas Calientes", "dayDescription": "Hike to Llaqtapata and take a train or walk to Aguas Calientes." },
+              { "dayTitle": "Day 9", "daySubtitle": "Machu Picchu – Cusco", "dayDescription": "Explore the legendary Machu Picchu before returning to Cusco." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Chiquiska",
+              "dayDescription": "Begin your journey with a scenic drive from Cusco to Capuliyoc. From there, descend through a breathtaking canyon, surrounded by stunning mountain views, before reaching your first campsite at Chiquiska.",
+              "accommodations": [
+                { "stars": 2, "title": "Chiquiska Campsite", "image": "chiquiska.jpg", "location": "Apurimac Canyon" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Chiquiska – Choquequirao",
+              "dayDescription": "Hike through lush landscapes, crossing the Apurimac River and ascending to Choquequirao. Experience an amazing sunset over the ruins before settling into camp nearby.",
+              "accommodations": [
+                { "stars": 2, "title": "Choquequirao Campsite", "image": "choquequirao.jpg", "location": "Near Choquequirao ruins" }
+              ]
+            },
+            {
+              "dayTitle": "Day 3",
+              "daySubtitle": "Choquequirao Exploration",
+              "dayDescription": "Spend the day fully exploring the impressive ruins of Choquequirao, uncovering hidden terraces, temples, and water channels while learning about their history.",
+              "accommodations": [
+                { "stars": 2, "title": "Choquequirao Campsite", "image": "choquequirao.jpg", "location": "Near Choquequirao ruins" }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your adventure with these optional experiences:",
+            "packages": [
+              { "title": "Extra Night in Aguas Calientes", "image": "aguas_calientes.jpg" },
+              { "title": "Huayna Picchu Climb", "image": "huayna_picchu.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "All meals during the trek",
+              "Camping equipment",
+              "Entrance fees to Choquequirao and Machu Picchu"
+            ],
+            "notIncluded": [
+              "Train tickets for guides",
+              "Sleeping bag rental",
+              "Personal expenses"
+            ]
+          },
+          "images": [
+            { "alt": "Choquequirao ruins", "src": "choquequirao.jpg", "width": 800 },
+            { "alt": "Machu Picchu view", "src": "machu_picchu.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "CLASSIC INCA TRAIL PLUS",
+          "subtitle": "5 DAYS/4 NIGHTS",
+          "days": 5,
+          "nights": 4,
+          "price": 1200,
+          "mapUrl": [
+            {"name": "Cusco", "lat": -13.53195, "lng": -71.96746, "day": 1},
+            {"name": "Ollantaytambo", "lat": -13.25879, "lng": -72.26406, "day": 2},
+            {"name": "Wayllabamba", "lat": -13.20433, "lng": -72.37591, "day": 2},
+            {"name": "Warmiwañusca", "lat": -13.18553, "lng": -72.51253, "day": 3},
+            {"name": "Phuyupatamarca", "lat": -13.17846, "lng": -72.54611, "day": 4},
+            {"name": "Machu Picchu", "lat": -13.16314, "lng": -72.54587, "day": 5}
+          ],
+          "description": {
+            "highlights": [
+              "Trek through stunning Andean landscapes",
+              "Explore ancient Incan ruins along the way",
+              "Cross the iconic Sun Gate into Machu Picchu",
+              "Experience a unique 5-day itinerary with an extra day for acclimatization"
+            ],
+            "text": "The Classic Inca Trail Plus is a 5-day adventure that takes you through breathtaking landscapes and ancient ruins, culminating at the magnificent Machu Picchu.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1: Cusco - Ollantaytambo - Km 82 - Wayllabamba",
+                "daySubtitle": "Start your journey through the Sacred Valley",
+                "dayDescription": "We depart from Cusco, drive through the Sacred Valley, and start trekking at Km 82, reaching our first campsite in Wayllabamba."
+              },
+              {
+                "dayTitle": "Day 2: Wayllabamba - Warmiwañusca - Pacaymayo",
+                "daySubtitle": "Conquer Dead Woman’s Pass",
+                "dayDescription": "A challenging ascent to Warmiwañusca (Dead Woman’s Pass), the highest point of the trek, followed by a descent to our campsite at Pacaymayo."
+              },
+              {
+                "dayTitle": "Day 3: Pacaymayo - Phuyupatamarca - Wiñay Wayna",
+                "daySubtitle": "Walk through Inca ruins and cloud forests",
+                "dayDescription": "We pass through Runkurakay and Sayacmarca, reaching the stunning viewpoint at Phuyupatamarca before descending to Wiñay Wayna."
+              },
+              {
+                "dayTitle": "Day 4: Wiñay Wayna - Machu Picchu",
+                "daySubtitle": "Enter Machu Picchu through the Sun Gate",
+                "dayDescription": "An early morning trek to Inti Punku (Sun Gate) rewards us with a breathtaking first view of Machu Picchu before exploring the site."
+              },
+              {
+                "dayTitle": "Day 5: Machu Picchu - Cusco",
+                "daySubtitle": "Explore Machu Picchu and return to Cusco",
+                "dayDescription": "Enjoy a guided tour of Machu Picchu before heading back to Cusco via Aguas Calientes and train."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1: Cusco Arrival",
+              "daySubtitle": "Check-in to your hotel in Cusco",
+              "dayDescription": "Acclimatize to the altitude with a relaxed evening in Cusco.",
+              "accommodations": [
+                {
+                  "stars": 3,
+                  "title": "Cusco Boutique Hotel",
+                  "image": "cusco-hotel.jpg",
+                  "location": "Cusco City Center"
+                },
+                {
+                  "stars": 4,
+                  "title": "Andean Luxury Hotel",
+                  "image": "andean-hotel.jpg",
+                  "location": "Cusco Historic District"
+                }
+              ]
+            },
+            {
+              "dayTitle": "Day 5: Machu Picchu Exploration",
+              "daySubtitle": "Spend a full day exploring the Lost City of the Incas",
+              "dayDescription": "Visit Machu Picchu with an expert guide and return to Cusco in the evening.",
+              "accommodations": [
+                {
+                  "stars": 3,
+                  "title": "Aguas Calientes Lodge",
+                  "image": "aguas-calientes.jpg",
+                  "location": "Aguas Calientes"
+                },
+                {
+                  "stars": 5,
+                  "title": "Sanctuary Lodge Machu Picchu",
+                  "image": "sanctuary-lodge.jpg",
+                  "location": "Near Machu Picchu entrance"
+                }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these additional options.",
+            "packages": [
+              {
+                "title": "Huayna Picchu Hike",
+                "image": "huayna-picchu.jpg"
+              },
+              {
+                "title": "Extra Night in Aguas Calientes",
+                "image": "aguas-calientes-extra-night.jpg"
+              },
+              {
+                "title": "Luxury Train Upgrade",
+                "image": "luxury-train.jpg"
+              }
+            ]
+          },
+          "pricing": {
+            "title": "Inclusions & Exclusions",
+            "included": [
+              "Professional guide",
+              "All meals during the trek",
+              "Camping equipment",
+              "Entrance ticket to Machu Picchu",
+              "Round-trip train tickets"
+            ],
+            "notIncluded": [
+              "Huayna Picchu entrance fee",
+              "Sleeping bag rental",
+              "Personal expenses",
+              "Gratuities"
+            ]
+          },
+          "images": [
+            {
+              "alt": "Inca Trail View",
+              "src": "inca-trail-view.jpg",
+              "width": 800
+            },
+            {
+              "alt": "Machu Picchu Sunrise",
+              "src": "machu-picchu-sunrise.jpg",
+              "width": 800
+            },
+            {
+              "alt": "Camping along the Inca Trail",
+              "src": "inca-trail-camp.jpg",
+              "width": 800
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "CHOQUEQUIRAO TRAIL – 5 DAYS/4 NIGHTS",
+          "subtitle": "An adventurous journey to the hidden Incan city of Choquequirao",
+          "days": 5,
+          "nights": 4,
+          "price": 1450,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Chiquiska", "lat": -13.299, "lng": -72.870, "day": 1 },
+            { "name": "Choquequirao", "lat": -13.397, "lng": -72.875, "day": 3 },
+            { "name": "Capuliyoc", "lat": -13.299, "lng": -72.870, "day": 5 }
+          ],
+          "description": {
+            "highlights": [
+              "Explore the remote and majestic Choquequirao ruins.",
+              "Challenge yourself with a demanding trek through the Andes.",
+              "Witness breathtaking landscapes and diverse ecosystems.",
+              "Enjoy luxury camping with gourmet meals and massage sessions."
+            ],
+            "text": "This 5-day trek to Choquequirao is a challenging yet rewarding adventure that takes you through deep canyons, cloud forests, and stunning Andean landscapes to reach the hidden Incan city.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Chiquiska", "dayDescription": "Begin your journey from Cusco, passing through Saywite and Capuliyoc before descending to Chiquiska for the night." },
+              { "dayTitle": "Day 2", "daySubtitle": "Chiquiska – Choquequirao Campsite", "dayDescription": "Hike through Playa Rosalina and Santa Rosa before ascending to the Choquequirao campsite." },
+              { "dayTitle": "Day 3", "daySubtitle": "Exploring Choquequirao", "dayDescription": "Spend the day exploring the extensive ruins of Choquequirao, learning about Incan history and culture." },
+              { "dayTitle": "Day 4", "daySubtitle": "Return to Chiquiska", "dayDescription": "Begin your descent back through Marampata and Playa Rosalina, staying overnight in Chiquiska." },
+              { "dayTitle": "Day 5", "daySubtitle": "Chiquiska – Capuliyoc – Cusco", "dayDescription": "Complete the final ascent to Capuliyoc before returning to Cusco by private transport." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Chiquiska",
+              "dayDescription": "Start your adventure with a scenic drive from Cusco through the Andean highlands, stopping at Saywite to see the enigmatic carved stone before reaching Capuliyoc. Enjoy a gourmet picnic lunch before descending through breathtaking landscapes into the Apurimac canyon, arriving at the Chiquiska luxury campsite in the late afternoon. Enjoy a hot shower and a relaxing massage before a gourmet dinner under the stars.",
+              "accommodations": [
+                { "stars": 2, "title": "Chiquiska Campsite", "image": "chiquiska.jpg", "location": "Apurimac Canyon" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Chiquiska – Choquequirao Campsite",
+              "dayDescription": "Rise early for a hearty breakfast before descending to Playa Rosalina. Cross the suspension bridge and begin the challenging ascent through Santa Rosa and Marampata, where a gourmet lunch awaits with breathtaking views. The final stretch takes you through lush cloud forests before arriving at the luxury campsite near the Choquequirao ruins. After a hot shower and massage, enjoy a well-earned dinner.",
+              "accommodations": [
+                { "stars": 2, "title": "Choquequirao Campsite", "image": "choquequirao_camp.jpg", "location": "Near Choquequirao Ruins" }
+              ]
+            },
+            {
+              "dayTitle": "Day 3",
+              "daySubtitle": "Exploring Choquequirao",
+              "dayDescription": "Spend a full day exploring the hidden Incan city of Choquequirao, visiting its various sectors including temples, terraces, and astronomical observatories. Learn about its history and ongoing excavations before hiking to the Pacchayoc sector, where you'll witness beautiful waterfalls. Return to camp for a relaxing evening with gourmet dining and a final toast to this incredible adventure.",
+              "accommodations": [
+                { "stars": 2, "title": "Choquequirao Campsite", "image": "choquequirao_camp.jpg", "location": "Near Choquequirao Ruins" }
+              ]
+            },
+            {
+              "dayTitle": "Day 4",
+              "daySubtitle": "Choquequirao – Chiquiska",
+              "dayDescription": "Begin the return journey, retracing your steps through Marampata and Santa Rosa. Descend towards Playa Rosalina and enjoy a gourmet lunch with spectacular views of the Apurimac River. A final push uphill takes you back to Chiquiska, where you’ll spend a restful night at the luxury campsite.",
+              "accommodations": [
+                { "stars": 2, "title": "Chiquiska Campsite", "image": "chiquiska.jpg", "location": "Apurimac Canyon" }
+              ]
+            },
+            {
+              "dayTitle": "Day 5",
+              "daySubtitle": "Chiquiska – Capuliyoc – Cusco",
+              "dayDescription": "Enjoy a final sunrise over the canyon before making the last ascent to Capuliyoc. Celebrate your achievement with a gourmet farewell lunch before being transported back to Cusco, reminiscing on this unforgettable journey through Incan history and breathtaking landscapes.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your journey with these optional experiences:",
+            "packages": [
+              { "title": "Additional Night in Choquequirao", "image": "choquequirao_extra.jpg" },
+              { "title": "Private Photographer", "image": "photographer.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "All meals during the trek",
+              "Luxury camping equipment",
+              "Entrance fees to Choquequirao"
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request)",
+              "Sleeping bag rental",
+              "Personal expenses"
+            ]
+          },
+          "images": [
+            { "alt": "Choquequirao ruins", "src": "choquequirao.jpg", "width": 800 },
+            { "alt": "Hiking through the Andes", "src": "andes_hike.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "LUXURY HIDDEN INCA TRAIL – 4 DAYS/3 NIGHTS",
+          "subtitle": "An exclusive journey through untouched Andean landscapes",
+          "days": 4,
+          "nights": 3,
+          "price": 1250,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Cochayoq", "lat": -13.274, "lng": -72.456, "day": 1 },
+            { "name": "Terihuayjasa Pass", "lat": -13.241, "lng": -72.478, "day": 2 },
+            { "name": "Quelqanqa", "lat": -13.221, "lng": -72.489, "day": 2 },
+            { "name": "Ollantaytambo", "lat": -13.260, "lng": -72.265, "day": 3 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 4 }
+          ],
+          "description": {
+            "highlights": [
+              "Discover an exclusive, unexplored Inca trail.",
+              "Interact with authentic Andean communities and visit a local school.",
+              "Hike through breathtaking landscapes, lagoons, and mountain passes.",
+              "Explore the majestic Machu Picchu with an expert guide."
+            ],
+            "text": "This one-of-a-kind trek leads you through a pristine Andean landscape, unveiling hidden archaeological sites, cultural exchanges with locals, and stunning natural wonders before culminating at the breathtaking Machu Picchu.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Cochayoq", "dayDescription": "Depart from Cusco, journey through the Sacred Valley, and trek towards the stunning Cochayoq campsite." },
+              { "dayTitle": "Day 2", "daySubtitle": "Cochayoq – Terihuayjasa Pass – Quelqanqa", "dayDescription": "Ascend to the Terihuayjasa Pass, enjoy breathtaking views, and descend to the picturesque Quelqanqa campsite." },
+              { "dayTitle": "Day 3", "daySubtitle": "Quelqanqa – Ollantaytambo – Aguas Calientes", "dayDescription": "Visit a local school, then transfer to Ollantaytambo for a scenic train ride to Aguas Calientes." },
+              { "dayTitle": "Day 4", "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco", "dayDescription": "Experience a guided tour of Machu Picchu before returning to Cusco by train and private vehicle." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Cochayoq",
+              "dayDescription": "Begin your journey from Cusco, traveling through the Sacred Valley with stops at viewpoints. Hike through scenic gorges, meeting locals and capturing stunning photographs of the diverse Andean wildlife. Enjoy a luxury campsite in Cochayoq with gourmet dining and professional massage services.",
+              "accommodations": [
+                { "stars": 3, "title": "Cochayoq Luxury Campsite", "image": "cochayoq.jpg", "location": "Cochayoq Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Cochayoq – Terihuayjasa Pass – Quelqanqa",
+              "dayDescription": "Hike through the Andes, passing the striking Yanacocha and Yuraccocha lagoons. Reach the Terihuayjasa Pass for spectacular panoramic views and a special ceremony honoring Pachamama. Descend to Quelqanqa, where you’ll relax with a hot shower and a luxurious evening under the stars.",
+              "accommodations": [
+                { "stars": 3, "title": "Quelqanqa Luxury Campsite", "image": "quelqanqa.jpg", "location": "Quelqanqa Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 3",
+              "daySubtitle": "Quelqanqa – Ollantaytambo – Aguas Calientes",
+              "dayDescription": "Start the day by visiting a local school, engaging with children, and offering small gifts. Travel to Ollantaytambo, where you’ll board a scenic train to Aguas Calientes. Check into your hotel and prepare for the grand visit to Machu Picchu the following day.",
+              "accommodations": [
+                { "stars": 4, "title": "Hotel in Aguas Calientes", "image": "aguas_calientes_hotel.jpg", "location": "Aguas Calientes" }
+              ]
+            },
+            {
+              "dayTitle": "Day 4",
+              "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
+              "dayDescription": "Wake up early for a guided sunrise tour of Machu Picchu. Explore the hidden wonders of this iconic citadel before returning to Aguas Calientes for lunch. Board the train to Cusco, concluding your once-in-a-lifetime adventure.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these optional upgrades:",
+            "packages": [
+              { "title": "Huayna Picchu Climb", "image": "huayna_picchu.jpg" },
+              { "title": "Luxury Train Upgrade", "image": "luxury_train.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Expert English-speaking guide",
+              "All gourmet meals during the trek",
+              "Luxury camping equipment",
+              "Entrance fees to Machu Picchu and additional sites"
+            ],
+            "notIncluded": [
+              "Huayna Picchu entrance (optional)",
+              "Personal travel insurance",
+              "Additional beverages not mentioned in the itinerary"
+            ]
+          },
+          "images": [
+            { "alt": "Terihuayjasa Pass view", "src": "terihuayjasa.jpg", "width": 800 },
+            { "alt": "Luxury campsite in the Andes", "src": "camping.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "ROYAL LARES TRAIL",
+          "subtitle": "4 days / 3 nights",
+          "days": 4,
+          "nights": 3,
+          "price": 0,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Calca", "lat": -13.320, "lng": -71.950, "day": 1 },
+            { "name": "Cancha Cancha", "lat": -13.250, "lng": -72.000, "day": 1 },
+            { "name": "Quiswarani", "lat": -13.200, "lng": -72.050, "day": 2 },
+            { "name": "Cuncani", "lat": -13.180, "lng": -72.100, "day": 3 },
+            { "name": "Lares Hot Springs", "lat": -13.140, "lng": -72.130, "day": 3 },
+            { "name": "Aguas Calientes", "lat": -13.158, "lng": -72.525, "day": 3 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 4 }
+          ],
+          "description": {
+            "highlights": [
+              "Scenic valleys, mountains, and snow-covered peaks.",
+              "Less-crowded trek with authentic Andean culture.",
+              "Lakes with dazzling colors and stunning landscapes.",
+              "Traditional Andean communities preserving ancient customs.",
+              "Luxury camping experience with gourmet meals.",
+              "Hot showers and professional massages.",
+              "Visit to the hot springs in Lares.",
+              "Exploration of Machu Picchu with a professional guide."
+            ],
+            "text": "This 4-day trek offers a unique opportunity to visit Machu Picchu through a less-crowded route filled with breathtaking landscapes and deep cultural experiences.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 01: Cusco – Calca – Huaran – Cancha Cancha",
+                "daySubtitle": "Starting the trek through the Sacred Valley",
+                "dayDescription": "After breakfast, we drive to Huaran and start our trek, passing through Andean forests and traditional villages."
+              },
+              {
+                "dayTitle": "Day 02: Cancha Cancha – Pachacutec Pass - Quiswarani",
+                "daySubtitle": "Reaching the highest point of the trek",
+                "dayDescription": "A challenging ascent to Pachacutec Pass (4,690m) rewards us with stunning glacier and lake views."
+              },
+              {
+                "dayTitle": "Day 03: Quiswarani – Huillquijassa Pass – Lares – Aguas Calientes",
+                "daySubtitle": "Relaxing at Lares hot springs before reaching Aguas Calientes",
+                "dayDescription": "We ascend to Huillquijassa Pass (4,400m), admiring breathtaking views of lakes and valleys."
+              },
+              {
+                "dayTitle": "Day 04: Machu Picchu - Cusco",
+                "daySubtitle": "Exploring the Lost City of the Incas",
+                "dayDescription": "An early morning visit to Machu Picchu with a professional guide."
+              }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 01: Arrival at Cancha Cancha",
+              "daySubtitle": "Luxury campsite under the stars",
+              "dayDescription": "Experience a premium Andean campsite with comfortable sleeping arrangements.",
+              "accommodations": [
+                {
+                  "stars": 5,
+                  "title": "Luxury Andean Campsite",
+                  "image": "assets/images/campsite.jpg",
+                  "location": "Cancha Cancha"
+                }
+              ]
+            },
+            {
+              "dayTitle": "Day 02: Arrival at Quiswarani",
+              "daySubtitle": "Scenic landscapes and cultural encounters",
+              "dayDescription": "Stay at a high-end campsite with breathtaking views of the Andes.",
+              "accommodations": [
+                {
+                  "stars": 5,
+                  "title": "Premium Mountain Campsite",
+                  "image": "assets/images/quiswarani.jpg",
+                  "location": "Quiswarani"
+                }
+              ]
+            },
+            {
+              "dayTitle": "Day 03: Aguas Calientes Stay",
+              "daySubtitle": "Comfortable lodging before Machu Picchu",
+              "dayDescription": "Spend a relaxing night in Aguas Calientes in a boutique hotel.",
+              "accommodations": [
+                {
+                  "stars": 4,
+                  "title": "Boutique Hotel in Aguas Calientes",
+                  "image": "assets/images/hotel.jpg",
+                  "location": "Aguas Calientes"
+                }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with optional add-ons:",
+            "packages": [
+              {
+                "title": "Huayna Picchu Hike",
+                "image": "assets/images/huayna-picchu.jpg"
+              },
+              {
+                "title": "Machu Picchu Mountain Hike",
+                "image": "assets/images/machu-picchu-mountain.jpg"
+              },
+              {
+                "title": "Luxury Train Upgrade",
+                "image": "assets/images/luxury-train.jpg"
+              }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Not Included",
+            "included": [
+              "Private transportation from Cusco to trailhead.",
+              "Professional bilingual guide.",
+              "Luxury campsite with hot showers and massages.",
+              "All meals (gourmet breakfast, lunch, dinner, snacks).",
+              "Entrance to Machu Picchu.",
+              "Train ticket to and from Aguas Calientes.",
+              "Private transport back to Cusco."
+            ],
+            "notIncluded": [
+              "Personal trekking gear.",
+              "Sleeping bags (available for rent).",
+              "Entrance for Huayna Picchu or Machu Picchu Mountain.",
+              "Tips for guides and staff."
+            ]
+          },
+          "images": [
+            { "alt": "Sacred Valley", "src": "assets/images/sacred-valley.jpg", "width": 800 },
+            { "alt": "Trek Route", "src": "assets/images/trek-route.jpg", "width": 800 },
+            { "alt": "Luxury Campsite", "src": "assets/images/campsite.jpg", "width": 800 },
+            { "alt": "Machu Picchu View", "src": "assets/images/machu-picchu.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "ROYAL INCA TRAIL 2 DAYS",
+          "subtitle": "An exclusive journey through the ancient paths of the Incas, leading to the breathtaking Machu Picchu. Immerse yourself in history, nature, and adventure on this unforgettable trek.",
+          "days": 2,
+          "nights": 1,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Ollantaytambo", "lat": -13.260, "lng": -72.264, "day": 1 },
+            { "name": "Km 104", "lat": -13.158, "lng": -72.524, "day": 1 },
+            { "name": "Wiñay Wayna", "lat": -13.157, "lng": -72.540, "day": 1 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 2 }
+          ],
+          "description": {
+            "highlights": [
+              "Pick up time: 04:00 am",
+              "Trek starting time: 07:30 am",
+              "Arrival to Cusco: 19:00 pm",
+              "Minimum altitude: Ollantaytambo – 2792 masl/9160 ft",
+              "Maximum altitude: Sun Gate – 2720 masl/8924 ft",
+              "Distance covered: 12 kms/7.5 mls (6 hours walking approx.)",
+              "Difficulty: Moderate",
+              "Meals included: Boxed lunch, gourmet dinner",
+              "Best Season: April to October",
+              "Relevant features: Historical ruins, scenic trails, and the iconic Machu Picchu entrance via the Sun Gate"
+            ],
+            "text": "Walk in the footsteps of the Incas on this incredible 2-day trek, following the Royal Inca Trail to the majestic Machu Picchu. Enjoy stunning views, fascinating archaeological sites, and an exclusive journey through history.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco – Km 104 – Wiñay Wayna – Machu Picchu",
+                "dayDescription": "Early morning departure from Cusco to Ollantaytambo, where you will board the train to Km 104. Begin your trek through breathtaking landscapes, visiting the impressive Wiñay Wayna ruins along the way. Continue the hike to the Sun Gate (Inti Punku), where you will catch your first magical glimpse of Machu Picchu. Descend to Aguas Calientes for an overnight stay in a luxury hotel."
+              },
+              {
+                "dayTitle": "Day 2",
+                "daySubtitle": "Machu Picchu – Cusco",
+                "dayDescription": "Rise early for a guided tour of Machu Picchu, exploring its most significant sites and hidden gems. After an immersive experience in the Lost City of the Incas, descend to Aguas Calientes for lunch before boarding the train back to Cusco."
+              }
+            ]
+          },
+          "customOptions": {
+            "description": "Enhance your experience with these additional options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Luxury train upgrade", "image": "luxury-train.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Inclusions and Exclusions",
+            "included": [
+              "A private, hand-crafted, and fully personalized luxury trek from start to finish.",
+              "Professional English-speaking guides with extensive knowledge of the route.",
+              "All entrance fees and permits, including Machu Picchu.",
+              "Luxury hotel accommodation in Aguas Calientes.",
+              "All meals prepared fresh by experienced chefs (B: Breakfast, L: Lunch, D: Dinner).",
+              "Luxury train service on the return journey.",
+              "All private overland transportation for customers.",
+              "First aid kit and oxygen bottle.",
+              "All required Peruvian taxes (IGV)."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation due to unforeseen circumstances.",
+              "Personal expenses.",
+              "Travel Insurance (highly recommended).",
+              "Gratuities."
+            ]
+          },
+          "images": [
+            { "alt": "Scenic view along the Royal Inca Trail", "src": "royal-inca-trail.jpg", "width": 800 },
+            { "alt": "First glimpse of Machu Picchu from the Sun Gate", "src": "sun-gate-machu-picchu.jpg", "width": 800 },
+            { "alt": "Luxury accommodation in Aguas Calientes", "src": "luxury-hotel-aguas-calientes.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "QUARRY TRAIL – 4 days/3 nights",
+          "subtitle": "Beautiful alternative trail. Explore ceremonial centers; discover the Andean lifestyle, find treasures",
+          "days": 4,
+          "nights": 3,
+          "price": 0,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Rayanniyoc", "lat": -13.432, "lng": -71.876, "day": 1 },
+            { "name": "Choquetacarpo", "lat": -13.422, "lng": -71.865, "day": 2 },
+            { "name": "Aguas Calientes", "lat": -13.158, "lng": -72.525, "day": 3 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 4 }
+          ],
+          "description": {
+            "highlights": [
+              "Explore ceremonial centers like Choquekilla.",
+              "Visit remote Andean communities.",
+              "Discover stunning natural formations like Perolniyoc waterfall.",
+              "Hike through the impressive Buena Negra Pass.",
+              "Visit the Sun Gate (Inti Punku)."
+            ],
+            "text": "If you are seeking an isolated trail filled with authentic Inca archaeological sites, diverse Andean flora and fauna, challenging mountain passes, and perfect photo opportunities, this program is perfect for you!",
+            "itinerary": [
+              {
+                "dayTitle": "Day 01: Cusco – Choquekilla – Socma – Perolniyoc waterfall - Rayanniyoc",
+                "daySubtitle": "Starting the trek through sacred sites and Andean villages.",
+                "dayDescription": "Depart early from Cusco and travel through the Sacred Valley to Choquekilla. Visit Socma community, hike to Perolniyoc waterfall, and explore Raqaypata before reaching Rayanniyoc campsite. Enjoy gourmet meals, a hot shower, and relaxing massages."
+              },
+              {
+                "dayTitle": "Day 02: Rayanniyoc – Puccaqasa Pass – Buena Negra Pass – Sun Gate - Choquetacarpo",
+                "daySubtitle": "The most challenging day with rewarding views.",
+                "dayDescription": "Hike through Puccaqasa Pass (4400m) and Buena Negra Pass (4500m), enjoying stunning valley views. Celebrate with a champagne toast at the highest point before descending to Inti Punku (Sun Gate) and Choquetacarpo campsite. Relax with another gourmet dinner and massages."
+              },
+              {
+                "dayTitle": "Day 03: Choquetacarpo – Cachicata Quarry – Ollantaytambo – Aguas Calientes",
+                "daySubtitle": "Exploring ancient Inca quarries and reaching Machu Picchu’s doorstep.",
+                "dayDescription": "Visit Cachicata quarry and learn about Inca construction techniques. Descend to Ollantaytambo, have lunch, and take the train to Aguas Calientes for an overnight stay."
+              },
+              {
+                "dayTitle": "Day 04: Aguas Calientes - Machu Picchu - Aguas Calientes – Poroy – Cusco",
+                "daySubtitle": "Discovering the Lost City of the Incas.",
+                "dayDescription": "Early morning bus to Machu Picchu, guided tour, and optional hikes to Huayna Picchu or Machu Picchu Mountain. Return to Cusco via train."
+              }
+            ]
+          },
+          "sampleJourney": [],
+          "customOptions": {
+            "description": "Enhance your trek with additional services.",
+            "packages": []
+          },
+          "pricing": {
+            "title": "Pricing Details",
+            "included": [
+              "All meals during the trek.",
+              "Private transport from Cusco.",
+              "Professional bilingual guide.",
+              "Camping equipment and services.",
+              "Train ticket to Aguas Calientes and back."
+            ],
+            "notIncluded": [
+              "Sleeping bags and walking sticks (available for rent).",
+              "Tips for guides and porters.",
+              "Hotel in Cusco before and after the trek."
+            ]
+          },
+          "images": []
+        },
+        {
+          "id": 9,
+          "title": "THE GREATEST 2 DAYS TO VINICUNCA RAINBOW MOUNTAIN TREK",
+          "subtitle": "Explore the breathtaking colors of the Rainbow Mountain and Red Valley",
+          "days": 2,
+          "nights": 1,
+          "price": 750,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Quesiuno", "lat": -13.860, "lng": -71.303, "day": 1 },
+            { "name": "Surinecocha", "lat": -13.867, "lng": -71.272, "day": 1 },
+            { "name": "Vinicunca", "lat": -13.859, "lng": -71.286, "day": 2 },
+            { "name": "Red Valley", "lat": -13.870, "lng": -71.280, "day": 2 }
+          ],
+          "description": {
+            "highlights": [
+              "Discover the unique Rainbow Mountain with its surreal colors.",
+              "Experience the breathtaking views of the Red Valley.",
+              "Enjoy a luxurious glamping experience with gourmet meals.",
+              "Hike through stunning Andean landscapes with llamas and alpacas."
+            ],
+            "text": "This 2-day luxury trek takes you to the stunning Vinicunca Rainbow Mountain and the mesmerizing Red Valley. Enjoy exclusive camping, gourmet dining, and unforgettable scenery as you explore this breathtaking Andean wonder."
+          },
+          "itinerary": [
+            { "dayTitle": "Day 1", "daySubtitle": "Cusco – Puca Pass – Surinecocha", "dayDescription": "Journey through the Andes to reach Quesiuno, where your adventure begins. Hike through breathtaking landscapes, reaching Puca Pass before descending to the luxury campsite at Surinecocha." },
+            { "dayTitle": "Day 2", "daySubtitle": "Surinecocha – Vinicunca – Red Valley – Cusco", "dayDescription": "Ascend to Rainbow Mountain to witness its vibrant colors before exploring the striking Red Valley. Enjoy a scenic descent and return to Cusco." }
+          ],
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Puca Pass – Surinecocha",
+              "dayDescription": "Start early with a scenic drive through the Andes to Quesiuno. Meet the support team and begin the trek towards Puca Pass, enjoying panoramic views of the turquoise lakes and Ausangate mountain. After lunch at Anantapata, continue uphill to Warmisaya Pass before descending to Surinecocha. Relax with a soothing massage, a hot shower, and a gourmet dinner under the stars.",
+              "accommodations": [
+                { "stars": 2, "title": "Surinecocha Luxury Campsite", "image": "surinecocha.jpg", "location": "Surinecocha Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Surinecocha – Vinicunca – Red Valley – Cusco",
+              "dayDescription": "Rise early and begin the gradual ascent to Rainbow Mountain. Take in the spectacular colors and stunning views before heading towards the Red Valley, where you'll be captivated by its contrasting landscapes. Descend to Llacto for a well-deserved gourmet lunch before returning to Cusco in private transportation.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your experience with these optional add-ons:",
+            "packages": [
+              { "title": "Personal Riding Horse", "image": "horse_riding.jpg" },
+              { "title": "Extra Massage Session", "image": "massage.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "All gourmet meals during the trek",
+              "Luxury glamping accommodations",
+              "Entrance fees to Rainbow Mountain and Red Valley"
+            ],
+            "notIncluded": [
+              "Personal riding horse (available for an extra cost)",
+              "Walking sticks (available upon request)",
+              "Gratuities"
+            ]
+          },
+          "images": [
+            { "alt": "Rainbow Mountain view", "src": "vinicunca.jpg", "width": 800 },
+            { "alt": "Red Valley landscape", "src": "red_valley.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "SALKANTAY TRAIL – 5 DAYS/4 NIGHTS",
+          "subtitle": "Views of the most spectacular landscapes, mountains, rainforest and more",
+          "days": 5,
+          "nights": 4,
+          "price": 1250,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Soyrococha", "lat": -13.417, "lng": -72.571, "day": 1 },
+            { "name": "Collpapampa", "lat": -13.392, "lng": -72.626, "day": 2 },
+            { "name": "Playa Sahuayaco", "lat": -13.358, "lng": -72.659, "day": 3 },
+            { "name": "Aguas Calientes", "lat": -13.158, "lng": -72.526, "day": 4 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 5 }
+          ],
+          "description": {
+            "highlights": [
+              "Alternative trek to Machu Picchu avoiding crowds.",
+              "Breathtaking views of the Sacred Mountains and cloud forest.",
+              "Experience diverse ecosystems from high peaks to lush jungles.",
+              "Exclusive camping experience with luxury services."
+            ],
+            "text": "The Salkantay Trek is a remote and scenic adventure through the high Andes, passing glacial peaks, cloud forests, and hidden Incan ruins before reaching Machu Picchu.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Soraypampa – Soyrococha", "dayDescription": "Drive to Soraypampa and trek to Soyrococha, with breathtaking views of Salkantay and Humantay mountains." },
+              { "dayTitle": "Day 2", "daySubtitle": "Soyrococha – Salkantay Pass – Collpapampa", "dayDescription": "Hike over the Salkantay Pass and descend into the cloud forest, reaching Collpapampa." },
+              { "dayTitle": "Day 3", "daySubtitle": "Collpapampa – Lluscamayo – Playa Sahuayaco", "dayDescription": "Journey through lush valleys, coffee plantations, and waterfalls before arriving at Playa Sahuayaco." },
+              { "dayTitle": "Day 4", "daySubtitle": "Playa Sahuayaco – Llaqtapata – Aguas Calientes", "dayDescription": "Visit the hidden Incan site of Llaqtapata before continuing to Aguas Calientes." },
+              { "dayTitle": "Day 5", "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco", "dayDescription": "Explore the Lost City of the Incas with a guided tour before returning to Cusco." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Soraypampa – Soyrococha",
+              "dayDescription": "Begin your adventure with a scenic drive to Soraypampa, passing picturesque villages and mountain views. Hike to Soyrococha, enjoying stunning vistas of Salkantay Mountain.",
+              "accommodations": [
+                { "stars": 3, "title": "Soyrococha Luxury Campsite", "image": "soyrococha.jpg", "location": "Soyrococha" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Soyrococha – Salkantay Pass – Collpapampa",
+              "dayDescription": "Ascend to Salkantay Pass (4,638m), where breathtaking glacier views await. Descend into the lush cloud forest and reach the warm Collpapampa valley.",
+              "accommodations": [
+                { "stars": 3, "title": "Collpapampa Luxury Campsite", "image": "collpapampa.jpg", "location": "Collpapampa Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 3",
+              "daySubtitle": "Collpapampa – Lluscamayo – Playa Sahuayaco",
+              "dayDescription": "Trek through lush jungle, passing waterfalls and coffee plantations before arriving at Playa Sahuayaco.",
+              "accommodations": [
+                { "stars": 3, "title": "Playa Sahuayaco Luxury Campsite", "image": "playa_sahuayaco.jpg", "location": "Playa Sahuayaco" }
+              ]
+            },
+            {
+              "dayTitle": "Day 4",
+              "daySubtitle": "Playa Sahuayaco – Llaqtapata – Aguas Calientes",
+              "dayDescription": "Hike to the hidden Inca ruins of Llaqtapata, with views of Machu Picchu. Continue down to Aguas Calientes.",
+              "accommodations": [
+                { "stars": 4, "title": "Luxury Hotel in Aguas Calientes", "image": "aguas_calientes.jpg", "location": "Aguas Calientes" }
+              ]
+            },
+            {
+              "dayTitle": "Day 5",
+              "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
+              "dayDescription": "Enjoy an early morning guided tour of Machu Picchu before returning to Cusco.",
+              "accommodations": []
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your journey with these optional experiences:",
+            "packages": [
+              { "title": "Huayna Picchu Climb", "image": "huayna_picchu.jpg" },
+              { "title": "Luxury Hotel Upgrade", "image": "luxury_hotel.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "Luxury camping accommodations",
+              "All meals during the trek",
+              "Entrance fee to Machu Picchu",
+              "Train tickets from Hydroelectric to Aguas Calientes"
+            ],
+            "notIncluded": [
+              "Huayna Picchu permit (optional)",
+              "Sleeping bag rental",
+              "Personal expenses"
+            ]
+          },
+          "images": [
+            { "alt": "Salkantay Mountain View", "src": "salkantay.jpg", "width": 800 },
+            { "alt": "Machu Picchu Sunrise", "src": "machu_picchu.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "HUMANTAY LAKE 2 DAYS",
+          "subtitle": "Incredible day trip to the Head of Gods, as Humantay means. Spiritual masters; protective mountain of the Incas. Magnificent beauty and great experiences to enjoy",
+          "days": 2,
+          "nights": 1,
+          "price": "Consultar",
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Mollepata", "lat": -13.763, "lng": -72.243, "day": 1 },
+            { "name": "Soraypampa", "lat": -13.414, "lng": -72.567, "day": 1 },
+            { "name": "Humantay Lake", "lat": -13.409, "lng": -72.554, "day": 1 }
+          ],
+          "description": {
+            "highlights": [
+              "Pick up time: 06:30 am",
+              "Trek starting time: 10:30 am",
+              "Arrival to Cusco: 18:30 pm",
+              "Minimum altitude: Mollepata – 2803 masl/9196.2 ft",
+              "Maximum altitude Day 1: Humantay Lake – 4200 masl/13779.5 ft",
+              "Maximum altitude Day 2: Salkantay Pass – 4600 masl/15092 ft",
+              "Distance covered: 5.5 kms/3.4 mls (3 hours walking approx.)",
+              "Difficulty: Moderate to challenging on day 2",
+              "Meals included: Healthy snacks, luxury picnic lunch",
+              "Best Season: March to November",
+              "Relevant features: Stunning landscapes, perfect for those passionate about photography and nature lovers"
+            ],
+            "text": "Discover and be delighted with this beautiful 2-day trek in which you will have the opportunity to explore one of the most precious natural wonders of Cusco: Humantay Lake. Here you will take impressive photos of its turquoise waters and the imposing Mountain Guardians Humantay and Salkantay snowcapped mountains.",
+            "itinerary": [
+              {
+                "dayTitle": "Day 1",
+                "daySubtitle": "Cusco – Humantay Lake Tour – Soraypampa",
+                "dayDescription": "Early pick-up from Cusco and transfer to Mollepata town. Enjoy the stunning landscape with views of snowcapped mountains and local communities. Then, continue to Soraypampa, where the trek begins. Hike up to Humantay Lake to witness its unique turquoise waters. After the hike, return to Soraypampa for a luxury picnic lunch and relax at the high-end campsite."
+              },
+              {
+                "dayTitle": "Day 2",
+                "daySubtitle": "Soraypampa – Salkantay Pass – Cusco",
+                "dayDescription": "Start the day with a nourishing breakfast before hiking to Salkantay Pass, the highest point of the trek at 4,600m. Enjoy breathtaking panoramic views of the surrounding mountains. After some rest, descend back to the campsite for a gourmet lunch before returning to Cusco in the afternoon."
+              }
+            ]
+          },
+          "customOptions": {
+            "description": "Enhance your experience with these additional options",
+            "packages": [
+              { "title": "Private guide service", "image": "private-guide.jpg" },
+              { "title": "Walking sticks (upon request)", "image": "walking-sticks.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Inclusions and Exclusions",
+            "included": [
+              "A private, hand-crafted, and fully personalized luxury trek from start to finish.",
+              "Professional English-speaking guides with extensive knowledge of the route.",
+              "Expert guide assistants depending on group size.",
+              "All entrance fees and permits.",
+              "All meals prepared fresh on the spot by a well-trained chef (B: Breakfast, L: Lunch, D: Dinner).",
+              "Luxury picnic lunch with gourmet meals, beverages, and a glass of wine/champagne.",
+              "Healthy and consistent snacks.",
+              "All private overland transportation for customers.",
+              "Private transportation for staff and camping equipment.",
+              "Fully trained local porters.",
+              "Dining tent with comfortable chairs, porcelain crockery, and glassware.",
+              "Portable chemical toilet and shower tent.",
+              "Massage service (only in Harmony category).",
+              "One night in a luxury bedroom tent with cot, sleeping bag, sheets, blanket, and pillows.",
+              "First aid kit and oxygen bottle.",
+              "All required Peruvian taxes (IGV)."
+            ],
+            "notIncluded": [
+              "Walking sticks (available upon request).",
+              "Extra transportation due to unforeseen circumstances.",
+              "Hotel accommodations.",
+              "Massage service (if in Deluxe category).",
+              "Meals not mentioned.",
+              "Personal expenses.",
+              "Emergency horse.",
+              "Personal riding horse (approx. PEN 100 per horse).",
+              "Travel Insurance (highly recommended).",
+              "Gratuities."
+            ]
+          },
+          "images": [
+            { "alt": "Breathtaking view of Humantay Lake", "src": "humantay-lake.jpg", "width": 800 },
+            { "alt": "Trekking towards Salkantay Pass", "src": "salkantay-pass.jpg", "width": 800 },
+            { "alt": "Luxury picnic setup with mountain views", "src": "luxury-picnic-humantay.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "4 DAYS/3 NIGHTS – CLASSIC INCA TRAIL",
+          "subtitle": "Experience the legendary Inca Trail to Machu Picchu",
+          "days": 4,
+          "nights": 3,
+          "price": 980,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Wayllabamba", "lat": -13.275, "lng": -72.500, "day": 1 },
+            { "name": "Pacaymayo", "lat": -13.252, "lng": -72.497, "day": 2 },
+            { "name": "Wiñay Wayna", "lat": -13.194, "lng": -72.486, "day": 3 },
+            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 4 }
+          ],
+          "description": {
+            "highlights": [
+              "Explore the iconic Inca Trail.",
+              "Pass through breathtaking Andean landscapes.",
+              "Visit historical Incan sites along the way.",
+              "Experience the sunrise at Machu Picchu."
+            ],
+            "text": "The Classic Inca Trail is a unique adventure leading to the breathtaking ruins of Machu Picchu. This trek takes you through stunning mountain scenery, lush cloud forests, and ancient Incan ruins.",
+            "itinerary": [
+              { "dayTitle": "Day 1", "daySubtitle": "Cusco – Wayllabamba", "dayDescription": "Depart from Cusco and trek to Wayllabamba through stunning landscapes and archaeological sites." },
+              { "dayTitle": "Day 2", "daySubtitle": "Wayllabamba – Pacaymayo", "dayDescription": "Challenge yourself with a hike to Dead Woman’s Pass, the highest point on the trail." },
+              { "dayTitle": "Day 3", "daySubtitle": "Pacaymayo – Wiñay Wayna", "dayDescription": "Discover fascinating ruins and enjoy breathtaking views along the way." },
+              { "dayTitle": "Day 4", "daySubtitle": "Wiñay Wayna – Machu Picchu", "dayDescription": "Arrive at Machu Picchu for an unforgettable sunrise and guided tour." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Day 1",
+              "daySubtitle": "Cusco – Wayllabamba",
+              "dayDescription": "Begin your adventure from Cusco, passing through the Sacred Valley before arriving at the Inca Trail's starting point. Hike through lush landscapes, crossing the Urubamba River and visiting archaeological sites like Llactapata before reaching Wayllabamba for the night.",
+              "accommodations": [
+                { "stars": 2, "title": "Wayllabamba Campsite", "image": "wayllabamba.jpg", "location": "Wayllabamba Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 2",
+              "daySubtitle": "Wayllabamba – Pacaymayo",
+              "dayDescription": "The most challenging day of the trek. Ascend to Dead Woman’s Pass (4,215m), the highest point on the trail, where you’ll be rewarded with spectacular panoramic views. Descend into the Pacaymayo Valley and set up camp for the night.",
+              "accommodations": [
+                { "stars": 2, "title": "Pacaymayo Campsite", "image": "pacaymayo.jpg", "location": "Pacaymayo Valley" }
+              ]
+            },
+            {
+              "dayTitle": "Day 3",
+              "daySubtitle": "Pacaymayo – Wiñay Wayna",
+              "dayDescription": "A day of breathtaking landscapes and Incan ruins. Trek through cloud forests and pass by ancient sites like Runkurakay, Sayacmarca, and Phuyupatamarca. Arrive at the stunning Wiñay Wayna ruins, where you’ll camp near the final stretch to Machu Picchu.",
+              "accommodations": [
+                { "stars": 2, "title": "Wiñay Wayna Campsite", "image": "winay_wayna.jpg", "location": "Wiñay Wayna" }
+              ]
+            },
+            {
+              "dayTitle": "Day 4",
+              "daySubtitle": "Wiñay Wayna – Machu Picchu",
+              "dayDescription": "Wake up before dawn to hike to the Sun Gate, where you’ll witness the first light over Machu Picchu. Descend into the Lost City of the Incas for a guided tour, exploring its temples, terraces, and hidden corners before returning to Cusco.",
+              "accommodations": [
+                { "stars": 3, "title": "Hotel in Cusco (optional)", "image": "cusco_hotel.jpg", "location": "Cusco" }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Enhance your journey with these optional experiences:",
+            "packages": [
+              { "title": "Huayna Picchu Climb", "image": "huayna_picchu.jpg" },
+              { "title": "Extra Night in Aguas Calientes", "image": "aguas_calientes.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "What’s Included & Excluded",
+            "included": [
+              "Professional English-speaking guide",
+              "All meals during the trek",
+              "Camping equipment",
+              "Entrance fee to Machu Picchu"
+            ],
+            "notIncluded": [
+              "Huayna Picchu permit (optional)",
+              "Sleeping bag rental",
+              "Personal expenses"
+            ]
+          },
+          "images": [
+            { "alt": "Machu Picchu sunrise", "src": "machu_picchu.jpg", "width": 800 },
+            { "alt": "Inca Trail hike", "src": "inca_trail.jpg", "width": 800 }
+          ]
+        }
+
+      ]
+    }
+  },
+  "SPEAK": "SPEAK TO AN EXPERT"
 
 }

@@ -1,4 +1,4 @@
-<div class="bg-white font-montserrat flex flex-row justify-between p-6">
+<div *ngIf="package?.title" class="bg-white font-montserrat flex flex-row justify-between p-6">
   <div class="flex flex-col">
   <h1 class="text-4xl font-normal">{{ package.title }}</h1>
   <h2 class="text-lg text-gray-600">{{ package.subtitle }}</h2>

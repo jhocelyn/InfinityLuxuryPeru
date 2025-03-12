@@ -2,7 +2,7 @@ import {ApplicationConfig, importProvidersFrom, provideZoneChangeDetection} from
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
-import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
 import {provideClientHydration} from '@angular/platform-browser';
 import {HttpClient, HttpClientModule, provideHttpClient, withFetch} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -15,21 +15,20 @@ export function httpLoaderFactory(http: HttpClient) {
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideClientHydration(),
     provideHttpClient(withFetch()),
     importProvidersFrom(HttpClientModule),
 
-    // Configurar TranslateModule correctamente
+    // Configuración del TranslateModule
     importProvidersFrom(
       TranslateModule.forRoot({
         loader: {
           provide: TranslateLoader,
           useFactory: httpLoaderFactory,
           deps: [HttpClient],
-        },
-        defaultLanguage: 'en'  // Opcional, idioma por defecto
+        }
       })
-    ),
-  ]};
+    )
+  ]
+};
