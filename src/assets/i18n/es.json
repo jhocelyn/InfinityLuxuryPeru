@@ -152,17 +152,18 @@
   },
     "TOURS":{
       "cusco":[
-        {"id": 1,
+        {
+          "id": "1",
           "title": "Laguna Humantay de Lujo",
           "subtitle": "Una experiencia exclusiva en la majestuosa laguna turquesa rodeada de imponentes montañas",
-          "days": 1,
-          "nights": 0,
-          "price": 350,
+          "days": "1",
+          "nights": "0",
+          "price": "350",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Mollepata", "lat": -13.400, "lng": -72.500, "day": 1 },
-            { "name": "Soraypampa", "lat": -13.414, "lng": -72.626, "day": 1 },
-            { "name": "Laguna Humantay", "lat": -13.414, "lng": -72.620, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Mollepata", "lat": "-13.400", "lng": "-72.500", "day": "1" },
+            { "name": "Soraypampa", "lat": "-13.414", "lng": "-72.626", "day": "1" },
+            { "name": "Laguna Humantay", "lat": "-13.414", "lng": "-72.620", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -208,22 +209,22 @@
             ]
           },
           "images": [
-            { "alt": "Vista de la Laguna Humantay", "src": "laguna-humantay.jpg", "width": 800 },
-            { "alt": "Montaña Salkantay", "src": "salkantay.jpg", "width": 800 },
-            { "alt": "Almuerzo de lujo en la naturaleza", "src": "luxury-lunch.jpg", "width": 800 }
+            { "alt": "Vista de la Laguna Humantay", "src": "laguna-humantay.jpg", "width": "800" },
+            { "alt": "Montaña Salkantay", "src": "salkantay.jpg", "width": "800" },
+            { "alt": "Almuerzo de lujo en la naturaleza", "src": "luxury-lunch.jpg", "width": "800" }
           ]
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "Tour de Lujo Mirador de Cóndores de Chonta",
           "subtitle": "Una experiencia exclusiva para observar el majestuoso vuelo del cóndor andino",
-          "days": 1,
-          "nights": 0,
-          "price": 320,
+          "days": "1",
+          "nights": "0",
+          "price": "320",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Limatambo", "lat": -13.486, "lng": -72.325, "day": 1 },
-            { "name": "Chonta", "lat": -13.415, "lng": -72.445, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Limatambo", "lat": "-13.486", "lng": "-72.325", "day": "1" },
+            { "name": "Chonta", "lat": "-13.415", "lng": "-72.445", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -273,22 +274,22 @@
             ]
           },
           "images": [
-            { "alt": "Cóndor andino en vuelo", "src": "condor-vuelo.jpg", "width": 800 },
-            { "alt": "Mirador de Chonta", "src": "mirador-chonta.jpg", "width": 800 },
-            { "alt": "Almuerzo gourmet con vista panorámica", "src": "luxury-lunch-chonta.jpg", "width": 800 }
+            { "alt": "Cóndor andino en vuelo", "src": "condor-vuelo.jpg", "width": "800" },
+            { "alt": "Mirador de Chonta", "src": "mirador-chonta.jpg", "width": "800" },
+            { "alt": "Almuerzo gourmet con vista panorámica", "src": "luxury-lunch-chonta.jpg", "width": "800" }
           ]
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "Palcoyo Montañas de Colores - Caminata de Lujo Full Day",
           "subtitle": "Una experiencia relajada para descubrir la increíble cordillera arco iris",
-          "days": 1,
-          "nights": 0,
-          "price": 280,
+          "days": "1",
+          "nights": "0",
+          "price": "280",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Checacupe", "lat": -14.048, "lng": -71.417, "day": 1 },
-            { "name": "Palcoyo", "lat": -13.868, "lng": -71.167, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Checacupe", "lat": "-14.048", "lng": "-71.417", "day": "1" },
+            { "name": "Palcoyo", "lat": "-13.868", "lng": "-71.167", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -334,22 +335,22 @@
             ]
           },
           "images": [
-            { "alt": "Montaña de Colores Palcoyo", "src": "palcoyo-mountain.jpg", "width": 800 },
-            { "alt": "Bosque de piedras en Palcoyo", "src": "stone-forest-palcoyo.jpg", "width": 800 },
-            { "alt": "Vista panorámica de la cordillera arco iris", "src": "rainbow-range-palcoyo.jpg", "width": 800 }
+            { "alt": "Montaña de Colores Palcoyo", "src": "palcoyo-mountain.jpg", "width": "800" },
+            { "alt": "Bosque de piedras en Palcoyo", "src": "stone-forest-palcoyo.jpg", "width": "800" },
+            { "alt": "Vista panorámica de la cordillera arco iris", "src": "rainbow-range-palcoyo.jpg", "width": "800" }
           ]
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Vinicunca Montaña Arco Iris – Caminata Completa de Lujo Full Day",
           "subtitle": "Descubre la impresionante Montaña de 7 Colores con una experiencia premium",
-          "days": 1,
-          "nights": 0,
-          "price": 300,
+          "days": "1",
+          "nights": "0",
+          "price": "300",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Checacupe", "lat": -14.048, "lng": -71.417, "day": 1 },
-            { "name": "Vinicunca", "lat": -13.858, "lng": -71.302, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Checacupe", "lat": "-14.048", "lng": "-71.417", "day": "1" },
+            { "name": "Vinicunca", "lat": "-13.858", "lng": "-71.302", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -396,23 +397,23 @@
             ]
           },
           "images": [
-            { "alt": "Montaña de 7 Colores", "src": "vinicunca-mountain.jpg", "width": 800 },
-            { "alt": "Vista panorámica de Vinicunca", "src": "vinicunca-view.jpg", "width": 800 },
-            { "alt": "Almuerzo gourmet en los Andes", "src": "luxury-lunch-vinicunca.jpg", "width": 800 }
+            { "alt": "Montaña de 7 Colores", "src": "vinicunca-mountain.jpg", "width": "800" },
+            { "alt": "Vista panorámica de Vinicunca", "src": "vinicunca-view.jpg", "width": "800" },
+            { "alt": "Almuerzo gourmet en los Andes", "src": "luxury-lunch-vinicunca.jpg", "width": "800" }
           ]
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "Camino Inca Expres de Lujo Full Day",
           "subtitle": "Descubre la magia del Camino Inca en un solo día con una experiencia premium",
-          "days": 1,
-          "nights": 0,
-          "price": 350,
+          "days": "1",
+          "nights": "0",
+          "price": "350",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Ollantaytambo", "lat": -13.259, "lng": -72.265, "day": 1 },
-            { "name": "Km 104", "lat": -13.158, "lng": -72.525, "day": 1 },
-            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Ollantaytambo", "lat": "-13.259", "lng": "-72.265", "day": "1" },
+            { "name": "Km 104", "lat": "-13.158", "lng": "-72.525", "day": "1" },
+            { "name": "Machu Picchu", "lat": "-13.163", "lng": "-72.545", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -458,22 +459,22 @@
             ]
           },
           "images": [
-            { "alt": "Vista panorámica del Camino Inca", "src": "camino-inca-view.jpg", "width": 800 },
-            { "alt": "Sitio arqueológico de Wiñaywayna", "src": "winaywayna-ruins.jpg", "width": 800 },
-            { "alt": "Almuerzo gourmet en la ruta", "src": "luxury-lunch-inca-trail.jpg", "width": 800 }
+            { "alt": "Vista panorámica del Camino Inca", "src": "camino-inca-view.jpg", "width": "800" },
+            { "alt": "Sitio arqueológico de Wiñaywayna", "src": "winaywayna-ruins.jpg", "width": "800" },
+            { "alt": "Almuerzo gourmet en la ruta", "src": "luxury-lunch-inca-trail.jpg", "width": "800" }
           ]
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "FULL DAY TREK – CORDILLERA DE MONTAÑAS ARCOÍRIS DE PALCOYO",
           "subtitle": "Descubre el impresionante y mágico paisaje de montañas pintadas de colores que solían ser 'agua'",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Layo", "lat": -14.538, "lng": -71.143, "day": 1 },
-            { "name": "Pallay Punchu", "lat": -14.550, "lng": -71.130, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Layo", "lat": "-14.538", "lng": "-71.143", "day": "1" },
+            { "name": "Pallay Punchu", "lat": "-14.550", "lng": "-71.130", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -547,9 +548,9 @@
             ]
           },
           "images": [
-            { "alt": "Colores vibrantes de la Montaña Arcoíris de Palcoyo", "src": "palcoyo-mountain.jpg", "width": 800 },
-            { "alt": "Caminata a Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": 800 },
-            { "alt": "Picnic de lujo con vista a la montaña", "src": "picnic-palcoyo.jpg", "width": 800 }
+            { "alt": "Colores vibrantes de la Montaña Arcoíris de Palcoyo", "src": "palcoyo-mountain.jpg", "width": "800" },
+            { "alt": "Caminata a Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": "800" },
+            { "alt": "Picnic de lujo con vista a la montaña", "src": "picnic-palcoyo.jpg", "width": "800" }
           ]
         }
 
@@ -1749,8 +1750,7 @@
         {
           "nombre": "Laguna Humantay de Lujo",
           "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Las mejores formas de viajar",
-          "ids": 1
+          "descripcion": "Las mejores formas de viajar"
         },
         {
           "nombre": "Tour de Lujo Mirador de Cóndores de Chonta",

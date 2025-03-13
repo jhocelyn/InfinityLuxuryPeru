@@ -151,17 +151,17 @@
     "TOURS":{
       "cusco":[
         {
-          "id": 1,
+          "id": "1",
           "title": "Full Day Trek – Humantay Lake",
           "subtitle": "Explora la impresionante Laguna Humantay en una caminata de un día con vistas espectaculares",
-          "days": 1,
-          "nights": 0,
-          "price": 180,
+          "days": "1",
+          "nights": "0",
+          "price": "180",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Mollepata", "lat": -13.414, "lng": -72.250, "day": 1 },
-            { "name": "Soraypampa", "lat": -13.401, "lng": -72.608, "day": 1 },
-            { "name": "Laguna Humantay", "lat": -13.414, "lng": -72.625, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Mollepata", "lat": "-13.414", "lng": "-72.250", "day": "1" },
+            { "name": "Soraypampa", "lat": "-13.401", "lng": "-72.608", "day": "1" },
+            { "name": "Laguna Humantay", "lat": "-13.414", "lng": "-72.625", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -238,22 +238,22 @@
             ]
           },
           "images": [
-            { "alt": "Laguna Humantay", "src": "humantay-lake.jpg", "width": 800 },
-            { "alt": "Vista del nevado Salkantay", "src": "salkantay-mountain.jpg", "width": 800 },
-            { "alt": "Caminata hacia la laguna", "src": "humantay-trek.jpg", "width": 800 }
+            { "alt": "Laguna Humantay", "src": "humantay-lake.jpg", "width": "800" },
+            { "alt": "Vista del nevado Salkantay", "src": "salkantay-mountain.jpg", "width": "800" },
+            { "alt": "Caminata hacia la laguna", "src": "humantay-trek.jpg", "width": "800" }
           ]
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "FULL DAY TREK – CHONTA CONDORS VIEWPOINT",
           "subtitle": "Let’s visit the messengers of the gods as the Incas said… This very small town offers the most spectacular condors view of all our region.",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Limatambo", "lat": -13.478, "lng": -72.178, "day": 1 },
-            { "name": "Chonta", "lat": -13.420, "lng": -72.209, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Limatambo", "lat": "-13.478", "lng": "-72.178", "day": "1" },
+            { "name": "Chonta", "lat": "-13.420", "lng": "-72.209", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -323,23 +323,23 @@
             ]
           },
           "images": [
-            { "alt": "Condors flying over Apurimac Canyon", "src": "condors-apurimac.jpg", "width": 800 },
-            { "alt": "Trekking route to Chonta", "src": "chonta-trek.jpg", "width": 800 },
-            { "alt": "Gourmet picnic with mountain view", "src": "picnic-chonta.jpg", "width": 800 }
+            { "alt": "Condors flying over Apurimac Canyon", "src": "condors-apurimac.jpg", "width": "800" },
+            { "alt": "Trekking route to Chonta", "src": "chonta-trek.jpg", "width": "800" },
+            { "alt": "Gourmet picnic with mountain view", "src": "picnic-chonta.jpg", "width": "800" }
           ]
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "FULL DAY TREK – PALCOYO RAINBOW MOUNTAINS RANGE",
           "subtitle": "Discover the impressive and magical landscape of painted colored mountains that used to be 'water'.",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Checacupe", "lat": -14.049, "lng": -71.406, "day": 1 },
-            { "name": "Combapata", "lat": -14.088, "lng": -71.418, "day": 1 },
-            { "name": "Palcoyo", "lat": -14.088, "lng": -71.356, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Checacupe", "lat": "-14.049", "lng": "-71.406", "day": "1" },
+            { "name": "Combapata", "lat": "-14.088", "lng": "-71.418", "day": "1" },
+            { "name": "Palcoyo", "lat": "-14.088", "lng": "-71.356", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -409,25 +409,25 @@
             ]
           },
           "images": [
-            { "alt": "Palcoyo Rainbow Mountain View", "src": "palcoyo-view.jpg", "width": 800 },
-            { "alt": "Stone Forest in Palcoyo", "src": "stone-forest.jpg", "width": 800 },
-            { "alt": "Luxury Picnic Lunch", "src": "picnic-lunch.jpg", "width": 800 }
+            { "alt": "Palcoyo Rainbow Mountain View", "src": "palcoyo-view.jpg", "width": "800" },
+            { "alt": "Stone Forest in Palcoyo", "src": "stone-forest.jpg", "width": "800" },
+            { "alt": "Luxury Picnic Lunch", "src": "picnic-lunch.jpg", "width": "800" }
           ]
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "THE GREATEST FULL DAY TO VINICUNCA RAINBOW MOUNTAIN TREK",
           "subtitle": "A great day in this highest and incredible colorful mountain that looks surreal.",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Checacupe", "lat": -14.046, "lng": -71.461, "day": 1 },
-            { "name": "Pitumarca", "lat": -14.091, "lng": -71.362, "day": 1 },
-            { "name": "Hanchipacha", "lat": -14.158, "lng": -71.299, "day": 1 },
-            { "name": "Pampachiri", "lat": -14.188, "lng": -71.285, "day": 1 },
-            { "name": "Vinicunca Rainbow Mountain", "lat": -14.190, "lng": -71.275, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Checacupe", "lat": "-14.046", "lng": "-71.461", "day": "1" },
+            { "name": "Pitumarca", "lat": "-14.091", "lng": "-71.362", "day": "1" },
+            { "name": "Hanchipacha", "lat": "-14.158", "lng": "-71.299", "day": "1" },
+            { "name": "Pampachiri", "lat": "-14.188", "lng": "-71.285", "day": "1" },
+            { "name": "Vinicunca Rainbow Mountain", "lat": "-14.190", "lng": "-71.275", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -495,24 +495,24 @@
             ]
           },
           "images": [
-            { "alt": "Rainbow Mountain vibrant colors", "src": "rainbow-mountain.jpg", "width": 800 },
-            { "alt": "Trekking to Vinicunca", "src": "vinicunca-trek.jpg", "width": 800 },
-            { "alt": "Luxury picnic with mountain view", "src": "picnic-vinicunca.jpg", "width": 800 }
+            { "alt": "Rainbow Mountain vibrant colors", "src": "rainbow-mountain.jpg", "width": "800" },
+            { "alt": "Trekking to Vinicunca", "src": "vinicunca-trek.jpg", "width": "800" },
+            { "alt": "Luxury picnic with mountain view", "src": "picnic-vinicunca.jpg", "width": "800" }
           ]
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "FULL DAY TREK – EXPRESS INCA TRAIL",
           "subtitle": "At least you have to enjoy the shortest and great day trip to the lost citadel of Machu Picchu… views, colors, feelings and smiles will accompany you",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Km 104", "lat": -13.158, "lng": -72.545, "day": 1 },
-            { "name": "Wiñaywayna", "lat": -13.155, "lng": -72.546, "day": 1 },
-            { "name": "Intipunku", "lat": -13.158, "lng": -72.544, "day": 1 },
-            { "name": "Machu Picchu", "lat": -13.163, "lng": -72.545, "day": 1 }
+            { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
+            { "name": "Km 104", "lat": "-13.158", "lng": "-72.545", "day": "1" },
+            { "name": "Wiñaywayna", "lat": "-13.155", "lng": "-72.546", "day": "1" },
+            { "name": "Intipunku", "lat": "-13.158", "lng": "-72.544", "day": "1" },
+            { "name": "Machu Picchu", "lat": "-13.163", "lng": "-72.545", "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -581,22 +581,22 @@
             ]
           },
           "images": [
-            { "alt": "View from Intipunku", "src": "intipunku-view.jpg", "width": 800 },
-            { "alt": "Wiñaywayna ruins", "src": "winaywayna-ruins.jpg", "width": 800 },
-            { "alt": "Hiking on the Inca Trail", "src": "inca-trail-hike.jpg", "width": 800 }
+            { "alt": "View from Intipunku", "src": "intipunku-view.jpg", "width": "800" },
+            { "alt": "Wiñaywayna ruins", "src": "winaywayna-ruins.jpg", "width": "800" },
+            { "alt": "Hiking on the Inca Trail", "src": "inca-trail-hike.jpg", "width": "800" }
           ]
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "FULL DAY TREK – PALCOYO RAINBOW MOUNTAINS RANGE",
           "subtitle": "Discover the impressive and magical landscape of painted colored mountains that used to be 'water'",
-          "days": 1,
-          "nights": 0,
+          "days": "1",
+          "nights": "0",
           "price": "Consultar",
           "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Layo", "lat": -14.538, "lng": -71.143, "day": 1 },
-            { "name": "Pallay Punchu", "lat": -14.550, "lng": -71.130, "day": 1 }
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": "1" },
+            { "name": "Layo", "lat": -14.538, "lng": -71.143, "day": "1" },
+            { "name": "Pallay Punchu", "lat": -14.550, "lng": -71.130, "day": "1" }
           ],
           "description": {
             "highlights": [
@@ -670,9 +670,9 @@
             ]
           },
           "images": [
-            { "alt": "Palcoyo Rainbow Mountains vibrant colors", "src": "palcoyo-mountain.jpg", "width": 800 },
-            { "alt": "Trekking to Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": 800 },
-            { "alt": "Luxury picnic with mountain view", "src": "picnic-palcoyo.jpg", "width": 800 }
+            { "alt": "Palcoyo Rainbow Mountains vibrant colors", "src": "palcoyo-mountain.jpg", "width": "800" },
+            { "alt": "Trekking to Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": "800" },
+            { "alt": "Luxury picnic with mountain view", "src": "picnic-palcoyo.jpg", "width": "800" }
           ]
         }
       ]
@@ -1815,9 +1815,7 @@
         {
           "nombre": "Luxury Humantay Lagoon",
           "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Best Ways to Travel",
-          "ids": 1
-
+          "descripcion": "Best Ways to Travel"
         },
         {
           "nombre": "Luxury Tour Condor Viewpoint Chonta",

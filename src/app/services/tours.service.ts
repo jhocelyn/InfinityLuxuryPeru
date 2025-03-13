@@ -11,16 +11,66 @@ export class PremiumTours {
 
   getPackagesByCategory(category: string): Observable<TravelPackage[]> {
     return this.translate.get(`PACKAGES.TOURS.${category}`).pipe(
-      map(packages => {
+      map((packages: any) => {
         console.log('Datos originales de TranslateService:', packages);
 
         if (!Array.isArray(packages)) {
-          console.log('No es un array, convirtiendo a valores...');
-          packages = Object.values(packages); // Convertir objeto a array
+          packages = Object.values(packages);
         }
 
-        console.log('Array convertido:', packages);
-        return packages;
+        return packages.map((pkg: any): TravelPackage => {
+          return {
+            id: +pkg.id || 0, // Convertir a número y manejar undefined
+            title: pkg.title || '',
+            subtitle: pkg.subtitle || '',
+            days: +pkg.days || 0, // Convertir a número
+            nights: +pkg.nights || 0,
+            price: +pkg.price || 0,
+            mapUrl: pkg.mapUrl
+              ? pkg.mapUrl.map((location: any) => ({
+                name: location.name || '',
+                lat: +location.lat || 0,
+                lng: +location.lng || 0,
+                day: +location.day || 0,
+              }))
+              : [],
+            description: {
+              highlights: pkg.description?.highlights || [],
+              text: pkg.description?.text || '',
+              itinerary: pkg.description?.itinerary
+                ? pkg.description.itinerary.map((item: any) => ({
+                  dayTitle: item.dayTitle || '',
+                  daySubtitle: item.daySubtitle || '',
+                  dayDescription: item.dayDescription || '',
+                }))
+                : [],
+            },
+            sampleJourney: pkg.sampleJourney
+              ? pkg.sampleJourney.map((journey: any) => ({
+                dayTitle: journey.dayTitle || '',
+                daySubtitle: journey.daySubtitle || '',
+                dayDescription: journey.dayDescription || '',
+                accommodations: journey.accommodations || [],
+              }))
+              : [],
+            customOptions: {
+              description: pkg.customOptions?.description || '',
+              packages: pkg.customOptions?.packages || [],
+            },
+            pricing: {
+              title: pkg.pricing?.title || '',
+              included: pkg.pricing?.included || [],
+              notIncluded: pkg.pricing?.notIncluded || [],
+            },
+            images: pkg.images
+              ? pkg.images.map((img: any) => ({
+                alt: img.alt || '',
+                src: img.src || '',
+                width: +img.width || 0, // Convertir a número
+              }))
+              : [],
+          };
+        });
       })
     );
   }
@@ -31,13 +81,19 @@ export class PremiumTours {
       map(packages => {
         console.log('Lista de paquetes:', packages);
 
-        if (index < 1 || index > packages.length) {
-          console.warn(`Índice fuera de rango (${index}), seleccionando el primer paquete`);
-          return packages.length > 0 ? packages[0] : undefined;
+        if (!packages.length) {
+          console.warn('No hay paquetes en esta categoría.');
+          return undefined;
         }
 
-        console.log('Paquete seleccionado:', packages[index - 1]);
-        return packages[index - 1]; // 🔥 Tomamos el paquete en la posición [index - 1]
+        // Validar que el índice sea un número válido dentro del rango
+        if (index < 0 || index >= packages.length) {
+          console.warn(`Índice fuera de rango (${index}), seleccionando el primer paquete.`);
+          return packages[0];
+        }
+
+        console.log('Paquete seleccionado:', packages[index]); // Ahora `index` es 0-based
+        return packages[index];
       })
     );
   }

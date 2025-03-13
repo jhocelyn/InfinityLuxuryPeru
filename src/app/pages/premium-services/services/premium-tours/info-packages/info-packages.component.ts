@@ -71,6 +71,7 @@ export class InfoPackagesComponent implements OnInit{
       console.log('ID del paquete:', id);
 
       this.package$ = this.packagesService.getPackageById(category, id);
+      console.log('',this.package$)
     });
   }
 }
