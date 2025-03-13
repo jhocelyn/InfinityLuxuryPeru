@@ -11,10 +11,10 @@
       <a [routerLink]="['/premium-services', services[key].slug]">
         <img [src]="services[key].image" [alt]="services[key].name" class="object-cover w-full h-full">
         <div class="absolute inset-0 flex items-center justify-center bg-black opacity-50">
-          <span class="w-[65%] text-center text-white text-xl sm:text-2xl lg:text-3xl font-thin leading-tight ">
+        </div>
+        <span class="flex inset-0 absolute top-0 left-0 items-center justify-center text-center text-white text-xl sm:text-2xl lg:text-3xl font-thin leading-tight ">
             {{ services[key].name }}
           </span>
-        </div>
       </a>
     </div>
   </div>
