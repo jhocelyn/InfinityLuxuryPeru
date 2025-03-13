@@ -6,7 +6,7 @@
               grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
               auto-rows-fr place-items-center">
     <div *ngFor="let key of servicesKeys"
-         class="relative h-full"
+         class="relative h-[80vh] w-full"
          [ngClass]="{'row-span-2': services[key].featured}">
       <a [routerLink]="['/premium-services', services[key].slug]">
         <img [src]="services[key].image" [alt]="services[key].name" class="object-cover w-full h-full">
