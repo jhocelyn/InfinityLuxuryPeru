@@ -1516,105 +1516,89 @@
         },
         {
           "id": 11,
-          "title": "Camino Inca de Lujo",
-          "subtitle": "Una experiencia inolvidable recorriendo el legendario Camino Inca con servicios de lujo",
-          "days": 4,
-          "nights": 3,
-          "price": 2500,
+          "title": "LAGUNA HUMANTAY 2 DÍAS",
+          "subtitle": "Increíble excursión de un día a la Cabeza de los Dioses, como significa Humantay. Maestros espirituales; montaña protectora de los incas. Belleza magnífica y grandes experiencias para disfrutar.",
+          "days": 2,
+          "nights": 1,
+          "price": "Consultar",
           "mapUrl": [
             { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Km 82", "lat": -13.299, "lng": -72.183, "day": 1 },
-            { "name": "Wayllabamba", "lat": -13.274, "lng": -72.166, "day": 1 },
-            { "name": "Pacaymayo", "lat": -13.271, "lng": -72.127, "day": 2 },
-            { "name": "Phuyupatamarca", "lat": -13.236, "lng": -72.114, "day": 3 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 4 }
+            { "name": "Mollepata", "lat": -13.763, "lng": -72.243, "day": 1 },
+            { "name": "Soraypampa", "lat": -13.414, "lng": -72.567, "day": 1 },
+            { "name": "Laguna Humantay", "lat": -13.409, "lng": -72.554, "day": 1 }
           ],
           "description": {
             "highlights": [
-              "Caminata por el legendario Camino Inca",
-              "Exploración de sitios arqueológicos impresionantes",
-              "Servicio de campamento de lujo con duchas calientes y masajes",
-              "Visita guiada exclusiva a Machu Picchu"
+              "Hora de recojo: 06:30 am",
+              "Hora de inicio de caminata: 10:30 am",
+              "Hora de llegada a Cusco: 18:30 pm",
+              "Altitud mínima: Mollepata – 2803 msnm/9196.2 pies",
+              "Altitud máxima Día 1: Laguna Humantay – 4200 msnm/13779.5 pies",
+              "Altitud máxima Día 2: Paso Salkantay – 4600 msnm/15092 pies",
+              "Distancia recorrida: 5.5 km/3.4 millas (aproximadamente 3 horas de caminata)",
+              "Dificultad: Moderada a desafiante en el día 2",
+              "Comidas incluidas: Snacks saludables, almuerzo picnic de lujo",
+              "Mejor temporada: Marzo a noviembre",
+              "Características relevantes: Paisajes impresionantes, perfecto para los apasionados de la fotografía y amantes de la naturaleza."
             ],
-            "text": "Descubre la magia del Camino Inca con una experiencia de lujo. Disfruta de una caminata desafiante con el máximo confort, mientras recorres paisajes impresionantes y llegas a la Ciudad Perdida de los Incas.",
+            "text": "Descubre y maravíllate con esta hermosa caminata de 2 días en la que tendrás la oportunidad de explorar una de las maravillas naturales más preciadas de Cusco: la Laguna Humantay. Aquí tomarás impresionantes fotos de sus aguas turquesas y de los imponentes guardianes de montaña, los nevados Humantay y Salkantay.",
             "itinerary": [
               {
                 "dayTitle": "Día 1",
-                "daySubtitle": "Cusco - Wayllabamba",
-                "dayDescription": "Inicio de la caminata en el Km 82. Almuerzo en Tarayoc y campamento de lujo en Wayllabamba con duchas calientes y masajes."
+                "daySubtitle": "Cusco – Tour Laguna Humantay – Soraypampa",
+                "dayDescription": "Recojo temprano de Cusco y traslado al pueblo de Mollepata. Disfruta del impresionante paisaje con vistas a montañas nevadas y comunidades locales. Luego, continúa hasta Soraypampa, donde comienza la caminata. Sube hasta la Laguna Humantay para contemplar sus únicas aguas turquesas. Después de la caminata, regreso a Soraypampa para un almuerzo picnic de lujo y descanso en el campamento de alta gama."
               },
               {
                 "dayTitle": "Día 2",
-                "daySubtitle": "Wayllabamba - Pacaymayo",
-                "dayDescription": "Ascenso al Paso Warmiwañusca. Campamento en Pacaymayo con cena gourmet y descanso en tiendas climatizadas."
-              },
-              {
-                "dayTitle": "Día 3",
-                "daySubtitle": "Pacaymayo - Phuyupatamarca",
-                "dayDescription": "Exploración de los sitios arqueológicos de Runkurakay, Sayacmarca y Chaquicocha. Campamento en Phuyupatamarca."
-              },
-              {
-                "dayTitle": "Día 4",
-                "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-                "dayDescription": "Descenso a Wiñaywayna y llegada a la Puerta del Sol. Visita guiada en Machu Picchu y retorno a Cusco."
+                "daySubtitle": "Soraypampa – Paso Salkantay – Cusco",
+                "dayDescription": "Comienza el día con un nutritivo desayuno antes de caminar hasta el Paso Salkantay, el punto más alto del trek a 4,600 m. Disfruta de vistas panorámicas impresionantes de las montañas circundantes. Después de un descanso, desciende de regreso al campamento para un almuerzo gourmet antes de retornar a Cusco por la tarde."
               }
             ]
           },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco - Wayllabamba",
-              "dayDescription": "Traslado al Km 82 y caminata hacia Wayllabamba con almuerzo gourmet. Campamento con duchas calientes y masajes relajantes.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Wayllabamba - Pacaymayo",
-              "dayDescription": "Ascenso al Paso Warmiwañusca con vistas impresionantes. Descenso a Pacaymayo y campamento de lujo.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Pacaymayo - Phuyupatamarca",
-              "dayDescription": "Visita a Runkurakay y Sayacmarca. Caminata a Phuyupatamarca con campamento de lujo y cena gourmet.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-              "dayDescription": "Visita guiada en Machu Picchu. Tren de retorno y traslado privado a Cusco.",
-              "accommodations": []
-            }
-          ],
           "customOptions": {
-            "description": "Opciones adicionales para mejorar tu experiencia",
+            "description": "Mejora tu experiencia con estas opciones adicionales",
             "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu.jpg" },
-              { "title": "Noche adicional en hotel de lujo", "image": "luxury-hotel-night.jpg" }
+              { "title": "Servicio de guía privado", "image": "private-guide.jpg" },
+              { "title": "Bastones de caminata (previa solicitud)", "image": "walking-sticks.jpg" }
             ]
           },
           "pricing": {
-            "title": "Incluye y No Incluye",
+            "title": "Inclusiones y Exclusiones",
             "included": [
-              "Guía profesional de habla inglesa",
-              "03 noches de campamento de lujo",
-              "Entradas y permisos para el Camino Inca y Machu Picchu",
-              "Tickets de tren y transporte privado",
-              "Duchas calientes y sesiones de masajes",
-              "Todas las comidas gourmet preparadas por chef privado",
-              "Kit de primeros auxilios y balón de oxígeno"
+              "Un trek privado, hecho a medida y completamente personalizado de principio a fin.",
+              "Guías profesionales de habla inglesa con amplio conocimiento de la ruta.",
+              "Asistentes de guía expertos dependiendo del tamaño del grupo.",
+              "Todas las entradas y permisos.",
+              "Todas las comidas preparadas frescas en el lugar por un chef bien entrenado (D: Desayuno, A: Almuerzo, C: Cena).",
+              "Almuerzo picnic de lujo con comidas gourmet, bebidas y una copa de vino/champán.",
+              "Snacks saludables y consistentes.",
+              "Todo el transporte terrestre privado para los clientes.",
+              "Transporte privado para el personal y equipo de campamento.",
+              "Porteadores locales completamente capacitados.",
+              "Carpa comedor con sillas cómodas, vajilla de porcelana y cristalería.",
+              "Baño químico portátil y carpa de ducha.",
+              "Servicio de masajes (solo en la categoría Harmony).",
+              "Una noche en una carpa dormitorio de lujo con catre, saco de dormir, sábanas, manta y almohadas.",
+              "Botiquín de primeros auxilios y botella de oxígeno.",
+              "Todos los impuestos peruanos requeridos (IGV)."
             ],
             "notIncluded": [
-              "Entrada a Huayna Picchu (opcional)",
-              "Bastones de trekking",
-              "Seguro de viaje (recomendado)",
-              "Propinas y gastos personales"
+              "Bastones de caminata (disponibles previa solicitud).",
+              "Transporte extra debido a circunstancias imprevistas.",
+              "Alojamiento en hotel.",
+              "Servicio de masajes (si está en la categoría Deluxe).",
+              "Comidas no mencionadas.",
+              "Gastos personales.",
+              "Caballo de emergencia.",
+              "Caballo de monta personal (aprox. PEN 100 por caballo).",
+              "Seguro de viaje (altamente recomendado).",
+              "Propinas."
             ]
           },
           "images": [
-            { "alt": "Camino Inca", "src": "camino-inca.jpg", "width": 800 },
-            { "alt": "Vista de Machu Picchu", "src": "machu-picchu.jpg", "width": 800 },
-            { "alt": "Campamento de lujo", "src": "luxury-camp.jpg", "width": 800 }
+            { "alt": "Vista impresionante de la Laguna Humantay", "src": "humantay-lake.jpg", "width": 800 },
+            { "alt": "Caminata hacia el Paso Salkantay", "src": "salkantay-pass.jpg", "width": 800 },
+            { "alt": "Picnic de lujo con vistas a la montaña", "src": "luxury-picnic-humantay.jpg", "width": 800 }
           ]
         },
         {
@@ -1774,6 +1758,81 @@
         },
         {
           "nombre": "Full Day Trek – Cordillera de Montañas Arcoiris de Palcoyo",
+          "imagen": "assets/img/tours/Valle-Sagrado.webp",
+          "descripcion": "Las mejores formas de viajar"
+        }
+      ]
+    },
+    "TREKKING": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Trekking",
+        "image_principal": "assets/img/tours/Tours-Maras.webp",
+        "button": "View all packages",
+        "titleInfo": "Trekking en Peru",
+        "descripcion": "Ofrecemos los mejores charters a Perú. Hemos convertido sueños en aventuras extraordinarias para viajeros exigentes durante más de 60 años, desde que nuestro fundador pionero creó el primer safari moderno de lujo en África. Hoy somos la empresa de viajes líder en el mundo, llevando a nuestros huéspedes a los rincones más salvajes de la Tierra en los siete continentes.",
+        "subtitulo": "Las mejores formas de viajar",
+        "text": "Hemos convertido sueños en aventuras extraordinarias durante más de 60 años."
+      },
+      "paquetes":[
+        {
+          "nombre": "Ancascocha Trail de Lujo",
+          "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Salkantay de Lujo",
+          "imagen": "assets/img/home/Trekking-Chaman.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Camino Inca de Lujo Plus",
+          "imagen": "assets/img/tours/Tours-Moray.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Qelqanqa Inca Trail de Lujo",
+          "imagen": "assets/img/tours/Tours-Kayak.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Choquequirao de Lujo",
+          "imagen": "assets/img/tours/Machu-Picchu.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Lares Trail de Lujo",
+          "imagen": "assets/img/tours/Valle-Sagrado.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Camino Inca de Lujo",
+          "imagen": "assets/img/tours/Tours-Moray.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Quarry Trail de Lujo",
+          "imagen": "assets/img/tours/Tours-Kayak.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Choquequirao de Lujo",
+          "imagen": "assets/img/tours/Machu-Picchu.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Camino Inca de Lujo",
           "imagen": "assets/img/tours/Valle-Sagrado.webp",
           "descripcion": "Las mejores formas de viajar"
         }
