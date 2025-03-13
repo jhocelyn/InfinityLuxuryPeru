@@ -209,10 +209,9 @@
             ]
           },
           "images": [
-            { "alt": "Vista de la Laguna Humantay", "src": "laguna-humantay.jpg", "width": "800" },
-            { "alt": "Montaña Salkantay", "src": "salkantay.jpg", "width": "800" },
-            { "alt": "Almuerzo de lujo en la naturaleza", "src": "luxury-lunch.jpg", "width": "800" }
-          ]
+            { "alt": "Laguna Humantay", "src": "assets/img/tours/Tours-Laguna-Huamantay.webp", "width": "800" },
+            { "alt": "Vista del nevado Salkantay", "src": "assets/img/tours/Tours-Kayak.webp", "width": "800" },
+            { "alt": "Caminata hacia la laguna", "src": "assets/img/tours/Tours-Moray.webp", "width": "800" }         ]
         },
         {
           "id": "2",
@@ -274,9 +273,9 @@
             ]
           },
           "images": [
-            { "alt": "Cóndor andino en vuelo", "src": "condor-vuelo.jpg", "width": "800" },
-            { "alt": "Mirador de Chonta", "src": "mirador-chonta.jpg", "width": "800" },
-            { "alt": "Almuerzo gourmet con vista panorámica", "src": "luxury-lunch-chonta.jpg", "width": "800" }
+            { "alt": "Cóndor andino en vuelo", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Mirador de Chonta", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Almuerzo gourmet con vista panorámica", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -335,9 +334,9 @@
             ]
           },
           "images": [
-            { "alt": "Montaña de Colores Palcoyo", "src": "palcoyo-mountain.jpg", "width": "800" },
-            { "alt": "Bosque de piedras en Palcoyo", "src": "stone-forest-palcoyo.jpg", "width": "800" },
-            { "alt": "Vista panorámica de la cordillera arco iris", "src": "rainbow-range-palcoyo.jpg", "width": "800" }
+            { "alt": "Montaña de Colores Palcoyo", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Bosque de piedras en Palcoyo", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Vista panorámica de la cordillera arco iris", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -397,9 +396,9 @@
             ]
           },
           "images": [
-            { "alt": "Montaña de 7 Colores", "src": "vinicunca-mountain.jpg", "width": "800" },
-            { "alt": "Vista panorámica de Vinicunca", "src": "vinicunca-view.jpg", "width": "800" },
-            { "alt": "Almuerzo gourmet en los Andes", "src": "luxury-lunch-vinicunca.jpg", "width": "800" }
+            { "alt": "Montaña de 7 Colores", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Vista panorámica de Vinicunca", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Almuerzo gourmet en los Andes", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -459,9 +458,9 @@
             ]
           },
           "images": [
-            { "alt": "Vista panorámica del Camino Inca", "src": "camino-inca-view.jpg", "width": "800" },
-            { "alt": "Sitio arqueológico de Wiñaywayna", "src": "winaywayna-ruins.jpg", "width": "800" },
-            { "alt": "Almuerzo gourmet en la ruta", "src": "luxury-lunch-inca-trail.jpg", "width": "800" }
+            { "alt": "Vista panorámica del Camino Inca", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Sitio arqueológico de Wiñaywayna", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Almuerzo gourmet en la ruta", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -548,9 +547,9 @@
             ]
           },
           "images": [
-            { "alt": "Colores vibrantes de la Montaña Arcoíris de Palcoyo", "src": "palcoyo-mountain.jpg", "width": "800" },
-            { "alt": "Caminata a Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": "800" },
-            { "alt": "Picnic de lujo con vista a la montaña", "src": "picnic-palcoyo.jpg", "width": "800" }
+            { "alt": "Colores vibrantes de la Montaña Arcoíris de Palcoyo", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Caminata a Pallay Punchu", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Picnic de lujo con vista a la montaña", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         }
 

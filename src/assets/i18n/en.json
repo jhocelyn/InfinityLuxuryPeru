@@ -153,7 +153,7 @@
         {
           "id": "1",
           "title": "Full Day Trek – Humantay Lake",
-          "subtitle": "Explora la impresionante Laguna Humantay en una caminata de un día con vistas espectaculares",
+          "subtitle": "Explore the stunning Laguna Humantay on a one-day hike with spectacular views",
           "days": "1",
           "nights": "0",
           "price": "180",
@@ -165,82 +165,82 @@
           ],
           "description": {
             "highlights": [
-              "Caminata a la impresionante Laguna Humantay de aguas turquesas",
-              "Vistas panorámicas de los nevados Humantay y Salkantay",
-              "Posibilidad de realizar una ofrenda sagrada con hojas de coca",
-              "Picnic de lujo con una comida gourmet de tres tiempos",
-              "Transporte privado y guías especializados"
+              "Hike to the stunning Laguna Humantay with turquoise waters",
+              "Panoramic views of the Humantay and Salkantay snow-capped mountains",
+              "Opportunity to make a sacred offering with coca leaves",
+              "Luxury picnic with a three-course gourmet meal",
+              "Private transportation and expert guides"
             ],
-            "text": "Sumérgete en la belleza natural de los Andes con esta caminata de un día a la Laguna Humantay. Disfruta de una vista espectacular de las montañas nevadas y relájate con un picnic gourmet exclusivo en Soraypampa.",
+            "text": "Immerse yourself in the natural beauty of the Andes with this one-day hike to Laguna Humantay. Enjoy a spectacular view of the snow-capped mountains and relax with an exclusive gourmet picnic in Soraypampa.",
             "itinerary": [
               {
-                "dayTitle": "Día 1",
+                "dayTitle": "Day 1",
                 "daySubtitle": "Cusco - Laguna Humantay - Cusco",
-                "dayDescription": "Salida temprano desde Cusco, viaje hacia Soraypampa pasando por Mollepata. Caminata moderada de 1.5 horas hasta la Laguna Humantay, tiempo para explorar, tomar fotos y realizar una ofrenda simbólica. Retorno a Soraypampa y almuerzo gourmet antes de regresar a Cusco."
+                "dayDescription": "Early departure from Cusco, traveling to Soraypampa via Mollepata. A moderate 1.5-hour hike to Laguna Humantay, time to explore, take photos, and participate in a symbolic offering. Return to Soraypampa for a gourmet lunch before heading back to Cusco."
               }
             ]
           },
           "sampleJourney": [
             {
-              "dayTitle": "Día 1",
+              "dayTitle": "Day 1",
               "daySubtitle": "Cusco - Mollepata - Soraypampa - Laguna Humantay - Cusco",
-              "dayDescription": "Nuestra jornada comienza temprano con la recogida en el hotel en Cusco a las 06:30 am. Tras un viaje de 2.5 horas disfrutando de paisajes andinos, llegamos a Mollepata, donde haremos una breve parada para compras de última hora y una explicación sobre la flora y fauna local.",
+              "dayDescription": "Our journey begins early with a hotel pickup in Cusco at 06:30 am. After a 2.5-hour drive through breathtaking Andean landscapes, we arrive in Mollepata, where we take a short break for last-minute shopping and a briefing on local flora and fauna.",
               "accommodations": []
             },
             {
-              "dayTitle": "Día 1 - Parte 2",
-              "daySubtitle": "Inicio de la Caminata en Soraypampa",
-              "dayDescription": "Después de una hora adicional en transporte por carretera de tierra, llegamos a Soraypampa (3920 msnm), el punto de inicio de la caminata. Desde aquí, nos preparamos para una caminata ascendente de aproximadamente 1.5 horas, con vistas espectaculares de los nevados Humantay y Salkantay. Durante el ascenso, tendrás la opción de alquilar un caballo si lo prefieres.",
+              "dayTitle": "Day 1 - Part 2",
+              "daySubtitle": "Start of the Hike in Soraypampa",
+              "dayDescription": "After another hour on a dirt road, we reach Soraypampa (3920 m.a.s.l.), the starting point of our hike. From here, we prepare for an uphill trek of approximately 1.5 hours, enjoying spectacular views of the Humantay and Salkantay snow-capped peaks. During the ascent, you will have the option to rent a horse if preferred.",
               "accommodations": []
             },
             {
-              "dayTitle": "Día 1 - Parte 3",
-              "daySubtitle": "Exploración de la Laguna Humantay",
-              "dayDescription": "Al llegar a la Laguna Humantay (4200 msnm), quedaremos maravillados por sus aguas de un intenso color turquesa. Nuestro guía explicará la historia, geología y la importancia espiritual de este lugar sagrado para los pobladores locales. También se puede realizar una ofrenda con hojas de coca en honor a los Apus, los espíritus guardianes de las montañas.",
+              "dayTitle": "Day 1 - Part 3",
+              "daySubtitle": "Exploring Laguna Humantay",
+              "dayDescription": "Upon arriving at Laguna Humantay (4200 m.a.s.l.), we will be amazed by its intensely turquoise waters. Our guide will explain the history, geology, and spiritual significance of this sacred place for the local communities. You will also have the opportunity to make a traditional coca leaf offering to the Apus, the guardian spirits of the mountains.",
               "accommodations": []
             },
             {
-              "dayTitle": "Día 1 - Parte 4",
-              "daySubtitle": "Descenso y Almuerzo Gourmet en Soraypampa",
-              "dayDescription": "Después de disfrutar de la belleza de la laguna, comenzamos el descenso de regreso a Soraypampa. Aquí nos espera un almuerzo gourmet tipo picnic con un menú de tres tiempos, que incluye opciones para dietas especiales si se solicita con anticipación. Relájate con vistas impresionantes antes de abordar nuestro transporte de regreso a Cusco.",
+              "dayTitle": "Day 1 - Part 4",
+              "daySubtitle": "Descent and Gourmet Lunch in Soraypampa",
+              "dayDescription": "After enjoying the beauty of the lagoon, we begin our descent back to Soraypampa. Here, a gourmet picnic-style lunch awaits us, featuring a three-course menu with special dietary options available upon request. Relax and take in the stunning views before boarding our transport back to Cusco.",
               "accommodations": []
             },
             {
-              "dayTitle": "Día 1 - Parte 5",
-              "daySubtitle": "Retorno a Cusco",
-              "dayDescription": "Luego del almuerzo, abordamos nuestro transporte privado de regreso a Cusco, disfrutando del paisaje andino en el trayecto. Llegada estimada a las 18:30 pm, concluyendo una experiencia inolvidable.",
+              "dayTitle": "Day 1 - Part 5",
+              "daySubtitle": "Return to Cusco",
+              "dayDescription": "Following lunch, we board our private transport for the return journey to Cusco, enjoying the scenic Andean landscapes along the way. Estimated arrival in Cusco at 18:30 pm, concluding an unforgettable experience.",
               "accommodations": []
             }
           ],
           "customOptions": {
-            "description": "Opciones adicionales para mejorar tu experiencia",
+            "description": "Additional options to enhance your experience",
             "packages": [
-              { "title": "Alquiler de caballo para la caminata", "image": "horse-rental.jpg" },
-              { "title": "Bastones de trekking", "image": "trekking-poles.jpg" }
+              { "title": "Horse rental for the hike", "image": "horse-rental.jpg" },
+              { "title": "Trekking poles", "image": "trekking-poles.jpg" }
             ]
           },
           "pricing": {
-            "title": "Incluye y No Incluye",
+            "title": "Included and Not Included",
             "included": [
-              "Guía profesional de habla inglesa",
-              "Transporte privado de ida y vuelta desde Cusco",
-              "Entrada a la Laguna Humantay",
-              "Desayuno y almuerzo gourmet tipo picnic",
-              "Opción de ofrenda a los Apus",
-              "Bebidas calientes y snacks durante la caminata",
-              "Botiquín de primeros auxilios y oxígeno de emergencia"
+              "Professional English-speaking guide",
+              "Private round-trip transportation from Cusco",
+              "Entrance fee to Laguna Humantay",
+              "Breakfast and gourmet picnic-style lunch",
+              "Optional offering to the Apus",
+              "Hot beverages and snacks during the hike",
+              "First aid kit and emergency oxygen"
             ],
             "notIncluded": [
-              "Alquiler de caballos para la caminata",
-              "Bastones de trekking (opcional)",
-              "Gastos personales y propinas",
-              "Seguro de viaje (recomendado)"
+              "Horse rental for the hike",
+              "Trekking poles (optional)",
+              "Personal expenses and tips",
+              "Travel insurance (recommended)"
             ]
           },
           "images": [
-            { "alt": "Laguna Humantay", "src": "humantay-lake.jpg", "width": "800" },
-            { "alt": "Vista del nevado Salkantay", "src": "salkantay-mountain.jpg", "width": "800" },
-            { "alt": "Caminata hacia la laguna", "src": "humantay-trek.jpg", "width": "800" }
+            { "alt": "Laguna Humantay", "src": "assets/img/tours/Tours-Laguna-Huamantay.webp", "width": "800" },
+            { "alt": "View of Salkantay Mountain", "src": "assets/img/tours/Tours-Kayak.webp", "width": "800" },
+            { "alt": "Hike to the lagoon", "src": "assets/img/tours/Tours-Moray.webp", "width": "800" }
           ]
         },
         {
@@ -249,7 +249,7 @@
           "subtitle": "Let’s visit the messengers of the gods as the Incas said… This very small town offers the most spectacular condors view of all our region.",
           "days": "1",
           "nights": "0",
-          "price": "Consultar",
+          "price": "Consult",
           "mapUrl": [
             { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
             { "name": "Limatambo", "lat": "-13.478", "lng": "-72.178", "day": "1" },
@@ -323,9 +323,9 @@
             ]
           },
           "images": [
-            { "alt": "Condors flying over Apurimac Canyon", "src": "condors-apurimac.jpg", "width": "800" },
-            { "alt": "Trekking route to Chonta", "src": "chonta-trek.jpg", "width": "800" },
-            { "alt": "Gourmet picnic with mountain view", "src": "picnic-chonta.jpg", "width": "800" }
+            { "alt": "Maras Trekking", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Trekking route to Chonta", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Gourmet picnic with mountain view", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -334,7 +334,7 @@
           "subtitle": "Discover the impressive and magical landscape of painted colored mountains that used to be 'water'.",
           "days": "1",
           "nights": "0",
-          "price": "Consultar",
+          "price": "Consult",
           "mapUrl": [
             { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
             { "name": "Checacupe", "lat": "-14.049", "lng": "-71.406", "day": "1" },
@@ -409,9 +409,9 @@
             ]
           },
           "images": [
-            { "alt": "Palcoyo Rainbow Mountain View", "src": "palcoyo-view.jpg", "width": "800" },
-            { "alt": "Stone Forest in Palcoyo", "src": "stone-forest.jpg", "width": "800" },
-            { "alt": "Luxury Picnic Lunch", "src": "picnic-lunch.jpg", "width": "800" }
+            { "alt": "Palcoyo Rainbow Mountain View", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Stone Forest in Palcoyo", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Luxury Picnic Lunch", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -420,7 +420,7 @@
           "subtitle": "A great day in this highest and incredible colorful mountain that looks surreal.",
           "days": "1",
           "nights": "0",
-          "price": "Consultar",
+          "price": "Consult",
           "mapUrl": [
             { "name": "Cusco", "lat": "-13.532", "lng": "-71.967", "day": "1" },
             { "name": "Checacupe", "lat": "-14.046", "lng": "-71.461", "day": "1" },
@@ -495,9 +495,9 @@
             ]
           },
           "images": [
-            { "alt": "Rainbow Mountain vibrant colors", "src": "rainbow-mountain.jpg", "width": "800" },
-            { "alt": "Trekking to Vinicunca", "src": "vinicunca-trek.jpg", "width": "800" },
-            { "alt": "Luxury picnic with mountain view", "src": "picnic-vinicunca.jpg", "width": "800" }
+            { "alt": "Rainbow Mountain vibrant colors", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Trekking to Vinicunca", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Luxury picnic with mountain view", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -581,9 +581,9 @@
             ]
           },
           "images": [
-            { "alt": "View from Intipunku", "src": "intipunku-view.jpg", "width": "800" },
-            { "alt": "Wiñaywayna ruins", "src": "winaywayna-ruins.jpg", "width": "800" },
-            { "alt": "Hiking on the Inca Trail", "src": "inca-trail-hike.jpg", "width": "800" }
+            { "alt": "View from Intipunku", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Wiñaywayna ruins", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Hiking on the Inca Trail", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         },
         {
@@ -670,9 +670,9 @@
             ]
           },
           "images": [
-            { "alt": "Palcoyo Rainbow Mountains vibrant colors", "src": "palcoyo-mountain.jpg", "width": "800" },
-            { "alt": "Trekking to Pallay Punchu", "src": "pallay-punchu-trek.jpg", "width": "800" },
-            { "alt": "Luxury picnic with mountain view", "src": "picnic-palcoyo.jpg", "width": "800" }
+            { "alt": "Palcoyo Rainbow Mountains vibrant colors", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Trekking to Pallay Punchu", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" },
+            { "alt": "Luxury picnic with mountain view", "src": "assets/img/tours/Tours-Maras.webp", "width": "800" }
           ]
         }
       ]
@@ -1812,37 +1812,38 @@
       },
       "paquetes": [
         {
-          "nombre": "Ancascocha Trail de Lujo",
+          "nombre": "Luxury Humantay Lake",
           "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         },
         {
-          "nombre": "Luxury Tour Condor Viewpoint Chonta",
+          "nombre": "Luxury Tour to Chonta Condor Viewpoint",
           "imagen": "assets/img/home/Trekking-Chaman.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         },
         {
-          "nombre": "Palcoyo Rainbow Mountains - Luxury Full Day Hike",
+          "nombre": "Palcoyo Rainbow Mountains - Luxury Full-Day Hike",
           "imagen": "assets/img/tours/Tours-Moray.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         },
         {
-          "nombre": "Vinicunca Rainbow Mountain – Full Luxury Day Hike",
+          "nombre": "Vinicunca Rainbow Mountain – Complete Luxury Full-Day Hike",
           "imagen": "assets/img/tours/Tours-Kayak.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         },
         {
           "nombre": "Luxury Express Inca Trail Full Day",
           "imagen": "assets/img/tours/Machu-Picchu.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         },
         {
-          "nombre": "Full Day Trek – Palcoyo Rainbow Mountains Range",
+          "nombre": "Full-Day Trek – Palcoyo Rainbow Mountain Range",
           "imagen": "assets/img/tours/Valle-Sagrado.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "The best ways to travel"
         }
       ]
     },
+
     "TREKKING": {
       "images": [
         {

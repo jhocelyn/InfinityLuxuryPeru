@@ -21,7 +21,7 @@
         <!-- Contenido de las secciones -->
         <ng-container [ngSwitch]="selectedTab">
           <app-package-description *ngSwitchCase="'description'" [package]="package"></app-package-description>
-          <app-pack-sample-journey *ngSwitchCase="'sample-journey'" [package]="package"></app-pack-sample-journey>
+          <app-pack-sample-journey [alojamientos]="false" *ngSwitchCase="'sample-journey'" [package]="package"></app-pack-sample-journey>
           <app-custom-options *ngSwitchCase="'custom-options'" [package]="package"></app-custom-options>
           <app-package-pricing *ngSwitchCase="'pricing'" [package]="package"></app-package-pricing>
           <!-- Nueva sección Request the Program -->
