@@ -1888,7 +1888,83 @@
   "ABOUTUS": {
     "TITLE": "Sobre Nosotros",
     "DESCRIPTION": "Somos una agencia de viajes especializada en tours de lujo y aventura en Perú. Nuestro equipo de expertos en viajes se encarga de diseñar experiencias únicas y personalizadas para nuestros clientes"
+  },
+  "PREMIUM_SERVICES": {
+    "DESCRIPTION": "Disfruta de nuestros mejores servicios exclusivos para ti",
+    "services": [
+  {
+        "name": "Paquetes de lujo",
+        "image": "assets/img/home/Luxury-Packages.webp",
+        "slug": "luxury-packages",
+        "featured": true
+      },
+     {
+        "name": "Tours premium",
+        "image": "assets/img/home/Tours-Macchu-Picchu.webp",
+        "slug": "premium-tours",
+        "featured": true
+      },
+    {
+        "name": "MICE",
+      "image": "assets/img/tours/Hotel-Palacios.webp",
+        "slug": "mice",
+        "featured": true
+      },
+    {
+        "name": "Mejores experiencias familiares",
+      "image": "assets/img/home/Carrusel-Hotel-Cusco.webp",
+        "slug": "family-best-experiences",
+        "featured": true
+      },
+     {
+        "name": "Bodas",
+       "image": "assets/img/home/Destinations-Lima.webp",
+        "slug": "wedding",
+        "featured": true
+      },
+      {
+        "name": "Servicios especiales",
+        "image": "assets/img/home/Carrusel-Train.webp",
+        "slug": "special-services",
+        "featured": true
+      },
+      {
+        "name": "Bienestar",
+        "image": "assets/img/tours/Luxury-Wellness.webp",
+        "slug": "wellness",
+        "featured": true
+      },
+     {
+        "name": "Gastronomía",
+       "image": "assets/img/home/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "slug": "gastronomy",
+        "featured": true
+      },
+      {
+        "name": "Turismo sostenible",
+        "image": "assets/img/tours/Tours-Maras.webp",
+        "slug": "sustainable-tourism",
+        "featured": true
+      },
+    {
+        "name": "Charters",
+      "image": "assets/img/tours/Tours-Kayak.webp",
+        "slug": "charters",
+        "featured": true
+      },
+     {
+        "name": "Trekking",
+       "image": "assets/img/home/Trekking-Chaman.webp",
+        "slug": "trekking",
+        "featured": true
+      },
+ {
+        "name": "Donaciones",
+   "image": "assets/img/tours/Tours-Laguna-Huamantay.webp",
+        "slug": "donations",
+        "featured": true
+      }
+    ]
   }
-
 }
 

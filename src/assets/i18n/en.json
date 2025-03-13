@@ -1971,7 +1971,83 @@
   "ABOUTUS": {
     "TITLE": "About Us",
     "DESCRIPTION": "We are a team of travel experts dedicated to providing unique and unforgettable experiences in Peru. Our passion for travel and commitment to excellence ensure that every journey is tailored to your needs, interests, and preferences. Whether you're seeking adventure, relaxation, or cultural immersion, we're here to make your dream vacation a reality."
-  }
-
+  },
+  "PREMIUM_SERVICES":{
+    "DESCRIPTION": "Enjoy the best premium services in Peru. We offer a wide range of luxury experiences, from private jet journeys to tailor-made adventures. Our team of experts will help you create the perfect itinerary, ensuring that every detail is taken care of. Discover the wonders of Peru in style with our premium services.",
+    "services": [
+      {
+        "name": "Luxury Packages",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "luxury-packages",
+        "featured": true
+      },
+     {
+        "name": "Premium Tours",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "premium-tours",
+        "featured": true
+      },
+    {
+        "name": "MICE",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "mice",
+        "featured": true
+      },
+    {
+        "name": "Family Best Experiences",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "family-best-experiences",
+        "featured": true
+      },
+      {
+        "name": "Wedding",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "wedding",
+        "featured": true
+      },
+       {
+        "name": "Special Services",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "special-services",
+        "featured": true
+      },
+    {
+        "name": "Wellness",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "wellness",
+        "featured": true
+      },
+       {
+        "name": "Gastronomy",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "gastronomy",
+        "featured": true
+      },
+       {
+        "name": "Sustainable Tourism",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "sustainable-tourism",
+        "featured": true
+      },
+      {
+        "name": "Charters",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "charters",
+        "featured": true
+      },
+      {
+        "name": "Trekking",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "trekking",
+        "featured": true
+      },
+      {
+        "name": "Donations",
+        "image": "assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp",
+        "slug": "donations",
+        "featured": true
+      }
+    ]
+    }
 
 }
