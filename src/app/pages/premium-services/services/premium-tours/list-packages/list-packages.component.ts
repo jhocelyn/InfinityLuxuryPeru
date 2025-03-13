@@ -36,14 +36,12 @@ export class ListPackagesComponent {
     this.translate.get('LIST_PACKAGES.TOURS').subscribe((data: any) => {
       this.images = data.images || [];
       this.info = data.info || {};
-
       this.paquetes = (data.paquetes || []).map((paquete: any, index: number) => ({
         id: paquete.id || index + 1, // Si el paquete ya tiene un ID, lo mantiene. Si no, se le asigna uno basado en el índice.
         ...paquete,
         ruta: `${this.ruta}` // Agregar ID a la ruta.
       }));
     });
-
     console.log(this.paquetes);
   }
 }
