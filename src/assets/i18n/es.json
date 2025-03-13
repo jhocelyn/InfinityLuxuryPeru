@@ -1749,7 +1749,8 @@
         {
           "nombre": "Laguna Humantay de Lujo",
           "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "descripcion": "Las mejores formas de viajar",
+          "ids": 1
         },
         {
           "nombre": "Tour de Lujo Mirador de Cóndores de Chonta",

@@ -1815,7 +1815,9 @@
         {
           "nombre": "Luxury Humantay Lagoon",
           "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Best Ways to Travel"
+          "descripcion": "Best Ways to Travel",
+          "ids": 1
+
         },
         {
           "nombre": "Luxury Tour Condor Viewpoint Chonta",
