@@ -9,6 +9,7 @@ import {
 import {
   PackageListToDestinationsComponent
 } from '../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-list-packages',
@@ -22,26 +23,23 @@ import {
   styleUrl: './list-packages.component.css'
 })
 export class ListPackagesComponent {
-  images = [
-    { title: 'Private Jet Journeys', description: 'Iconic Wonders: Around the World by Private Jet', image: 'assets/img/home/Destinations-Lima.webp' },
-    { title: 'Tailormade Journeys', description: 'Climb Mount Kilimanjaro', image: 'assets/img/home/Destinations-Lima.webp' }
-  ];
-  info = {
-    image_principal: 'assets/img/home/Tours-Valle-sagrado.webp',
-    titlePage: 'Premium Tours',
-    button: 'View all packages',
-    titleInfo: 'Premium Tours in Peru',
-    descripcion: 'We offer the best charters to Peru. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.',
-    subtitulo: 'Best Ways to Travel',
-    text:'We have been spinning dreams into remarkable adventures for over 60 years.',
-    image_middle:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
-  }
-  paquetes=[
-    {nombre:'Laguna Humantay de Lujo',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:1 , ruta:'/premium-services/premium-tours'},
-    {nombre:'Tour de Lujo Mirador de Cóndores de Chonta',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:2 , ruta:'/premium-services/premium-tours'},
-    {nombre:'Palcoyo Montañas de Colores - Caminata de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel' ,id:3 , ruta:'/premium-services/premium-tours'},
-    {nombre:'Vinicunca Montaña Arco Iris – Caminata Completa de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:4 , ruta:'/premium-services/premium-tours'},
-    {nombre:'Camino Inca Expres de Lujo Full Day',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', descripcion:'Best Ways to Travel', id:5 , ruta:'/premium-services/premium-tours'},
+  images: any[] = [];
+  info: any = {};
+  paquetes: any[] = [];
+  ruta = "/premium-services/premium-tours"; // La ruta se mantiene igual para todos los paquetes
 
-  ]
+  constructor(private translate: TranslateService) {
+    this.loadTranslations();
+  }
+
+  loadTranslations() {
+    this.translate.get('LIST_PACKAGES.TOURS').subscribe((data: any) => {
+      this.images = data.images ||[];
+      this.info = data.info || {};
+      this.paquetes = (data.paquetes||[]).map((paquete: any) => ({
+        ...paquete,
+        ruta: this.ruta // Se asigna la misma ruta a todos los paquetes
+      }));
+    });
+  }
 }

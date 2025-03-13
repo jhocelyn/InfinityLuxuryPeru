@@ -1,26 +1,27 @@
-import {Component, Input} from '@angular/core';
+import { AfterViewInit, Component, Input } from '@angular/core';
 import Swiper from 'swiper';
-import {NgForOf, NgStyle} from '@angular/common';
+import { Navigation, Pagination } from 'swiper/modules';
+import {CommonModule, NgForOf} from '@angular/common';
 
 @Component({
   selector: 'app-destination-carrusel',
-  imports: [
-    NgForOf,
-
-  ],
+  standalone: true,
+  imports: [NgForOf,CommonModule],
   templateUrl: './destination-carrusel.component.html',
   styleUrl: './destination-carrusel.component.css'
 })
-export class DestinationCarruselComponent {
+export class DestinationCarruselComponent implements AfterViewInit {
   @Input() images: { title: string; description: string; image: string }[] = [];
 
   ngAfterViewInit() {
     new Swiper('.mySwiper', {
+      modules: [Navigation, Pagination],
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      slidesPerView: 2,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      slidesPerView: 1,
       spaceBetween: 20,
     });
   }

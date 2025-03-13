@@ -1722,6 +1722,63 @@
       ]
     }
   },
+  "LIST_PACKAGES": {
+    "TOURS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info": {
+        "titlePage": "Tours Premium",
+        "button": "Ver todos los paquetes",
+        "titleInfo": "Tours Premium en Perú",
+        "descripcion": "Ofrecemos los mejores charters a Perú. Hemos convertido sueños en aventuras extraordinarias para viajeros exigentes durante más de 60 años, desde que nuestro fundador pionero creó el primer safari moderno de lujo en África. Hoy somos la empresa de viajes líder en el mundo, llevando a nuestros huéspedes a los rincones más salvajes de la Tierra en los siete continentes.",
+        "subtitulo": "Las mejores formas de viajar",
+        "text": "Hemos convertido sueños en aventuras extraordinarias durante más de 60 años.",
+        "image_principal": "assets/img/tours/Tours-Maras.webp"
+      },
+      "paquetes": [
+        {
+          "nombre": "Laguna Humantay de Lujo",
+          "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Tour de Lujo Mirador de Cóndores de Chonta",
+          "imagen": "assets/img/home/Trekking-Chaman.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Palcoyo Montañas de Colores - Caminata de Lujo Full Day",
+          "imagen": "assets/img/tours/Tours-Moray.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Vinicunca Montaña Arco Iris – Caminata Completa de Lujo Full Day",
+          "imagen": "assets/img/tours/Tours-Kayak.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Camino Inca Expres de Lujo Full Day",
+          "imagen": "assets/img/tours/Machu-Picchu.webp",
+          "descripcion": "Las mejores formas de viajar"
+        },
+        {
+          "nombre": "Full Day Trek – Cordillera de Montañas Arcoiris de Palcoyo",
+          "imagen": "assets/img/tours/Valle-Sagrado.webp",
+          "descripcion": "Las mejores formas de viajar"
+        }
+      ]
+    }
+  },
   "SPEAK": "HABLA CON UN ASESOR",
   "CONTACT": {
     "TITLE": "Contáctanos",

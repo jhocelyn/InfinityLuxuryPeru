@@ -1788,6 +1788,63 @@
       ]
     }
   },
+  "LIST_PACKAGES": {
+    "TOURS": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info": {
+        "titlePage": "Premium Tours",
+        "image_principal": "assets/img/tours/Tours-Maras.webp",
+        "button": "View all packages",
+        "titleInfo": "Premium Tours in Peru",
+        "descripcion": "We offer the best charters to Peru. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes": [
+        {
+          "nombre": "Luxury Humantay Lagoon",
+          "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
+          "descripcion": "Best Ways to Travel"
+        },
+        {
+          "nombre": "Luxury Tour Condor Viewpoint Chonta",
+          "imagen": "assets/img/home/Trekking-Chaman.webp",
+          "descripcion": "Best Ways to Travel"
+        },
+        {
+          "nombre": "Palcoyo Rainbow Mountains - Luxury Full Day Hike",
+          "imagen": "assets/img/tours/Tours-Moray.webp",
+          "descripcion": "Best Ways to Travel"
+        },
+        {
+          "nombre": "Vinicunca Rainbow Mountain – Full Luxury Day Hike",
+          "imagen": "assets/img/tours/Tours-Kayak.webp",
+          "descripcion": "Best Ways to Travel"
+        },
+        {
+          "nombre": "Luxury Express Inca Trail Full Day",
+          "imagen": "assets/img/tours/Machu-Picchu.webp",
+          "descripcion": "Best Ways to Travel"
+        },
+        {
+          "nombre": "Full Day Trek – Palcoyo Rainbow Mountains Range",
+          "imagen": "assets/img/tours/Valle-Sagrado.webp",
+          "descripcion": "Best Ways to Travel"
+        }
+      ]
+    }
+  },
   "SPEAK": "SPEAK TO AN EXPERT",
   "CONTACT": {
     "TITLE": "Contact Us",
