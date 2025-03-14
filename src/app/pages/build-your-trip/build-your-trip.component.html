@@ -1,8 +1,8 @@
-<div class="flex font-montserrat font-extralight w-full">
-  <form class="max-w-5xl mx-auto bg-white p-6 rounded-lg shadow-lg space-y-4">
+<div class="flex font-montserrat font-extralight xl:w-full">
+  <form class="max-w-5xl mx-auto bg-white p-4 xl:p-6 rounded-lg shadow-lg space-y-4">
     <h2 class="text-3xl  font-extralight col-span-full">{{ 'BUILD.TITLE' | translate }}</h2>
 
-    <div class="flex flex-row w-full gap-5">
+    <div class="flex w-full gap-5 flex-col xl:flex-row ">
       <div class="flex flex-col">
         <label class="block text-xl  font-extralight">{{ 'BUILD.TRAVEL_STYLE' | translate }}</label>
         <select class="w-full p-2 border rounded-lg" [(ngModel)]="formData.travelStyle" name="travelStyle">
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="flex flex-row gap-5">
+    <div class="flex gap-5 flex-col xl:flex-row ">
       <div class="flex flex-col">
         <label class="block text-xl  font-extralight">{{ 'BUILD.DAYS' | translate }}</label>
         <input type="number" class="w-full p-2 border rounded-lg" min="1" [(ngModel)]="formData.days" name="days">

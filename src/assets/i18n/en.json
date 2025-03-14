@@ -129,6 +129,27 @@
       "DESCRIPTION": "We are committed to sustainable tourism and responsible travel practices.\n We are consider the environment, local communities, and cultural heritage in all our operations. You can travel with us knowing that you are making a positive impact.\n Also you can give a donation to help the children of the Andes.",
       "BUTTON": "Learn More",
       "RUTA": "premium-services/sustainable-tourism"
+    },
+    "TESTIMONIALS": {
+      "TITLE": "What Our Guests Say",
+      "SUBTITLE": "Testimonial",
+      "DATA": [
+        {
+          "text": "I had such a great time with View! ...",
+          "author": "SARAH W",
+          "role": "Family"
+        },
+        {
+          "text": "This experience was truly unforgettable...",
+          "author": "JAMES T",
+          "role": "Solo Traveler"
+        },
+        {
+          "text": "I had such a great time with View! And the food was amazing!",
+          "author": "ANNE S",
+          "role": "Solo Traveler"
+        }
+      ]
     }
   },
   "PACKAGES": {

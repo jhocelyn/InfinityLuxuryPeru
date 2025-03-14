@@ -174,13 +174,13 @@
 @font-face{
   font-family: 'Monserrat';
   src: url('assets/fonts/Monserrat/Montserrat-SemiBold.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: 250;
   font-style: normal;
 }
 @font-face{
   font-family: 'Monserrat';
   src: url('assets/fonts/Monserrat/Montserrat-SemiBoldItalic.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
 }
 @font-face{

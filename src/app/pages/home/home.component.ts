@@ -33,6 +33,7 @@ interface Journey {
 export class HomeComponent implements OnInit{
   sections: any[] = [];
   journeys: Journey[] = [];
+  testimonials: any[] = [];
   isFading = false;
   isMobile: boolean = window.innerWidth <= 768;
   currentIndex: number = 0;
@@ -61,6 +62,11 @@ export class HomeComponent implements OnInit{
         ROW: Number(journey.ROW),
         START: Number(journey.START)
       }));
+    });
+
+    this.translate.get('HOME.TESTIMONIALS.DATA').subscribe((testimonials) => {
+      console.log('Datos obtenidos para HOME.TESTIMONIALS:', testimonials);
+      this.testimonials = testimonials;
     });
 
   }
@@ -99,4 +105,5 @@ export class HomeComponent implements OnInit{
     const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
     window.open(url, '_blank');
   }
+
 }

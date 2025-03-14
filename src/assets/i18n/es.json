@@ -131,6 +131,27 @@
       "BUTTON": "Lee más",
       "RUTA": "premium-services/sustainable-tourism"
 
+    },
+    "TESTIMONIALS": {
+      "TITLE": "Qué dicen nuestros clientes",
+      "SUBTITLE": "Testimonios",
+      "DATA": [
+        {
+          "text": "I had such a great time with View! ...",
+          "author": "SARAH W",
+          "role": "Family"
+        },
+        {
+          "text": "This experience was truly unforgettable...",
+          "author": "JAMES T",
+          "role": "Solo Traveler"
+        },
+        {
+          "text": "I had such a great time with View! And the food was amazing!",
+          "author": "ANNE S",
+          "role": "Solo Traveler"
+        }
+      ]
     }
   },
   "PACKAGES": {
