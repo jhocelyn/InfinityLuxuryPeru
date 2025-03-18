@@ -1,0 +1,17 @@
+<div class="flex mb-10 flex-col md:flex-row xl:h-[86vh]">
+  <div class="xl:w-2/3">
+    <app-banner-to-info-destinations
+      [imagen]="info.image_principal"
+      [titulo]="info.titlePage"
+      [botonTexto]="info.button"
+    ></app-banner-to-info-destinations>
+  </div>
+  <div class="xl:w-1/3">
+    <app-info-section-destinations
+      [titulo]="info.titleInfo"
+      [descripcion]="info.descripcion"
+      [subtitulo]="info.subtitulo"
+      [images]="images"
+    ></app-info-section-destinations>
+  </div>
+</div>

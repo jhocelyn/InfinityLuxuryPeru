@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {
   BannerComponent
-} from '../../../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';;
+} from '../../../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
 import {
   PackageListToDestinationsComponent
 } from '../../../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component';
