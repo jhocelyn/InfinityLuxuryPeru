@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {TravelPackage} from '../../../../../shared/models/travel-packages.model';
 import {ActivatedRoute} from '@angular/router';
 import {BannerComponent} from '../../../../../shared/components/To Destinations/info-package/banner/banner.component';
@@ -6,7 +6,7 @@ import {
   CustomOptionsComponent
 } from '../../../../../shared/components/To Destinations/info-package/custom-options/custom-options.component';
 import {MapComponent} from '../../../../../shared/components/To Destinations/info-package/map/map.component';
-import {NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
+import {AsyncPipe, NgForOf, NgIf, NgSwitch, NgSwitchCase} from '@angular/common';
 import {
   PackSampleJourneyComponent
 } from '../../../../../shared/components/To Destinations/info-package/pack-sample-journey/pack-sample-journey.component';
@@ -23,6 +23,7 @@ import {
   RequestProgramComponent
 } from '../../../../../shared/components/To Destinations/info-package/request-program/request-program.component';
 import {TrekkingService} from '../../../../../services/trekking.service';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-info-package',
@@ -38,12 +39,13 @@ import {TrekkingService} from '../../../../../services/trekking.service';
     PackageOverViewComponent,
     PackagePricingComponent,
     RequestProgramComponent,
-    NgSwitch
+    NgSwitch,
+    AsyncPipe
   ],
   templateUrl: './info-packages.component.html',
   styleUrl: './info-packages.component.css'
 })
-export class InfoPackagesComponent {
+export class InfoPackagesComponent implements OnInit{
   selectedTab = 'description'; // Por defecto, se muestra la descripción
 
   tabs = [
@@ -53,7 +55,7 @@ export class InfoPackagesComponent {
     { id: 'pricing', label: 'PRECIOS', icon: 'fas fa-tags' },
     { id: 'request-program', label: 'REQUEST THE PROGRAM', icon: 'fas fa-envelope' } // Nueva pestaña
   ];
-  package: TravelPackage | undefined;
+  package$!: Observable<TravelPackage | undefined>; // Ahora es un Observable
 
   constructor(
     private route: ActivatedRoute,
@@ -62,9 +64,14 @@ export class InfoPackagesComponent {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      const destino = 'cusco'; // Se puede cambiar dinámicamente si se usa en otros destinos
+      const category = 'cusco'; // Puedes cambiarlo dinámicamente si es necesario
       const id = +params['id'];
-      this.package = this.packagesService.getPackageById(destino, id);
+
+      console.log('Categoría seleccionada:', category);
+      console.log('ID del paquete:', id);
+
+      this.package$ = this.packagesService.getPackageById(category, id);
+      console.log('',this.package$)
     });
   }
 }

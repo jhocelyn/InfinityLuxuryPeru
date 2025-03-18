@@ -580,123 +580,6 @@
       "cusco":[
         {
           "id": 1,
-          "title": "Ancascocha Trail de Lujo",
-          "subtitle": "Una aventura única en los Andes con experiencias exclusivas",
-          "days": 4,
-          "nights": 3,
-          "price": 1500,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Lecheria", "lat": -13.450, "lng": -72.080, "day": 1 },
-            { "name": "Lluchani", "lat": -13.420, "lng": -72.120, "day": 1 },
-            { "name": "Lago Ancascocha", "lat": -13.400, "lng": -72.150, "day": 2 },
-            { "name": "Escuela", "lat": -13.380, "lng": -72.180, "day": 2 }
-          ],
-          "description": {
-            "highlights": [
-              "Caminata por los majestuosos paisajes andinos",
-              "Experiencia de lujo con campamentos exclusivos",
-              "Cena gourmet con ingredientes locales y frescos"
-            ],
-            "text": "Sumérgete en una experiencia inolvidable recorriendo los Andes en una travesía de lujo. Disfruta de campamentos exclusivos, gastronomía gourmet y vistas impresionantes en el Ancascocha Trail.",
-            "itinerary": [
-              {
-                "dayTitle": "Día 1",
-                "daySubtitle": "Cusco – Lecheria – Lluchani",
-                "dayDescription": "Inicio de la caminata con vistas espectaculares, sesión de yoga y cena gourmet."
-              },
-              {
-                "dayTitle": "Día 2",
-                "daySubtitle": "Lluchani – Lago Ancascocha – Escuela",
-                "dayDescription": "Caminata por pasos de alta montaña con vistas panorámicas y brindis especial."
-              },
-              {
-                "dayTitle": "Día 3",
-                "daySubtitle": "Escuela – Hatun Rumiyoc - Ollantaytambo – Aguas Calientes",
-                "dayDescription": "Descenso a tierras bajas con flora exuberante y llegada a Ollantaytambo."
-              },
-              {
-                "dayTitle": "Día 4",
-                "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
-                "dayDescription": "Exploración guiada de Machu Picchu con retorno a Cusco."
-              }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco – Lecheria – Lluchani",
-              "dayDescription": "Comenzamos el día con un traslado privado desde Cusco hasta Lecheria, el punto de inicio de nuestra caminata. Durante la ruta, podremos apreciar los imponentes nevados y la belleza natural del Valle Sagrado. La caminata inicial nos lleva a través de senderos rodeados de vegetación autóctona hasta llegar a nuestro exclusivo campamento en Lluchani, donde nos espera una sesión de yoga guiada por expertos, seguida de un masaje relajante y una exquisita cena gourmet elaborada con productos orgánicos de la región.",
-              "accommodations": [
-                {
-                  "stars": 5,
-                  "title": "Campamento de Lujo Lluchani",
-                  "image": "luxury-camp-lluchani.jpg",
-                  "location": "Lluchani, Perú"
-                }
-              ]
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Lluchani – Lago Ancascocha – Escuela",
-              "dayDescription": "Después de un desayuno energizante, comenzamos una de las jornadas más desafiantes, ascendiendo hasta el Paso Accocasa, el punto más alto de nuestra travesía, donde seremos recompensados con vistas panorámicas de los nevados circundantes. Descendemos hacia el impresionante Lago Ancascocha, con su característico color turquesa, y nos detenemos para disfrutar de un almuerzo gourmet. La caminata continúa hasta nuestro campamento en Escuela, donde nos esperan una ducha caliente, un masaje reparador y una deliciosa cena gourmet bajo un cielo estrellado.",
-              "accommodations": [
-                {
-                  "stars": 5,
-                  "title": "Campamento de Lujo Escuela",
-                  "image": "luxury-camp-escuela.jpg",
-                  "location": "Escuela, Perú"
-                }
-              ]
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Escuela – Hatun Rumiyoc - Ollantaytambo – Aguas Calientes",
-              "dayDescription": "Iniciamos el día con un descenso a través de exuberantes valles andinos, con la oportunidad de avistar cóndores en su hábitat natural. Pasamos por comunidades locales antes de llegar a Hatun Rumiyoc, donde nos despedimos de nuestro equipo de caminata. Luego, nos dirigimos a Ollantaytambo para disfrutar de un almuerzo en un restaurante exclusivo antes de abordar el tren de lujo hacia Aguas Calientes, donde pasaremos la noche en un hotel 5 estrellas.",
-              "accommodations": [
-                {
-                  "stars": 5,
-                  "title": "Hotel de Lujo Aguas Calientes",
-                  "image": "luxury-hotel-aguas-calientes.jpg",
-                  "location": "Aguas Calientes, Perú"
-                }
-              ]
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
-              "dayDescription": "El gran día ha llegado. Muy temprano, tomamos el bus hacia la ciudadela de Machu Picchu, donde nuestro guía experto nos llevará a descubrir sus misterios y su historia fascinante. Disfrutaremos de una visita privada y tiempo libre para explorar el sitio por cuenta propia antes de regresar a Aguas Calientes para almorzar. Finalmente, tomamos el tren de regreso a Cusco, donde concluye nuestra inolvidable aventura.",
-              "accommodations": []
-            }
-          ],
-          "customOptions": {
-            "description": "Personaliza tu experiencia con estas opciones adicionales.",
-            "packages": [
-              { "title": "Paseo en caballo", "image": "horse-riding.jpg" },
-              { "title": "Clase de cocina andina", "image": "andean-cooking-class.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluido y No Incluido",
-            "included": [
-              "Guía profesional bilingüe",
-              "Alojamiento en campamentos de lujo y hotel 5 estrellas",
-              "Todas las comidas gourmet durante el recorrido",
-              "Boletos de tren y entrada a Machu Picchu"
-            ],
-            "notIncluded": [
-              "Vuelos internacionales",
-              "Seguro de viaje",
-              "Propinas para el personal"
-            ]
-          },
-          "images": [
-            { "alt": "Paisaje andino", "src": "andes-landscape.jpg", "width": 1200 },
-            { "alt": "Cena gourmet", "src": "gourmet-dinner.jpg", "width": 1200 }
-          ]
-        },
-        {
-          "id": 2,
           "title": "Salkantay de Lujo",
           "subtitle": "Una expedición mágica al corazón de los Andes",
           "days": 5,
@@ -793,182 +676,7 @@
           ]
         },
         {
-          "id": 3,
-          "title": "Camino Inca de Lujo Plus",
-          "subtitle": "Una experiencia inigualable en el sendero más famoso del mundo",
-          "days": 5,
-          "nights": 4,
-          "price": 1900,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Tarayoc", "lat": -13.493, "lng": -72.000, "day": 1 },
-            { "name": "Wayllabamba", "lat": -13.480, "lng": -72.030, "day": 1 },
-            { "name": "Pacaymayo", "lat": -13.450, "lng": -72.080, "day": 2 },
-            { "name": "Phuyupatamarca", "lat": -13.420, "lng": -72.120, "day": 3 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.545, "day": 4 }
-          ],
-          "description": {
-            "highlights": [
-              "Explora los restos arqueológicos a lo largo del Camino Inca",
-              "Campamentos de lujo con duchas calientes y servicio premium",
-              "Acceso privilegiado a Machu Picchu con guía experto"
-            ],
-            "text": "Disfruta de una aventura inigualable en el Camino Inca de Lujo Plus, combinando historia, naturaleza y comodidad en un recorrido de cinco días hacia Machu Picchu.",
-            "itinerary": [
-              { "dayTitle": "Día 1", "daySubtitle": "Cusco – Tarayoc – Wayllabamba", "dayDescription": "Inicio de la caminata pasando por sitios arqueológicos y paisajes andinos únicos." },
-              { "dayTitle": "Día 2", "daySubtitle": "Wayllabamba – Llulluchapampa – Pacaymayo", "dayDescription": "Ascenso hasta el Paso Warmiwañusca y llegada a Pacaymayo." },
-              { "dayTitle": "Día 3", "daySubtitle": "Pacaymayo – Chaquicocha – Phuyupatamarca", "dayDescription": "Exploración de ruinas incas y caminata a través de bosques nubosos." },
-              { "dayTitle": "Día 4", "daySubtitle": "Phuyupatamarca – Wiñaywayna – Machu Picchu", "dayDescription": "Ingreso a Machu Picchu por la Puerta del Sol con vistas impresionantes." },
-              { "dayTitle": "Día 5", "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco", "dayDescription": "Tour guiado en Machu Picchu y retorno a Cusco." }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco – Tarayoc – Wayllabamba",
-              "dayDescription": "Salida de Cusco en transporte privado hasta el Km 82, con una parada en Ollantaytambo. Caminata a través del sendero inca con vistas espectaculares y almuerzo en Tarayoc. Llegada al campamento de lujo en Wayllabamba con cena gourmet y masajes relajantes.",
-              "accommodations": [{ "stars": 5, "title": "Campamento de Lujo Wayllabamba", "image": "luxury-camp-wayllabamba.jpg", "location": "Wayllabamba, Perú" }]
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Wayllabamba – Llulluchapampa – Pacaymayo",
-              "dayDescription": "Caminata hasta el Paso Warmiwañusca, el punto más alto del Camino Inca. Descenso hasta el campamento en Pacaymayo, con vistas panorámicas y servicio exclusivo de spa y cena gourmet.",
-              "accommodations": [{ "stars": 5, "title": "Campamento de Lujo Pacaymayo", "image": "luxury-camp-pacaymayo.jpg", "location": "Pacaymayo, Perú" }]
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Pacaymayo – Chaquicocha – Phuyupatamarca",
-              "dayDescription": "Exploración de las ruinas de Runkurakay y Sayacmarca, caminata a través de un bosque nuboso con vistas espectaculares de los Andes. Campamento de lujo en Phuyupatamarca con una sesión de yoga al atardecer.",
-              "accommodations": [{ "stars": 5, "title": "Campamento de Lujo Phuyupatamarca", "image": "luxury-camp-phuyupatamarca.jpg", "location": "Phuyupatamarca, Perú" }]
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Phuyupatamarca – Wiñaywayna – Machu Picchu",
-              "dayDescription": "Descenso a través de la selva hasta el sitio arqueológico de Wiñaywayna. Almuerzo gourmet con vistas espectaculares antes de ingresar a Machu Picchu por la Puerta del Sol. Cena de celebración en Aguas Calientes y noche en un hotel de lujo.",
-              "accommodations": [{ "stars": 5, "title": "Hotel de Lujo Aguas Calientes", "image": "luxury-hotel-aguas-calientes.jpg", "location": "Aguas Calientes, Perú" }]
-            },
-            {
-              "dayTitle": "Día 5",
-              "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
-              "dayDescription": "Tour guiado por la ciudadela de Machu Picchu con explicación detallada de sus estructuras y misterios. Tiempo libre para explorar antes del almuerzo y regreso en tren de lujo a Cusco.",
-              "accommodations": []
-            }
-          ],
-          "customOptions": {
-            "description": "Personaliza tu experiencia con estas opciones adicionales.",
-            "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu-hike.jpg" },
-              { "title": "Sesión de spa en Aguas Calientes", "image": "spa-aguas-calientes.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluido y No Incluido",
-            "included": [
-              "Guía profesional bilingüe",
-              "Alojamiento en campamentos de lujo y hotel 5 estrellas",
-              "Todas las comidas gourmet durante el recorrido",
-              "Boletos de tren y entrada a Machu Picchu"
-            ],
-            "notIncluded": [
-              "Vuelos internacionales",
-              "Seguro de viaje",
-              "Propinas para el personal"
-            ]
-          },
-          "images": [
-            { "alt": "Sendero del Camino Inca", "src": "inca-trail-path.jpg", "width": 1200 },
-            { "alt": "Vista de Machu Picchu desde la Puerta del Sol", "src": "machu-picchu-sungate.jpg", "width": 1200 }
-          ]
-        },
-        {
-          "id": 4,
-          "title": "Qelqanqa Inca Trail de Lujo",
-          "subtitle": "Un sendero inexplorado con lujo y comodidad",
-          "days": 4,
-          "nights": 3,
-          "price": 1700,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Rosaspata", "lat": -13.450, "lng": -72.100, "day": 1 },
-            { "name": "Cochayoq", "lat": -13.430, "lng": -72.150, "day": 1 },
-            { "name": "Quelqanqa", "lat": -13.400, "lng": -72.180, "day": 2 },
-            { "name": "Aguas Calientes", "lat": -13.158, "lng": -72.525, "day": 3 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 4 }
-          ],
-          "description": {
-            "highlights": [
-              "Explora senderos poco transitados con paisajes impresionantes",
-              "Interacción con comunidades locales y visitas a escuelas rurales",
-              "Lujo y confort en campamentos exclusivos con servicio premium"
-            ],
-            "text": "Descubre el lado menos explorado del Valle Sagrado en una caminata de lujo hacia Machu Picchu, combinando aventura, historia y exclusividad.",
-            "itinerary": [
-              { "dayTitle": "Día 1", "daySubtitle": "Cusco – Rosaspata – Cochayoq", "dayDescription": "Caminata entre paisajes andinos con vistas espectaculares y almuerzo gourmet." },
-              { "dayTitle": "Día 2", "daySubtitle": "Cochayoq – Paso de Terihuayjasa – Quelqanqa", "dayDescription": "Ascenso desafiante con ofrenda a la Pachamama y llegada a un exclusivo campamento." },
-              { "dayTitle": "Día 3", "daySubtitle": "Quelqanqa – Aguas Calientes", "dayDescription": "Visita a una comunidad local, traslado en tren y alojamiento en un hotel de lujo." },
-              { "dayTitle": "Día 4", "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco", "dayDescription": "Tour guiado por la ciudadela de Machu Picchu y regreso en tren a Cusco." }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco – Rosaspata – Cochayoq",
-              "dayDescription": "Salida de Cusco con paradas en miradores panorámicos. Caminata entre valles andinos con vistas espectaculares y almuerzo gourmet en Machuwasi. Llegada al campamento de lujo en Cochayoq, con masajes relajantes y cena exclusiva.",
-              "accommodations": [
-                { "stars": 5, "title": "Campamento de Lujo Cochayoq", "image": "luxury-camp-cochayoq.jpg", "location": "Cochayoq, Perú" }
-              ]
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Cochayoq – Paso de Terihuayjasa – Quelqanqa",
-              "dayDescription": "Ascenso hasta el Paso de Terihuayjasa, con vistas panorámicas y ceremonia andina en honor a la Pachamama. Descenso hacia la Laguna Blanca y llegada al campamento de lujo en Quelqanqa, con ducha caliente y cena gourmet.",
-              "accommodations": [
-                { "stars": 5, "title": "Campamento de Lujo Quelqanqa", "image": "luxury-camp-quelqanqa.jpg", "location": "Quelqanqa, Perú" }
-              ]
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Quelqanqa – Aguas Calientes",
-              "dayDescription": "Visita a la escuela de Quelqanqa para interactuar con niños locales. Traslado a la estación de tren y almuerzo con vista al Nevado Verónica. Viaje en tren Vistadome hasta Aguas Calientes y cena en un hotel de lujo.",
-              "accommodations": [
-                { "stars": 5, "title": "Hotel de Lujo Aguas Calientes", "image": "luxury-hotel-aguas-calientes.jpg", "location": "Aguas Calientes, Perú" }
-              ]
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Aguas Calientes – Machu Picchu – Cusco",
-              "dayDescription": "Tour guiado exclusivo por Machu Picchu con explicaciones detalladas sobre la historia y arquitectura inca. Tiempo libre para explorar el sitio antes del almuerzo y regreso en tren a Cusco.",
-              "accommodations": []
-            }
-          ],
-          "customOptions": {
-            "description": "Personaliza tu experiencia con estas opciones adicionales.",
-            "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu-hike.jpg" },
-              { "title": "Visita al Museo de Machu Picchu", "image": "machu-picchu-museum.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluido y No Incluido",
-            "included": [
-              "Guía profesional bilingüe",
-              "Alojamiento en campamentos de lujo y hotel 5 estrellas",
-              "Todas las comidas gourmet durante el recorrido",
-              "Boletos de tren y entrada a Machu Picchu"
-            ],
-            "notIncluded": [
-              "Vuelos internacionales",
-              "Seguro de viaje",
-              "Propinas para el personal"
-            ]
-          },
-          "images": [
-            { "alt": "Paisaje andino en el Qelqanqa Trail", "src": "qelqanqa-landscape.jpg", "width": 1200 },
-            { "alt": "Vista panorámica de Machu Picchu", "src": "machu-picchu-view.jpg", "width": 1200 }
-          ]
-        },
-        {
-          "id": 5,
+          "id": 2,
           "title": "Choquequirao de Lujo",
           "subtitle": "Una travesía épica a la ciudadela inca escondida",
           "days": 5,
@@ -1056,7 +764,96 @@
           ]
         },
         {
-          "id": 6,
+          "id": 3,
+          "title": "Choquequirao de Lujo",
+          "subtitle": "Una travesía épica a la última ciudad inca escondida, combinando aventura y confort",
+          "days": 9,
+          "nights": 8,
+          "price": 3200,
+          "mapUrl": [
+            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
+            { "name": "Capuliyoc", "lat": -13.308, "lng": -72.876, "day": 2 },
+            { "name": "Playa Rosalinas", "lat": -13.315, "lng": -72.872, "day": 3 },
+            { "name": "Choquequirao", "lat": -13.396, "lng": -72.874, "day": 4 },
+            { "name": "Maizal", "lat": -13.370, "lng": -72.879, "day": 5 },
+            { "name": "Yanama", "lat": -13.388, "lng": -72.921, "day": 6 },
+            { "name": "Totora", "lat": -13.400, "lng": -72.950, "day": 7 },
+            { "name": "Lucmabamba", "lat": -13.413, "lng": -72.978, "day": 8 },
+            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 9 }
+          ],
+          "description": {
+            "highlights": [
+              "Exploración profunda de Choquequirao, la hermana sagrada de Machu Picchu",
+              "Caminata a través de paisajes andinos, valles profundos y nevados impresionantes",
+              "Experiencia de lujo con campamentos exclusivos y gastronomía gourmet"
+            ],
+            "text": "Descubre Choquequirao en una expedición de lujo, cruzando impresionantes paisajes andinos y llegando a la enigmática ciudadela inca antes de finalizar en Machu Picchu.",
+            "itinerary": [
+              { "dayTitle": "Día 1", "daySubtitle": "Cusco - Capuliyoc", "dayDescription": "Salida de Cusco hacia Capuliyoc, donde inicia la caminata con vistas espectaculares del cañón del Apurímac." },
+              { "dayTitle": "Día 2", "daySubtitle": "Capuliyoc - Playa Rosalinas", "dayDescription": "Descenso al río Apurímac y ascenso hacia Playa Rosalinas, donde el campamento de lujo espera." },
+              { "dayTitle": "Día 3", "daySubtitle": "Playa Rosalinas - Choquequirao", "dayDescription": "Ascenso a Choquequirao, exploración privada del sitio arqueológico y campamento de lujo." },
+              { "dayTitle": "Día 4", "daySubtitle": "Choquequirao - Maizal", "dayDescription": "Caminata desafiante hacia Maizal con vistas impresionantes de los Andes." },
+              { "dayTitle": "Día 5", "daySubtitle": "Maizal - Yanama", "dayDescription": "Paso por antiguos caminos incas y campamento en Yanama." },
+              { "dayTitle": "Día 6", "daySubtitle": "Yanama - Totora", "dayDescription": "Atravesando el paso más alto de la caminata con vistas a los nevados de Salkantay." },
+              { "dayTitle": "Día 7", "daySubtitle": "Totora - Lucmabamba", "dayDescription": "Descenso a climas tropicales con plantaciones de café y frutas." },
+              { "dayTitle": "Día 8", "daySubtitle": "Lucmabamba - Aguas Calientes", "dayDescription": "Última caminata hacia Aguas Calientes con tiempo libre para explorar." },
+              { "dayTitle": "Día 9", "daySubtitle": "Machu Picchu - Cusco", "dayDescription": "Exploración guiada de Machu Picchu antes de regresar a Cusco en tren de lujo." }
+            ]
+          },
+          "sampleJourney": [
+            {
+              "dayTitle": "Día 1",
+              "daySubtitle": "Cusco - Capuliyoc",
+              "dayDescription": "Salida en transporte privado a Capuliyoc, donde inicia la caminata con almuerzo gourmet y vistas panorámicas.",
+              "accommodations": []
+            },
+            {
+              "dayTitle": "Día 8",
+              "daySubtitle": "Lucmabamba - Aguas Calientes",
+              "dayDescription": "Última caminata hacia Aguas Calientes con cena en restaurante exclusivo y hotel de lujo.",
+              "accommodations": [
+                {
+                  "stars": 5,
+                  "title": "Hotel de Lujo en Aguas Calientes",
+                  "image": "luxury-hotel-aguas-calientes.jpg",
+                  "location": "Aguas Calientes, Perú"
+                }
+              ]
+            }
+          ],
+          "customOptions": {
+            "description": "Opciones adicionales para mejorar tu experiencia",
+            "packages": [
+              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu.jpg" },
+              { "title": "Noche adicional en hotel de lujo", "image": "luxury-hotel-night.jpg" }
+            ]
+          },
+          "pricing": {
+            "title": "Incluye y No Incluye",
+            "included": [
+              "Guía profesional de habla inglesa",
+              "Tickets de tren: Vistadome (ida) y Hiram Bingham (retorno)",
+              "Todas las comidas preparadas en el lugar por chef privado",
+              "Transporte terrestre privado",
+              "Entradas y permisos para Machu Picchu y Choquequirao",
+              "Kit de primeros auxilios y balón de oxígeno"
+            ],
+            "notIncluded": [
+              "Bastones de trekking",
+              "Alojamiento adicional en Cusco",
+              "Seguro de viaje (recomendado)",
+              "Propinas y gastos personales"
+            ]
+          },
+          "images": [
+            { "alt": "Vista de Choquequirao", "src": "choquequirao.jpg", "width": 800 },
+            { "alt": "Paisaje del Cañón del Apurímac", "src": "apurimac-canyon.jpg", "width": 800 },
+            { "alt": "Machu Picchu al amanecer", "src": "machu-picchu-sunrise.jpg", "width": 800 },
+            { "alt": "Hotel de lujo en Aguas Calientes", "src": "luxury-hotel-aguas-calientes.jpg", "width": 800 }
+          ]
+        },
+        {
+          "id": 4,
           "title": "Lares Trail de Lujo",
           "subtitle": "Explora los Andes con comodidad y exclusividad",
           "days": 4,
@@ -1145,7 +942,7 @@
           ]
         },
         {
-          "id": 7,
+          "id": 5,
           "title": "Camino Inca de Lujo",
           "subtitle": "Descubre Machu Picchu a través del legendario Camino Inca con lujo y comodidad",
           "days": 2,
@@ -1232,7 +1029,7 @@
           ]
         },
         {
-          "id": 8,
+          "id": 6,
           "title": "Quarry Trail de Lujo",
           "subtitle": "Una ruta alternativa y exclusiva hacia Machu Picchu con paisajes impresionantes y confort total",
           "days": 4,
@@ -1341,389 +1138,8 @@
             { "alt": "Machu Picchu desde la cima", "src": "machu-picchu-top.jpg", "width": 800 },
             { "alt": "Hotel de lujo en Aguas Calientes", "src": "luxury-hotel-aguas-calientes.jpg", "width": 800 }
           ]
-        },
-        {
-          "id": 9,
-          "title": "Choquequirao de Lujo",
-          "subtitle": "Una travesía épica a la última ciudad inca escondida, combinando aventura y confort",
-          "days": 9,
-          "nights": 8,
-          "price": 3200,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Capuliyoc", "lat": -13.308, "lng": -72.876, "day": 2 },
-            { "name": "Playa Rosalinas", "lat": -13.315, "lng": -72.872, "day": 3 },
-            { "name": "Choquequirao", "lat": -13.396, "lng": -72.874, "day": 4 },
-            { "name": "Maizal", "lat": -13.370, "lng": -72.879, "day": 5 },
-            { "name": "Yanama", "lat": -13.388, "lng": -72.921, "day": 6 },
-            { "name": "Totora", "lat": -13.400, "lng": -72.950, "day": 7 },
-            { "name": "Lucmabamba", "lat": -13.413, "lng": -72.978, "day": 8 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 9 }
-          ],
-          "description": {
-            "highlights": [
-              "Exploración profunda de Choquequirao, la hermana sagrada de Machu Picchu",
-              "Caminata a través de paisajes andinos, valles profundos y nevados impresionantes",
-              "Experiencia de lujo con campamentos exclusivos y gastronomía gourmet"
-            ],
-            "text": "Descubre Choquequirao en una expedición de lujo, cruzando impresionantes paisajes andinos y llegando a la enigmática ciudadela inca antes de finalizar en Machu Picchu.",
-            "itinerary": [
-              { "dayTitle": "Día 1", "daySubtitle": "Cusco - Capuliyoc", "dayDescription": "Salida de Cusco hacia Capuliyoc, donde inicia la caminata con vistas espectaculares del cañón del Apurímac." },
-              { "dayTitle": "Día 2", "daySubtitle": "Capuliyoc - Playa Rosalinas", "dayDescription": "Descenso al río Apurímac y ascenso hacia Playa Rosalinas, donde el campamento de lujo espera." },
-              { "dayTitle": "Día 3", "daySubtitle": "Playa Rosalinas - Choquequirao", "dayDescription": "Ascenso a Choquequirao, exploración privada del sitio arqueológico y campamento de lujo." },
-              { "dayTitle": "Día 4", "daySubtitle": "Choquequirao - Maizal", "dayDescription": "Caminata desafiante hacia Maizal con vistas impresionantes de los Andes." },
-              { "dayTitle": "Día 5", "daySubtitle": "Maizal - Yanama", "dayDescription": "Paso por antiguos caminos incas y campamento en Yanama." },
-              { "dayTitle": "Día 6", "daySubtitle": "Yanama - Totora", "dayDescription": "Atravesando el paso más alto de la caminata con vistas a los nevados de Salkantay." },
-              { "dayTitle": "Día 7", "daySubtitle": "Totora - Lucmabamba", "dayDescription": "Descenso a climas tropicales con plantaciones de café y frutas." },
-              { "dayTitle": "Día 8", "daySubtitle": "Lucmabamba - Aguas Calientes", "dayDescription": "Última caminata hacia Aguas Calientes con tiempo libre para explorar." },
-              { "dayTitle": "Día 9", "daySubtitle": "Machu Picchu - Cusco", "dayDescription": "Exploración guiada de Machu Picchu antes de regresar a Cusco en tren de lujo." }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco - Capuliyoc",
-              "dayDescription": "Salida en transporte privado a Capuliyoc, donde inicia la caminata con almuerzo gourmet y vistas panorámicas.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 8",
-              "daySubtitle": "Lucmabamba - Aguas Calientes",
-              "dayDescription": "Última caminata hacia Aguas Calientes con cena en restaurante exclusivo y hotel de lujo.",
-              "accommodations": [
-                {
-                  "stars": 5,
-                  "title": "Hotel de Lujo en Aguas Calientes",
-                  "image": "luxury-hotel-aguas-calientes.jpg",
-                  "location": "Aguas Calientes, Perú"
-                }
-              ]
-            }
-          ],
-          "customOptions": {
-            "description": "Opciones adicionales para mejorar tu experiencia",
-            "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu.jpg" },
-              { "title": "Noche adicional en hotel de lujo", "image": "luxury-hotel-night.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluye y No Incluye",
-            "included": [
-              "Guía profesional de habla inglesa",
-              "Tickets de tren: Vistadome (ida) y Hiram Bingham (retorno)",
-              "Todas las comidas preparadas en el lugar por chef privado",
-              "Transporte terrestre privado",
-              "Entradas y permisos para Machu Picchu y Choquequirao",
-              "Kit de primeros auxilios y balón de oxígeno"
-            ],
-            "notIncluded": [
-              "Bastones de trekking",
-              "Alojamiento adicional en Cusco",
-              "Seguro de viaje (recomendado)",
-              "Propinas y gastos personales"
-            ]
-          },
-          "images": [
-            { "alt": "Vista de Choquequirao", "src": "choquequirao.jpg", "width": 800 },
-            { "alt": "Paisaje del Cañón del Apurímac", "src": "apurimac-canyon.jpg", "width": 800 },
-            { "alt": "Machu Picchu al amanecer", "src": "machu-picchu-sunrise.jpg", "width": 800 },
-            { "alt": "Hotel de lujo en Aguas Calientes", "src": "luxury-hotel-aguas-calientes.jpg", "width": 800 }
-          ]
-        },
-        {
-          "id": 10,
-          "title": "Camino Inca de Lujo",
-          "subtitle": "Una experiencia inolvidable recorriendo el legendario Camino Inca con servicios de lujo",
-          "days": 4,
-          "nights": 3,
-          "price": 2500,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Km 82", "lat": -13.299, "lng": -72.183, "day": 1 },
-            { "name": "Wayllabamba", "lat": -13.274, "lng": -72.166, "day": 1 },
-            { "name": "Pacaymayo", "lat": -13.271, "lng": -72.127, "day": 2 },
-            { "name": "Phuyupatamarca", "lat": -13.236, "lng": -72.114, "day": 3 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 4 }
-          ],
-          "description": {
-            "highlights": [
-              "Caminata por el legendario Camino Inca",
-              "Exploración de sitios arqueológicos impresionantes",
-              "Servicio de campamento de lujo con duchas calientes y masajes",
-              "Visita guiada exclusiva a Machu Picchu"
-            ],
-            "text": "Descubre la magia del Camino Inca con una experiencia de lujo. Disfruta de una caminata desafiante con el máximo confort, mientras recorres paisajes impresionantes y llegas a la Ciudad Perdida de los Incas.",
-            "itinerary": [
-              {
-                "dayTitle": "Día 1",
-                "daySubtitle": "Cusco - Wayllabamba",
-                "dayDescription": "Inicio de la caminata en el Km 82. Almuerzo en Tarayoc y campamento de lujo en Wayllabamba con duchas calientes y masajes."
-              },
-              {
-                "dayTitle": "Día 2",
-                "daySubtitle": "Wayllabamba - Pacaymayo",
-                "dayDescription": "Ascenso al Paso Warmiwañusca. Campamento en Pacaymayo con cena gourmet y descanso en tiendas climatizadas."
-              },
-              {
-                "dayTitle": "Día 3",
-                "daySubtitle": "Pacaymayo - Phuyupatamarca",
-                "dayDescription": "Exploración de los sitios arqueológicos de Runkurakay, Sayacmarca y Chaquicocha. Campamento en Phuyupatamarca."
-              },
-              {
-                "dayTitle": "Día 4",
-                "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-                "dayDescription": "Descenso a Wiñaywayna y llegada a la Puerta del Sol. Visita guiada en Machu Picchu y retorno a Cusco."
-              }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco - Wayllabamba",
-              "dayDescription": "Traslado al Km 82 y caminata hacia Wayllabamba con almuerzo gourmet. Campamento con duchas calientes y masajes relajantes.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Wayllabamba - Pacaymayo",
-              "dayDescription": "Ascenso al Paso Warmiwañusca con vistas impresionantes. Descenso a Pacaymayo y campamento de lujo.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Pacaymayo - Phuyupatamarca",
-              "dayDescription": "Visita a Runkurakay y Sayacmarca. Caminata a Phuyupatamarca con campamento de lujo y cena gourmet.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-              "dayDescription": "Visita guiada en Machu Picchu. Tren de retorno y traslado privado a Cusco.",
-              "accommodations": []
-            }
-          ],
-          "customOptions": {
-            "description": "Opciones adicionales para mejorar tu experiencia",
-            "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu.jpg" },
-              { "title": "Noche adicional en hotel de lujo", "image": "luxury-hotel-night.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluye y No Incluye",
-            "included": [
-              "Guía profesional de habla inglesa",
-              "03 noches de campamento de lujo",
-              "Entradas y permisos para el Camino Inca y Machu Picchu",
-              "Tickets de tren y transporte privado",
-              "Duchas calientes y sesiones de masajes",
-              "Todas las comidas gourmet preparadas por chef privado",
-              "Kit de primeros auxilios y balón de oxígeno"
-            ],
-            "notIncluded": [
-              "Entrada a Huayna Picchu (opcional)",
-              "Bastones de trekking",
-              "Seguro de viaje (recomendado)",
-              "Propinas y gastos personales"
-            ]
-          },
-          "images": [
-            { "alt": "Camino Inca", "src": "camino-inca.jpg", "width": 800 },
-            { "alt": "Vista de Machu Picchu", "src": "machu-picchu.jpg", "width": 800 },
-            { "alt": "Campamento de lujo", "src": "luxury-camp.jpg", "width": 800 }
-          ]
-        },
-        {
-          "id": 11,
-          "title": "LAGUNA HUMANTAY 2 DÍAS",
-          "subtitle": "Increíble excursión de un día a la Cabeza de los Dioses, como significa Humantay. Maestros espirituales; montaña protectora de los incas. Belleza magnífica y grandes experiencias para disfrutar.",
-          "days": 2,
-          "nights": 1,
-          "price": "Consultar",
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Mollepata", "lat": -13.763, "lng": -72.243, "day": 1 },
-            { "name": "Soraypampa", "lat": -13.414, "lng": -72.567, "day": 1 },
-            { "name": "Laguna Humantay", "lat": -13.409, "lng": -72.554, "day": 1 }
-          ],
-          "description": {
-            "highlights": [
-              "Hora de recojo: 06:30 am",
-              "Hora de inicio de caminata: 10:30 am",
-              "Hora de llegada a Cusco: 18:30 pm",
-              "Altitud mínima: Mollepata – 2803 msnm/9196.2 pies",
-              "Altitud máxima Día 1: Laguna Humantay – 4200 msnm/13779.5 pies",
-              "Altitud máxima Día 2: Paso Salkantay – 4600 msnm/15092 pies",
-              "Distancia recorrida: 5.5 km/3.4 millas (aproximadamente 3 horas de caminata)",
-              "Dificultad: Moderada a desafiante en el día 2",
-              "Comidas incluidas: Snacks saludables, almuerzo picnic de lujo",
-              "Mejor temporada: Marzo a noviembre",
-              "Características relevantes: Paisajes impresionantes, perfecto para los apasionados de la fotografía y amantes de la naturaleza."
-            ],
-            "text": "Descubre y maravíllate con esta hermosa caminata de 2 días en la que tendrás la oportunidad de explorar una de las maravillas naturales más preciadas de Cusco: la Laguna Humantay. Aquí tomarás impresionantes fotos de sus aguas turquesas y de los imponentes guardianes de montaña, los nevados Humantay y Salkantay.",
-            "itinerary": [
-              {
-                "dayTitle": "Día 1",
-                "daySubtitle": "Cusco – Tour Laguna Humantay – Soraypampa",
-                "dayDescription": "Recojo temprano de Cusco y traslado al pueblo de Mollepata. Disfruta del impresionante paisaje con vistas a montañas nevadas y comunidades locales. Luego, continúa hasta Soraypampa, donde comienza la caminata. Sube hasta la Laguna Humantay para contemplar sus únicas aguas turquesas. Después de la caminata, regreso a Soraypampa para un almuerzo picnic de lujo y descanso en el campamento de alta gama."
-              },
-              {
-                "dayTitle": "Día 2",
-                "daySubtitle": "Soraypampa – Paso Salkantay – Cusco",
-                "dayDescription": "Comienza el día con un nutritivo desayuno antes de caminar hasta el Paso Salkantay, el punto más alto del trek a 4,600 m. Disfruta de vistas panorámicas impresionantes de las montañas circundantes. Después de un descanso, desciende de regreso al campamento para un almuerzo gourmet antes de retornar a Cusco por la tarde."
-              }
-            ]
-          },
-          "customOptions": {
-            "description": "Mejora tu experiencia con estas opciones adicionales",
-            "packages": [
-              { "title": "Servicio de guía privado", "image": "private-guide.jpg" },
-              { "title": "Bastones de caminata (previa solicitud)", "image": "walking-sticks.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Inclusiones y Exclusiones",
-            "included": [
-              "Un trek privado, hecho a medida y completamente personalizado de principio a fin.",
-              "Guías profesionales de habla inglesa con amplio conocimiento de la ruta.",
-              "Asistentes de guía expertos dependiendo del tamaño del grupo.",
-              "Todas las entradas y permisos.",
-              "Todas las comidas preparadas frescas en el lugar por un chef bien entrenado (D: Desayuno, A: Almuerzo, C: Cena).",
-              "Almuerzo picnic de lujo con comidas gourmet, bebidas y una copa de vino/champán.",
-              "Snacks saludables y consistentes.",
-              "Todo el transporte terrestre privado para los clientes.",
-              "Transporte privado para el personal y equipo de campamento.",
-              "Porteadores locales completamente capacitados.",
-              "Carpa comedor con sillas cómodas, vajilla de porcelana y cristalería.",
-              "Baño químico portátil y carpa de ducha.",
-              "Servicio de masajes (solo en la categoría Harmony).",
-              "Una noche en una carpa dormitorio de lujo con catre, saco de dormir, sábanas, manta y almohadas.",
-              "Botiquín de primeros auxilios y botella de oxígeno.",
-              "Todos los impuestos peruanos requeridos (IGV)."
-            ],
-            "notIncluded": [
-              "Bastones de caminata (disponibles previa solicitud).",
-              "Transporte extra debido a circunstancias imprevistas.",
-              "Alojamiento en hotel.",
-              "Servicio de masajes (si está en la categoría Deluxe).",
-              "Comidas no mencionadas.",
-              "Gastos personales.",
-              "Caballo de emergencia.",
-              "Caballo de monta personal (aprox. PEN 100 por caballo).",
-              "Seguro de viaje (altamente recomendado).",
-              "Propinas."
-            ]
-          },
-          "images": [
-            { "alt": "Vista impresionante de la Laguna Humantay", "src": "humantay-lake.jpg", "width": 800 },
-            { "alt": "Caminata hacia el Paso Salkantay", "src": "salkantay-pass.jpg", "width": 800 },
-            { "alt": "Picnic de lujo con vistas a la montaña", "src": "luxury-picnic-humantay.jpg", "width": 800 }
-          ]
-        },
-        {
-          "id": 12,
-          "title": "Camino Inca de Lujo",
-          "subtitle": "Una experiencia inolvidable recorriendo el legendario Camino Inca con servicios de lujo",
-          "days": 4,
-          "nights": 3,
-          "price": 2500,
-          "mapUrl": [
-            { "name": "Cusco", "lat": -13.532, "lng": -71.967, "day": 1 },
-            { "name": "Km 82", "lat": -13.299, "lng": -72.183, "day": 1 },
-            { "name": "Wayllabamba", "lat": -13.274, "lng": -72.166, "day": 1 },
-            { "name": "Pacaymayo", "lat": -13.271, "lng": -72.127, "day": 2 },
-            { "name": "Phuyupatamarca", "lat": -13.236, "lng": -72.114, "day": 3 },
-            { "name": "Machu Picchu", "lat": -13.1631, "lng": -72.5450, "day": 4 }
-          ],
-          "description": {
-            "highlights": [
-              "Caminata por el legendario Camino Inca",
-              "Exploración de sitios arqueológicos impresionantes",
-              "Servicio de campamento de lujo con duchas calientes y masajes",
-              "Visita guiada exclusiva a Machu Picchu"
-            ],
-            "text": "Descubre la magia del Camino Inca con una experiencia de lujo. Disfruta de una caminata desafiante con el máximo confort, mientras recorres paisajes impresionantes y llegas a la Ciudad Perdida de los Incas.",
-            "itinerary": [
-              {
-                "dayTitle": "Día 1",
-                "daySubtitle": "Cusco - Wayllabamba",
-                "dayDescription": "Inicio de la caminata en el Km 82. Almuerzo en Tarayoc y campamento de lujo en Wayllabamba con duchas calientes y masajes."
-              },
-              {
-                "dayTitle": "Día 2",
-                "daySubtitle": "Wayllabamba - Pacaymayo",
-                "dayDescription": "Ascenso al Paso Warmiwañusca. Campamento en Pacaymayo con cena gourmet y descanso en tiendas climatizadas."
-              },
-              {
-                "dayTitle": "Día 3",
-                "daySubtitle": "Pacaymayo - Phuyupatamarca",
-                "dayDescription": "Exploración de los sitios arqueológicos de Runkurakay, Sayacmarca y Chaquicocha. Campamento en Phuyupatamarca."
-              },
-              {
-                "dayTitle": "Día 4",
-                "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-                "dayDescription": "Descenso a Wiñaywayna y llegada a la Puerta del Sol. Visita guiada en Machu Picchu y retorno a Cusco."
-              }
-            ]
-          },
-          "sampleJourney": [
-            {
-              "dayTitle": "Día 1",
-              "daySubtitle": "Cusco - Wayllabamba",
-              "dayDescription": "Traslado al Km 82 y caminata hacia Wayllabamba con almuerzo gourmet. Campamento con duchas calientes y masajes relajantes.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 2",
-              "daySubtitle": "Wayllabamba - Pacaymayo",
-              "dayDescription": "Ascenso al Paso Warmiwañusca con vistas impresionantes. Descenso a Pacaymayo y campamento de lujo.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 3",
-              "daySubtitle": "Pacaymayo - Phuyupatamarca",
-              "dayDescription": "Visita a Runkurakay y Sayacmarca. Caminata a Phuyupatamarca con campamento de lujo y cena gourmet.",
-              "accommodations": []
-            },
-            {
-              "dayTitle": "Día 4",
-              "daySubtitle": "Phuyupatamarca - Machu Picchu - Cusco",
-              "dayDescription": "Visita guiada en Machu Picchu. Tren de retorno y traslado privado a Cusco.",
-              "accommodations": []
-            }
-          ],
-          "customOptions": {
-            "description": "Opciones adicionales para mejorar tu experiencia",
-            "packages": [
-              { "title": "Ascenso a Huayna Picchu", "image": "huayna-picchu.jpg" },
-              { "title": "Noche adicional en hotel de lujo", "image": "luxury-hotel-night.jpg" }
-            ]
-          },
-          "pricing": {
-            "title": "Incluye y No Incluye",
-            "included": [
-              "Guía profesional de habla inglesa",
-              "03 noches de campamento de lujo",
-              "Entradas y permisos para el Camino Inca y Machu Picchu",
-              "Tickets de tren y transporte privado",
-              "Duchas calientes y sesiones de masajes",
-              "Todas las comidas gourmet preparadas por chef privado",
-              "Kit de primeros auxilios y balón de oxígeno"
-            ],
-            "notIncluded": [
-              "Entrada a Huayna Picchu (opcional)",
-              "Bastones de trekking",
-              "Seguro de viaje (recomendado)",
-              "Propinas y gastos personales"
-            ]
-          },
-          "images": [
-            { "alt": "Camino Inca", "src": "camino-inca.jpg", "width": 800 },
-            { "alt": "Vista de Machu Picchu", "src": "machu-picchu.jpg", "width": 800 },
-            { "alt": "Campamento de lujo", "src": "luxury-camp.jpg", "width": 800 }
-          ]
         }
+
       ]
     }
   },
@@ -1807,54 +1223,34 @@
       },
       "paquetes":[
         {
-          "nombre": "Ancascocha Trail de Lujo",
-          "imagen": "assets/img/tours/Tours-Laguna-Huamantay.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "SALKANTAY TRAIL – 5 DAYS/4 NIGHTS",
+          "imagen": "assets/img/trekking/Trekking-Salkantay.webp",
+          "descripcion": "La mejor forma de viajar"
         },
         {
-          "nombre": "Salkantay de Lujo",
-          "imagen": "assets/img/home/Trekking-Chaman.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "CHOQUEQUIRAO TRAIL – 5 DAYS/4 NIGHTS",
+          "imagen": "assets/img/trekking/Trekking-Choquequirao.webp",
+          "descripcion": "La mejor forma de viajar"
         },
         {
-          "nombre": "Camino Inca de Lujo Plus",
-          "imagen": "assets/img/tours/Tours-Moray.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "9 DAYS/8 NIGHTS – CHOQUEQUIRAO TRAIL - GLAMPING",
+          "imagen": "assets/img/trekking/Trekking-Choquequirao.webp",
+          "descripcion": "La mejor forma de viajar"
         },
         {
-          "nombre": "Qelqanqa Inca Trail de Lujo",
-          "imagen": "assets/img/tours/Tours-Kayak.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "ROYAL LARES TRAIL",
+          "imagen": "assets/img/trekking/Trekking-Royal-Lares-Trail.webp",
+          "descripcion": "La mejor forma de viajar"
         },
         {
-          "nombre": "Choquequirao de Lujo",
-          "imagen": "assets/img/tours/Machu-Picchu.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "Luxury Inca Trail",
+          "imagen": "assets/img/trekking/Trekking-Luxury-Inka-Trail.webp",
+          "descripcion": "La mejor forma de viajar"
         },
         {
-          "nombre": "Lares Trail de Lujo",
-          "imagen": "assets/img/tours/Valle-Sagrado.webp",
-          "descripcion": "Las mejores formas de viajar"
-        },
-        {
-          "nombre": "Camino Inca de Lujo",
-          "imagen": "assets/img/tours/Tours-Moray.webp",
-          "descripcion": "Las mejores formas de viajar"
-        },
-        {
-          "nombre": "Quarry Trail de Lujo",
-          "imagen": "assets/img/tours/Tours-Kayak.webp",
-          "descripcion": "Las mejores formas de viajar"
-        },
-        {
-          "nombre": "Choquequirao de Lujo",
-          "imagen": "assets/img/tours/Machu-Picchu.webp",
-          "descripcion": "Las mejores formas de viajar"
-        },
-        {
-          "nombre": "Camino Inca de Lujo",
-          "imagen": "assets/img/tours/Valle-Sagrado.webp",
-          "descripcion": "Las mejores formas de viajar"
+          "nombre": "QUARRY TRAIL – 4 days/3 nights",
+          "imagen": "assets/img/trekking/Trekking-Quarry-Trail-Peru.webp",
+          "descripcion": "La mejor forma de viajar"
         }
       ]
     },
@@ -2398,7 +1794,7 @@
       ],
       "info":{
         "titlePage": "Donaciones",
-        "image_principal": "assets/img/premium-services/Charters.webp",
+        "image_principal": "assets/img/premium-services/Donations.webp",
         "button": "Ver paquetes",
         "titleInfo": "Paquetes para Charters",
         "descripcion": "Charters en los mejores destinos",
@@ -2408,9 +1804,6 @@
       "paquetes":[
       ]
     }
-
-
-
 
   },
   "SPEAK": "HABLA CON UN ASESOR",

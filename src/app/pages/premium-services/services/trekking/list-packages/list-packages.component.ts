@@ -22,7 +22,7 @@ export class ListPackagesComponent {
   images: any[] = [];
   info: any = {};
   paquetes: any[] = [];
-  ruta = "/premium-services/premium-tours"; // La ruta se mantiene igual para todos los paquetes
+  ruta = "/premium-services/trekking"; // La ruta se mantiene igual para todos los paquetes
 
   constructor(private translate: TranslateService) {
     this.loadTranslations();
