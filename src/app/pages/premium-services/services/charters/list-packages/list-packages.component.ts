@@ -3,31 +3,43 @@ import {BannerComponent} from '../../../../../shared/components/To Destinations/
 import {
     SectionDestinationsComponent
 } from "../../../../../shared/components/To Destinations/list-destinations/section-destinations/section-destinations.component";
+import {TranslateService} from '@ngx-translate/core';
+import {
+  PackageListToDestinationsComponent
+} from '../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component';
 
 @Component({
   selector: 'app-list-packages',
-    imports: [
+  imports: [
 
-        BannerComponent,
-        SectionDestinationsComponent
-    ],
+    BannerComponent,
+    SectionDestinationsComponent,
+    PackageListToDestinationsComponent
+  ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })
 export class ListPackagesComponent {
-  images = [
-    { title: 'Private Jet Journeys', description: 'Iconic Wonders: Around the World by Private Jet', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' },
-    { title: 'Tailormade Journeys', description: 'Climb Mount Kilimanjaro', image: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' }
-  ];
-  info = {
-    image_principal: 'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp',
-    titlePage: 'Chartes',
-    button: 'View all charters',
-    titleInfo: 'Charters to Peru',
-    descripcion: 'We offer the best charters to Peru. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.',
-    subtitulo: 'Best Ways to Travel',
-    text:'We have been spinning dreams into remarkable adventures for over 60 years.',
-    image_middle:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp'
+  images: any[] = [];
+  info: any = {};
+  paquetes: any[] = [];
+  ruta = "/premium-services/charters"; // La ruta se mantiene igual para todos los paquetes
+
+  constructor(private translate: TranslateService) {
+    this.loadTranslations();
+  }
+
+  loadTranslations() {
+    this.translate.get('LIST_PACKAGES.CHARTERS').subscribe((data: any) => {
+      this.images = data.images || [];
+      this.info = data.info || {};
+      this.paquetes = (data.paquetes || []).map((paquete: any, index: number) => ({
+        id: paquete.id || index , // Si el paquete ya tiene un ID, lo mantiene. Si no, se le asigna uno basado en el índice.
+        ...paquete,
+        ruta: `${this.ruta}` // Agregar ID a la ruta.
+      }));
+    });
+    console.log(this.paquetes);
   }
 
 }

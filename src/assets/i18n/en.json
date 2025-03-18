@@ -2429,10 +2429,35 @@
       ],
       "info":{
         "titlePage": "Sustainable Tourism",
-        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "image_principal": "assets/img/premium-services/Sustainable-Tourism.webp",
         "button": "View all packages",
         "titleInfo": "Packages to Sustainable Tourism",
         "descripcion": "Sustainable Tourism",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "CHARTERS":  {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "CHARTERS",
+        "image_principal": "assets/img/premium-services/Charters.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages to Charters",
+        "descripcion": "Charters in the world",
         "subtitulo": "Best Ways to Travel",
         "text": "We have been spinning dreams into remarkable adventures for over 60 years."
       },

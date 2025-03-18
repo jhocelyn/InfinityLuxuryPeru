@@ -2357,7 +2357,59 @@
       },
       "paquetes":[
       ]
+    },
+    "CHARTERS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Charters",
+        "image_principal": "assets/img/premium-services/Charters.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para Charters",
+        "descripcion": "Charters en los mejores destinos",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "DONATIONS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Donaciones",
+        "image_principal": "assets/img/premium-services/Charters.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para Charters",
+        "descripcion": "Charters en los mejores destinos",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
     }
+
+
 
 
   },
