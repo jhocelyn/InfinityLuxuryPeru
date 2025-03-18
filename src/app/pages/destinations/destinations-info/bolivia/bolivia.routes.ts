@@ -1,6 +1,6 @@
 import {Routes} from '@angular/router';
 import {LayoutComponent} from './layout/layout.component';
-import {ListPackagesComponent} from './info-destinations/uyuni-salt/list-packages/list-packages.component';
+import {InfoPackagesComponent} from './info-packages/info-packages.component';
 
 export const BoliviaRoutes: Routes = [
   {
@@ -9,7 +9,7 @@ export const BoliviaRoutes: Routes = [
     children: [
       {
         path: '',
-        component: ListPackagesComponent,
+        component: InfoPackagesComponent,
       },
       {
         path:'uyuni-salt',

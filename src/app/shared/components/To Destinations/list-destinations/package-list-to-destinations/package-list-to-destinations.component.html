@@ -1,11 +1,11 @@
 <div class="px-24 py-20 grid gap-6"
      [ngClass]="{
-       'grid-cols-1': columnas === 1,
-       'grid-cols-2': columnas === 2,
-       'grid-cols-3': columnas === 3,
-       'grid-cols-4': columnas === 4,
-       'grid-cols-5': columnas === 5,
-       'grid-cols-6': columnas === 6
+       'xl:grid-cols-1': columnas === 1,
+       'xl:grid-cols-2': columnas === 2,
+       'xl:grid-cols-3': columnas === 3,
+       'xl:grid-cols-4': columnas === 4,
+       'xl:grid-cols-5': columnas === 5,
+       'xl:grid-cols-6': columnas === 6
      }">
   <app-cards-packages-destination
     *ngFor="let paquete of paquetes"

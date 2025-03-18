@@ -1864,7 +1864,6 @@
         }
       ]
     },
-
     "TREKKING": {
       "images": [
         {
@@ -1939,7 +1938,183 @@
           "description": "The best ways to travel"
         }
       ]
+    },
+    "LUXURY": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Luxury Packages",
+        "image_principal": "assets/img/tours/Tours-Maras.webp",
+        "button": "View all packages",
+        "titleInfo": "Luxury Packages in the world",
+        "descripcion": "We offer the best experiences to travel around the world. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "AREQUIPA": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Arequipa",
+        "image_principal": "assets/img/destinations/Trip-Arequipa.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Arequipa",
+        "descripcion": "We offer the best experiences in Arequipa. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "CUSCO": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Cusco - Machu Picchu",
+        "image_principal": "assets/img/destinations/Trip-Machu-Picchu.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Cusco - Machu Picchu",
+        "descripcion": "We offer the best experiences in Cusco. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "LIMA": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Lima",
+        "image_principal": "assets/img/destinations/Trip-Lima-Costa-Verde.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Lima",
+        "descripcion": "We offer the best experiences in Lima. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "MANU": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Manu",
+        "image_principal": "assets/img/destinations/Trip-Manu-Lake-Peru.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Manu",
+        "descripcion": "We offer the best experiences in Manu. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "PUNO": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Titicaca Lake",
+        "image_principal": "assets/img/destinations/Trip-Lake-Titicaca-Peru.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Titicaca Lake",
+        "descripcion": "We offer the best experiences in Titicaca Lake. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "AMAZON": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Amazon Rainforest",
+        "image_principal": "assets/img/destinations/Trip-Amazon-Rainforest.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Amazon Rainforest",
+        "descripcion": "We offer the best experiences in Amazon Rainforest. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
     }
+
   },
   "SPEAK": "SPEAK TO AN EXPERT",
   "CONTACT": {
@@ -2069,6 +2244,21 @@
         "featured": true
       }
     ]
+    },
+  "DESTINATIONS": {
+    "DESCRIPTION": "Discover the best destinations that we have for you",
+    "PERU": {
+      "DESCRIPTION": "Discover the most exclusive destinations we have for you in Peru",
+      "INFO": "Peru is a country of contrasts, where ancient traditions meet modern innovation. From the majestic Andes to the lush Amazon rainforest, Peru offers a wealth of natural beauty and cultural heritage. Explore the iconic ruins of Machu Picchu, sample the world-renowned cuisine, and experience the warmth and hospitality of the Peruvian people."
+    },
+    "ECUADOR": {
+      "DESCRIPTION": "Discover the most exclusive destinations we have for you in Ecuador",
+      "INFO": "Ecuador is a land of stunning natural beauty, from the lush Amazon rainforest to the snow-capped peaks of the Andes. Explore the vibrant markets of Otavalo, cruise the pristine waters of the Galapagos Islands, and discover the rich cultural heritage of Quito, the country's capital. Whether you're seeking adventure, relaxation, or cultural immersion, Ecuador has something for everyone."
+    },
+    "BOLIVIA": {
+      "DESCRIPTION": "Discover the most exclusive destinations we have for you in Bolivia",
+      "INFO": "Bolivia is a land of contrasts, where ancient traditions meet modern innovation. From the otherworldly landscapes of the Uyuni Salt Flats to the vibrant markets of La Paz, Bolivia offers a wealth of natural beauty and cultural heritage. Explore the colonial architecture of Sucre, trek through the Andean highlands, and discover the rich history of the Tiwanaku ruins. Whether you're seeking adventure, relaxation, or cultural immersion, Bolivia has something for everyone."
     }
+  }
 
 }

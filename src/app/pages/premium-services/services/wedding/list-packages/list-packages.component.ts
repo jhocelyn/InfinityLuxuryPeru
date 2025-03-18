@@ -1,23 +1,19 @@
 import { Component } from '@angular/core';
-import {
-  BannerToInfoDestinationsComponent
-} from '../../../../../shared/components/To Destinations/list-destinations/banner-to-info-destinations/banner-to-info-destinations.component';
-import {
-  InfoSectionDestinationsComponent
-} from '../../../../../shared/components/To Destinations/list-destinations/info-section-destinations/info-section-destinations.component';
 import {BannerComponent} from '../../../../../shared/components/To Destinations/list-destinations/banner/banner.component';
 import {
   PackageListToDestinationsComponent
 } from '../../../../../shared/components/To Destinations/list-destinations/package-list-to-destinations/package-list-to-destinations.component';
+import {
+    SectionDestinationsComponent
+} from "../../../../../shared/components/To Destinations/list-destinations/section-destinations/section-destinations.component";
 
 @Component({
   selector: 'app-list-packages',
-  imports: [
-    BannerToInfoDestinationsComponent,
-    InfoSectionDestinationsComponent,
-    BannerComponent,
-    PackageListToDestinationsComponent
-  ],
+    imports: [
+        BannerComponent,
+        PackageListToDestinationsComponent,
+        SectionDestinationsComponent
+    ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })

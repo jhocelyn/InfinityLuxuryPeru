@@ -1,24 +1,20 @@
 import { Component } from '@angular/core';
 import {NgForOf} from '@angular/common';
 import {BannerComponent} from "../../../../../shared/components/To Destinations/list-destinations/banner/banner.component";
-import {
-    BannerToInfoDestinationsComponent
-} from "../../../../../shared/components/To Destinations/list-destinations/banner-to-info-destinations/banner-to-info-destinations.component";
-import {
-    InfoSectionDestinationsComponent
-} from "../../../../../shared/components/To Destinations/list-destinations/info-section-destinations/info-section-destinations.component";
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {
+    SectionDestinationsComponent
+} from "../../../../../shared/components/To Destinations/list-destinations/section-destinations/section-destinations.component";
 
 @Component({
   selector: 'app-list-packages',
-  imports: [
-    BannerComponent,
-    BannerToInfoDestinationsComponent,
-    InfoSectionDestinationsComponent,
-    FormsModule,
-    NgForOf,
-    ReactiveFormsModule
-  ],
+    imports: [
+        BannerComponent,
+        FormsModule,
+        NgForOf,
+        ReactiveFormsModule,
+        SectionDestinationsComponent
+    ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })

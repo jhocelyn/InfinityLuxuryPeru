@@ -1857,7 +1857,183 @@
           "descripcion": "Las mejores formas de viajar"
         }
       ]
+    },
+    "LUXURY": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Paquetes de Lujo",
+        "image_principal": "assets/img/home/Luxury-Packages.webp",
+        "button": "View all packages",
+        "titleInfo": "Paquetes de Lujo",
+        "descripcion": "Ofrecemos los mejores paquetes de lujo a destinos increibles",
+        "subtitulo": "Las mejores formas de viajar",
+        "text": "Hemos convertido sueños en aventuras extraordinarias durante más de 60 años."
+      },
+      "paquetes":[
+      ]
+    },
+    "AREQUIPA": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Arequipa",
+        "image_principal": "assets/img/destinations/Trip-Arequipa.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Arequipa",
+        "descripcion": "Descubre la ciudad blanca de Arequipa y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Arequipa",
+        "text": "Descubre la ciudad blanca de Arequipa y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "CUSCO": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Cusco - Macchu Picchu",
+        "image_principal": "assets/img/destinations/Trip-Machu-Picchu.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Machu Picchu",
+        "descripcion": "Descubre Machu Picchu y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Machu Picchu",
+        "text": "Descubre Machu Picchu y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "LIMA": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Lima",
+        "image_principal": "assets/img/destinations/Trip-Lima-Costa-Verde.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Lima",
+        "descripcion": "Descubre Lima y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Lima",
+        "text": "Descubre Machu Picchu y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "MANU": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Manu",
+        "image_principal": "assets/img/destinations/Trip-Manu-Lake-Peru.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Manu",
+        "descripcion": "Descubre Manu y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Manu",
+        "text": "Descubre Manu y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "PUNO": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Lago Titicaca",
+        "image_principal": "assets/img/destinations/Trip-Lake-Titicaca-Peru.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Lago Titicaca",
+        "descripcion": "Descubre Lago Titicaca y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Lago Titicaca",
+        "text": "Descubre Lago Titicaca y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "AMAZON": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Amazonas",
+        "image_principal": "assets/img/destinations/Trip-Amazon-Rainforest.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Amazonas",
+        "descripcion": "Descubre Amazonas y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Amazonas",
+        "text": "Descubre Amazonas y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
     }
+
   },
   "SPEAK": "HABLA CON UN ASESOR",
   "CONTACT": {
@@ -1986,6 +2162,21 @@
         "featured": true
       }
     ]
+  },
+  "DESTINATIONS": {
+    "DESCRIPTION": "Descubre los destinos más exclusivos que tenemos para ti",
+    "PERU": {
+      "DESCRIPTION": "Descubre los destinos más exclusivos que tenemos para ti en Perú",
+      "INFO": "Perú es un país de contrastes, con una rica historia y una diversidad de paisajes que van desde la costa del Pacífico hasta la selva amazónica. Conocido por su patrimonio cultural, Perú es el hogar de antiguas civilizaciones como los incas, que dejaron atrás impresionantes ruinas y sitios arqueológicos. Además, Perú es un paraíso para los amantes de la naturaleza, con una variedad de ecosistemas que albergan una increíble diversidad de flora y fauna. Desde las altas montañas de los Andes hasta la selva tropical de la Amazonía, Perú ofrece una experiencia única para los viajeros más exigentes."
+    },
+    "ECUADOR": {
+      "DESCRIPTION": "Descubre los destinos más exclusivos que tenemos para ti en Ecuador",
+      "INFO": "Ecuador es un país pequeño pero increíblemente diverso, con una variedad de paisajes que van desde las playas tropicales del Pacífico hasta las altas montañas de los Andes. Con una rica historia y una cultura vibrante, Ecuador es el hogar de antiguas civilizaciones como los incas y los españoles, que han dejado una huella indeleble en el país. Además, Ecuador es un paraíso para los amantes de la naturaleza, con una increíble diversidad de flora y fauna que se puede encontrar en sus numerosos parques nacionales y reservas naturales. Desde las Islas Galápagos hasta la selva amazónica, Ecuador ofrece una experiencia única para los viajeros más exigentes."
+    },
+    "BOLIVIA": {
+      "DESCRIPTION": "Descubre los destinos más exclusivos que tenemos para ti en Bolivia",
+      "INFO": "Bolivia es un país de contrastes, con una rica historia y una diversidad de paisajes que van desde las altas montañas de los Andes hasta la selva amazónica. Conocido por su patrimonio cultural, Bolivia es el hogar de antiguas civilizaciones como los incas y los españoles, que han dejado una huella indeleble en el país. Además, Bolivia es un paraíso para los amantes de la naturaleza, con una increíble diversidad de flora y fauna que se puede encontrar en sus numerosos parques nacionales y reservas naturales. Desde el Salar de Uyuni hasta el Lago Titicaca, Bolivia ofrece una experiencia única para los viajeros más exigentes."
+    }
   }
 }
 

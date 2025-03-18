@@ -1,19 +1,5 @@
 <div class="bg-[#f5f2eb] ">
-  <div class="flex flex-col md:flex-row p-0 mb-10">
-    <app-banner-to-info-destinations
-      [imagen]="info.image_principal"
-      [titulo]="info.titlePage"
-      [botonTexto]="info.button"
-    >
-    </app-banner-to-info-destinations>
-
-    <app-info-section-destinations
-      [titulo]="info.titleInfo"
-      [descripcion]="info.descripcion"
-      [subtitulo]="info.subtitulo"
-      [images]="images">
-    </app-info-section-destinations>
-  </div>
+  <app-section-destinations [info]="info" [images]="images"></app-section-destinations>
   <app-banner
     [imagen]="info.image_middle"
     [texto]="info.text"

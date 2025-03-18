@@ -1,12 +1,11 @@
 <app-banner
-  imagen="assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp"
-  texto="We have been spinning dreams into remarkable adventures for over 60 years."
+  imagen="assets/img/destinations/Trip-Bolivia.webp"
+  texto="{{'DESTINATIONS.BOLIVIA.DESCRIPTION'|translate}}"
   [mostrarFlecha]="true">
 </app-banner>
-
 <app-destinations-grid [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
 
 <app-mapa-info
-  [locations]="locations",
-  descripcion="We have been spinning dreams into remarkable adventures for over 60 years.">
+  [locations]="locations"
+  descripcion="{{'DESTINATIONS.BOLIVIA.INFO'|translate}}">
 </app-mapa-info>
