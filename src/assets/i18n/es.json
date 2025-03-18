@@ -2282,7 +2282,83 @@
       },
       "paquetes":[
       ]
+    },
+    "CLASS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Clase Peruana de Cocina",
+        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Cooking-Class.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para Clase Peruana de Cocina",
+        "descripcion": "Clases de cocina peruana es una experiencia única",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "RESTAURANTS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Mejores Restaurantes Peruanos",
+        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para Mejores Restaurantes Peruanos",
+        "descripcion": "La cocina peruana es una de las más reconocidas en el mundo",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "SUSTAINABLE": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Turismo Sostenible",
+        "image_principal": "assets/img/premium-services/Sustainable-Tourism.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes sostenibles",
+        "descripcion": "Yoga en los mejores destinos",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
     }
+
 
   },
   "SPEAK": "HABLA CON UN ASESOR",
