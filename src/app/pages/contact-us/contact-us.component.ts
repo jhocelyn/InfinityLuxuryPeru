@@ -3,7 +3,7 @@ import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} fr
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {NgIf} from '@angular/common';
 import {TermsModalComponent} from '../../shared/components/Important/terms-modal/terms-modal.component';
-
+import emailjs from '@emailjs/browser';
 @Component({
   selector: 'app-contact-us',
   imports: [
@@ -29,8 +29,11 @@ export class ContactUsComponent {
   }
   contactForm: FormGroup;
   formSubmitted = false;
-  acceptedTerms = false;
-  private scriptUrl = "https://script.google.com/macros/s/AKfycbwAo0wqHVv5XfA0xDKJB4eYXvmAWv80TCuzYd-0GSno3eg5F3IT7CllPPjC-CMZU87A/exec";
+
+  // Reemplaza con tus claves de EmailJS
+  private serviceID = 'service_od5s9j8';
+  private templateID = 'template_ab47wvc';
+  private publicKey = '8QEKVUtg-l_vDX_uc';
 
   constructor(private fb: FormBuilder, private translate: TranslateService) {
     this.contactForm = this.fb.group({
@@ -39,31 +42,32 @@ export class ContactUsComponent {
       phone: ['', [Validators.required, Validators.pattern('^[0-9]{9,10}$')]],
       npersonas: ['', [Validators.required, Validators.min(1)]],
       fecha: ['', [Validators.required]],
-      terms: [false, [Validators.requiredTrue]]  // Se asegura de que el checkbox sea marcado
+      terms: [false, [Validators.requiredTrue]]
     });
-
   }
 
-  onSubmit() {
+  async onSubmit() {
     if (this.contactForm.valid) {
       const formData = this.contactForm.value;
-      console.log('Formulario enviado:', formData);
 
-      fetch(this.scriptUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          console.log('Datos enviados correctamente:', data);
-          this.contactForm.reset();
-          this.formSubmitted = true;
-        })
-        .catch((error) => {
-          console.error('Error al enviar los datos:', error);
-          alert(this.translate.instant('CONTACT.ERROR_SEND'));
-        });
+      const emailParams = {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        npersonas: formData.npersonas,
+        fecha: formData.fecha,
+        terms: formData.terms ? 'Accepted' : 'Not accepted'
+      };
+
+      try {
+        await emailjs.send(this.serviceID, this.templateID, emailParams, this.publicKey);
+        console.log('Correo enviado con éxito');
+        this.contactForm.reset();
+        this.formSubmitted = true;
+      } catch (error) {
+        console.error('Error al enviar el correo:', error);
+        alert(this.translate.instant('CONTACT.ERROR_SEND'));
+      }
     } else {
       alert(this.translate.instant('CONTACT.ERROR_FIELDS'));
     }

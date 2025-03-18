@@ -1,8 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
-
+import emailjs from '@emailjs/browser';
 @Component({
   selector: 'app-request-program',
   standalone: true,
@@ -11,13 +10,11 @@ import { HttpClient } from '@angular/common/http';
   styleUrl: './request-program.component.css'
 })
 export class RequestProgramComponent {
-  @Input() programName: string = ''; // Recibe el nombre del programa desde el padre
+  @Input() programName: string = '';
   name: string = '';
   email: string = '';
-  number: number | null = null; // El número es opcional
+  number: number | null = null;
   messageSent: boolean = false;
-
-  constructor(private http: HttpClient) {}
 
   submitForm() {
     if (!this.name || !this.email) {
@@ -25,16 +22,20 @@ export class RequestProgramComponent {
       return;
     }
 
-    const message = `La siguiente persona '${this.name}' con el correo '${this.email}' pidió el siguiente programa '${this.programName}'. Su número es '${this.number ?? 'No especificado'}'.`;
+    const templateParams = {
+      name: this.name,
+      email: this.email,
+      number: this.number || 'No especificado',
+      programName: this.programName,
+    };
 
-    this.http.post('https://tu-api.com/enviar-correo', { message }).subscribe({
-      next: () => {
+    emailjs.send('service_0v8ag41', 'BXlckQg28TnTc9R9m', templateParams, 'template_teingj6')
+      .then(() => {
         this.messageSent = true;
         this.name = '';
         this.email = '';
         this.number = null;
-      },
-      error: (err) => console.error('Error enviando el formulario', err),
-    });
+      })
+      .catch((error) => console.error('Error enviando el formulario', error));
   }
 }
