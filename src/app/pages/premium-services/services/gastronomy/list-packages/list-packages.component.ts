@@ -4,20 +4,40 @@ import {BannerComponent} from '../../../../../shared/components/To Destinations/
 import {
   DestinationsGridComponent
 } from '../../../../../shared/components/To Destinations/list-destinations/destinations-grid/destinations-grid.component';
+import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-list-packages',
   imports: [
     BannerComponent,
     DestinationsGridComponent,
+    TranslatePipe,
   ],
   templateUrl: './list-packages.component.html',
   styleUrl: './list-packages.component.css'
 })
 export class ListPackagesComponent {
-  servicios=[
-    {nombre:'Peruvian Cooking Class',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp', slug:'peruvian-cooking-class' ,destacado:false},
-    {nombre:'Peruvian Best Restaurants',imagen:'assets/img/incredibly-beatiful-site-of-machu-picchu-2023-11-27-05-12-24-utc_11zon.webp' , slug:'peruvian-best-restaurants', destacado: false},
-    ]
-  rutaPadre = '/premium-services/gastronomy';
+  servicios: any[] = [];
+  ruta = '/premium-services/gastronomy/';
+
+  constructor(private translate: TranslateService) {
+    this.loadTranslations();
+  }
+
+  loadTranslations() {
+    this.translate.get('GASTRONOMY').subscribe((data: any) => {
+      if (data && data.Services) { // Asegurar que existe 'Services' en el JSON
+        this.servicios = data.Services.map((servicio: any, index: number) => ({
+          id: servicio.id || index, // Si no tiene ID, asignamos un índice
+          nombre: servicio.name,
+          imagen: servicio.image,
+          slug: servicio.slug,
+          destacado: servicio.featured,
+          ruta: `${this.ruta}${servicio.slug}` // Agregar slug a la ruta
+        }));
+      }
+    });
+    console.log(this.servicios);
+  }
+
 }

@@ -2113,8 +2113,332 @@
       },
       "paquetes":[
       ]
+    },
+    "GALAPAGOS": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Galapagos",
+        "image_principal": "assets/img/destinations/Trip-Galapagos-Ecuador.webp",
+        "button": "View all Galapagos",
+        "titleInfo": "Packages in Galapagos",
+        "descripcion": "We offer the best experiences in Galapagos. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "UYUNI": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Uyuni Salt",
+        "image_principal": "assets/img/destinations/Trip-Uyuni-Salt-Bolivia.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Uyuni Salt",
+        "descripcion": "We offer the best experiences in Uyuni Salt. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "MICE": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "MICE",
+        "image_principal": "assets/img/premium-services/MICE.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in MICE",
+        "descripcion": "We offer the best experiences in MICE. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "FAMILY": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Family Best Experiences",
+        "image_principal": "assets/img/premium-services/Family-Best-Experiences.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages in Family Best Experiences",
+        "descripcion": "We offer the best experiences in Family Best Experiences. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "WEDDING": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Wedding",
+        "image_principal": "assets/img/premium-services/Wedding.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Wedding",
+        "descripcion": "Get married in the most beautiful places in the world. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "AUTISM": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Autism",
+        "image_principal": "assets/img/premium-services/Special-Services-Autism.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Autism",
+        "descripcion": "If you have a child with autism, we offer the best experiences for you. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "HANDICAP": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Handicap",
+        "image_principal": "assets/img/premium-services/Special-Services-Handicap.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Handicap",
+        "descripcion": "We offer the best experiences for people with disabilities. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "OXYGEN": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Oxygen Requirement",
+        "image_principal": "assets/img/premium-services/Special-Services-Oxygen-Requirement.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Oxygen Requirement",
+        "descripcion": "We know that some people need oxygen. We offer the best experiences for you. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "SPA": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Spa",
+        "image_principal": "assets/img/premium-services/Wellness-Spa.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Spa",
+        "descripcion": "We offer the best experiences in Spa. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "YOGA": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Yoga",
+        "image_principal": "assets/img/premium-services/Wellness-Yoga-on-group.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Yoga",
+        "descripcion": "We offer the best experiences in Yoga. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "CLASS": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Peruvian Cooking Class",
+        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Cooking-Class.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Peruvian Cooking Class",
+        "descripcion": "Peruvian cuisine is one of the most varied and delicious in the world. We offer the best experiences in Peruvian Cooking Class. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "RESTAURANTS": {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Peruvian Best Restaurants",
+        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Peruvian Best Restaurants",
+        "descripcion": "Peruvian cuisine is one of the most varied and delicious in the world. We offer the best experiences in Peruvian Best Restaurants. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
+    },
+    "SUSTAINABLE":  {
+      "images": [
+        {
+          "title": "Private Jet Journeys",
+          "description": "Iconic Wonders: Around the World by Private Jet",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Tailormad Journeys",
+          "description": "Climb Mount Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Sustainable Tourism",
+        "image_principal": "assets/img/premium-services/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "button": "View all packages",
+        "titleInfo": "Packages Peruvian Best Restaurants",
+        "descripcion": "Peruvian cuisine is one of the most varied and delicious in the world. We offer the best experiences in Peruvian Best Restaurants. We have been spinning dreams into remarkable adventures for discerning travellers for more than 60 years, ever since our founder pioneered the first modern luxury safari in Africa. Today we are the world’s leading travel company, taking guests to the earth’s wildest frontiers on all seven continents.",
+        "subtitulo": "Best Ways to Travel",
+        "text": "We have been spinning dreams into remarkable adventures for over 60 years."
+      },
+      "paquetes":[
+      ]
     }
-
   },
   "SPEAK": "SPEAK TO AN EXPERT",
   "CONTACT": {
@@ -2259,6 +2583,66 @@
       "DESCRIPTION": "Discover the most exclusive destinations we have for you in Bolivia",
       "INFO": "Bolivia is a land of contrasts, where ancient traditions meet modern innovation. From the otherworldly landscapes of the Uyuni Salt Flats to the vibrant markets of La Paz, Bolivia offers a wealth of natural beauty and cultural heritage. Explore the colonial architecture of Sucre, trek through the Andean highlands, and discover the rich history of the Tiwanaku ruins. Whether you're seeking adventure, relaxation, or cultural immersion, Bolivia has something for everyone."
     }
+  },
+  "SPECIAL_SERVICES": {
+    "IMAGE": "assets/img/premium-services/Special-Services.webp",
+    "DESCRIPTION": "Enjoy the best special",
+    "Services": [
+      {
+        "name": "Handicap",
+        "image": "assets/img/premium-services/Special-Services-Handicap.webp",
+        "slug": "handicap",
+        "featured": true
+      },
+      {
+        "name": "Autism",
+        "image": "assets/img/premium-services/Special-Services-Autism.webp",
+        "slug": "autism",
+        "featured": true
+      },
+      {
+        "name": "Oxygen Requirement",
+        "image": "assets/img/premium-services/Special-Services-Oxygen-Requirement.webp",
+        "slug": "oxygen-requirement",
+        "featured": true
+      }
+    ]
+  },
+  "WELLNESS": {
+    "IMAGE": "assets/img/premium-services/Wellness.webp",
+    "DESCRIPTION": "Enjoy the best special",
+    "Services": [
+      {
+        "name": "SPA",
+        "image": "assets/img/premium-services/Wellness-Spa.webp",
+        "slug": "spa",
+        "featured": true
+      },
+      {
+        "name": "Yoga",
+        "image": "assets/img/premium-services/Wellness-Yoga-on-group.webp",
+        "slug": "yoga",
+        "featured": true
+      }
+    ]
+  },
+  "GASTRONOMY": {
+    "IMAGE": "assets/img/premium-services/Gastronomy-Peru.webp",
+    "DESCRIPTION": "Enjoy the best special",
+    "Services": [
+      {
+        "name": "Peruvian Best Resturants",
+        "image": "assets/img/premium-services/Gastronomy-Peruvian-Best-Restaurants.webp",
+        "slug": "peruvian-best-resturants",
+        "featured": true
+      },
+      {
+        "name": "Peruvian Cooking Class",
+        "image": "assets/img/premium-services/Gastronomy-Peruvian-Cooking-Class.webp",
+        "slug": "peruvian-cooking-class",
+        "featured": true
+      }
+    ]
   }
 
 }

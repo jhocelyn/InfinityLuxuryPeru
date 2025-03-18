@@ -2032,6 +2032,256 @@
       },
       "paquetes":[
       ]
+    },
+    "GALAPAGOS": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Galapagos",
+        "image_principal": "assets/img/destinations/Trip-Galapagos-Ecuador.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Galapagos",
+        "descripcion": "Descubre Galapagos y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Galapagos",
+        "text": "Descubre Galapagos y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "UYUNI": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Salar de Uyuni",
+        "image_principal": "assets/img/destinations/Trip-Uyuni-Salt-Bolivia.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Salar de Uyuni",
+        "descripcion": "Descubre Salar de Uyuni y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en Salar de Uyuni",
+        "text": "Descubre Salar de Uyuni y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "MICE": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "MICE",
+        "image_principal": "assets/img/premium-services/MICE.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en MICE",
+        "descripcion": "Descubre MICE y sus alrededores con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes en MICE",
+        "text": "Descubre MICE y sus alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "FAMILY": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Mejores Experiences Familiares",
+        "image_principal": "assets/img/premium-services/Family-Best-Experiences.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes en familia",
+        "descripcion": "Descubre en familia con nuestros paquetes turísticos",
+        "subtitulo": "Mejores paquetes para familia",
+        "text": "Descubre con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "WEDDING": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Bodas",
+        "image_principal": "assets/img/premium-services/Wedding.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes en Bodas",
+        "descripcion": "Ten tu boda soñada en los mejores destinos",
+        "subtitulo": "Mejores paquetes para Bodas",
+        "text": "Ten tu boda soñada en los mejores destinos"
+      },
+      "paquetes":[
+      ]
+    },
+    "AUTISM": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Autismo",
+        "image_principal": "assets/img/premium-services/Special-Services.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes con Autismo",
+        "descripcion": "Si tienes un familiar con autismo, tenemos los mejores paquetes para ti",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "HANDICAP": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Discapacidad",
+        "image_principal": "assets/img/premium-services/Special-Services-Handicap.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes con Discapacidad",
+        "descripcion": "Si tienes un familiar con discapacidad, tenemos los mejores paquetes para ti",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "OXYGEN": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Oxygeno Requerido",
+        "image_principal": "assets/img/premium-services/Special-Services-Oxygen-Requirement.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes con Oxígeno",
+        "descripcion": "Sabemos que viajar a ciertas altitudes puede ser complicado, por eso tenemos los mejores paquetes para ti",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "SPA": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Spa",
+        "image_principal": "assets/img/premium-services/Wellness-Spa.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes con Spa",
+        "descripcion": "Spa en los mejores destinos",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
+    },
+    "YOGA": {
+      "images": [
+        {
+          "title": "Viajes en Jet Privado",
+          "description": "Maravillas icónicashome: Alrededor del mundo en jet privado",
+          "image": "assets/img/home/Destinations-Lima.webp"
+        },
+        {
+          "title": "Viajes a Medida",
+          "description": "Escala el Monte Kilimanjaro",
+          "image": "assets/img/home/Carrusel-Train.webp"
+        }
+      ],
+      "info":{
+        "titlePage": "Yoga",
+        "image_principal": "assets/img/premium-services/Wellness-Yoga-on-group.webp",
+        "button": "Ver paquetes",
+        "titleInfo": "Paquetes para viajes con Yoga",
+        "descripcion": "Yoga en los mejores destinos",
+        "subtitulo": "Mejores paquetes",
+        "text": "Descubre alrededores con nuestros paquetes turísticos"
+      },
+      "paquetes":[
+      ]
     }
 
   },
@@ -2177,6 +2427,50 @@
       "DESCRIPTION": "Descubre los destinos más exclusivos que tenemos para ti en Bolivia",
       "INFO": "Bolivia es un país de contrastes, con una rica historia y una diversidad de paisajes que van desde las altas montañas de los Andes hasta la selva amazónica. Conocido por su patrimonio cultural, Bolivia es el hogar de antiguas civilizaciones como los incas y los españoles, que han dejado una huella indeleble en el país. Además, Bolivia es un paraíso para los amantes de la naturaleza, con una increíble diversidad de flora y fauna que se puede encontrar en sus numerosos parques nacionales y reservas naturales. Desde el Salar de Uyuni hasta el Lago Titicaca, Bolivia ofrece una experiencia única para los viajeros más exigentes."
     }
+  },
+  "SPECIAL_SERVICES": {
+    "IMAGE": "assets/img/premium-services/Special-Services.webp",
+    "DESCRIPTION": "Disfruta de nuestros servicios especiales para una experiencia única",
+    "Services": [
+      {
+        "name": "Discapacidad",
+        "image": "assets/img/premium-services/Special-Services-Handicap.webp",
+        "slug": "handicap",
+        "featured": true
+      },
+      {
+        "name": "Autismo",
+        "image": "assets/img/premium-services/Special-Services-Autism.webp",
+        "slug": "autism",
+        "featured": true
+      },
+      {
+        "name": "Oxigeno Requerido",
+        "image": "assets/img/premium-services/Special-Services-Oxygen-Requirement.webp",
+        "slug": "oxygen-requirement",
+        "featured": true
+      }
+    ]
+  },
+  "WELLNESS": {
+    "IMAGE": "assets/img/premium-services/Wellness.webp",
+    "DESCRIPTION": "Disfruta de nuestros servicios de bienestar para una experiencia única",
+    "Services": [
+      {
+        "name": "SPA",
+        "image": "assets/img/premium-services/Wellness-Spa.webp",
+        "slug": "spa",
+        "featured": true
+      },
+      {
+        "name": "Yoga",
+        "image": "assets/img/premium-services/Wellness-Yoga-on-group.webp",
+        "slug": "yoga",
+        "featured": true
+      }
+    ]
   }
+
+
 }
 
