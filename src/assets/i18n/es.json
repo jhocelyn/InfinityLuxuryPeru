@@ -106,7 +106,7 @@
         "RUTA": "/premium-services/gastronomy"
       }
     ],
-    "BANNER": "Viajes de lujo y experiencias exclusivas  Descubre lo extraordinario",
+    "BANNER": "Vive el lujo y la exclusividad en experiencias únicas e inolvidables",
     "DESCRIPTION": "Viajes diseñados a medida, paisajes impresionantes y lujo sin igual para el viajero más exigente.",
     "BUTTON": "¿A DÓNDE QUIERES IR?",
     "PREMIUM_SERVICES": {
@@ -1139,7 +1139,6 @@
             { "alt": "Hotel de lujo en Aguas Calientes", "src": "luxury-hotel-aguas-calientes.jpg", "width": 800 }
           ]
         }
-
       ]
     }
   },
