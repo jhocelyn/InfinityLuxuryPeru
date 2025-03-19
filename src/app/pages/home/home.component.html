@@ -22,7 +22,7 @@
   </div>
 </div>
 <!-- OPCIONES DE VIAJE -->
-<div class="h-[80vh] bg-[#dfd1b1] font-montserrat px-20 gap-0 relative overflow-hidden">
+<div class="h-[70vh] xl:h-[80vh] bg-[#dfd1b1] font-montserrat px-20 gap-0 relative overflow-hidden">
   <!-- Contenedor de tarjetas -->
   <div
     class="w-full h-full transition-all duration-300 relative z-10"
@@ -31,7 +31,7 @@
     <div
       *ngFor="let section of sections; let i = index"
       routerLink="{{section.RUTA}}"
-      class="flex items-center justify-center text-white overflow-hidden w-[95%] h-[60%] xl:h-[80%] transition-all duration-500"
+      class="flex items-center justify-center text-white overflow-hidden w-[100%] xl:w-[95%] h-[70%] xl:h-[80%] transition-all duration-500"
       [ngClass]="{
         'absolute w-full h-full opacity-0 pointer-events-none': isMobile && i !== currentIndex,
         'opacity-100 relative': !isMobile || i === currentIndex
