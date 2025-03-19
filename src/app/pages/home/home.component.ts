@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {Component, ElementRef, HostListener, OnInit, ViewChild} from '@angular/core';
 import {NgClass, NgForOf, NgIf} from '@angular/common';
 import {RouterLink} from '@angular/router';
 import {CarruselComponent} from '../../shared/components/carrusel/carrusel.component';
@@ -22,10 +22,10 @@ interface Journey {
     NgForOf,
     RouterLink,
     NgClass,
-    NgIf,
     CarruselComponent,
     TranslatePipe,
-    TranslateModule
+    TranslateModule,
+    NgIf
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -85,25 +85,38 @@ export class HomeComponent implements OnInit{
   onResize() {
     this.isMobile = window.innerWidth <= 768;
   }
+  @ViewChild('carouselContainer', { static: false }) carouselContainer!: ElementRef;
 
   prevCard() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
+    } else {
+      this.currentIndex = 0;
     }
+    this.scrollToCurrent();
   }
 
   nextCard() {
     if (this.currentIndex < this.sections.length - 1) {
       this.currentIndex++;
+    } else {
+      this.currentIndex = this.sections.length - 1;
     }
+    this.scrollToCurrent();
   }
 
-  phoneNumber: string = '+51934983711';
-  message: string = 'Hola, quiero más información sobre los paquetes de viaje.';
 
-  openWhatsApp() {
-    const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(this.message)}`;
-    window.open(url, '_blank');
+
+  scrollToCurrent() {
+    const container = this.carouselContainer.nativeElement;
+    const cardWidth = container.children[0].offsetWidth;
+    const gap = 16; // Espaciado entre tarjetas (ajustar si es necesario)
+
+    const scrollPosition = this.currentIndex * (cardWidth + gap);
+
+    // Aplicamos el desplazamiento manualmente
+    container.scrollLeft = scrollPosition;
   }
+
 
 }
