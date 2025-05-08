@@ -45,7 +45,8 @@
     "SUBSCRIBE": "Subscribe",
     "FIRST_NAME": "First Name",
     "LAST_NAME": "Last Name",
-    "EMAIL": "Email"
+    "EMAIL": "Email",
+    "BOOK_CLAIMS": "Libro de Reclamaciones"
   },
   "HOME": {
     "SECTIONS": [
@@ -1989,8 +1990,64 @@
         "featured": true
       }
     ]
+  },
+  "BOOK_CLAIMS": {
+    "TITLE": "Libro de Reclamaciones",
+    "IMAGE": "assets/img/general/customer-support.webp",
+    "DESCRIPTION": "Conforme a la Ley N° 29571, Ley de Protección y Defensa del Consumidor, el libro de reclamaciones es un documento que permite a los consumidores presentar sus quejas o reclamos sobre productos o servicios. El libro de reclamaciones es gratuito y debe estar disponible en todos los establecimientos comerciales.",
+    "TERMS": "Acepto los ",
+    "TERMS_LINK": "Términos y condiciones",
+    "SEND": "Enviar",
+    "RECEIVED": "Formulario enviado correctamente",
+    "RECEIVED_ANSWER": "Gracias por enviarnos tu reclamo. Serás redirigido al inicio en unos segundos.",
+    "PROVIDER": {
+      "TITLE": "Datos del Proveedor",
+      "NAME": "Nombre/Razon Social",
+      "EMAIL": "Correo Electrónico",
+      "DIRECTION": "Direccion",
+      "PHONE": "Telefono"
+    },
+    "CUSTOMER": {
+      "TITLE": "Datos del Consumidor",
+      "NAME": "Nombre",
+      "EMAIL": "Correo Electrónico",
+      "PHONE": "Telefono",
+      "DIRECTION": "Direccion"
+    },
+    "MINOR": {
+      "TITLE": "¿Es menor de edad?",
+      "YES": "Si, es menor de edad",
+      "NAME": "Nombre y Apellidos del padre, madre o apoderado",
+      "PHONE": "Telefono del padre, madre o apoderado",
+      "EMAIL": "Email del padre, madre o apoderado",
+      "PARENT_ID": "DNI del padre, madre o apoderado"
+    },
+    "TYPE": {
+      "TITLE": "Tipo de Reclamo",
+      "SELECT": "Seleccione",
+      "SELECT_ONE": "Seleccione una opción",
+      "CLAIM": "Reclamo(Disconformidad con producto o servicio)",
+      "REPORT": "Queja(Disconformidad con la atención)"
+    },
+    "PRODUCT": {
+      "TITLE": "Producto o servicio",
+      "NAME": "Nombre del producto o servicio",
+      "DESCRIPTION": "Descripción del producto o servicio",
+      "PRICE": "Precio del producto o servicio"
+    },
+    "DETAILS": {
+      "TITLE": "Detalle del Reclamo / Queja",
+      "DESCRIPTION": "Descripcion",
+      "REASON": "Pedido del consumidor"
+    }
+  },
+  "REQUIRED": {
+    "REQUIRED": "Campo requerido",
+    "PHONE_NUMBER": "Campo requerido de 9 a 11 digitos",
+    "EMAIL": "Campo requerido con formato de correo electronico",
+    "RUC": "Campo requerido de 11 digitos",
+    "DNI": "Campo requerido de 8 digitos"
   }
-
 
 }
 

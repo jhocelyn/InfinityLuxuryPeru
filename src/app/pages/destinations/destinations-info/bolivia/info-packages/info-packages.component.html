@@ -1,9 +1,11 @@
 <app-banner
   imagen="assets/img/destinations/Trip-Bolivia.webp"
   texto="{{'DESTINATIONS.BOLIVIA.DESCRIPTION'|translate}}"
-  [mostrarFlecha]="true">
+  [mostrarFlecha]="true"
+  [targetId]="'view'"
+>
 </app-banner>
-<app-destinations-grid [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
+<app-destinations-grid id="view" [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
 
 <app-mapa-info
   [locations]="locations"

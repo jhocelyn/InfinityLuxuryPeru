@@ -1,8 +1,10 @@
 <app-banner
   imagen="assets/img/destinations/Trip-Destinations-Tourist.webp"
   texto="{{'DESTINATIONS.DESCRIPTION'|translate}}"
-  [mostrarFlecha]="true">
+  [mostrarFlecha]="true"
+  [targetId]="'view'"
+>
 </app-banner>
 
-<app-destinations-grid [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
+<app-destinations-grid id="view" [rutaPadre]="rutaPadre" [destinos]="destinos"></app-destinations-grid>
 
