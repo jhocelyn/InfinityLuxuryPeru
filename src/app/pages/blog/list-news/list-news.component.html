@@ -1,0 +1,66 @@
+<div class="h-[40vh] overflow-hidden relative">
+  <img [src]="'SECTION_BLOG.IMAGE' | translate" class="object-cover w-full h-full" alt="Banner" />
+  <div class="absolute opacity-40 bg-black inset-0"></div>
+</div>
+
+
+<div class="flex flex-col items-center px-4 py-10 max-w-7xl mx-auto">
+  <p class="text-lg text-black text-center mb-10">
+    {{ 'SECTION_BLOG.DESCRIPTION' | translate }}
+  </p>
+
+  <div class="flex flex-col md:flex-row w-full gap-8">
+    <!-- Contenido principal -->
+    <section class="flex-auto">
+      <!-- Noticias filtradas -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+        <app-new-card
+          *ngFor="let news of filteredNews"
+          [image]="news.image"
+          [title]="news.title"
+          [category]="news.category"
+          [date]="news.date"
+          [slug]="news.slug"
+        >
+        </app-new-card>
+      </div>
+
+      <!-- Secciones reutilizables -->
+      <app-blog-section
+        [titleKey]="'SECTION_BLOG.GUIDE_CUSCO'"
+        [city]="'Cusco'"
+        [newsList]="allNews">
+      </app-blog-section>
+
+      <app-blog-section
+        class="mt-10"
+        [titleKey]="'SECTION_BLOG.GUIDE_AREQUIPA'"
+        [city]="'Arequipa'"
+        [newsList]="allNews">
+      </app-blog-section>
+
+      <app-blog-section
+        class="mt-10"
+        [titleKey]="'SECTION_BLOG.HERITAGE.TITLE'"
+        [descriptionKey]="'SECTION_BLOG.HERITAGE.DESCRIPTION'"
+        [category]="'cultural-heritage'"
+        [maxItems]="12"
+        [newsList]="allNews">
+      </app-blog-section>
+    </section>
+
+    <div class="w-full">
+      <!-- Filtros -->
+      <app-filter-sidebar
+        [cities]="cities"
+        [categories]="categories"
+        [filterCity]="filterCity"
+        [filterCategory]="filterCategory"
+        [searchTerm]="searchTerm"
+        (cityChange)="setCityFilter($event)"
+        (categoryChange)="setCategoryFilter($event)"
+        (searchChange)="onSearchChange($event)"
+      ></app-filter-sidebar>
+    </div>
+  </div>
+</div>

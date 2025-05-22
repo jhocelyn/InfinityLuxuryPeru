@@ -15,4 +15,5 @@ export const routes: Routes = [
   {path:'build-your-trip',component:BuildYourTripComponent , data:{breadcrumb:'Build Your Trip'}},
   {path:'contact-us', component:ContactUsComponent, data:{breadcrumb: 'Contact Us'}},
   {path:'book-claims',component:BookClaimsComponent, data:{breadcrumb: 'Book Claims'}},
+  {path:'blog', loadChildren:()=>import('./pages/blog/blog.routes').then(m=>m.blogRoutes), data:{breadcrumb:'Blog'}},
 ];
