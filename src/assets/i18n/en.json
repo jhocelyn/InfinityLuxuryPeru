@@ -1,4 +1,10 @@
 {
+  "COOKIES": {
+  "TITLE": "Cookies Policy",
+  "DESCRIPTION":"We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.",
+  "ACCEPT": "Accept",
+  "REJECT": "Reject"
+},
   "NAVBAR": {
     "DESTINATIONS": "DESTINATIONS",
     "EXPEDITIONS": "EXPEDITIONS",
@@ -2419,7 +2425,7 @@
       "city": "Peru",
       "category": "tourism",
       "date": "2025-06-12",
-      "image": "assets/img/blog/love-and-adventure.webp",
+
       "text": "<p>Looking for romance and adventure? Explore these top five destinations in Peru for couples:</p> <ul> <li><strong>Punta Sal:</strong> A serene beach destination with turquoise waters and white sands—perfect for quiet romantic getaways.</li> <li><strong>Colca Canyon, Arequipa:</strong> View majestic Andean condors and fall asleep under starry skies in one of the world's deepest canyons.</li> <li><strong>Llanganuco Lakes, Ancash:</strong> High-altitude turquoise lakes surrounded by snow-capped peaks—ideal for couples seeking breathtaking landscapes.</li> <li><strong>Cusco & Sacred Valley:</strong> Cobblestone streets, boutique hotels, and private excursions to places like Humantay Lake create the perfect romantic escape.</li> <li><strong>Amantani & Taquile Islands, Lake Titicaca:</strong> Remote lake islands offering homestays, sunrise views, and cultural immersion for intimate couples’ experiences.</li> <li><strong>Iquitos & Amazon Jungle:</strong> Explore river cruises, eco-lodges, and night walks in the Amazon rainforest—a romantic retreat into nature.</li> </ul>"
     },
 

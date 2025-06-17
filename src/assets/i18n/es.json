@@ -1,4 +1,10 @@
 {
+  "COOKIES": {
+    "TITLE": "Política de Cookies",
+    "DESCRIPTION":"We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.",
+    "ACCEPT": "Accept",
+    "REJECT": "Reject"
+  },
   "NAVBAR": {
   "DESTINATIONS": "DESTINOS",
   "EXPEDITIONS": "EXPEDICIONES",
