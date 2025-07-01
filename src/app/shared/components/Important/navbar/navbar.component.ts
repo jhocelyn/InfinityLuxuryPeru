@@ -59,4 +59,16 @@ export class NavbarComponent {
     this.activeSubSubMenu = null;
   }
 
+  showCertModal = false;
+
+  // ruta de la imagen grande o vertical
+  modalImageSrc = 'assets/img/certifications/Protegeme-Info.webp';
+
+  openCertModal() {
+    this.showCertModal = true;
+  }
+
+  closeCertModal() {
+    this.showCertModal = false;
+  }
 }

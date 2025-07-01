@@ -5,6 +5,13 @@
   "ACCEPT": "Accept",
   "REJECT": "Reject"
 },
+  "HOME_CERTIFICATES": {
+    "TITLE": "Certifications",
+    "MINCETUR": "Ministry of Foreign Trade and Tourism",
+    "AGENCY": "Registered Travel and Tourism Agency<br>Tour Operator",
+    "PROTEGEME": "Responsible tourism to prevent the sexual exploitation of girls, boys and adolescents"
+  },
+
   "NAVBAR": {
     "DESTINATIONS": "DESTINATIONS",
     "EXPEDITIONS": "EXPEDITIONS",

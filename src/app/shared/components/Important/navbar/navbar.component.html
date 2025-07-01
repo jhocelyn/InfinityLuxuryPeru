@@ -76,6 +76,33 @@
    BLOG<span class="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">></span>
   </a>
 
+  <div class="grid grid-cols-1 text-xs md:grid-cols-3 md:gap-4 items-start text-center">
+    <!-- Certificado 1 -->
+    <div class="flex flex-col h-[16vh] md:h-[24vh]  justify-center items-center">
+      <img src="../../../assets/img/certifications/Agencia-de-viajes-turismo-registrada.webp"
+           alt="" class="object-contain h-[10vh] mb-8">
+    </div>
+
+    <!-- Certificado 2 -->
+    <div class="flex flex-col h-[16vh]  md:h-[22vh] justify-center items-center">
+      <img src="assets/img/certifications/mincetur.webp"
+           alt="" class="object-contain h-[11vh] mb-4">
+    </div>
+
+    <!-- Certificado 3 → abre modal -->
+    <div
+      class="flex flex-col h-[19vh] md:h-[20vh] justify-center items-center cursor-pointer"
+      (click)="openCertModal()"
+    >
+      <!-- miniatura del certificado -->
+      <img
+        src="assets/img/certifications/protegeme.webp"
+        alt="Protégeme (miniatura)"
+        class="object-contain h-[15vh] mb-4"
+      />
+    </div>
+  </div>
+
 </div>
 
 <!-- SUBMENÚ LATERAL -->
@@ -124,6 +151,8 @@
     <a [routerLink]="['/premium-services/donations']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">{{ "NAVBAR.DONATIONS" | translate }}</a>
 
   </div>
+
+
 </div>
 
 
@@ -188,5 +217,32 @@
     <a [routerLink]="['/premium-services/gastronomy']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">{{ "NAVBAR.SEE_ALL" | translate }}</a>
     <a [routerLink]="['/premium-services/gastronomy/peruvian-cooking-class']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">{{ "NAVBAR.PERUVIAN_CLASS" | translate }}</a>
     <a [routerLink]="['/premium-services/gastronomy/peruvian-best-restaurants']" (click)="closeAllMenus()" class="block border-b border-gray-400 hover:text-[#aa5432] hover:border-[#aa5432] py-2">{{ "NAVBAR.PERUVIAN_RESTAURANTS" | translate }}</a>
+  </div>
+</div>
+
+<!-- ===== Modal overlay ===== -->
+<div
+  *ngIf="showCertModal"
+  class="fixed inset-0 z-[9999] grid place-content-center bg-black/70"
+  (click)="closeCertModal()"
+>
+  <div
+    class="relative max-w-[90vw] max-h-[90vh]"
+    (click)="$event.stopPropagation()"
+  >
+    <button
+      class="absolute -top-4 -right-4 bg-white rounded-full w-8 h-8 flex items-center justify-center text-xl shadow"
+      aria-label="Cerrar"
+      (click)="closeCertModal()"
+    >
+      &times;
+    </button>
+
+    <!-- aquí se muestra la imagen **distinta** -->
+    <img
+      [src]="modalImageSrc"
+      alt="Certificado Protégeme (versión grande)"
+      class="max-w-full max-h-full rounded shadow-lg"
+    />
   </div>
 </div>

@@ -5,6 +5,14 @@
     "ACCEPT": "Accept",
     "REJECT": "Reject"
   },
+  "HOME_CERTIFICATES": {
+    "TITLE": "Certificados",
+    "MINCETUR": "Ministerio de Comercio Exterior y Turismo del Perú",
+    "AGENCY": "Agencia de Viajes y Turismo Registrada - Operador de Turismo",
+    "PROTEGEME": "Turismo Responsable para prevenir la explotacion sexual de niñas, niños y adolescentes"
+
+  },
+
   "NAVBAR": {
   "DESTINATIONS": "DESTINOS",
   "EXPEDITIONS": "EXPEDICIONES",
